@@ -1,0 +1,41 @@
+<FILE>1999-W02-5OUT.txt
+<Q_NUMBER>1
+<A_LINE>11
+<Q_TXT>Where is South Queens Junior High School located?
+<A_TXT>The club will be open seven days a week. 
+
+<Q_NUMBER>2
+<A_LINE>33
+<Q_TXT>Who is the principal of South Queens Junior High School?
+<A_TXT>Proceeds pay the salary of the centre co-ordinator and upkeep of the facility. 
+
+<Q_NUMBER>3
+<A_LINE>1
+<Q_TXT>What has South Queens Junior High School done with its old metal shop?
+<A_TXT>Nova Scotia School Pumps Up
+
+<Q_NUMBER>4
+<A_LINE>13
+<Q_TXT>When did the metal shop close?
+<A_TXT>The club, operated by a non-profit society made up of school and community volunteers, has sold more than 30 memberships and hired a full-time co-ordinator. 
+
+<Q_NUMBER>5
+<A_LINE>15
+<Q_TXT>Who runs the club?
+<A_TXT>Principal Betty Jean Aucoin says the club is a first for a Nova Scotia public school. 
+
+<Q_NUMBER>6
+<A_LINE>23
+<Q_TXT>How big is the club?
+<A_TXT>Schools are not set up to make profits or promote businesses. 
+
+<Q_NUMBER>7
+<A_LINE>13
+<Q_TXT>If you were a student, how much would a club membership cost you?
+<A_TXT>The club, operated by a non-profit society made up of school and community volunteers, has sold more than 30 memberships and hired a full-time co-ordinator. 
+
+<Q_NUMBER>8
+<A_LINE>27
+<Q_TXT>Why is the school opening the club?
+<A_TXT>"First call on any school facility belongs to... the youngsters in the school," says Ann Jones. 
+
