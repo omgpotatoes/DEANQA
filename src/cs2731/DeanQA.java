@@ -16,6 +16,9 @@ import static java.lang.System.*;
  */
 public class DeanQA
 {
+	
+	static String rootPath = "";
+	static String outputFile = "output.txt";
 
 	static List<String> document;
 	static List<String> questions;
@@ -32,10 +35,10 @@ public class DeanQA
 	 * @param inputFile
 	 * @throws IOException 
 	 */
-	private static void readDocuemnt(String inputFile) throws IOException {
+	private static void readStory(File story) throws IOException {
 		
 		// read the input file into a list
-		Scanner input = new Scanner(new File(inputFile));
+		Scanner input = new Scanner(story);
 		document = new ArrayList<String>();
 		questions = new LinkedList<String>();
 		
@@ -56,13 +59,46 @@ public class DeanQA
 	}
 	
 	/**
+	 * Reads the dataset file. 
+	 * The first line of the input file will be a directory path and all
+	 * subsequent lines will be story filenames. Your Q/A system should
+	 * then process each story file in the list from the specified directory.
+	 * Answers are written to the output file as 
+	 * @param inputFile
+	 * @throws IOException 
+	 */
+	private static void processDataset(String inputFile) throws IOException {
+		Scanner input = new Scanner(new File(inputFile));
+		PrintWriter writer = new PrintWriter(outputFile);
+		
+		// read the root path of the input files:
+		rootPath = input.nextLine();
+		out.println("root dataset path = " + rootPath);
+		
+		while (input.hasNextLine()) {
+			String filename = input.nextLine();
+			File story = new File(rootPath, filename);
+			out.println("processing " + story.getPath());
+			
+			readStory(story);
+			
+			answerQuestions();
+			
+			writeAnswers(writer, inputFile);
+		}
+		
+		writer.close();
+		input.close();
+	}
+	
+	/**
 	 * writes the answer file according to the stupid format.
 	 * @param outputFile
 	 * @throws IOException 
 	 */
-	private static void writeAnswers(String inputFile, String outputFile) throws IOException {
+	private static void writeAnswers(PrintWriter writer, String inputFile) throws IOException {
 		
-		PrintWriter writer = new PrintWriter(outputFile);
+//		PrintWriter writer = new PrintWriter(new FileWriter(outputFile, true));
 		
 		// write the filename
 		writer.printf("<FILE>%s\n\n", new File(inputFile).getName());
@@ -76,7 +112,7 @@ public class DeanQA
 			writer.printf("<A_TXT>%s\n\n", document.get(answerLine));
 		}
 		
-		writer.println("</FILE>");
+		writer.println("</FILE>\n");
 		writer.close();
 	}
 	
@@ -111,9 +147,9 @@ public class DeanQA
 			printUsage();
 		}
 
-		readDocuemnt(args[0]);
-		answerQuestions();
-		writeAnswers(args[0], args[1]);
+		outputFile = args[1];
+		
+		processDataset(rootPath);
 		
 	}
 }
