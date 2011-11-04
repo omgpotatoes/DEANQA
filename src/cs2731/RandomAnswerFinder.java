@@ -4,11 +4,8 @@ package cs2731;
 import java.util.List;
 import java.util.Random;
 
-/**
- * @author ygl2
- * ygl2@cs.pitt.edu
- * ylegall@gmail.com
- */
+
+
 public class RandomAnswerFinder implements AnswerFinder
 {
 
