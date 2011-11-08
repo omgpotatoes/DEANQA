@@ -1,4 +1,4 @@
-./resources/input
+/afs/cs.pitt.edu/usr0/litman/public/cs2731/TrainingSet/
 1999-W02-5.txt
 1999-W04-5.txt
 1999-W05-5.txt

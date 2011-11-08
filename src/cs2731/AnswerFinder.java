@@ -10,5 +10,5 @@ import java.util.List;
  */
 public interface AnswerFinder
 {
-	public int getAnswerLine(List<String> document, String question);
+	public List<Guess> getAnswerLines(List<String> document, String question);
 }

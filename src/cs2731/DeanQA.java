@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Scanner;
 import static java.lang.System.*;
@@ -22,7 +23,7 @@ public class DeanQA
 
 	static List<String> document;
 	static List<String> questions;
-	static List<Integer> answers;
+	static List<Guess> answers;
 	
 	private DeanQA() {}
 	
@@ -52,7 +53,9 @@ public class DeanQA
 		
 		// read the questions into a list:
 		while (input.hasNextLine()) {
-			questions.add(input.nextLine());
+			String line = input.nextLine();
+			line = line.substring(line.lastIndexOf(">") + 2);
+			questions.add(line);
 		}
 		
 		input.close();
@@ -84,7 +87,7 @@ public class DeanQA
 			
 			answerQuestions();
 			
-			writeAnswers(writer, inputFile);
+			writeAnswers(writer, filename);
 		}
 		
 		writer.close();
@@ -101,15 +104,16 @@ public class DeanQA
 //		PrintWriter writer = new PrintWriter(new FileWriter(outputFile, true));
 		
 		// write the filename
+		writer.println();
 		writer.printf("<FILE>%s\n\n", new File(inputFile).getName());
 
 		// write each answer
 		for (int i=0; i < answers.size(); i++) {
-			int answerLine = answers.get(i);
+			Guess answer = answers.get(i);
 			writer.printf("<Q_NUMBER>%d\n",i + 1);
-			writer.printf("<A_LINE>%d\n", answerLine);
+			writer.printf("<A_LINE>%d\n", answer);
 			writer.printf("<Q_TXT>%s\n", questions.get(i));
-			writer.printf("<A_TXT>%s\n\n", document.get(answerLine));
+			writer.printf("<A_TXT>%s\n\n", document.get(answer.getLine()));
 		}
 		
 		writer.println("</FILE>\n");
@@ -121,12 +125,18 @@ public class DeanQA
 	 * the list.
 	 */
 	private static void answerQuestions() {
-		answers = new LinkedList<Integer>();
+		answers = new LinkedList<Guess>();
 		AnswerFinder oracle = new RandomAnswerFinder();
 		for (String question: questions) {
-			int answerLine = oracle.getAnswerLine(document, question);
-			answers.add(answerLine);
+//			int answerLine = oracle.getAnswerLines(document, question);
+			List<Guess> guesses = oracle.getAnswerLines(document, question);
+			
+			// TODO use a module to select an answer from the list
+			answers.addAll(guesses);
 		}
+		
+		Collections.sort(answers);
+		Collections.reverse(answers);
 	}
 	
 	/**
@@ -147,6 +157,7 @@ public class DeanQA
 			printUsage();
 		}
 
+		rootPath = args[0];
 		outputFile = args[1];
 		
 		processDataset(rootPath);

@@ -1,8 +1,8 @@
 
 package cs2731;
 
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Random;
 
 
 
@@ -10,17 +10,16 @@ public class RandomAnswerFinder implements AnswerFinder
 {
 
 	@Override
-	public int getAnswerLine(List<String> document, String question) {
-		int lineNum;
-		Random rand = new Random();
-		String line = "";
+	public List<Guess> getAnswerLines(List<String> document, String question) {
 		
-		do {
-			lineNum = rand.nextInt(document.size());
-			line = document.get(lineNum);
-		} while (line.length() < 3);
+		int length = document.size();
+		double prob = 1.0/length;
 		
-		return lineNum;
+		List<Guess> guesses = new LinkedList<Guess>();
+		for (int line=1; line <= length; line++) {
+			guesses.add(new Guess(prob, line));
+		}
+		return guesses;
 	}
 	
 }
