@@ -21,6 +21,7 @@ public class DeanQA
 	static String rootPath = "";
 	static String outputFile = "output.txt";
 
+	static PrintWriter writer;
 	static List<String> document;
 	static List<String> questions;
 	static List<Guess> answers;
@@ -37,12 +38,12 @@ public class DeanQA
 	 * @throws IOException 
 	 */
 	private static void readStory(File story) throws IOException {
+		document.clear();
+		questions.clear();
 		
 		// read the input file into a list
 		Scanner input = new Scanner(story);
-		document = new ArrayList<String>();
-		questions = new LinkedList<String>();
-		
+		out.println("processing " + story.getName());
 		while (input.hasNextLine()) {
 			String line = input.nextLine();
 			if (line.contains("<QUESTIONS>")) {
@@ -72,22 +73,17 @@ public class DeanQA
 	 */
 	private static void processDataset(String inputFile) throws IOException {
 		Scanner input = new Scanner(new File(inputFile));
-		PrintWriter writer = new PrintWriter(outputFile);
 		
 		// read the root path of the input files:
 		rootPath = input.nextLine();
 		out.println("root dataset path = " + rootPath);
 		
 		while (input.hasNextLine()) {
-			String filename = input.nextLine();
+			String filename = input.nextLine().trim();
 			File story = new File(rootPath, filename);
-			out.println("processing " + story.getPath());
 			
 			readStory(story);
-			
-			answerQuestions();
-			
-			writeAnswers(writer, filename);
+			answerQuestions(filename);
 		}
 		
 		writer.close();
@@ -99,9 +95,7 @@ public class DeanQA
 	 * @param outputFile
 	 * @throws IOException 
 	 */
-	private static void writeAnswers(PrintWriter writer, String inputFile) throws IOException {
-		
-//		PrintWriter writer = new PrintWriter(new FileWriter(outputFile, true));
+	private static void writeAnswers(String inputFile) throws IOException {
 		
 		// write the filename
 		writer.println();
@@ -111,32 +105,41 @@ public class DeanQA
 		for (int i=0; i < answers.size(); i++) {
 			Guess answer = answers.get(i);
 			writer.printf("<Q_NUMBER>%d\n",i + 1);
-			writer.printf("<A_LINE>%d\n", answer);
+			writer.printf("<A_LINE>%d\n", answer.getLine());
 			writer.printf("<Q_TXT>%s\n", questions.get(i));
-			writer.printf("<A_TXT>%s\n\n", document.get(answer.getLine()));
+			writer.printf("<A_TXT>%s\n\n", document.get(answer.getLine() - 1));
 		}
 		
 		writer.println("</FILE>\n");
-		writer.close();
 	}
 	
 	/**
 	 * Invokes the AnswerFinder on each question and adds the answer line to
 	 * the list.
 	 */
-	private static void answerQuestions() {
-		answers = new LinkedList<Guess>();
+	private static void answerQuestions(String input) throws IOException {
+		answers = new ArrayList<Guess>();
 		AnswerFinder oracle = new RandomAnswerFinder();
+		
+		// for each question get a list of possible answers
 		for (String question: questions) {
-//			int answerLine = oracle.getAnswerLines(document, question);
-			List<Guess> guesses = oracle.getAnswerLines(document, question);
 			
-			// TODO use a module to select an answer from the list
+			// get guesses for this question
+			// TODO: parallel execution of a number of different strategies:
+			List<Guess> guesses = oracle.getAnswerLines(document, question);
 			answers.addAll(guesses);
+			
+			Collections.sort(answers);
+			Collections.reverse(answers);
+			
+			// TODO select the best answer for this question from the list
+			
 		}
 		
-		Collections.sort(answers);
-		Collections.reverse(answers);
+		// write the answers to the file
+		writeAnswers(input);
+		
+		answers.clear();
 	}
 	
 	/**
@@ -160,7 +163,10 @@ public class DeanQA
 		rootPath = args[0];
 		outputFile = args[1];
 		
-		processDataset(rootPath);
+		writer = new PrintWriter(outputFile);
+		document = new ArrayList<String>();
+		questions = new LinkedList<String>();
 		
+		processDataset(rootPath);
 	}
 }
