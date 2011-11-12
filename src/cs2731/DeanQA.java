@@ -28,9 +28,6 @@ public class DeanQA
 	
 	private DeanQA() {}
 	
-	static void printUsage() {
-		out.println("Usage: DeanQA input_filename outputfile_name");
-	}
 
 	/**
 	 * Reads the input file and questions into separate lists.
@@ -127,19 +124,26 @@ public class DeanQA
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
 			List<Guess> guesses = oracle.getAnswerLines(document, question);
+
 			
-			answers.addAll(guesses);
+			Collections.sort(guesses);
+			Collections.reverse(guesses);
 			
 			// TODO select the best answer for this question from the list
-			Collections.sort(answers);
-			Collections.reverse(answers);
+			// for now just pick the first guess:
+			answers.add(guesses.get(0));
 			
+//			answers.addAll(guesses);
 		}
 		
 		// write the answers to the file
 		writeAnswers(input);
 		
 		answers.clear();
+	}
+	
+	static void printUsage() {
+		out.println("Usage: DeanQA input_filename outputfile_name");
 	}
 	
 	/**
@@ -153,11 +157,13 @@ public class DeanQA
 		if (args.length < 1) {
 			out.println("too few arguments: missing input-file");
 			printUsage();
+			exit(1);
 		}
 		
 		if (args.length < 2) {
 			out.println("too few arguments: missing output-file");
 			printUsage();
+			exit(1);
 		}
 
 		rootPath = args[0];
