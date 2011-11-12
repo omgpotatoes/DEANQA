@@ -9,6 +9,9 @@ public class Guess implements Comparable<Guess>
 	private int line;
 
 	public Guess(double prob, int line) {
+		if (line <= 0) {
+			throw new IllegalArgumentException("line numbers start with 1!");
+		}
 		this.prob = prob;
 		this.line = line;
 	}

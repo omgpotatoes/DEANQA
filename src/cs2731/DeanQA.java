@@ -119,7 +119,7 @@ public class DeanQA
 	 */
 	private static void answerQuestions(String input) throws IOException {
 		answers = new ArrayList<Guess>();
-		AnswerFinder oracle = new RandomAnswerFinder();
+		AnswerFinder oracle = new BagOfWordsAnswerFinder();
 		
 		// for each question get a list of possible answers
 		for (String question: questions) {
