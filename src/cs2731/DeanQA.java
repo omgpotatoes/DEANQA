@@ -127,12 +127,12 @@ public class DeanQA
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
 			List<Guess> guesses = oracle.getAnswerLines(document, question);
+			
 			answers.addAll(guesses);
 			
+			// TODO select the best answer for this question from the list
 			Collections.sort(answers);
 			Collections.reverse(answers);
-			
-			// TODO select the best answer for this question from the list
 			
 		}
 		

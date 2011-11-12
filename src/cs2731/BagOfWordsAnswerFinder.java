@@ -15,8 +15,15 @@ import static cs2731.Utils.*;
 public class BagOfWordsAnswerFinder implements AnswerFinder
 {
 
-	private boolean ignorePunctuation = false;
+	private Options options;
 	
+	public BagOfWordsAnswerFinder() {
+		this(new Options()); 
+	}
+	
+	public BagOfWordsAnswerFinder(Options options) {
+		this.options = options;
+	}
 	
 	/**
 	 * 
@@ -32,10 +39,10 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		
 		// populate a set of question words for quick lookup:
 		Set<String> wordSet = new HashSet<String>();
-		String splitString = (ignorePunctuation)? "\\W+" : "\\s+";
+		String splitString = (options.get(Options.IGNORE_PUNCTUATION))? "\\W+" : "\\s+";
 		String[] tokens = question.split(splitString);
 		for (String token : tokens) {
-			wordSet.add(token);
+			wordSet.add(token.toLowerCase());
 		}
 		
 		// loop over every line of the document and see how many words match:
