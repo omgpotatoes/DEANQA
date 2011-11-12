@@ -46,8 +46,9 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		}
 		
 		// loop over every line of the document and see how many words match:
-		int lineNum = 1;
+		int lineNum = 0;
 		for (String line : document) {
+			lineNum++;
 			if (containsOnlyWhitespace(line)) { continue; }
 			
 			int score = 0;
@@ -59,7 +60,6 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 			}
 			scores.add(new Score(lineNum, score));
 			totalScore += score;
-			lineNum++;
 		}
 		
 		// return a list of guesses.
