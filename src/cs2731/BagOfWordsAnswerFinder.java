@@ -18,7 +18,7 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 	private Options options;
 	
 	public BagOfWordsAnswerFinder() {
-		this(new Options()); 
+		this(Options.getDefaultOptions()); 
 	}
 	
 	public BagOfWordsAnswerFinder(Options options) {
@@ -36,13 +36,17 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		List<Guess> guesses = new LinkedList<Guess>();
 		List<Score> scores = new LinkedList<Score>();
 		int totalScore = 0;
+		boolean ignoreCase = options.get(Options.IGNORE_CASE);
 		
 		// populate a set of question words for quick lookup:
 		Set<String> wordSet = new HashSet<String>();
 		String splitString = (options.get(Options.IGNORE_PUNCTUATION))? "\\W+" : "\\s+";
 		String[] tokens = question.split(splitString);
 		for (String token : tokens) {
-			wordSet.add(token.toLowerCase());
+			if (ignoreCase) {
+				token = token.toLowerCase();
+			}
+			wordSet.add(token);
 		}
 		
 		// loop over every line of the document and see how many words match:
@@ -50,6 +54,10 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		for (String line : document) {
 			lineNum++;
 			if (containsOnlyWhitespace(line)) { continue; }
+			
+			if (ignoreCase) {
+				line = line.toLowerCase();
+			}
 			
 			int score = 0;
 			tokens = line.split(splitString);
