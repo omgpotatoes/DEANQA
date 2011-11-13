@@ -35,5 +35,10 @@ public class Guess implements Comparable<Guess>
 			return -1;
 		}
 	}
+
+        @Override
+        public String toString() {
+            return "line="+line+", prob="+prob;
+        }
 	
 }
