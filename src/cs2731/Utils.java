@@ -5,11 +5,11 @@ import cs2731.ner.NamedEntityType;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.Scanner;
 import java.util.Set;
 
+import static cs2731.ner.NamedEntityType.*;
 
 public class Utils
 {
@@ -43,38 +43,32 @@ public class Utils
 		return getAnswerTypes(QuestionTypeDetector.getQuestionType(question));
 	}
 	
-	 /**
+	/**
 	 * Given a question type, return a set of NamedEntity types
 	 * to look for.
 	 * @param question
 	 * @return 
 	 */
 	public static Set<NamedEntityType> getAnswerTypes(QuestionType type) {
-		switch(type) {
+		switch (type) {
 			case WHEN:
-				return EnumSet.of(
-						NamedEntityType.TIME,
-						NamedEntityType.DATE);
+				return EnumSet.of(TIME, DATE);
 			case WHO:
-				return EnumSet.of(
-						NamedEntityType.PERSON,
-						NamedEntityType.ORGANIZATION);
+				return EnumSet.of(PERSON, ORGANIZATION);
 			case WHERE:
-				return EnumSet.of(NamedEntityType.LOCATION);
-				
+				return EnumSet.of(LOCATION);
+
 			case HOW_MANY:
 			case HOW_MUCH:
-				return EnumSet.of(
-						NamedEntityType.PERCENT,
-						NamedEntityType.MONEY);
-				
+				return EnumSet.of(PERCENT, MONEY);
+
 			// TODO not sure about these:
 			case HOW_OLD:
-				
+
 			case HOW:
-				
+
 			case WHAT:
-				
+
 			case WHY:
 			case OTHER:
 			default:

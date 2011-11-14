@@ -34,7 +34,7 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 	@Override
 	public List<Guess> getAnswerLines(List<String> document, String question) {
 		List<Guess> guesses = new LinkedList<Guess>();
-		List<Score> scores = new LinkedList<Score>();
+		List<Guess> scores = new LinkedList<Guess>();
 		int totalScore = 0;
 		boolean ignoreCase = options.get(Options.IGNORE_CASE);
 		
@@ -66,24 +66,20 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 					score++;
 				}
 			}
-			scores.add(new Score(lineNum, score));
+			scores.add(new Guess(score, lineNum));
 			totalScore += score;
 		}
 		
 		// return a list of guesses.
 		// Probabilities are based on score/totalScore:
-		for (Score score : scores) {
-			guesses.add(new Guess( (score.val/(double)totalScore), score.line ));
+		for (Guess score : scores) {
+			guesses.add(new Guess(
+					(score.getProb()/totalScore),
+					score.getLine()
+					));
 		}
 		
 		return guesses;
-	}
-	
-	
-	private class Score {
-		int line;
-		int val;
-		Score(int l, int v) {line = l; val = v;}
 	}
 	
 }
