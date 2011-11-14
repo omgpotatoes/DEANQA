@@ -1,5 +1,4 @@
 
-
 package cs2731;
 
 
@@ -34,6 +33,11 @@ public class Guess implements Comparable<Guess>
 		} else {
 			return -1;
 		}
+	}
+
+	@Override
+	public String toString() {
+		return "line="+line+", prob="+prob;
 	}
 	
 }
