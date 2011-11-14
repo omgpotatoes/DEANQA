@@ -1,6 +1,8 @@
 package cs2731;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.List;
 import libsvm.*;
 
@@ -17,8 +19,9 @@ public class SVMAnswerFinder implements AnswerFinder {
     /**
 	 * Constructor that takes the training data folder path and the answer file path as 
 	 * arguments
+     * @throws FileNotFoundException 
 	 */
-	public SVMAnswerFinder(String trainingQuestionsFolder, String trainingAnswersFilePath){
+	public SVMAnswerFinder(String trainingQuestionsFolder, String trainingAnswersFilePath) throws FileNotFoundException{
 		/*
 		 * Open the training document folder, get all the file names in there, and send them 
 		 * and the name of the answer training data answer file to the method that extracts
@@ -41,10 +44,23 @@ public class SVMAnswerFinder implements AnswerFinder {
 	 * and questions)
 	 * @param trainingAnswersFile The answer sentences for the questions in the training
 	 * @return 
+	 * @throws FileNotFoundException 
 	 */
-	private SVMData extractData(File[] trainingQuestionsFiles, File trainingAnswersFile) {
-		//This is where I stopped.  I should use extract answers here and possibly create 
-		//an "extractQuestions" and/or "extractSentences"
+	private SVMData extractData(File[] trainingQuestionsFiles, File trainingAnswersFile) throws FileNotFoundException {
+		ArrayList<ArrayList<Answer>> trainingAnswers = Utils.extractAnswers(trainingAnswersFile);
+		ArrayList<ArrayList<Sentence>> documentSentences = Utils.extractSentences(trainingQuestionsFiles);
+		ArrayList<ArrayList<Question>> trainingQuestions = Utils.extractQuestions(trainingQuestionsFiles); 
+		
+		for(ArrayList<Question> questionSet : trainingQuestions) {
+			for(ArrayList<Sentence> document: documentSentences) {
+				for(Question question: questionSet) {
+					for(Sentence sentence : document) {
+						
+					}
+				}
+			}
+		}
+		
 		return null;
 	}
 
