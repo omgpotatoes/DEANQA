@@ -84,8 +84,9 @@ public class Utils
 	 * @return The list of Answers
 	 * @throws FileNotFoundException
 	 */
-	static ArrayList<Answer> extractAnswers(File answerFile) throws FileNotFoundException {
-		ArrayList<Answer> answers = new ArrayList<Answer>();
+	static ArrayList<ArrayList<Answer>> extractAnswers(File answerFile) throws FileNotFoundException {
+		ArrayList<ArrayList<Answer>> answers = new ArrayList<ArrayList<Answer>>();
+		ArrayList<Answer> tempAnswers = new ArrayList<Answer>();
 		Scanner fileInput = new Scanner(answerFile);
 		String filename = "";
 		int questionNumber;
@@ -94,12 +95,19 @@ public class Utils
 		String [] answerTexts;
 		String firstLine; 
 		String [] explodedString;
+		boolean addFlag = false;
 		
 		while(fileInput.hasNext()) {
 			firstLine = fileInput.nextLine();
 			if(firstLine.length() > 7) {
-				if(firstLine.substring(0, 6).equals("<FILE>")) 
+				if(firstLine.substring(0, 6).equals("<FILE>")) {
+					if(addFlag) 
+						answers.add(tempAnswers);
+					else
+						addFlag = true;
+				
 					filename = firstLine.substring(6);
+				}
 				else if(firstLine.substring(0, 10).equals("<Q_NUMBER>")) {
 					questionNumber = Integer.parseInt(firstLine.substring(10));
 					
@@ -114,12 +122,97 @@ public class Utils
 					explodedString = fileInput.nextLine().substring(7).split("  -OR- ");
 					answerTexts = explodedString;
 					
-					answers.add(new Answer(filename, questionNumber, answerLines, questionText, answerTexts));
+					tempAnswers.add(new Answer(filename, questionNumber, answerLines, questionText, answerTexts));
 				}
 			}
 		}
-		
+		answers.add(tempAnswers);
 		return answers;
 	}
 	
+	/**
+	 * Given a directory, this method will return an array list of all questions in the files
+	 * in that directory
+	 * Note:  This will break most likely if you give it a file that is not in the correct
+	 * format
+	 * @param questionFiles An array of document files
+	 * @return The list of Answers
+	 * @throws FileNotFoundException
+	 */
+	static ArrayList<ArrayList<Question>> extractQuestions(File [] questionFiles) throws FileNotFoundException {
+		ArrayList<ArrayList<Question>> questions = new ArrayList<ArrayList<Question>>();
+		ArrayList<Question> tempQuestions = new ArrayList<Question>();
+		Scanner fileInput;
+		String filename;
+		String inputLine;
+		int questionCounter;
+		boolean questionSectionFlag;
+		boolean addFlag = false;
+		
+		for(File file : questionFiles) {
+			if(addFlag) 
+				questions.add(tempQuestions);
+			else
+				addFlag = true;
+			
+			tempQuestions = new ArrayList<Question>();
+			fileInput = new Scanner(file);
+			filename = file.getName();
+			questionCounter = 1;
+			questionSectionFlag = false;
+			
+			while(fileInput.hasNext()) {
+				inputLine = fileInput.nextLine();
+				if(questionSectionFlag && inputLine.startsWith("<")) {
+					tempQuestions.add(new Question(filename, inputLine.substring(inputLine.indexOf(">") + 2).trim(), questionCounter));
+					questionCounter++;
+				}
+				else if(inputLine.startsWith("<QUESTIONS>")) {
+					questionSectionFlag = true;
+				}
+			}
+		}
+		questions.add(tempQuestions);
+		return questions;
+	}
+	
+	/**
+	 * Given a directory, this method will return an array list of all sentences in the files
+	 * in that directory
+	 * Note:  This will break most likely if you give it a file that is not in the correct
+	 * format
+	 * @param documentFiles An array of document files
+	 * @return The list of Answers
+	 * @throws FileNotFoundException
+	 */
+	static ArrayList<ArrayList<Sentence>> extractSentences(File [] documentFiles) throws FileNotFoundException {
+		ArrayList<ArrayList<Sentence>> sentences = new ArrayList<ArrayList<Sentence>>();
+		ArrayList<Sentence> tempSentences = new ArrayList<Sentence>();
+		Scanner fileInput;
+		String filename;
+		String inputLine;
+		int sentenceCounter;
+		boolean addFlag = false;
+		
+		for(File file : documentFiles) {
+			if(addFlag) 
+				sentences.add(tempSentences);
+			else
+				addFlag = true;
+			
+			fileInput = new Scanner(file);
+			filename = file.getName();
+			sentenceCounter = 1;
+			while(fileInput.hasNext()) {
+				inputLine = fileInput.nextLine();
+				if(inputLine.startsWith("<QUESTIONS>")) 
+					break;
+				else if(inputLine.trim().length() > 0) {
+					tempSentences.add(new Sentence(filename, inputLine.trim(), sentenceCounter));
+				}
+				sentenceCounter++;
+			}
+		}
+		return sentences;
+	}
 }
