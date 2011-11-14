@@ -10,14 +10,14 @@ Authors
 * Alex Conrad
 * Yann Le Gall
 
-Files
------
-
-Building
---------
-TODO
 
 Running
 -------
-TODO
+To run the jar file just type:
+
+java -jar DeanQA.jar input_file output_file
+
+example:
+
+java -jar DeanQA.jar resources/input-train.txt output.txt
 
