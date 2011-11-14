@@ -152,7 +152,6 @@ public class DeanQA
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
-		
 		// get the input and output file paths from the command line:
 		if (args.length < 1) {
 			out.println("too few arguments: missing input-file");

@@ -1,7 +1,7 @@
 package cs2731;
 
 /**
- * Class that holds all the information about an answer
+ * Class that holds all the information about an answer (useful for training)
  * @author Eric Heim
  */
 public class Answer {
@@ -39,6 +39,9 @@ public class Answer {
 		this.answerTexts = inAnswerText;
 	}
 	
+	/**
+	 * Overridden toString method.  Used for debugging.
+	 */
 	@Override public String toString() {
 		String lines = "";
 		String texts = "";
