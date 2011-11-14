@@ -1,20 +1,20 @@
 
 package cs2731;
 
+import cs2731.ner.NamedEntityType;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.EnumSet;
 import java.util.Scanner;
+import java.util.Set;
 
 
 public class Utils
 {
-	/**
-	 * 
-	 * @param str
-	 * @return 
-	 */
-	static boolean containsOnlyWhitespace(String str) {
+
+	public static boolean containsOnlyWhitespace(String str) {
 		for (char c : str.toCharArray()) {
 			if (!Character.isWhitespace(c)) {
 				return false;
@@ -23,18 +23,63 @@ public class Utils
 		return true;
 	}
 	
-	/**
-	 * 
-	 * @param str
-	 * @return 
-	 */
-	static boolean containsOnlyLetters(String str) {
+
+	public static boolean containsOnlyLetters(String str) {
 		for (char c : str.toCharArray()) {
 			if (!Character.isLetter(c)) {
 				return false;
 			}
 		}
 		return true;
+	}
+	
+	/**
+	 * Given the text of a question, return a set of NamedEntity types
+	 * to look for.
+	 * @param question
+	 * @return 
+	 */
+	public static Set<NamedEntityType> getAnswerTypes(String question) {
+		return getAnswerTypes(QuestionTypeDetector.getQuestionType(question));
+	}
+	
+	 /**
+	 * Given a question type, return a set of NamedEntity types
+	 * to look for.
+	 * @param question
+	 * @return 
+	 */
+	public static Set<NamedEntityType> getAnswerTypes(QuestionType type) {
+		switch(type) {
+			case WHEN:
+				return EnumSet.of(
+						NamedEntityType.TIME,
+						NamedEntityType.DATE);
+			case WHO:
+				return EnumSet.of(
+						NamedEntityType.PERSON,
+						NamedEntityType.ORGANIZATION);
+			case WHERE:
+				return EnumSet.of(NamedEntityType.LOCATION);
+				
+			case HOW_MANY:
+			case HOW_MUCH:
+				return EnumSet.of(
+						NamedEntityType.PERCENT,
+						NamedEntityType.MONEY);
+				
+			// TODO not sure about these:
+			case HOW_OLD:
+				
+			case HOW:
+				
+			case WHAT:
+				
+			case WHY:
+			case OTHER:
+			default:
+				return EnumSet.allOf(NamedEntityType.class);
+		}
 	}
 	
 	/**
