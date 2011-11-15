@@ -1,7 +1,11 @@
 
-package cs2731;
+package cs2731.ner;
 
-import java.util.HashSet;
+import cs2731.AnswerFinder;
+import cs2731.Guess;
+import cs2731.Options;
+import cs2731.Utils;
+import java.util.EnumSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
@@ -12,21 +16,25 @@ import static cs2731.Utils.*;
  * Implements a simple bag-of-words model to predict answers
  * @author ylegall
  */
-public class BagOfWordsAnswerFinder implements AnswerFinder
+public class NameAnswerFinder implements AnswerFinder
 {
 
 	private Options options;
+	private NamedEntityService nerService;
+	
 	private boolean doStemming;
 	private boolean ignoreCase;
 	
-	public BagOfWordsAnswerFinder() {
+	public NameAnswerFinder() {
 		this(Options.getDefaultOptions()); 
 	}
 	
-	public BagOfWordsAnswerFinder(Options options) {
+	public NameAnswerFinder(Options options) {
 		this.options = options;
 		ignoreCase = options.get(Options.IGNORE_CASE);
 		doStemming = options.get(Options.STEM);
+		
+		nerService = NamedEntityService.getInstance();
 	}
 	
 	/**
@@ -41,20 +49,9 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		List<Guess> scores = new LinkedList<Guess>();
 		int totalScore = 0;
 		
-		// populate a set of question words for quick lookup:
-		Set<String> wordSet = new HashSet<String>();
-		
-		String splitString = (options.get(Options.IGNORE_PUNCTUATION))? "\\W+" : "\\s+";
+		// get the target of the question type
 		if (ignoreCase) { question = question.toLowerCase(); }
-		String[] tokens = question.split(splitString);
-		for (String token : tokens) {
-			// TODO: perform stemming on each word in the question:
-			if (doStemming) {
-				
-			}
-			
-			wordSet.add(token);
-		}
+		Set<NamedEntityType> targetSet = Utils.getAnswerTypes(question);
 		
 		// loop over every line of the document and see how many words match:
 		int lineNum = 0;
@@ -72,12 +69,13 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 			}
 			
 			int score = 0;
-			tokens = line.split(splitString);
-			for (String token : tokens) {
-				if (wordSet.contains(token)) {
-					score++;
-				}
-			}
+			EnumSet<NamedEntityType> entityTypes = nerService.getNamedEntityTypes(line);
+
+			// perform the set intersection
+			entityTypes.retainAll(targetSet);
+			score += entityTypes.size();
+
+			// add the total
 			scores.add(new Guess(score, lineNum));
 			totalScore += score;
 		}

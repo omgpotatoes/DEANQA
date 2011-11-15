@@ -12,13 +12,15 @@ public class Options extends BitSet	// TODO: come up with a better name
 {
 	public static final int IGNORE_CASE = 1;
 	public static final int IGNORE_PUNCTUATION = 2;
-	public static final int IGNORE_AFFIX = 3;
-	public static final int IGNORE_COMMON_WORDS = 4;
+	public static final int STEM = 3;
+	public static final int NER = 4;
 	
 	public static Options getDefaultOptions() {
 		Options defopt = new Options();
 		defopt.set(IGNORE_CASE);
 		defopt.set(IGNORE_PUNCTUATION);
+		defopt.set(STEM);
+		defopt.set(NER);
 		return defopt;
 	}
 	

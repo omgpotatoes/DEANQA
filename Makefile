@@ -2,7 +2,6 @@
 # variables and configuration
 #=============================
 SHELL = /bin/bash
-
 JAVAC = javac
 
 MAIN = DeanQA
@@ -10,7 +9,7 @@ MAIN = DeanQA
 SRC_DIR = src
 BIN_DIR = bin
 LIB_DIR = lib
-
+RES_DIR = resources
 PACKAGE = cs2731
 
 # classpath
@@ -20,7 +19,7 @@ DEBUGFLAGS = -g -ea
 RUNFLAGS = 
 
 # arguments
-ARGS = arg1 arg2
+ARGS = $(RES_DIR)/input-train.txt output.txt
 
 #.SUFFIXES: .java .class
 
@@ -44,6 +43,11 @@ run: build
 
 debug: build
 	java -cp $(BIN_DIR):$(CP) $(DEBUGFLAGS) $(PACKAGE).$(MAIN) $(ARGS)
+
+# runs the perl grader script:
+# grader.pl input_filename answerkey_filename your_answer_filename
+grade:
+	perl $(RES_DIR)/grader.pl $(RES_DIR)/input-train.txt $(RES_DIR)/answerkey.txt output.txt
 
 report:
 	pdflatex report.tex

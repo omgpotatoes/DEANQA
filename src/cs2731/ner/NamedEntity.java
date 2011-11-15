@@ -8,30 +8,27 @@ package cs2731.ner;
  */
 public class NamedEntity {
 
-    private NamedEntityType type;
-    private String entity;
+	private NamedEntityType type;
+	private String entity;
 
-    // TIME, LOCATION, ORGANIZATION, PERSON, MONEY, PERCENT, DATE
-    public NamedEntity(NamedEntityType type, String entity) {
-        this.type = type;
-        this.entity = entity;
-    }
+	// TIME, LOCATION, ORGANIZATION, PERSON, MONEY, PERCENT, DATE
+	public NamedEntity(NamedEntityType type, String entity) {
+		this.type = type;
+		this.entity = entity;
+	}
 
-    public String getEntity() {
-        return entity;
-    }
+	public String getEntity() {
+		return entity;
+	}
 
-    public NamedEntityType getType() {
-        return type;
-    }
-    
-    @Override
-    public String toString() {
+	public NamedEntityType getType() {
+		return type;
+	}
 
-        String output = type+": "+entity;
-
-        return output;
-
-    }
-
+	@Override
+	public String toString() {
+		String output = "(" + entity + ":" + type + ")";
+		return output;
+	}
+	
 }

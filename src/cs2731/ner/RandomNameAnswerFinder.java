@@ -182,8 +182,38 @@ public class RandomNameAnswerFinder implements AnswerFinder {
                 }
 
             }
+            
+        } else if (qType == QuestionType.HOW_MUCH) {
+            // look for instances of "money"
+            int instanceTotal = 0;
+            if (entityTypeTotal.containsKey(NamedEntityType.MONEY)) {
+                instanceTotal += entityTypeTotal.get(NamedEntityType.MONEY);
+            }
 
-        } else if (qType == QuestionType.HOW_MANY || qType == QuestionType.HOW_MUCH) {
+            if (instanceTotal == 0) {
+
+                for (int s = 0; s < docEntityList.size(); s++) {
+                    guesses.add(new Guess(1.0 / docEntityList.size(), s + 1));
+                }
+
+            } else {
+
+                // probability of sentence == # of instances present / # of total instances
+                for (int s = 0; s < docEntityList.size(); s++) {
+                    EnumMap<NamedEntityType, Integer> entityTypeSent = entityTypeSentList.get(s);
+                    int instanceSent = 0;
+                    if (entityTypeSent.containsKey(NamedEntityType.MONEY)) {
+                        instanceSent += entityTypeSent.get(NamedEntityType.MONEY);
+                    }
+
+                    double sentProb = (double) instanceSent / (double) instanceTotal;
+                    guesses.add(new Guess(sentProb, s + 1));
+
+                }
+
+            }
+
+        } else if (qType == QuestionType.HOW_MANY) {
             
             // set equal prob on each sent?
             for (int s=0; s<docEntityList.size(); s++) {
@@ -201,6 +231,15 @@ public class RandomNameAnswerFinder implements AnswerFinder {
 
             }
 
+        }
+
+
+        // debug
+        System.out.println("debug: for question \"" + question + "\", potential sentences:");
+        for (Guess guess : guesses) {
+            if (guess.getProb() > 1.0/guesses.size()) {
+                System.out.println("debug:\tpotential answer: prob="+guess.getProb()+", sent=\""+document.get(guess.getLine()-1)+"\"");
+            }
         }
 
         return guesses;
@@ -234,6 +273,8 @@ public class RandomNameAnswerFinder implements AnswerFinder {
 
         // pass string through classifier to identify named entities
         String parsedSent = classifyStringXml(sentence);
+        // debug
+        //System.out.println("debug: ner-parsed sentence: "+parsedSent);
 
         // process resulting XML
         try {

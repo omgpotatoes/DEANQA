@@ -21,5 +21,18 @@ public enum NamedEntityType {
     public String toString() {
         return this.name();
     }
-
+	
+	/**
+	 * Get the named entity type from its string representation
+	 * @param str
+	 * @return 
+	 */
+	public static NamedEntityType getTypeFromString(String str) {
+		for (NamedEntityType type : values()) {
+			if (type.toString().equals(str)) {
+				return type;
+			}
+		}
+		return null;
+	}
 }

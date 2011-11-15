@@ -3,6 +3,7 @@
 package cs2731;
 
 import cs2731.ner.RandomNameAnswerFinder;
+import cs2731.ner.NamedEntityService;
 import java.util.List;
 import java.io.File;
 import java.io.IOException;
@@ -22,7 +23,7 @@ public class DeanQA
 	
 	static String rootPath = "";
 	static String outputFile = "output.txt";
-
+	
 	static PrintWriter writer;
 	static List<String> document;
 	static List<String> questions;
@@ -119,26 +120,29 @@ public class DeanQA
 	private static void answerQuestions(String input) throws IOException {
 		answers = new ArrayList<Guess>();
 		AnswerFinder oracle = new BagOfWordsAnswerFinder();
-                //AnswerFinder oracleNER = new RandomNameAnswerFinder();
+		AnswerFinder oracleNER = new RandomNameAnswerFinder();
 		
 		// for each question get a list of possible answers
-		for (String question: questions) {
-			
+		for (String question : questions) {
+
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
-			List<Guess> guesses = oracle.getAnswerLines(document, question);
-                        //guesses.addAll(oracleNER.getAnswerLines(document, question));
-			
-                        // combine probabilities from multiple oracles
-                        guesses = combineGuesses(guesses);
+
+			List<Guess> guesses = new ArrayList<Guess>();
+
+			guesses.addAll(oracle.getAnswerLines(document, question));
+			//guesses.addAll(oracleNER.getAnswerLines(document, question));
+
+			// combine probabilities from multiple oracles
+			guesses = combineGuesses(guesses);
 
 			Collections.sort(guesses);
 			Collections.reverse(guesses);
-			
+
 			// TODO select the best answer for this question from the list
 			// for now just pick the first guess:
 			answers.add(guesses.get(0));
-			
+
 //			answers.addAll(guesses);
 		}
 		
@@ -148,36 +152,56 @@ public class DeanQA
 		answers.clear();
 	}
 
-        /**
-         * Sum probabilities for all guesses for each sentence
-         *
-         * @param guesses
-         * @return
-         */
-        static List<Guess> combineGuesses(List<Guess> guesses) {
+	/**
+	 * Sum probabilities for all guesses for each sentence
+	 *
+	 * @param guesses
+	 * @return
+	 */
+	static List<Guess> combineGuesses(List<Guess> guesses) {
 
-            HashMap<Integer, Double> guessMap = new HashMap<Integer, Double>();
+		HashMap<Integer, Double> guessMap = new HashMap<Integer, Double>();
 
-            for (Guess guess : guesses) {
+		for (Guess guess : guesses) {
 
-                if (!guessMap.containsKey(guess.getLine())) {
-                    guessMap.put(guess.getLine(), 0.0);
-                }
-                guessMap.put(guess.getLine(), guessMap.get(guess.getLine())+guess.getProb());
+			if (!guessMap.containsKey(guess.getLine())) {
+				guessMap.put(guess.getLine(), 0.0);
+			}
+			guessMap.put(guess.getLine(), guessMap.get(guess.getLine()) + guess.getProb());
 
-            }
+		}
 
-            List<Guess> combinedGuesses = new ArrayList<Guess>();
-            for (Integer lineNum : guessMap.keySet()) {
-                combinedGuesses.add(new Guess(guessMap.get(lineNum), lineNum));
-            }
+		List<Guess> combinedGuesses = new ArrayList<Guess>();
+		for (Integer lineNum : guessMap.keySet()) {
+			combinedGuesses.add(new Guess(guessMap.get(lineNum), lineNum));
+		}
 
-            return combinedGuesses;
+		return combinedGuesses;
 
-        }
-	
+	}
+
 	static void printUsage() {
 		out.println("Usage: DeanQA input_filename outputfile_name");
+	}
+	
+	
+	/**
+	 * TODO:
+	 * Here we do any preprocessing
+	 * that occurs once per document,
+	 * such as coreference resolution.
+	 */
+	private static void preprocessDocument() {
+		
+	}
+	
+	/**
+	 * TODO:
+	 * Here we do any one-time expensive things,
+	 * such as load models, classifiers, etc.
+	 */
+	private static void initializeModels() {
+		NamedEntityService.getInstance();	// loads the model
 	}
 	
 	/**
@@ -202,6 +226,9 @@ public class DeanQA
 
 		rootPath = args[0];
 		outputFile = args[1];
+		
+		// do any one-time expensive initialization
+		initializeModels();
 		
 		writer = new PrintWriter(outputFile);
 		document = new ArrayList<String>();
