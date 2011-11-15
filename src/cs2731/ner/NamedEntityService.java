@@ -1,10 +1,12 @@
 
 package cs2731.ner;
 
+import java.util.EnumSet;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ie.crf.CRFClassifier;
 import edu.stanford.nlp.ling.CoreAnnotations.AnswerAnnotation;
 import edu.stanford.nlp.ling.CoreLabel;
+import java.lang.ref.SoftReference;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
@@ -21,11 +23,44 @@ import static cs2731.ner.NamedEntityType.*;
 public class NamedEntityService
 {
 	private static final String MODEL_PATH = "lib/muc.7class.distsim.crf.ser.gz";
-	
 	private AbstractSequenceClassifier classifier;
 	
-	public NamedEntityService() {
+//	private static NamedEntityService instance;
+	private static SoftReference<NamedEntityService> instance;
+	
+	static {
+//		instance = new NamedEntityService();
+		instance = new SoftReference<NamedEntityService>(null);
+	}
+	
+	private NamedEntityService() {
 		classifier = CRFClassifier.getClassifierNoExceptions(MODEL_PATH);
+	}
+	
+	/**
+	 * 
+	 * @return 
+	 */
+	public static NamedEntityService getInstance() {
+//		if (instance == null) {
+//			instance = new NamedEntityService();
+//		}
+//		return instance;
+//		
+		NamedEntityService service = instance.get();
+		if (service == null) {
+			instance = new SoftReference<NamedEntityService>(new NamedEntityService());
+			service = instance.get();
+		}
+		return service;
+	}
+	
+	/**
+	 * 
+	 */
+	static void dispose() {
+//		instance = null;
+		instance.clear();
 	}
 	
 	/**
@@ -41,6 +76,25 @@ public class NamedEntityService
 				NamedEntityType type = getTypeFromString(word.get(AnswerAnnotation.class));
 				if (type != null) {
 					set.add(new NamedEntity(type, word.word()));
+				}
+			}
+		}
+		return set;
+	}
+	
+	/**
+	 * Get the set of named entities contained within a string of text
+	 * @param text
+	 * @return A set of NamedEntity
+	 */
+	public EnumSet<NamedEntityType> getNamedEntityTypes(String text) {
+		EnumSet<NamedEntityType> set = EnumSet.noneOf(NamedEntityType.class);
+		List<List<CoreLabel>> out = classifier.classify(text);
+		for (List<CoreLabel> sentence : out) {
+			for (CoreLabel word : sentence) {
+				NamedEntityType type = getTypeFromString(word.get(AnswerAnnotation.class));
+				if (type != null) {
+					set.add(type);
 				}
 			}
 		}

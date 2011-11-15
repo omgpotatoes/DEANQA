@@ -24,8 +24,6 @@ public class DeanQA
 	static String rootPath = "";
 	static String outputFile = "output.txt";
 	
-	private static NamedEntityService namedEntityService;
-
 	static PrintWriter writer;
 	static List<String> document;
 	static List<String> questions;
@@ -122,20 +120,21 @@ public class DeanQA
 	private static void answerQuestions(String input) throws IOException {
 		answers = new ArrayList<Guess>();
 		AnswerFinder oracle = new BagOfWordsAnswerFinder();
-                AnswerFinder oracleNER = new RandomNameAnswerFinder();
+		AnswerFinder oracleNER = new RandomNameAnswerFinder();
+		
 		// for each question get a list of possible answers
 		for (String question : questions) {
 
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
 
-                        List<Guess> guesses = new ArrayList<Guess>();
+			List<Guess> guesses = new ArrayList<Guess>();
 
-                        guesses.addAll(oracle.getAnswerLines(document, question));
-                        //guesses.addAll(oracleNER.getAnswerLines(document, question));
-			
-                        // combine probabilities from multiple oracles
-                        guesses = combineGuesses(guesses);
+			guesses.addAll(oracle.getAnswerLines(document, question));
+			//guesses.addAll(oracleNER.getAnswerLines(document, question));
+
+			// combine probabilities from multiple oracles
+			guesses = combineGuesses(guesses);
 
 			Collections.sort(guesses);
 			Collections.reverse(guesses);
@@ -202,7 +201,7 @@ public class DeanQA
 	 * such as load models, classifiers, etc.
 	 */
 	private static void initializeModels() {
-		namedEntityService = new NamedEntityService();
+		NamedEntityService.getInstance();	// loads the model
 	}
 	
 	/**
