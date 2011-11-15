@@ -9,18 +9,17 @@ package cs2731.ner;
 public enum NamedEntityType {
 
     // possible named entity types
-    TIME ("time"), LOCATION ("location"), ORGANIZATION ("organization"),
-    PERSON ("person"), MONEY ("money"), PERCENT ("percent"), DATE ("date");
-
-    private final String typeName;
-
-    NamedEntityType(String typeName) {
-        this.typeName = typeName;
-    }
+    TIME,
+	LOCATION,
+	ORGANIZATION,
+    PERSON,
+	MONEY,
+	PERCENT,
+	DATE;
 
     @Override
     public String toString() {
-        return typeName;
+        return this.name();
     }
 
 }
