@@ -226,6 +226,7 @@ public class Utils
 		ArrayList<String> tempAnswers;
 		ArrayList<TrainingFileData> tempData = new ArrayList<TrainingFileData>();
 		boolean questionSectionFlag;
+		int lineCounter = 1;
 		
 		for(File document : documents) {
 			filename = document.getName();
@@ -236,14 +237,17 @@ public class Utils
 			sentences = "";
 			questionSectionFlag = false;
 			while(documentInput.hasNext()) {
-				inputLine = documentInput.nextLine();
+				inputLine = documentInput.nextLine().trim();
 				if(questionSectionFlag && inputLine.startsWith("<")) 
-					questions += inputLine.substring(inputLine.indexOf(">") + 2).trim() + "\n";
+					questions += inputLine.substring(inputLine.indexOf(">") + 2) + "\n";
 				else if(inputLine.startsWith("<QUESTIONS>"))
 					questionSectionFlag = true;
 				else if(inputLine.trim().length() > 0) {
-					sentences += inputLine.trim() + "\n";
+					if(lineCounter < 3) 
+						inputLine += ".";
+					sentences += inputLine + "\n";
 				}
+				lineCounter++;
 			}
 			do {
 				inputLine = answerInput.nextLine();
