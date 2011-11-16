@@ -58,42 +58,109 @@ public class SVMAnswerFinder implements AnswerFinder {
 	 * @throws FileNotFoundException 
 	 */
 	private SVMData extractData(File[] documents, File answerKey) throws FileNotFoundException {
-		//This code makes me want to barf
 		
 		TrainingFileData [] trainingData = Utils.extractAllDataFromFile(documents, answerKey);
 		
-		
 		Properties props = new Properties();
-	    props.put("annotators", "tokenize, ssplit, pos, lemma, ner");
+	    props.put("annotators", "tokenize, ssplit, pos, lemma");
 	    StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 	    Annotation sentenceAnno;
 	    Annotation questionAnno;
 	    int rawWordMatch = 0;
-	    int maxWordMatch = 0;;
-	    
+	    int maxWordMatch = 0;
+	    double [][] X;
+	    ArrayList<double []> tempX = new ArrayList<double []>();
+	    ArrayList<double []> unDiffed = new ArrayList<double []>();
+	    double [] tempDataPoint;
+
+	    /*
+    	System.out.println(trainingData[0].document.substring(0, 10));
+    	questionAnno = new Annotation(trainingData[0].questions);
+    	sentenceAnno = new Annotation(trainingData[0].document);
+    	pipeline.annotate(questionAnno);
+    	pipeline.annotate(sentenceAnno);
+    	int flag = 0;
+    	
+    	for(CoreMap question: questionAnno.get(SentencesAnnotation.class)) {
+    		for(CoreMap sentence: sentenceAnno.get(SentencesAnnotation.class)) {
+    			rawWordMatch = 0;
+    			for (CoreLabel questionToken: question.get(TokensAnnotation.class)) {
+    				String questionLemma = questionToken.get(LemmaAnnotation.class);
+    				for (CoreLabel sentenceToken: sentence.get(TokensAnnotation.class)) {
+    					String sentenceLemma = sentenceToken.get(LemmaAnnotation.class);
+    					System.out.print(sentenceLemma + " ");
+    					if(questionLemma.equals(sentenceLemma))
+    						rawWordMatch++;
+    				}
+    				System.out.println("");
+    			}
+				if(rawWordMatch > maxWordMatch)
+					maxWordMatch = rawWordMatch;
+				tempDataPoint = new double [1];
+				tempDataPoint[0] = rawWordMatch;
+				System.out.println(rawWordMatch);
+				if(flag == 0)
+					tempX.add(tempDataPoint);
+	    	}
+    		flag++;
+    	}
+    	
+	    X = new double[tempX.size()][1];
+		tempX.toArray(X);
+		
+		for(int i = 0; i < X.length; i++) {
+			for(int j = 0; j < X[0].length; j++) {
+				System.out.print(X[i][j] + " ");
+			}
+			System.out.println("");
+		}
+		*/
+	   
 	    for(TrainingFileData dataFile : trainingData) {
 	    	questionAnno = new Annotation(dataFile.questions);
 	    	sentenceAnno = new Annotation(dataFile.document);
 	    	pipeline.annotate(questionAnno);
 	    	pipeline.annotate(sentenceAnno);
 	    	
+	    	//Possibly strip the sentences of punctuation????
 	    	for(CoreMap question: questionAnno.get(SentencesAnnotation.class)) {
+	    		maxWordMatch = 0;
 	    		for(CoreMap sentence: sentenceAnno.get(SentencesAnnotation.class)) {
+	    			rawWordMatch = 0;
 	    			for (CoreLabel questionToken: question.get(TokensAnnotation.class)) {
-	    				String questionLemma = questionToken.get(LemmaAnnotation.class);
+	    				String questionLemma = questionToken.get(LemmaAnnotation.class).toLowerCase();
 	    				for (CoreLabel sentenceToken: sentence.get(TokensAnnotation.class)) {
-	    					String sentenceLemma = sentenceToken.get(LemmaAnnotation.class);
-	    					if(questionLemma.equals(sentenceLemma)) {
-	    						System.out.println("MATCH! " + questionLemma + " = " + sentenceLemma);
-	    					}
+	    					String sentenceLemma = sentenceToken.get(LemmaAnnotation.class).toLowerCase();
+	    					if(questionLemma.equals(sentenceLemma))
+	    						rawWordMatch++;
 	    				}
 	    			}
+	    			if(rawWordMatch > maxWordMatch)
+    					maxWordMatch = rawWordMatch;
+    				tempDataPoint = new double [1];
+    				tempDataPoint[0] = rawWordMatch;
+    				unDiffed.add(tempDataPoint);
 		    	}
+	    		int size = unDiffed.size();
+	    		for(int q = 0; q < size; q++) {
+	    			tempDataPoint = new double[1];
+	    			tempDataPoint[0] = maxWordMatch - unDiffed.get(0)[0];
+	    			tempX.add(tempDataPoint);
+	    			unDiffed.remove(0);
+	    		}
 	    	}
-
 	    }
-	    
+
+	    X = new double[tempX.size()][1];
+		tempX.toArray(X);
+		for(int i = 0; i < X.length; i++) {
+			for(int j = 0; j < X[0].length; j++) {
+				System.out.print(X[i][j] + " ");
+			}
+			System.out.println("");
+		}
 	    /*
+	    //This code makes me want to cry vomit from my mouth
 		ArrayList<ArrayList<Answer>> trainingAnswers = Utils.extractAnswers(answerKey);
 		ArrayList<ArrayList<Sentence>> documentSentences = Utils.extractSentences(documents);
 		ArrayList<ArrayList<Question>> trainingQuestions = Utils.extractQuestions(documents); 
