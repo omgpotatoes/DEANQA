@@ -242,4 +242,59 @@ public class Utils
 		}
 		return sentences;
 	}
+	
+	public static TrainingFileData [] extractAllDataFromFile(File [] documents, File answerKey) throws FileNotFoundException {
+		String questions;
+		String sentences;
+		Scanner documentInput;
+		Scanner answerInput;
+		String inputLine;
+		String filename;
+		ArrayList<String> tempAnswers;
+		ArrayList<TrainingFileData> tempData = new ArrayList<TrainingFileData>();
+		boolean questionSectionFlag;
+		int lineCounter = 1;
+		
+		for(File document : documents) {
+			filename = document.getName();
+			documentInput = new Scanner(document);
+			tempAnswers = new ArrayList<String>();
+			answerInput = new Scanner(answerKey);
+			questions = "";
+			sentences = "";
+			questionSectionFlag = false;
+			while(documentInput.hasNext()) {
+				inputLine = documentInput.nextLine().trim();
+				if(questionSectionFlag && inputLine.startsWith("<")) 
+					questions += inputLine.substring(inputLine.indexOf(">") + 2) + "\n";
+				else if(inputLine.startsWith("<QUESTIONS>"))
+					questionSectionFlag = true;
+				else if(inputLine.trim().length() > 0) {
+					if(lineCounter < 3) 
+						inputLine += ".";
+					sentences += inputLine + "\n";
+				}
+				lineCounter++;
+			}
+			do {
+				inputLine = answerInput.nextLine();
+			}while(!inputLine.startsWith("<FILE>" + filename));
+			
+			inputLine = answerInput.nextLine();
+			while(!inputLine.startsWith("</FILE>")) {
+				answerInput.nextLine();
+				answerInput.nextLine();
+				inputLine = answerInput.nextLine();
+				tempAnswers.add(inputLine.substring(inputLine.indexOf(">") + 1).trim());
+				answerInput.nextLine();
+				inputLine = answerInput.nextLine();
+			}
+			String [] tempArray = new String [tempAnswers.size()];
+			tempAnswers.toArray(tempArray);
+			tempData.add(new TrainingFileData(sentences, questions, tempArray));
+		}
+		TrainingFileData [] tempDataArray = new TrainingFileData[tempData.size()];
+		tempData.toArray(tempDataArray);
+		return tempDataArray;
+	}
 }

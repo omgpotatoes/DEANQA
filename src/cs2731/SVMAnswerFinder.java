@@ -4,7 +4,18 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
+
 import libsvm.*;
+import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
+import edu.stanford.nlp.ling.CoreAnnotations.NamedEntityTagAnnotation;
+import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
+import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
+import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
+import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.pipeline.*;
+import edu.stanford.nlp.util.CoreMap;
 
 /**
  * Implements a Support Vector Machine model with various features from literature to predict
@@ -40,27 +51,147 @@ public class SVMAnswerFinder implements AnswerFinder {
 	 * Returns a representation of the training documents that the SVM can digest.  Each data 
 	 * point is a sentence-question pair with each feature representing some relationship 
 	 * between the two.
-	 * @param trainingQuestionsFiles The names of the files for training (include sentences 
+	 * @param documents The names of the files for training (include sentences 
 	 * and questions)
-	 * @param trainingAnswersFile The answer sentences for the questions in the training
+	 * @param answerKey The answer sentences for the questions in the training
 	 * @return 
 	 * @throws FileNotFoundException 
 	 */
-	private SVMData extractData(File[] trainingQuestionsFiles, File trainingAnswersFile) throws FileNotFoundException {
-		ArrayList<ArrayList<Answer>> trainingAnswers = Utils.extractAnswers(trainingAnswersFile);
-		ArrayList<ArrayList<Sentence>> documentSentences = Utils.extractSentences(trainingQuestionsFiles);
-		ArrayList<ArrayList<Question>> trainingQuestions = Utils.extractQuestions(trainingQuestionsFiles); 
+	private SVMData extractData(File[] documents, File answerKey) throws FileNotFoundException {
+		
+		TrainingFileData [] trainingData = Utils.extractAllDataFromFile(documents, answerKey);
+		
+		Properties props = new Properties();
+	    props.put("annotators", "tokenize, ssplit, pos, lemma");
+	    StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+	    Annotation sentenceAnno;
+	    Annotation questionAnno;
+	    int rawWordMatch = 0;
+	    int maxWordMatch = 0;
+	    double [][] X;
+	    ArrayList<double []> tempX = new ArrayList<double []>();
+	    ArrayList<double []> unDiffed = new ArrayList<double []>();
+	    double [] tempDataPoint;
+
+	    /*
+    	System.out.println(trainingData[0].document.substring(0, 10));
+    	questionAnno = new Annotation(trainingData[0].questions);
+    	sentenceAnno = new Annotation(trainingData[0].document);
+    	pipeline.annotate(questionAnno);
+    	pipeline.annotate(sentenceAnno);
+    	int flag = 0;
+    	
+    	for(CoreMap question: questionAnno.get(SentencesAnnotation.class)) {
+    		for(CoreMap sentence: sentenceAnno.get(SentencesAnnotation.class)) {
+    			rawWordMatch = 0;
+    			for (CoreLabel questionToken: question.get(TokensAnnotation.class)) {
+    				String questionLemma = questionToken.get(LemmaAnnotation.class);
+    				for (CoreLabel sentenceToken: sentence.get(TokensAnnotation.class)) {
+    					String sentenceLemma = sentenceToken.get(LemmaAnnotation.class);
+    					System.out.print(sentenceLemma + " ");
+    					if(questionLemma.equals(sentenceLemma))
+    						rawWordMatch++;
+    				}
+    				System.out.println("");
+    			}
+				if(rawWordMatch > maxWordMatch)
+					maxWordMatch = rawWordMatch;
+				tempDataPoint = new double [1];
+				tempDataPoint[0] = rawWordMatch;
+				System.out.println(rawWordMatch);
+				if(flag == 0)
+					tempX.add(tempDataPoint);
+	    	}
+    		flag++;
+    	}
+    	
+	    X = new double[tempX.size()][1];
+		tempX.toArray(X);
+		
+		for(int i = 0; i < X.length; i++) {
+			for(int j = 0; j < X[0].length; j++) {
+				System.out.print(X[i][j] + " ");
+			}
+			System.out.println("");
+		}
+		*/
+	   
+	    for(TrainingFileData dataFile : trainingData) {
+	    	questionAnno = new Annotation(dataFile.questions);
+	    	sentenceAnno = new Annotation(dataFile.document);
+	    	pipeline.annotate(questionAnno);
+	    	pipeline.annotate(sentenceAnno);
+	    	
+	    	//Possibly strip the sentences of punctuation????
+	    	for(CoreMap question: questionAnno.get(SentencesAnnotation.class)) {
+	    		maxWordMatch = 0;
+	    		for(CoreMap sentence: sentenceAnno.get(SentencesAnnotation.class)) {
+	    			rawWordMatch = 0;
+	    			for (CoreLabel questionToken: question.get(TokensAnnotation.class)) {
+	    				String questionLemma = questionToken.get(LemmaAnnotation.class).toLowerCase();
+	    				for (CoreLabel sentenceToken: sentence.get(TokensAnnotation.class)) {
+	    					String sentenceLemma = sentenceToken.get(LemmaAnnotation.class).toLowerCase();
+	    					if(questionLemma.equals(sentenceLemma))
+	    						rawWordMatch++;
+	    				}
+	    			}
+	    			if(rawWordMatch > maxWordMatch)
+    					maxWordMatch = rawWordMatch;
+    				tempDataPoint = new double [1];
+    				tempDataPoint[0] = rawWordMatch;
+    				unDiffed.add(tempDataPoint);
+		    	}
+	    		int size = unDiffed.size();
+	    		for(int q = 0; q < size; q++) {
+	    			tempDataPoint = new double[1];
+	    			tempDataPoint[0] = maxWordMatch - unDiffed.get(0)[0];
+	    			tempX.add(tempDataPoint);
+	    			unDiffed.remove(0);
+	    		}
+	    	}
+	    }
+
+	    X = new double[tempX.size()][1];
+		tempX.toArray(X);
+		for(int i = 0; i < X.length; i++) {
+			for(int j = 0; j < X[0].length; j++) {
+				System.out.print(X[i][j] + " ");
+			}
+			System.out.println("");
+		}
+	    /*
+	    //This code makes me want to cry vomit from my mouth
+		ArrayList<ArrayList<Answer>> trainingAnswers = Utils.extractAnswers(answerKey);
+		ArrayList<ArrayList<Sentence>> documentSentences = Utils.extractSentences(documents);
+		ArrayList<ArrayList<Question>> trainingQuestions = Utils.extractQuestions(documents); 
 		
 		for(ArrayList<Question> questionSet : trainingQuestions) {
 			for(ArrayList<Sentence> document: documentSentences) {
 				for(Question question: questionSet) {
+					questionAnno = new Annotation(question.questionText);
+					pipeline.annotate(questionAnno);
+					questionCore = questionAnno.get(SentencesAnnotation.class).get(0);
 					for(Sentence sentence : document) {
-						
+						//System.out.println(sentence);
+						sentenceAnno = new Annotation(sentence.sentenceText);
+						pipeline.annotate(sentenceAnno);
+					    sentenceCore = sentenceAnno.get(SentencesAnnotation.class).get(0);
+					    for (CoreLabel questionToken: questionCore.get(TokensAnnotation.class)) {
+					    	String questionPos = questionToken.get(PartOfSpeechAnnotation.class);
+				    		String questionLemma = questionToken.get(LemmaAnnotation.class);
+				    		String questionNer = questionToken.get(NamedEntityTagAnnotation.class);
+					    	for (CoreLabel sentenceToken: sentenceCore.get(TokensAnnotation.class)) {
+					    		//String word = token.get(TextAnnotation.class);
+					    		String sentencePos = sentenceToken.get(PartOfSpeechAnnotation.class);
+					    		String sentenceLemma = sentenceToken.get(LemmaAnnotation.class);
+					    		String sentenceNer = sentenceToken.get(NamedEntityTagAnnotation.class);
+					    	}
+					    }
 					}
 				}
 			}
 		}
-		
+		*/
 		return null;
 	}
 
