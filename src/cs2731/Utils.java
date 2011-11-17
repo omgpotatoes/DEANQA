@@ -1,6 +1,8 @@
 
 package cs2731;
 
+import java.util.Iterator;
+import java.util.List;
 import cs2731.ner.NamedEntityType;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -66,14 +68,26 @@ public class Utils
 			case HOW_OLD:
 
 			case HOW:
-
 			case WHAT:
-
 			case WHY:
 			case OTHER:
 			default:
 				return EnumSet.allOf(NamedEntityType.class);
 		}
+	}
+	
+	public static String join(List<String> lines) {
+		return join(lines," ");
+	}
+	
+	public static String join(List<String> lines, String delim) {
+		StringBuilder sb = new StringBuilder();
+		Iterator<String> it = lines.iterator();
+		while (it.hasNext()) {
+			sb.append(it.next());
+			if (it.hasNext()) { sb.append(delim); }
+		}
+		return sb.toString();
 	}
 	
 	/**
