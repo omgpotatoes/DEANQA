@@ -1,11 +1,15 @@
 
 package cs2731;
 
+import java.util.Iterator;
+import java.util.List;
 import cs2731.ner.NamedEntityType;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.EnumSet;
+import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -13,6 +17,9 @@ import static cs2731.ner.NamedEntityType.*;
 
 public class Utils
 {
+	private Utils() {}
+	
+	public static final Set<Character> punctuationSet = new HashSet<Character>(Arrays.asList(',','.','!','?',':',';','\''));
 
 	public static boolean containsOnlyWhitespace(String str) {
 		for (char c : str.toCharArray()) {
@@ -22,7 +29,6 @@ public class Utils
 		}
 		return true;
 	}
-	
 
 	public static boolean containsOnlyLetters(String str) {
 		for (char c : str.toCharArray()) {
@@ -31,6 +37,15 @@ public class Utils
 			}
 		}
 		return true;
+	}
+	
+	public static boolean containsPunctuation(String str) {
+		for (char c : str.toCharArray()) {
+			if (punctuationSet.contains(c)) {
+				return true;
+			}
+		}
+		return false;
 	}
 	
 	/**
@@ -66,14 +81,26 @@ public class Utils
 			case HOW_OLD:
 
 			case HOW:
-
 			case WHAT:
-
 			case WHY:
 			case OTHER:
 			default:
 				return EnumSet.allOf(NamedEntityType.class);
 		}
+	}
+	
+	public static String join(List<String> lines) {
+		return join(lines," ");
+	}
+	
+	public static String join(List<String> lines, String delim) {
+		StringBuilder sb = new StringBuilder();
+		Iterator<String> it = lines.iterator();
+		while (it.hasNext()) {
+			sb.append(it.next());
+			if (it.hasNext()) { sb.append(delim); }
+		}
+		return sb.toString();
 	}
 	
 	/**

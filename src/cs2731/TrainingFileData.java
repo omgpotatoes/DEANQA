@@ -5,6 +5,8 @@ package cs2731;
  *
  */
 public class TrainingFileData {
+	/** The name of the file */
+	public String filename;
 	/** The sentences in the document */
 	public String document;
 	/** The questions for the above document */
@@ -14,14 +16,15 @@ public class TrainingFileData {
 	
 	public TrainingFileData() {}
 	
-	public TrainingFileData(String inDocument, String inQuestions, String [] inAnswerMap) {
+	public TrainingFileData(String inFilename, String inDocument, String inQuestions, String [] inAnswerMap) {
+		this.filename = inFilename;
 		this.document = inDocument;
 		this.questions = inQuestions;
 		this.answerMap = inAnswerMap;
 	}
 	
 	public String toString() {
-		String returnString = "DOCUMENT\n" + document + "\n" + "QUESTIONS\n" + questions + "\n" + "ANSWER MAP\n";
+		String returnString = "FileName: " + filename + "\nDOCUMENT\n" + document + "\n" + "QUESTIONS\n" + questions + "\n" + "ANSWER MAP\n";
 		
 		for(int i = 0; i < answerMap.length; i++) 
 			returnString += (i + 1) + ": " + answerMap[i] + "\n";

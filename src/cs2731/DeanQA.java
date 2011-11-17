@@ -3,6 +3,7 @@
 package cs2731;
 
 import cs2731.ner.RandomNameAnswerFinder;
+import java.util.Map;
 import cs2731.ner.NamedEntityService;
 import java.util.List;
 import java.io.File;
@@ -28,8 +29,12 @@ public class DeanQA
 	static List<String> document;
 	static List<String> questions;
 	static List<Guess> answers;
+
+        static Preprocessor preprocessor;
 	
-	private DeanQA() {}
+	private DeanQA() {
+            
+        }
 	
 
 	/**
@@ -60,6 +65,20 @@ public class DeanQA
 		}
 		
 		input.close();
+
+                // preprocess story before answering questions
+                // debug:
+                System.out.println("debug: orig doc: "+document.toString());
+                System.out.println("debug: orig numsents: "+document.size()+"\n");
+                int origLen = document.size();
+                preprocessDocument();
+                System.out.println("debug: new doc: "+document.toString());
+                System.out.println("debug: new numsents: "+document.size()+"\n");
+                int newLen = document.size();
+                if (origLen != newLen) {
+                    System.out.println("DERP! origLen != newLen !!!");
+                }
+
 	}
 	
 	/**
@@ -120,6 +139,7 @@ public class DeanQA
 	private static void answerQuestions(String input) throws IOException {
 		answers = new ArrayList<Guess>();
 		AnswerFinder oracle = new BagOfWordsAnswerFinder();
+		AnswerFinder oracleLemma = new BagOfLemmasAnswerFinder();
 		AnswerFinder oracleNER = new RandomNameAnswerFinder();
 		
 		// for each question get a list of possible answers
@@ -131,7 +151,8 @@ public class DeanQA
 			List<Guess> guesses = new ArrayList<Guess>();
 
 			guesses.addAll(oracle.getAnswerLines(document, question));
-			//guesses.addAll(oracleNER.getAnswerLines(document, question));
+			guesses.addAll(oracleLemma.getAnswerLines(document, question));
+			guesses.addAll(oracleNER.getAnswerLines(document, question));
 
 			// combine probabilities from multiple oracles
 			guesses = combineGuesses(guesses);
@@ -160,15 +181,13 @@ public class DeanQA
 	 */
 	static List<Guess> combineGuesses(List<Guess> guesses) {
 
-		HashMap<Integer, Double> guessMap = new HashMap<Integer, Double>();
+		Map<Integer, Double> guessMap = new HashMap<Integer, Double>();
 
 		for (Guess guess : guesses) {
-
 			if (!guessMap.containsKey(guess.getLine())) {
 				guessMap.put(guess.getLine(), 0.0);
 			}
 			guessMap.put(guess.getLine(), guessMap.get(guess.getLine()) + guess.getProb());
-
 		}
 
 		List<Guess> combinedGuesses = new ArrayList<Guess>();
@@ -177,7 +196,6 @@ public class DeanQA
 		}
 
 		return combinedGuesses;
-
 	}
 
 	static void printUsage() {
@@ -192,7 +210,9 @@ public class DeanQA
 	 * such as coreference resolution.
 	 */
 	private static void preprocessDocument() {
-		
+
+            document = preprocessor.resolveMentions(document);
+
 	}
 	
 	/**
@@ -201,7 +221,10 @@ public class DeanQA
 	 * such as load models, classifiers, etc.
 	 */
 	private static void initializeModels() {
-		//NamedEntityService.getInstance();	// loads the model
+		NamedEntityService.getInstance();	// loads the model
+		NamedEntityService.getInstance();	// loads the model
+                preprocessor = new Preprocessor();
+>>>>>>> b1479f6a84e34261583b2bd500985676c7108407
 	}
 	
 	/**

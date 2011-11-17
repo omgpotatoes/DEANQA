@@ -1,6 +1,7 @@
 
 package cs2731;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -16,7 +17,6 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 {
 
 	private Options options;
-	private boolean doStemming;
 	private boolean ignoreCase;
 	
 	public BagOfWordsAnswerFinder() {
@@ -26,7 +26,6 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 	public BagOfWordsAnswerFinder(Options options) {
 		this.options = options;
 		ignoreCase = options.get(Options.IGNORE_CASE);
-		doStemming = options.get(Options.STEM);
 	}
 	
 	/**
@@ -47,14 +46,7 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		String splitString = (options.get(Options.IGNORE_PUNCTUATION))? "\\W+" : "\\s+";
 		if (ignoreCase) { question = question.toLowerCase(); }
 		String[] tokens = question.split(splitString);
-		for (String token : tokens) {
-			// TODO: perform stemming on each word in the question:
-			if (doStemming) {
-				
-			}
-			
-			wordSet.add(token);
-		}
+		wordSet.addAll(Arrays.asList(tokens));
 		
 		// loop over every line of the document and see how many words match:
 		int lineNum = 0;
@@ -64,11 +56,6 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 			
 			if (ignoreCase) {
 				line = line.toLowerCase();
-			}
-			
-			// TODO: perform stemming on each word in the line:
-			if (doStemming) {
-				
 			}
 			
 			int score = 0;
