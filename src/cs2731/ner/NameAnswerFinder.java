@@ -32,7 +32,7 @@ public class NameAnswerFinder implements AnswerFinder
 	public NameAnswerFinder(Options options) {
 		this.options = options;
 		ignoreCase = options.get(Options.IGNORE_CASE);
-		doStemming = options.get(Options.STEM);
+		doStemming = options.get(Options.LEMMATIZE);
 		
 		nerService = NamedEntityService.getInstance();
 	}

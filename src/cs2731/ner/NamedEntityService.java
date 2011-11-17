@@ -23,7 +23,7 @@ import static cs2731.ner.NamedEntityType.*;
 public class NamedEntityService
 {
 	private static final String MODEL_PATH = "lib/muc.7class.distsim.crf.ser.gz";
-	private AbstractSequenceClassifier classifier;
+	private AbstractSequenceClassifier<CoreLabel> classifier;
 	
 //	private static NamedEntityService instance;
 	private static SoftReference<NamedEntityService> instance;
@@ -33,6 +33,7 @@ public class NamedEntityService
 		instance = new SoftReference<NamedEntityService>(null);
 	}
 	
+	@SuppressWarnings("unchecked")
 	private NamedEntityService() {
 		classifier = CRFClassifier.getClassifierNoExceptions(MODEL_PATH);
 	}

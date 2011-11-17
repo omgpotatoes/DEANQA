@@ -7,7 +7,9 @@ import cs2731.ner.NamedEntityType;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.EnumSet;
+import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -15,6 +17,7 @@ import static cs2731.ner.NamedEntityType.*;
 
 public class Utils
 {
+	public static final Set<Character> punctuationSet = new HashSet<Character>(Arrays.asList(',','.','!','?',':',';','\''));
 
 	public static boolean containsOnlyWhitespace(String str) {
 		for (char c : str.toCharArray()) {
@@ -24,7 +27,6 @@ public class Utils
 		}
 		return true;
 	}
-	
 
 	public static boolean containsOnlyLetters(String str) {
 		for (char c : str.toCharArray()) {
@@ -33,6 +35,15 @@ public class Utils
 			}
 		}
 		return true;
+	}
+	
+	public static boolean containsPunctuation(String str) {
+		for (char c : str.toCharArray()) {
+			if (punctuationSet.contains(c)) {
+				return true;
+			}
+		}
+		return false;
 	}
 	
 	/**
