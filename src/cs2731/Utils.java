@@ -239,13 +239,11 @@ public class Utils
 			while(documentInput.hasNext()) {
 				inputLine = documentInput.nextLine().trim();
 				if(questionSectionFlag && inputLine.startsWith("<")) 
-					questions += inputLine.substring(inputLine.indexOf(">") + 2) + "\n";
+					questions += inputLine.substring(inputLine.indexOf(">") + 2).replaceAll("[.,!?]", "") + "." + "\n";
 				else if(inputLine.startsWith("<QUESTIONS>"))
 					questionSectionFlag = true;
 				else if(inputLine.trim().length() > 0) {
-					if(lineCounter < 3) 
-						inputLine += ".";
-					sentences += inputLine + "\n";
+					sentences += inputLine.replaceAll("[.,!?]", "") + "?"  + "\n";
 				}
 				lineCounter++;
 			}
@@ -258,13 +256,13 @@ public class Utils
 				answerInput.nextLine();
 				answerInput.nextLine();
 				inputLine = answerInput.nextLine();
-				tempAnswers.add(inputLine.substring(inputLine.indexOf(">") + 1).trim());
+				tempAnswers.add(inputLine.substring(inputLine.indexOf(">") + 1).trim().replaceAll("[.,!?]", "") + "?");
 				answerInput.nextLine();
 				inputLine = answerInput.nextLine();
 			}
 			String [] tempArray = new String [tempAnswers.size()];
 			tempAnswers.toArray(tempArray);
-			tempData.add(new TrainingFileData(sentences, questions, tempArray));
+			tempData.add(new TrainingFileData(filename, sentences, questions, tempArray));
 		}
 		TrainingFileData [] tempDataArray = new TrainingFileData[tempData.size()];
 		tempData.toArray(tempDataArray);
