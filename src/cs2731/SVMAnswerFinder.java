@@ -68,7 +68,12 @@ public class SVMAnswerFinder implements AnswerFinder {
 	    Annotation questionAnno;
 	    int rawWordMatch = 0;
 	    int maxWordMatch = 0;
+	    int rawVerbMatch = 0;
+	    int maxVerbMatch = 0;
+	    int questionCounter = 0;
 	    double [][] X;
+	    double [] Y;
+	    ArrayList<Double> tempY = new ArrayList<Double>();
 	    ArrayList<double []> tempX = new ArrayList<double []>();
 	    ArrayList<double []> unDiffed = new ArrayList<double []>();
 	    double [] tempDataPoint;
@@ -115,36 +120,61 @@ public class SVMAnswerFinder implements AnswerFinder {
 			System.out.println("");
 		}
 		*/
-	   
+	
 	    for(TrainingFileData dataFile : trainingData) {
 	    	questionAnno = new Annotation(dataFile.questions);
 	    	sentenceAnno = new Annotation(dataFile.document);
 	    	pipeline.annotate(questionAnno);
 	    	pipeline.annotate(sentenceAnno);
-	    	
+	    	questionCounter = 0;
 	    	//Possibly strip the sentences of punctuation????
+	    	//Did it!
 	    	for(CoreMap question: questionAnno.get(SentencesAnnotation.class)) {
 	    		maxWordMatch = 0;
+	    		maxVerbMatch = 0;
 	    		for(CoreMap sentence: sentenceAnno.get(SentencesAnnotation.class)) {
+	    			String [] multipleAnswers = dataFile.answerMap[questionCounter].split("-OR-");
+    				double label = -1.0;
+    				for(String anAnswer : multipleAnswers) {
+    					if(anAnswer.trim().equals(sentence.toString().trim()))
+		    				label = 1.0;
+    				}
+    				tempY.add(label);
+    				
 	    			rawWordMatch = 0;
+	    			rawVerbMatch = 0;
+	    			
 	    			for (CoreLabel questionToken: question.get(TokensAnnotation.class)) {
 	    				String questionLemma = questionToken.get(LemmaAnnotation.class).toLowerCase();
+	    				String questionPOS = questionToken.get(PartOfSpeechAnnotation.class);
 	    				for (CoreLabel sentenceToken: sentence.get(TokensAnnotation.class)) {
 	    					String sentenceLemma = sentenceToken.get(LemmaAnnotation.class).toLowerCase();
-	    					if(questionLemma.equals(sentenceLemma))
+	    					String sentencePOS = sentenceToken.get(PartOfSpeechAnnotation.class);
+	    					if(questionLemma.equals(sentenceLemma)) {
 	    						rawWordMatch++;
+	    						if(questionPOS.startsWith("VB") && sentencePOS.startsWith("VB") && !questionLemma.equals("be") && !questionLemma.equals("do") && !questionLemma.equals("have")) 
+	    							rawVerbMatch++;
+	    					}		
 	    				}
 	    			}
 	    			if(rawWordMatch > maxWordMatch)
     					maxWordMatch = rawWordMatch;
-    				tempDataPoint = new double [1];
+	    			if(rawVerbMatch > maxVerbMatch)
+    					maxVerbMatch = rawVerbMatch;
+    				tempDataPoint = new double [2];
     				tempDataPoint[0] = rawWordMatch;
+    				tempDataPoint[1] = rawVerbMatch;
     				unDiffed.add(tempDataPoint);
 		    	}
+	    		questionCounter++;
 	    		int size = unDiffed.size();
 	    		for(int q = 0; q < size; q++) {
-	    			tempDataPoint = new double[1];
+	    			tempDataPoint = new double[2];
 	    			tempDataPoint[0] = maxWordMatch - unDiffed.get(0)[0];
+	    			if(maxVerbMatch == 0)
+	    				tempDataPoint[1] = 200;
+	    			else
+	    				tempDataPoint[1] = maxVerbMatch - unDiffed.get(0)[1];
 	    			tempX.add(tempDataPoint);
 	    			unDiffed.remove(0);
 	    		}
@@ -153,12 +183,17 @@ public class SVMAnswerFinder implements AnswerFinder {
 
 	    X = new double[tempX.size()][1];
 		tempX.toArray(X);
+		Y = new double[tempY.size()];
+		for(int q=0; q < Y.length; q++) 
+			Y[q] = tempY.get(q);
+		
 		for(int i = 0; i < X.length; i++) {
 			for(int j = 0; j < X[0].length; j++) {
 				System.out.print(X[i][j] + " ");
 			}
-			System.out.println("");
+			System.out.println(" | " + Y[i]);
 		}
+	
 	    /*
 	    //This code makes me want to cry vomit from my mouth
 		ArrayList<ArrayList<Answer>> trainingAnswers = Utils.extractAnswers(answerKey);
