@@ -28,8 +28,12 @@ public class DeanQA
 	static List<String> document;
 	static List<String> questions;
 	static List<Guess> answers;
+
+        static Preprocessor preprocessor;
 	
-	private DeanQA() {}
+	private DeanQA() {
+            
+        }
 	
 
 	/**
@@ -60,6 +64,20 @@ public class DeanQA
 		}
 		
 		input.close();
+
+                // preprocess story before answering questions
+                // debug:
+                System.out.println("debug: orig doc: "+document.toString());
+                System.out.println("debug: orig numsents: "+document.size()+"\n");
+                int origLen = document.size();
+                preprocessDocument();
+                System.out.println("debug: new doc: "+document.toString());
+                System.out.println("debug: new numsents: "+document.size()+"\n");
+                int newLen = document.size();
+                if (origLen != newLen) {
+                    System.out.println("DERP! origLen != newLen !!!");
+                }
+
 	}
 	
 	/**
@@ -131,7 +149,7 @@ public class DeanQA
 			List<Guess> guesses = new ArrayList<Guess>();
 
 			guesses.addAll(oracle.getAnswerLines(document, question));
-			//guesses.addAll(oracleNER.getAnswerLines(document, question));
+			guesses.addAll(oracleNER.getAnswerLines(document, question));
 
 			// combine probabilities from multiple oracles
 			guesses = combineGuesses(guesses);
@@ -192,7 +210,9 @@ public class DeanQA
 	 * such as coreference resolution.
 	 */
 	private static void preprocessDocument() {
-		
+
+            document = preprocessor.resolveMentions(document);
+
 	}
 	
 	/**
@@ -202,6 +222,7 @@ public class DeanQA
 	 */
 	private static void initializeModels() {
 		NamedEntityService.getInstance();	// loads the model
+                preprocessor = new Preprocessor();
 	}
 	
 	/**

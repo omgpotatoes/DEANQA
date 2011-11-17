@@ -40,13 +40,15 @@ public class RandomNameAnswerFinder implements AnswerFinder {
     private Random rand;
 
     // NER classifier
-    private AbstractSequenceClassifier classifier;
+    private static AbstractSequenceClassifier classifier = null;
 
 
     public RandomNameAnswerFinder() {
 
         rand = new Random();
-        classifier = CRFClassifier.getClassifierNoExceptions(MODEL_PATH);
+        if (classifier == null) {
+            classifier = CRFClassifier.getClassifierNoExceptions(MODEL_PATH);
+        }
 
     }
 
