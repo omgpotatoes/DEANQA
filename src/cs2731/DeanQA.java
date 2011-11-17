@@ -201,7 +201,7 @@ public class DeanQA
 	 * such as load models, classifiers, etc.
 	 */
 	private static void initializeModels() {
-		NamedEntityService.getInstance();	// loads the model
+		//NamedEntityService.getInstance();	// loads the model
 	}
 	
 	/**
