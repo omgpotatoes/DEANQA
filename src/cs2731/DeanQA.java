@@ -3,6 +3,7 @@
 package cs2731;
 
 import cs2731.ner.RandomNameAnswerFinder;
+import java.util.Map;
 import cs2731.ner.NamedEntityService;
 import java.util.List;
 import java.io.File;
@@ -138,6 +139,7 @@ public class DeanQA
 	private static void answerQuestions(String input) throws IOException {
 		answers = new ArrayList<Guess>();
 		AnswerFinder oracle = new BagOfWordsAnswerFinder();
+		AnswerFinder oracleLemma = new BagOfLemmasAnswerFinder();
 		AnswerFinder oracleNER = new RandomNameAnswerFinder();
 		
 		// for each question get a list of possible answers
@@ -149,6 +151,7 @@ public class DeanQA
 			List<Guess> guesses = new ArrayList<Guess>();
 
 			guesses.addAll(oracle.getAnswerLines(document, question));
+			guesses.addAll(oracleLemma.getAnswerLines(document, question));
 			guesses.addAll(oracleNER.getAnswerLines(document, question));
 
 			// combine probabilities from multiple oracles
@@ -178,15 +181,13 @@ public class DeanQA
 	 */
 	static List<Guess> combineGuesses(List<Guess> guesses) {
 
-		HashMap<Integer, Double> guessMap = new HashMap<Integer, Double>();
+		Map<Integer, Double> guessMap = new HashMap<Integer, Double>();
 
 		for (Guess guess : guesses) {
-
 			if (!guessMap.containsKey(guess.getLine())) {
 				guessMap.put(guess.getLine(), 0.0);
 			}
 			guessMap.put(guess.getLine(), guessMap.get(guess.getLine()) + guess.getProb());
-
 		}
 
 		List<Guess> combinedGuesses = new ArrayList<Guess>();
@@ -195,7 +196,6 @@ public class DeanQA
 		}
 
 		return combinedGuesses;
-
 	}
 
 	static void printUsage() {

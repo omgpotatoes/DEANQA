@@ -15,6 +15,8 @@ PACKAGE = cs2731
 # classpath
 CP = $(LIB_DIR)/*:$(CLASSPATH)
 
+#BUILDFLAGS = -Xlint:unchecked
+BUILDFLAGS =
 DEBUGFLAGS = -g -ea
 RUNFLAGS = 
 
@@ -23,7 +25,7 @@ ARGS = $(RES_DIR)/input-train.txt output.txt
 
 #.SUFFIXES: .java .class
 
-.PHONY : all clean
+.PHONY : all clean build
 
 #=============================
 #  build targets  
@@ -36,7 +38,7 @@ all: build
 
 build:
 	if [ ! -d bin ]; then mkdir bin; fi
-	$(JAVAC) -sourcepath $(SRC_DIR) -d $(BIN_DIR) -cp $(CP) src/$(PACKAGE)/$(MAIN).java
+	$(JAVAC) -sourcepath $(SRC_DIR) -d $(BIN_DIR) -cp $(CP) $(BUILDFLAGS) src/$(PACKAGE)/$(MAIN).java
 
 run: build
 	java -cp $(BIN_DIR):$(CP) $(RUNFLAGS) $(PACKAGE).$(MAIN) $(ARGS)
