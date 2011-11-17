@@ -2,6 +2,7 @@
 
 package cs2731;
 
+import cs2731.ner.RandomNameAnswerFinder;
 import java.util.Map;
 import cs2731.ner.NamedEntityService;
 import java.util.List;
@@ -119,8 +120,8 @@ public class DeanQA
 	 */
 	private static void answerQuestions(String input) throws IOException {
 		answers = new ArrayList<Guess>();
-//		AnswerFinder oracle = new BagOfWordsAnswerFinder();
-		AnswerFinder oracle = new BagOfLemmasAnswerFinder();
+		AnswerFinder oracle = new BagOfWordsAnswerFinder();
+		AnswerFinder oracleLemma = new BagOfLemmasAnswerFinder();
 //		AnswerFinder oracleNER = new RandomNameAnswerFinder();
 		
 		// for each question get a list of possible answers
@@ -132,7 +133,8 @@ public class DeanQA
 			List<Guess> guesses = new ArrayList<Guess>();
 
 			guesses.addAll(oracle.getAnswerLines(document, question));
-			//guesses.addAll(oracleNER.getAnswerLines(document, question));
+			guesses.addAll(oracleLemma.getAnswerLines(document, question));
+//			guesses.addAll(oracleNER.getAnswerLines(document, question));
 
 			// combine probabilities from multiple oracles
 			guesses = combineGuesses(guesses);

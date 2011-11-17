@@ -17,6 +17,8 @@ import static cs2731.ner.NamedEntityType.*;
 
 public class Utils
 {
+	private Utils() {}
+	
 	public static final Set<Character> punctuationSet = new HashSet<Character>(Arrays.asList(',','.','!','?',':',';','\''));
 
 	public static boolean containsOnlyWhitespace(String str) {

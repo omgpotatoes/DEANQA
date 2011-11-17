@@ -2,6 +2,7 @@
 package cs2731.ner;
 
 import cs2731.AnswerFinder;
+import cs2731.CoreProcessor;
 import cs2731.Guess;
 import cs2731.Options;
 import cs2731.Utils;
@@ -19,22 +20,22 @@ import static cs2731.Utils.*;
 public class NameAnswerFinder implements AnswerFinder
 {
 
-	private Options options;
 	private NamedEntityService nerService;
 	
-	private boolean doStemming;
 	private boolean ignoreCase;
+	private boolean ignorePunctuation;
+//	private CoreProcessor coreProcessor;
 	
 	public NameAnswerFinder() {
 		this(Options.getDefaultOptions()); 
 	}
 	
 	public NameAnswerFinder(Options options) {
-		this.options = options;
 		ignoreCase = options.get(Options.IGNORE_CASE);
-		doStemming = options.get(Options.LEMMATIZE);
+		ignorePunctuation = options.get(Options.IGNORE_PUNCTUATION);
 		
 		nerService = NamedEntityService.getInstance();
+//		coreProcessor = CoreProcessor.getInstance();
 	}
 	
 	/**
@@ -58,19 +59,13 @@ public class NameAnswerFinder implements AnswerFinder
 		for (String line : document) {
 			lineNum++;
 			if (containsOnlyWhitespace(line)) { continue; }
-			
-			if (ignoreCase) {
-				line = line.toLowerCase();
-			}
-			
-			// TODO: perform stemming on each word in the line:
-			if (doStemming) {
-				
-			}
+//			if (ignoreCase) {
+//				line = line.toLowerCase();
+//			}
 			
 			int score = 0;
 			EnumSet<NamedEntityType> entityTypes = nerService.getNamedEntityTypes(line);
-
+			
 			// perform the set intersection
 			entityTypes.retainAll(targetSet);
 			score += entityTypes.size();

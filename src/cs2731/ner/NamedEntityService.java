@@ -25,11 +25,9 @@ public class NamedEntityService
 	private static final String MODEL_PATH = "lib/muc.7class.distsim.crf.ser.gz";
 	private AbstractSequenceClassifier<CoreLabel> classifier;
 	
-//	private static NamedEntityService instance;
 	private static SoftReference<NamedEntityService> instance;
 	
 	static {
-//		instance = new NamedEntityService();
 		instance = new SoftReference<NamedEntityService>(null);
 	}
 	
@@ -43,11 +41,6 @@ public class NamedEntityService
 	 * @return 
 	 */
 	public static NamedEntityService getInstance() {
-//		if (instance == null) {
-//			instance = new NamedEntityService();
-//		}
-//		return instance;
-//		
 		NamedEntityService service = instance.get();
 		if (service == null) {
 			instance = new SoftReference<NamedEntityService>(new NamedEntityService());
@@ -60,7 +53,6 @@ public class NamedEntityService
 	 * 
 	 */
 	static void dispose() {
-//		instance = null;
 		instance.clear();
 	}
 	

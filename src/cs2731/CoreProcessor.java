@@ -1,7 +1,9 @@
 package cs2731;
 
+import cs2731.ner.NamedEntityType;
 import edu.stanford.nlp.ling.CoreAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
+import edu.stanford.nlp.ling.CoreAnnotations.NamedEntityTagAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
 import edu.stanford.nlp.ling.CoreLabel;
@@ -9,6 +11,7 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import java.lang.ref.SoftReference;
+import java.util.EnumSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
@@ -96,6 +99,23 @@ public class CoreProcessor
 			}
 		}
 		return list;
+	}
+	
+	/**
+	 * 
+	 * @param list
+	 * @return 
+	 */
+	public static EnumSet<NamedEntityType> getNamedEntities(List<CoreMap> list) {
+		EnumSet<NamedEntityType> types = EnumSet.noneOf(NamedEntityType.class);
+		for (CoreMap sentence : list) {
+			for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
+				if (token.has(NamedEntityTagAnnotation.class)) {
+					types.add(NamedEntityType.getTypeFromString(token.get(NamedEntityTagAnnotation.class)));
+				}
+			}
+		}
+		return types;
 	}
 
 	public static void main(String[] args) {
