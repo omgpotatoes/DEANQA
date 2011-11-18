@@ -1,40 +1,37 @@
 
-package cs2731.ner;
+package cs2731;
 
-import cs2731.AnswerFinder;
-import cs2731.CoreProcessor;
-import cs2731.Guess;
-import cs2731.Options;
-import cs2731.Utils;
-import java.util.EnumSet;
+import cs2731.ner.NamedEntityService;
+import cs2731.ner.NamedEntityType;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
 import static cs2731.Utils.*;
+import static cs2731.QuestionType.*;
 
 /**
  * Implements a simple bag-of-words model to predict answers
  * @author ylegall
  */
-public class NameAnswerFinder implements AnswerFinder
+public class QuestionTypeAnswerFinder implements AnswerFinder
 {
-
 	private boolean ignoreCase;
 	private boolean ignorePunctuation;
 	private CoreProcessor coreProcessor;
 	private NamedEntityService nerService;
 	
-	public NameAnswerFinder() {
+	public QuestionTypeAnswerFinder() {
 		this(Options.getDefaultOptions()); 
 	}
 	
-	public NameAnswerFinder(Options options) {
+	public QuestionTypeAnswerFinder(Options options) {
 		ignoreCase = options.get(Options.IGNORE_CASE);
 		ignorePunctuation = options.get(Options.IGNORE_PUNCTUATION);
 		
 //		nerService = NamedEntityService.getInstance();
-		coreProcessor = CoreProcessor.getInstance();
+//		coreProcessor = CoreProcessor.getInstance();
 	}
 	
 	/**
@@ -62,14 +59,19 @@ public class NameAnswerFinder implements AnswerFinder
 //				line = line.toLowerCase();
 //			}
 			
-			int score = 0;
+			double score = 0;
 //			EnumSet<NamedEntityType> types = nerService.getNamedEntityTypes(line);
-			EnumSet<NamedEntityType> types = coreProcessor.getNamedEntities(line);
+//			EnumSet<NamedEntityType> types = coreProcessor.getNamedEntities(line);
+			
+			// get the set of possible question types
+			String splitString = (ignorePunctuation)? "\\W+" : "\\s+";
+			if (ignoreCase) { question = question.toLowerCase(); }
+			Set<QuestionType> types = getQuestionTypes(Arrays.asList(line.split(splitString)));
 			
 			// perform the set intersection
-			types.retainAll(targetSet);
-			score += types.size();
-			
+			int maxCorrect = targetSet.size();
+			targetSet.retainAll(types);
+			score = 1.0 / ( maxCorrect - targetSet.size() + 1);
 
 			// add the total
 			scores.add(new Guess(score, lineNum));

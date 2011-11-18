@@ -77,12 +77,21 @@ public class CoreProcessor
 	}
 	
 	/**
-	 * get the lemma annotations corresponding to the list of coremap
-	 * @param sentences
+	 * 
+	 * @param docString
 	 * @return 
 	 */
-	public static List<String> getLemmas(List<CoreMap> sentences) {
-		return getAnnotations(LemmaAnnotation.class, sentences);
+	public List<String> getLemmas(String docString) {
+		return getAnnotations(LemmaAnnotation.class, annotateDocument(docString));
+	}
+	
+	/**
+	 * 
+	 * @param docString
+	 * @return 
+	 */
+	public EnumSet<NamedEntityType> getNamedEntities(String docString) {
+		return getNamedEntities(annotateDocument(docString));
 	}
 	
 	/**
