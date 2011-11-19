@@ -2,8 +2,10 @@ package cs2731;
 
 import cs2731.ner.NamedEntityType;
 import edu.stanford.nlp.ling.CoreAnnotation;
+import edu.stanford.nlp.ling.CoreAnnotations.LabelAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.NamedEntityTagAnnotation;
+import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
 import edu.stanford.nlp.ling.CoreLabel;
@@ -119,17 +121,45 @@ public class CoreProcessor
 		EnumSet<NamedEntityType> types = EnumSet.noneOf(NamedEntityType.class);
 		for (CoreMap sentence : list) {
 			for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
-				if (token.has(NamedEntityTagAnnotation.class)) {
-					types.add(NamedEntityType.getTypeFromString(token.get(NamedEntityTagAnnotation.class)));
+				NamedEntityType type = NamedEntityType.getTypeFromString(token.ner());
+				if (type != null) {
+					types.add(type);
 				}
+//				if (token.has(NamedEntityTagAnnotation.class)) {
+////					types.add(NamedEntityType.getTypeFromString(token.get(NamedEntityTagAnnotation.class)));
+//					types.add(NamedEntityType.getTypeFromString(token.ner()));
+//				}
 			}
 		}
 		return types;
+	}
+	
+	/**
+	 * Gets the lemmas for only the verbs in the specified list of tokens
+	 * @param list
+	 * @return 
+	 */
+	public static List<String> getVerbLemmas(List<CoreMap> list) {
+		List<String> verbs = new LinkedList<String>();
+		for (CoreMap map : list) {
+			for (CoreLabel token : map.get(TokensAnnotation.class)) {
+				if (token.has(NamedEntityTagAnnotation.class)) {
+					String str = token.get(PartOfSpeechAnnotation.class);
+					if (Utils.isVerbPOS(str)) {
+//						verbs.add(token.get(LemmaAnnotation.class));
+						verbs.add(token.lemma());
+//						verbs.add(token.word());
+					}
+				}
+			}
+		}
+		return verbs;
 	}
 
 	public static void main(String[] args) {
 		CoreProcessor tp = CoreProcessor.getInstance();
 		String line = "Bill goes to school at Stanford University. He lives in California.";
-		tp.annotateDocument(line);
+		List<CoreMap> list = tp.annotateDocument(line);
+		System.out.println(CoreProcessor.getVerbLemmas(list));
 	}
 }

@@ -21,9 +21,7 @@ public class NameAnswerFinder implements AnswerFinder
 {
 
 	private boolean ignoreCase;
-	private boolean ignorePunctuation;
 	private CoreProcessor coreProcessor;
-	private NamedEntityService nerService;
 	
 	public NameAnswerFinder() {
 		this(Options.getDefaultOptions()); 
@@ -31,9 +29,7 @@ public class NameAnswerFinder implements AnswerFinder
 	
 	public NameAnswerFinder(Options options) {
 		ignoreCase = options.get(Options.IGNORE_CASE);
-		ignorePunctuation = options.get(Options.IGNORE_PUNCTUATION);
 		
-//		nerService = NamedEntityService.getInstance();
 		coreProcessor = CoreProcessor.getInstance();
 	}
 	
@@ -58,18 +54,13 @@ public class NameAnswerFinder implements AnswerFinder
 		for (String line : document) {
 			lineNum++;
 			if (containsOnlyWhitespace(line)) { continue; }
-//			if (ignoreCase) {
-//				line = line.toLowerCase();
-//			}
 			
 			int score = 0;
-//			EnumSet<NamedEntityType> types = nerService.getNamedEntityTypes(line);
 			EnumSet<NamedEntityType> types = coreProcessor.getNamedEntities(line);
 			
 			// perform the set intersection
 			types.retainAll(targetSet);
 			score += types.size();
-			
 
 			// add the total
 			scores.add(new Guess(score, lineNum));

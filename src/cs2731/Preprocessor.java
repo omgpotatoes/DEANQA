@@ -54,6 +54,7 @@ public class Preprocessor {
         for (int s=0; s<sentencesOrig.size(); s++) {
             String thisSentOrig = sentencesOrig.get(s).trim();
             // if no proper ending char, add one so that stanford doesn't mangle sentence splits
+			// TODO: could we just use "endsWith" below?
             if (thisSentOrig.length() > 3 &&
                     (!thisSentOrig.substring(thisSentOrig.length()-1).equals(".") &&
                     !thisSentOrig.substring(thisSentOrig.length()-1).equals("!") &&

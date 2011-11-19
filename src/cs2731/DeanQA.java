@@ -1,5 +1,6 @@
 package cs2731;
 
+import cs2731.ner.NameAnswerFinder;
 import cs2731.ner.RandomNameAnswerFinder;
 import java.util.Map;
 import cs2731.ner.NamedEntityService;
@@ -134,9 +135,11 @@ public class DeanQA
 	private static void answerQuestions(String input) throws IOException {
 		answers = new ArrayList<Guess>();
 		AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
+		AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
 		AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
 		AnswerFinder oracleNER = new RandomNameAnswerFinder();
-//		AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
+		AnswerFinder nameFinder = new NameAnswerFinder();
+		AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
 
 		// for each question get a list of possible answers
 		List<Guess> guesses = new ArrayList<Guess>();
@@ -147,11 +150,12 @@ public class DeanQA
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
 
-
 			guesses.addAll(bowFinder.getAnswerLines(document, question));
 			guesses.addAll(lemmaFinder.getAnswerLines(document, question));
 			guesses.addAll(oracleNER.getAnswerLines(document, question));
-//			guesses.addAll(qtFinder.getAnswerLines(document, question));
+			guesses.addAll(qtFinder.getAnswerLines(document, question));
+			guesses.addAll(verbFinder.getAnswerLines(document, question));
+			guesses.addAll(nameFinder.getAnswerLines(document, question));
 
 			// combine probabilities from multiple oracles
 			guesses = combineGuesses(guesses);
