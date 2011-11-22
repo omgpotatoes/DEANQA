@@ -135,6 +135,11 @@ public class Preprocessor {
 
             }
 
+            int totalNewTokens = 0;
+            for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
+                totalNewTokens++;
+            }
+
             // find poss match which matches most tokens
             int bestMatchIndex = 0;
             int bestMatchCount = 0;
@@ -151,7 +156,10 @@ public class Preprocessor {
             origIndex += (bestMatchIndex - maxDist);
 
             // debug
-            System.out.println("debug: mapping newSent "+newIndex+", \""+sentencesNew.get(newIndex)+"\" to oldSent "+origIndex+", \""+sentencesOrig.get(origIndex));
+            //System.out.println("debug: mapping newSent "+newIndex+", \""+sentencesNew.get(newIndex)+"\" to oldSent "+origIndex+", \""+sentencesOrig.get(origIndex));
+            if ((float)bestMatchCount / (float)totalNewTokens < 0.75f) {
+                System.out.println("debug: poor mapping: newSent "+newIndex+", \""+sentencesNew.get(newIndex)+"\" to oldSent "+origIndex+", \""+sentencesOrig.get(origIndex));
+            }
 
             newToOrigMap.put(newIndex, origIndex);
 
@@ -185,7 +193,13 @@ public class Preprocessor {
 
                     int origSentNum = newToOrigMap.get(corefMention.sentNum-1);
                     String sent = sentencesOrig.remove(origSentNum);
-                    sent = sent.replace(" "+corefMention.mentionSpan+" ", " "+repMention+" ");
+                    try {
+                        sent = sent.replaceFirst(" "+corefMention.mentionSpan+" ", " "+repMention+" ");
+                    } catch (IllegalArgumentException e) {
+                        // "corefMention.mentionSpan" contained an illegal regexp (probably a special char)
+                        // just replace all char matches if regexp replacement fails
+                        sent = sent.replace(" "+corefMention.mentionSpan+" ", " "+repMention+" ");
+                    }
                     sentencesOrig.add(origSentNum, sent);
 
                 }
@@ -273,6 +287,24 @@ public class Preprocessor {
         System.out.println("graph="+graph.toString());
 
     }
+    
+	public static String removePunct(String origStr) {
+		String newStr = origStr;
+		newStr = newStr.replace(".", " ");
+		newStr = newStr.replace("?", " ");
+		newStr = newStr.replace("!", " ");
+		newStr = newStr.replace(",", " ");
+		newStr = newStr.replace("'", " ");
+		newStr = newStr.replace("\"", " ");
+		newStr = newStr.replace(";", " ");
+		newStr = newStr.replace(":", " ");
+		newStr = newStr.replace("(", " ");
+		newStr = newStr.replace(")", " ");
+		newStr = newStr.replace("-", " ");
+		newStr = newStr.replace("/", " ");
+		newStr = newStr.replace("/", " ");
+		return newStr;
+	}
 
 
     // for testing only!

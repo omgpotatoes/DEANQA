@@ -64,12 +64,14 @@ public class DeanQA
 
 		// preprocess story before answering questions
 		// debug:
-		System.out.println("debug: orig doc: " + document.toString());
-		System.out.println("debug: orig numsents: " + document.size() + "\n");
+		//System.out.println("debug: orig doc: " + document.toString());
+		//System.out.println("debug: orig numsents: " + document.size() + "\n");
 		int origLen = document.size();
 		preprocessDocument();
-		System.out.println("debug: new doc: " + document.toString());
-		System.out.println("debug: new numsents: " + document.size() + "\n");
+		StopwordRemover swRem = new StopwordRemover();
+		swRem.removeStopwordsFromDocument(document);
+		//System.out.println("debug: new doc: " + document.toString());
+		//System.out.println("debug: new numsents: " + document.size() + "\n");
 		int newLen = document.size();
 		if (origLen != newLen) {
 			System.out.println("DERP! origLen != newLen !!!");
@@ -137,34 +139,37 @@ public class DeanQA
 		AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
 		AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
 		AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
-		AnswerFinder oracleNER = new RandomNameAnswerFinder();
+		AnswerFinder nerFinder = new RandomNameAnswerFinder();
 		AnswerFinder nameFinder = new NameAnswerFinder();
 		AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
+		AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
+		QuestionExpander qExp = new QuestionExpander();
 
 		// for each question get a list of possible answers
 		List<Guess> guesses = new ArrayList<Guess>();
 		for (String question : questions) {
 
 			guesses.clear();
+			
+			// expand question with synonyms according to wordnet?
+			question = qExp.addSynwordsToQuestion(question);
 
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
 
 			guesses.addAll(bowFinder.getAnswerLines(document, question));
 			guesses.addAll(lemmaFinder.getAnswerLines(document, question));
-			guesses.addAll(oracleNER.getAnswerLines(document, question));
+			guesses.addAll(nerFinder.getAnswerLines(document, question));
 			guesses.addAll(qtFinder.getAnswerLines(document, question));
 			guesses.addAll(verbFinder.getAnswerLines(document, question));
 			guesses.addAll(nameFinder.getAnswerLines(document, question));
+			guesses.addAll(tfidfFinder.getAnswerLines(document, question));
 
 			// combine probabilities from multiple oracles
 			guesses = combineGuesses(guesses);
 
 			Collections.sort(guesses);
 			Collections.reverse(guesses);
-
-			// TODO select the best answer for this question from the list
-			// for now just pick the first guess:
 			answers.add(guesses.get(0));
 
 //			answers.addAll(guesses);
