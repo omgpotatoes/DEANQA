@@ -224,7 +224,7 @@ public class DeanQA
 		NamedEntityService.getInstance();	// loads the model
 		NamedEntityService.getInstance();	// loads the model
                 preprocessor = new Preprocessor();
->>>>>>> b1479f6a84e34261583b2bd500985676c7108407
+
 	}
 	
 	/**
