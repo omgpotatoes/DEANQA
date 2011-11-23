@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import libsvm.*;
+import weka.core.Attribute;
+
 import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.NamedEntityTagAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
@@ -24,8 +25,7 @@ import edu.stanford.nlp.util.CoreMap;
  */
 public class SVMAnswerFinder implements AnswerFinder {
 
-	/** Parameter object for the SVM model parameters */
-	private svm_parameter param;
+	private SVMData data;
 	
     /**
 	 * Constructor that takes the training data folder path and the answer file path as 
@@ -43,7 +43,7 @@ public class SVMAnswerFinder implements AnswerFinder {
 		if (trainingQuestionFiles == null) {
 		    System.err.println("This folder does not exisit or is not a directory.");
 		} else {
-			SVMData data = extractData(trainingQuestionFiles, trainingAnswersFile);
+			data = extractData(trainingQuestionFiles, trainingAnswersFile);
 		}
 	}
 
@@ -59,8 +59,9 @@ public class SVMAnswerFinder implements AnswerFinder {
 	 */
 	private SVMData extractData(File[] documents, File answerKey) throws FileNotFoundException {
 		
-		TrainingFileData [] trainingData = Utils.extractAllDataFromFile(documents, answerKey);
+		//WEKA STARTS HERE
 		
+		TrainingFileData [] trainingData = Utils.extractAllDataFromFile(documents, answerKey);
 		Properties props = new Properties();
 	    props.put("annotators", "tokenize, ssplit, pos, lemma");
 	    StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
@@ -77,49 +78,6 @@ public class SVMAnswerFinder implements AnswerFinder {
 	    ArrayList<double []> tempX = new ArrayList<double []>();
 	    ArrayList<double []> unDiffed = new ArrayList<double []>();
 	    double [] tempDataPoint;
-
-	    /*
-    	System.out.println(trainingData[0].document.substring(0, 10));
-    	questionAnno = new Annotation(trainingData[0].questions);
-    	sentenceAnno = new Annotation(trainingData[0].document);
-    	pipeline.annotate(questionAnno);
-    	pipeline.annotate(sentenceAnno);
-    	int flag = 0;
-    	
-    	for(CoreMap question: questionAnno.get(SentencesAnnotation.class)) {
-    		for(CoreMap sentence: sentenceAnno.get(SentencesAnnotation.class)) {
-    			rawWordMatch = 0;
-    			for (CoreLabel questionToken: question.get(TokensAnnotation.class)) {
-    				String questionLemma = questionToken.get(LemmaAnnotation.class);
-    				for (CoreLabel sentenceToken: sentence.get(TokensAnnotation.class)) {
-    					String sentenceLemma = sentenceToken.get(LemmaAnnotation.class);
-    					System.out.print(sentenceLemma + " ");
-    					if(questionLemma.equals(sentenceLemma))
-    						rawWordMatch++;
-    				}
-    				System.out.println("");
-    			}
-				if(rawWordMatch > maxWordMatch)
-					maxWordMatch = rawWordMatch;
-				tempDataPoint = new double [1];
-				tempDataPoint[0] = rawWordMatch;
-				System.out.println(rawWordMatch);
-				if(flag == 0)
-					tempX.add(tempDataPoint);
-	    	}
-    		flag++;
-    	}
-    	
-	    X = new double[tempX.size()][1];
-		tempX.toArray(X);
-		
-		for(int i = 0; i < X.length; i++) {
-			for(int j = 0; j < X[0].length; j++) {
-				System.out.print(X[i][j] + " ");
-			}
-			System.out.println("");
-		}
-		*/
 	
 	    for(TrainingFileData dataFile : trainingData) {
 	    	questionAnno = new Annotation(dataFile.questions);
@@ -189,62 +147,15 @@ public class SVMAnswerFinder implements AnswerFinder {
 		
 		for(int i = 0; i < X.length; i++) {
 			for(int j = 0; j < X[0].length; j++) {
-				System.out.print(X[i][j] + " ");
+				//System.out.print(X[i][j] + " ");
 			}
-			System.out.println(" | " + Y[i]);
+			//System.out.println(" | " + Y[i]);
 		}
-	
-	    /*
-	    //This code makes me want to cry vomit from my mouth
-		ArrayList<ArrayList<Answer>> trainingAnswers = Utils.extractAnswers(answerKey);
-		ArrayList<ArrayList<Sentence>> documentSentences = Utils.extractSentences(documents);
-		ArrayList<ArrayList<Question>> trainingQuestions = Utils.extractQuestions(documents); 
-		
-		for(ArrayList<Question> questionSet : trainingQuestions) {
-			for(ArrayList<Sentence> document: documentSentences) {
-				for(Question question: questionSet) {
-					questionAnno = new Annotation(question.questionText);
-					pipeline.annotate(questionAnno);
-					questionCore = questionAnno.get(SentencesAnnotation.class).get(0);
-					for(Sentence sentence : document) {
-						//System.out.println(sentence);
-						sentenceAnno = new Annotation(sentence.sentenceText);
-						pipeline.annotate(sentenceAnno);
-					    sentenceCore = sentenceAnno.get(SentencesAnnotation.class).get(0);
-					    for (CoreLabel questionToken: questionCore.get(TokensAnnotation.class)) {
-					    	String questionPos = questionToken.get(PartOfSpeechAnnotation.class);
-				    		String questionLemma = questionToken.get(LemmaAnnotation.class);
-				    		String questionNer = questionToken.get(NamedEntityTagAnnotation.class);
-					    	for (CoreLabel sentenceToken: sentenceCore.get(TokensAnnotation.class)) {
-					    		//String word = token.get(TextAnnotation.class);
-					    		String sentencePos = sentenceToken.get(PartOfSpeechAnnotation.class);
-					    		String sentenceLemma = sentenceToken.get(LemmaAnnotation.class);
-					    		String sentenceNer = sentenceToken.get(NamedEntityTagAnnotation.class);
-					    	}
-					    }
-					}
-				}
-			}
-		}
-		*/
-		return null;
+
+		return new SVMData(X, Y);
 	}
 
-	/**
-	 * First I'll focus on extracting the data then I'll work on this
-	 * @return
-	 */
-	private svm_model trainModel() {
-		/*
-		 * SVM for classification using the "Nu" model with a Radial Basis Kernel.  These
-		 * all other parameters are set to the default (for now)
-		 */
-		param = new svm_parameter();
-		param.svm_type = svm_parameter.NU_SVC;
-		param.kernel_type = svm_parameter.RBF;
-		//return null for now
-		return null;
-	}
+
 	/** 
 	 * First I'll focus on training the SVM then I'll work on this
 	 * @return
