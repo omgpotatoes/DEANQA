@@ -8,20 +8,20 @@ package cs2731.ner;
  */
 public enum NamedEntityType {
 
-    // possible named entity types
-    TIME,
+	// possible named entity types
+	TIME,
 	LOCATION,
 	ORGANIZATION,
-    PERSON,
+	PERSON,
 	MONEY,
 	PERCENT,
 	DATE;
 
-    @Override
-    public String toString() {
-        return this.name();
-    }
-	
+	@Override
+	public String toString() {
+		return this.name();
+	}
+
 	/**
 	 * Get the named entity type from its string representation
 	 * @param str

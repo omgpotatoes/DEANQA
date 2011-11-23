@@ -10,7 +10,9 @@ import edu.stanford.nlp.ie.crf.CRFClassifier;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.EnumMap;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 import javax.xml.parsers.DocumentBuilder;
@@ -63,22 +65,28 @@ public class RandomNameAnswerFinder implements AnswerFinder {
         for (List<NamedEntity> sentEntityList : docEntityList) {
             EnumMap<NamedEntityType, Integer> entityTypeSent = new EnumMap<NamedEntityType, Integer>(NamedEntityType.class);
             entityTypeSentList.add(entityTypeSent);
+            // we only want to add each mention of an entity once
+            HashMap<String, Integer> prevEntityNames = new HashMap<String, Integer>();
             for (NamedEntity entity : sentEntityList) {
                 NamedEntityType type = entity.getType();
-                if (!entityTypeTotal.containsKey(type)) {
-                    entityTypeTotal.put(type, 0);
+                String entityName = entity.getEntity();
+                if (!prevEntityNames.containsKey(entityName)) {
+                	if (!entityTypeTotal.containsKey(type)) {
+                		entityTypeTotal.put(type, 0);
+                	}
+                	if (!entityTypeSent.containsKey(type)) {
+                		entityTypeSent.put(type, 0);
+                	}
+                	entityTypeTotal.put(type, entityTypeTotal.get(type)+1);
+                	entityTypeSent.put(type, entityTypeSent.get(type)+1);
+                	prevEntityNames.put(entityName, 1);
                 }
-                if (!entityTypeSent.containsKey(type)) {
-                    entityTypeSent.put(type, 0);
-                }
-                entityTypeTotal.put(type, entityTypeTotal.get(type)+1);
-                entityTypeSent.put(type, entityTypeSent.get(type)+1);
             }
         }
 
         // identify type of question
         QuestionType qType = QuestionTypeDetector.getQuestionType(question);
-
+        
         List<Guess> guesses = new ArrayList<Guess>(document.size());
 
         // for particular types of question, compute probability based on
@@ -237,10 +245,12 @@ public class RandomNameAnswerFinder implements AnswerFinder {
 
 
         // debug
-        System.out.println("debug: for question \"" + question + "\", potential sentences:");
+        //System.out.println("debug: for question \"" + question + "\", potential sentences:");
+        Collections.sort(guesses);
+        Collections.reverse(guesses);
         for (Guess guess : guesses) {
             if (guess.getProb() > 1.0/guesses.size()) {
-                System.out.println("debug:\tpotential answer: prob="+guess.getProb()+", sent=\""+document.get(guess.getLine()-1)+"\"");
+                //System.out.println("debug:\tpotential answer: prob="+guess.getProb()+", sent=\""+document.get(guess.getLine()-1)+"\"");
             }
         }
 

@@ -38,9 +38,9 @@ public class BagOfLemmasAnswerFinder implements AnswerFinder
 		
 		// populate a set of question words for quick lookup:
 		Set<String> wordSet = new HashSet<String>();
-		for (String str : CoreProcessor.getLemmas(coreProcessor.annotateDocument(question))) {
+		for (String str : coreProcessor.getLemmas(question)) {
 			if (ignorePunctuation) {
-				if (containsPunctuation(str)) continue;
+				if (containsOnlyPunctuation(str)) continue;
 			}
 			if (ignoreCase) { str = str.toLowerCase(); }
 			wordSet.add(str);
@@ -54,10 +54,10 @@ public class BagOfLemmasAnswerFinder implements AnswerFinder
 			if (containsOnlyWhitespace(line)) { continue; }
 			
 			int score = 0;
-			List<String> tokens = CoreProcessor.getLemmas(coreProcessor.annotateDocument(line));
+			List<String> tokens = coreProcessor.getLemmas(line);
 			for (String token : tokens) {
 				if (ignorePunctuation) {
-					if (containsPunctuation(token)) continue;
+					if (containsOnlyPunctuation(token)) continue;
 				}
 				
 				if (ignoreCase) { token = token.toLowerCase(); }

@@ -39,13 +39,23 @@ public class Utils
 		return true;
 	}
 	
-	public static boolean containsPunctuation(String str) {
+	public static boolean containsOnlyPunctuation(String str) {
 		for (char c : str.toCharArray()) {
-			if (punctuationSet.contains(c)) {
-				return true;
+			if (!punctuationSet.contains(c)) {
+				return false;
 			}
 		}
-		return false;
+		return true;
+	}
+	
+	/**
+	 * returns true if the given annotation corresponds
+	 * to a type of verb
+	 * @param tag
+	 * @return 
+	 */
+	public static boolean isVerbPOS(String tag) {
+		return tag.startsWith("VB");
 	}
 	
 	/**
