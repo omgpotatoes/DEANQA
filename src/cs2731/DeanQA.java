@@ -67,7 +67,7 @@ public class DeanQA
 		//System.out.println("debug: orig doc: " + document.toString());
 		//System.out.println("debug: orig numsents: " + document.size() + "\n");
 		int origLen = document.size();
-		preprocessDocument();
+		//preprocessDocument();
 		StopwordRemover swRem = new StopwordRemover();
 		swRem.removeStopwordsFromDocument(document);
 		//System.out.println("debug: new doc: " + document.toString());
@@ -152,18 +152,18 @@ public class DeanQA
 			guesses.clear();
 			
 			// expand question with synonyms according to wordnet?
-			question = qExp.addSynwordsToQuestion(question);
+			//question = qExp.addSynwordsToQuestion(question);
 
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
 
 			guesses.addAll(bowFinder.getAnswerLines(document, question));
-			guesses.addAll(lemmaFinder.getAnswerLines(document, question));
-			guesses.addAll(nerFinder.getAnswerLines(document, question));
-			guesses.addAll(qtFinder.getAnswerLines(document, question));
-			guesses.addAll(verbFinder.getAnswerLines(document, question));
-			guesses.addAll(nameFinder.getAnswerLines(document, question));
-			guesses.addAll(tfidfFinder.getAnswerLines(document, question));
+			//guesses.addAll(lemmaFinder.getAnswerLines(document, question));
+			//guesses.addAll(nerFinder.getAnswerLines(document, question));
+			//guesses.addAll(qtFinder.getAnswerLines(document, question));
+			//guesses.addAll(verbFinder.getAnswerLines(document, question));
+			//guesses.addAll(nameFinder.getAnswerLines(document, question));
+			//guesses.addAll(tfidfFinder.getAnswerLines(document, question));
 
 			// combine probabilities from multiple oracles
 			guesses = combineGuesses(guesses);
