@@ -1,0 +1,17 @@
+Winnipeg Students form CNN Bureau April 2 , 1999
+
+The big cable news network CNN has opened up a new bureau .
+
+{NonExp_0_Arg1 It 's not in China or Chile -- it 's at a high school in Winnipeg ! NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel The students in Ken Corley 's World Studies class at Sisler High School will be contributing stories to a CNN web site aimed at young people . NonExp_0_Arg2}
+
+This new bureau will join other student sites around the world .
+
+{Exp_0_Arg1 Mary Lou Finlay of CBC Radio 's weeknight program {Exp_0_conn_Synchrony As Exp_0_conn} {Exp_0_Arg2 It Happens Exp_0_Arg2} asked Mr. Corley how he first heard about the idea . Exp_0_Arg1}
+
+{NonExp_1_Arg1 <QUESTIONS> <Q1> Where is CNN opening up a new news bureau ? NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_Cause <Q2> How will the new bureau 's news be shared with the world ? NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_Cause <Q3> Who will write stories for the new bureau ? NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_Contrast <Q4> What did Ms. Finlay ask Mr. Corley ? NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_4_Arg2_Asynchronous {Exp_1_Arg1 <Q5> Exp_1_Arg1} {Exp_1_conn_Synchrony When Exp_1_conn} {Exp_1_Arg2 does Ms. Finlay 's radio program air ? Exp_1_Arg2} NonExp_4_Arg2}
+

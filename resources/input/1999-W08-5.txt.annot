@@ -1,0 +1,27 @@
+NASA Refuses to Launch Canadian Satellite February 19 , 1999
+
+{NonExp_0_Arg1 A new Canadian radar satellite sees too much , too clearly , {Attr_0 according to NASA , Attr_0} the American space agency . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel NASA is refusing to send the Radarsat-2 satellite into the sky . NonExp_0_Arg2}
+
+{Attr_1 {NonExp_1_Arg1 The United States government says Attr_1} the Canadian satellite provides images that are too revealing for national security . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel The Radarsat-2 can see objects as small as three metres through clouds and darkness . NonExp_1_Arg2}
+
+{Exp_0_Arg1 `` Anything below five metres causes concern to the U.S. intelligence community , '' {Attr_2 said Hugues Gilbert , director of strategic development for the Canadian Space Agency . Exp_0_Arg1} Attr_2}
+{Attr_3 {Exp_0_Arg2 `` {Exp_0_conn_Contrast But Exp_0_conn} we think Attr_3} that having the three-metre resolution is really crucial to Canadian industry . '' Exp_0_Arg2}
+
+{NonExp_2_Arg1 The ability of this `` eye in the sky '' to see such detail would give Canada a competitive edge over the U.S. in the business of earth resources imagery . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel These satellites can help farmers forecast crop yields , keep track of ice conditions in the Arctic ocean and help mining companies look for mineral resources . NonExp_2_Arg2}
+
+{NonExp_3_Arg1 The Radarsat-2 satellite is owned and operated by Macdonald Dettwiler of Richmond , British Columbia , near Vancouver . NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_EntRel It cost 300 million dollars . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_4_Arg2_EntRel The government of Canada paid for three-quarters of that cost . NonExp_4_Arg2}
+
+The government may pay another space agency to launch the satellite .
+
+{NonExp_5_Arg1 <QUESTIONS> <Q1> What is the resolution of Canada 's Radarsat-2 satellite ? NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Cause <Q2> How can the satellite help farmers ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Cause <Q3> Where is the Radarsat-2 satellite supposed to be in order to perform its function ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Cause <Q4> Why might the Canadian government have to get someone else beside NASA to launch the satellite for them ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Cause <Q5> Who is concerned about Radarsat-2 's powerful abilities ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_9_Arg2_EntRel <Q6> Who is the director of strategic development for the Canadian Space Agency ? NonExp_9_Arg2}
+

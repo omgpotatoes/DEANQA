@@ -1,0 +1,47 @@
+Firefighter Wins Her Case September 10 , 1999
+
+{Exp_0_Arg1 Five years ago , 33-year-old Tawny Meiorin lost her job as a forest fire-fighter Exp_0_Arg1} {Exp_0_conn_Cause because Exp_0_conn} {Exp_0_Arg2 she failed a fitness test designed for a man . Exp_0_Arg2}
+
+She could n't run 2.5 kilometres in the 11 minute limit .
+
+{Exp_1_Arg1 She took 49 seconds longer . Exp_1_Arg1}
+{Exp_1_conn_Cause So Exp_1_conn} {Exp_1_Arg2 her boss fired her . Exp_1_Arg2}
+
+{Exp_3_Arg1 Meiorin was sure {Exp_2_Arg1 she lost her job Exp_2_Arg1} {Exp_2_conn_Cause because Exp_2_conn} {Exp_2_Arg2 she was a woman Exp_2_Arg2} . Exp_3_Arg1}
+{Exp_3_conn_Cause So Exp_3_conn} {Exp_3_Arg2 she hired a lawyer and went to court to get her job back . Exp_3_Arg2}
+
+{Attr_0 {NonExp_0_Arg1 Now the Supreme Court says Attr_0} Meiorin was right . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel The court has ordered the government to rehire her with back pay and benefits . NonExp_0_Arg2}
+
+{NonExp_1_Arg1 `` I 'm pretty excited , '' {Attr_1 says Meiorin , Attr_1} who is now working as a logger . NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_EntRel `` What it means is that what they did to me was unjustified . NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_2_Arg2_Cause I 'm hoping the ruling will help other firefighters . '' NonExp_2_Arg2}
+
+{Exp_4_Arg1 About 70 per cent of men passed the exam on the first try , compared to only about 35 per cent of the women . Exp_4_Arg1}
+
+{Attr_2 {Exp_4_Arg2 Meiorin {Exp_4_conn_Conjunction also Exp_4_conn} said Attr_2} the fitness exam she failed was not a good measure of her abilities in the field . Exp_4_Arg2}
+
+`` These tests should be related to the actual requirements of fighting fires ... where you have smoke , and heat , and terrain to deal with , '' {Attr_3 she said . Attr_3}
+
+{Exp_6_Arg1 {Exp_5_Arg1 Meiorin is n't sure Exp_5_Arg1} {Exp_5_conn_Condition if Exp_5_conn} {Exp_5_Arg2 she will return to firefighting . Exp_5_Arg2} Exp_6_Arg1}
+{Attr_4 {Exp_6_Arg2 She says Attr_4} she {Exp_6_conn_Conjunction also Exp_6_conn} loves being a logger . Exp_6_Arg2}
+
+George Heyman , president of the B.C. Government and Services Employees Union , was pleased with the court 's ruling .
+
+`` Today 's unanimous decision is of national importance , not just for women forest firefighters but for all women , especially those working in non-traditional jobs , '' {Attr_5 says Mr. Heyman . Attr_5}
+
+{NonExp_3_Arg1 `` It 's a huge victory for working women . NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause {Exp_7_Arg1 It rewrites the law for discrimination in Canada {Exp_7_conn_Conjunction and Exp_7_conn} {Exp_7_Arg2 that will ensure fair treatment for all workers , both women and men Exp_7_Arg2} . '' Exp_7_Arg1} NonExp_3_Arg2}
+
+{NonExp_4_Arg1 {Exp_8_Arg1 <QUESTIONS> <Q1> Exp_8_Arg1} {Exp_8_conn_Synchrony When Exp_8_conn} {Exp_8_Arg2 did Tawny Meiorin lose her job as a forest fire fighter ? Exp_8_Arg2} NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_List <Q2> Why did Tawny Meiorin lose her job as a forest fire fighter ? NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Cause <Q3> How much longer did Meiorin take to run 2.5 kilometres than she was supposed to ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Asynchronous <Q4> What did Meiorin do to get her job back ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_List <Q5> What did the Supreme Court order the government to do ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Contrast <Q6> How did Meiorin describe the fitness exam she failed ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Cause <Q7> Where is Meiorin now working ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Cause <Q8> What does {Attr_6 Meiorin say Attr_6} are the `` actual requirements of fighting fires '' ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_EntRel <Q9> Who is George Heyman ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_EntRel ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_13_Arg2_Instantiation <Q10> What does the Supreme Court 's decision do to discrimination law in Canada , {Attr_7 according to Heyman ? NonExp_13_Arg2} Attr_7}
+

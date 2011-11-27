@@ -1,0 +1,37 @@
+Last Eclipse of the Millennium Arrives August 11 , 1999
+
+The last solar eclipse of the millennium brightened the morning for millions of people in Europe on Wednesday .
+
+Many people stopped what they were doing to take a glance at history .
+
+{NonExp_0_Arg1 Clouds blocked the view for people in some countries . NonExp_0_Arg1}
+{NonExp_0_Arg2_Conjunction Millions of others watched live coverage on television . NonExp_0_Arg2}
+
+{NonExp_1_Arg1 A total eclipse is one of the most impressive natural occurrences . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel {Exp_0_Arg1 It is caused Exp_0_Arg1} {Exp_0_conn_Asynchronous when Exp_0_conn} {Exp_0_Arg2 the moon passes between the Earth and the sun , blocking our view of the sun for a few minutes . Exp_0_Arg2} NonExp_1_Arg2}
+
+The path of the moon 's shadow began in the Atlantic , and crossed central Europe , Turkey , Iran and India .
+
+{NonExp_2_Arg1 The maximum number of eclipses there can be in one year is seven . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel The minimum number of eclipses there can be in one year is two . NonExp_2_Arg2}
+
+What made this eclipse special is that it was a total eclipse , where the moon totally blocks the sun .
+
+{NonExp_3_Arg1 These total eclipses last for a few minutes , and are rare . NonExp_3_Arg1}
+{NonExp_3_Arg2_EntRel In twenty five years an astronomer who observed every total solar eclipse , would watch only about an hour of total eclipses . NonExp_3_Arg2}
+
+The next total eclipse wo n't take place until June 21 , 2001 .
+
+A partial eclipse -LCB- where the moon covers part , but not all of the sun -RCB- could be seen in Eastern Canada .
+
+{NonExp_4_Arg1 <QUESTIONS> <Q1> For whom did the last solar eclipse of the millennium brighten the morning ? NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_Cause <Q2> What causes a solar eclipse ? NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Contrast <Q3> Where did the path of the moon 's shadow begin ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_EntRel <Q4> What is a total eclipse ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Conjunction <Q5> How many times can an eclipse occur in one year ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Asynchronous <Q6> Why was this eclipse special ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Asynchronous <Q7> How long do total eclipses last ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Asynchronous {Exp_1_Arg1 <Q8> {Exp_1_conn_Condition If Exp_1_conn} {Exp_1_Arg2 an astronomer observed every total solar eclipse for twenty-five years Exp_1_Arg2} , how much total eclipse time would he actually watch ? Exp_1_Arg1} NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Cause <Q9> Where could a partial eclipse be seen ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_12_Arg2_Cause <Q10> What is a partial eclipse ? NonExp_12_Arg2}
+

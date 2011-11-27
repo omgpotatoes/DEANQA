@@ -1,0 +1,31 @@
+Surgical Dummies June 25 , 1999
+
+{NonExp_0_Arg1 Usually , {Exp_0_Arg1 a {Exp_0_conn_Synchrony when Exp_0_conn} {Exp_0_Arg2 doctors are being trained to perform operations Exp_0_Arg2} , they learn by practising on real , live human patients Exp_0_Arg1} -- something patients are not always happy about . NonExp_0_Arg1}
+{Attr_0 {NonExp_0_Arg2_Cause Now , Attr_0} doctors learning surgery at a Toronto hospital are being trying a new method of learning . NonExp_0_Arg2}
+
+{NonExp_1_Arg1 The surgical skills center at Mt. Sinai hospital is a sort of training camp for residents -LRB- new doctors -RRB- . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel There are only a few such centres in the world . NonExp_1_Arg2}
+
+{NonExp_2_Arg1 {Exp_1_Arg1 Students practice stitches Exp_1_Arg1} {Exp_1_conn_Conjunction and Exp_1_conn} {Exp_1_Arg2 cutting on latex intestines , rather than live patients . Exp_1_Arg2} NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_EntRel The latex looks and feels like the real thing . NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause For students like Dr. Deepa Kumar , they 're an even better teaching tool . NonExp_3_Arg2}
+
+{NonExp_4_Arg1 {Exp_2_Arg1 `` It 's a great advantage {Exp_2_conn_Cause because Exp_2_conn} {Exp_2_Arg2 you can stop and talk and take things out and start again Exp_2_Arg2} . '' Exp_2_Arg1} NonExp_4_Arg1}
+{NonExp_4_Arg2_Cause Residents learn skills ranging from basic surgery to reviving a patient who is n't breathing . NonExp_4_Arg2}
+
+{NonExp_5_Arg1 `` The feedback I have received here has helped me to go home and perfect my technique , '' {Attr_1 says Dr. Douglas Grace . NonExp_5_Arg1} Attr_1}
+{Attr_2 {NonExp_5_Arg2_EntRel `` I think Attr_2} that it has made me a much better surgical resident . '' NonExp_5_Arg2}
+
+{NonExp_6_Arg1 Dr. Richard Reznick is one of the instructors at the center . NonExp_6_Arg1}
+{Attr_3 {NonExp_6_Arg2_EntRel `` I think Attr_3} that it 's probably fair to say {Exp_3_Arg1 that we 're one of the leaders in technical skill training , '' he said , `` in terms of understanding how it 's accessed Exp_3_Arg1} {Exp_3_conn_Conjunction and Exp_3_conn} {Exp_3_Arg2 how it 's taught Exp_3_Arg2} . '' NonExp_6_Arg2}
+
+{NonExp_7_Arg1 Soon residents might be learning through 3-D animation programs and virtual patients . NonExp_7_Arg1}
+{NonExp_7_Arg2_Cause For now , residents might have to settle for the latex simulations . NonExp_7_Arg2}
+
+{NonExp_8_Arg1 <QUESTIONS> <Q1> What is a `` resident '' ? NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_EntRel <Q2> Where is Mt. Sinai hospital ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Cause <Q3> How does a doctor usually learn how to perform operations ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Restatement <Q4> What do doctors at Mt. Sinai hospital learn on ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Contrast <Q5> In the future , what might doctors use to perfect their techniques ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_12_Arg2_Cause <Q6> Why are latex intestines a good teaching tool ? NonExp_12_Arg2}
+

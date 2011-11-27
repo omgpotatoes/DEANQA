@@ -1,0 +1,40 @@
+Earthquake Shakes Turkey August 19 , 1999
+
+An powerful earthquake shook a densely populated part of western Turkey early Tuesday .
+
+{NonExp_0_Arg1 The center of the earthquake hit Izmit , the region just south of Istanbul , the country 's capital . NonExp_0_Arg1}
+{NonExp_1_Arg1 {NonExp_0_Arg2_EntRel Izmit is about 90 kilometres southeast of Istanbul on the Sea of Marmara . NonExp_0_Arg2} NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_EntRel The area has a population of about one million . NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel {Exp_0_Arg1 The earthquake hit at about 3 o'clock in the morning , Exp_0_Arg1} {Exp_0_conn_Contrast while Exp_0_conn} {Exp_0_Arg2 many people were still sleeping . Exp_0_Arg2} NonExp_2_Arg2}
+
+{NonExp_3_Arg1 Rescue workers spent hours digging through the rubble , frantically trying to save people trapped under concrete and metal . NonExp_3_Arg1}
+{NonExp_3_Arg2_EntRel The earthquake has reportedly killed more than 6,000 people , and left at least 21,000 injured . NonExp_3_Arg2}
+
+{Exp_1_Arg1 Because of the number of injuries , Turkish hospitals are overcrowded , and ca n't take anymore patients . Exp_1_Arg1}
+{Exp_1_conn_Cause As a result Exp_1_conn} {Exp_1_Arg2 , many of the earthquake victims were being treated on the streets . Exp_1_Arg2}
+
+{NonExp_4_Arg1 The earthquake had a magnitude of 7.8 , {Attr_0 according to the National Earthquake Information Centre in Colorado . NonExp_4_Arg1} Attr_0}
+{NonExp_4_Arg2_EntRel Magnitude measures the amount of energy released by an earthquake . NonExp_4_Arg2}
+
+{Attr_1 {NonExp_5_Arg1 An observatory in Istanbul said Attr_1} more than 250 aftershocks followed the first tremor . NonExp_5_Arg1}
+{NonExp_5_Arg2_EntRel Aftershocks are vibrations that follow an earthquake . NonExp_5_Arg2}
+
+Officials have warned people not to return to buildings with even some sign of structural damage , for fear there may be more collapses .
+
+Despite the much higher death toll , Tuesday 's earthquake was n't quite as powerful as a 1906 earthquake in San Francisco which had a magnitude of 7.9 .
+
+{NonExp_6_Arg1 Canada sent disaster assistance troops to Turkey on Wednesday night . NonExp_6_Arg1}
+{NonExp_6_Arg2_EntRel The group is trained in communication and providing medical assistance . NonExp_6_Arg2}
+
+{NonExp_7_Arg1 <QUESTIONS> <Q1> Where did the center of the earthquake hit ? NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_EntRel <Q2> What is the capital of Turkey ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Asynchronous {Exp_2_Arg1 <Q3> Exp_2_Arg1} {Exp_2_conn_Synchrony When Exp_2_conn} {Exp_2_Arg2 did the earthquake hit ? Exp_2_Arg2} NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Instantiation <Q4> Who spent hours digging through the rubble ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Conjunction <Q5> About how many people were reportedly injured by the earthquake ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Cause <Q6> Why are earthquake victims being treated on the streets ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Instantiation <Q7> What was the magnitude of the earthquake , {Attr_2 according to the National Earthquake Information Centre in Colorado ? NonExp_12_Arg2} NonExp_13_Arg1} Attr_2}
+{NonExp_14_Arg1 {NonExp_13_Arg2_List <Q8> What does earthquake magnitude measure ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_List <Q9> What are aftershocks ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_Cause <Q10> Why did officials warn people not to return to buildings with even some sign of structural damage ? NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_16_Arg2_Cause <Q11> What are Canada 's disaster assistance troops trained in ? NonExp_16_Arg2}
+

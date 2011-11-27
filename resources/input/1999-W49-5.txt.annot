@@ -1,0 +1,53 @@
+Touching Down on the Red Planet December 3 , 1999
+
+No planet has teased the imagination as much as Mars .
+
+{NonExp_0_Arg1 In ancient Greece and Rome , the planet 's fiery red hue made skywatchers think of their god of war . NonExp_0_Arg1}
+{NonExp_0_Arg2_Conjunction That fascination continues today . NonExp_0_Arg2}
+
+{NonExp_1_Arg1 Was there ever any life on Mars ? NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_Restatement What was it like ? NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_2_Arg2_Cause Is there any possibility that there is life there now ? NonExp_2_Arg2}
+
+{NonExp_3_Arg1 Early this afternoon , NASA 's Mars Polar Lander touches down on the surface of the red planet . NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause Scientists will get a chance to get the answers to many questions . NonExp_3_Arg2}
+
+The Polar Lander has been hurtling through hundreds of millions of kilometres of space for the past 11 months .
+
+It 's hoped that the $ 200 million Polar Lander will help solve an old mystery -- whether there 's ever been life-sustaining water on Earth 's nearest planetary neighbor .
+
+The American space ship is being navigated by radio signals from the Jet Propulsion Laboratory .
+
+`` It 's a very complex process , '' {Attr_0 says Sam Thurman , flight operations manager . Attr_0}
+
+`` There are literally years of effort by hundreds of different people behind making those five minutes of events happen . ''
+
+Once on the surface , the craft 's instruments will be deployed -- some to test the atmosphere , others to claw out samples of dust and , possibly , ice .
+
+For the first time ever , NASA has included a microphone on a spacecraft sent to Mars , an idea originally proposed by astronomer Carl Sagan .
+
+There are fears that the costly mission could hit a rock or lose contact with NASA scientists back home .
+
+`` The biggest risk ... is Mars itself , '' {Attr_1 says Sarah Gavit , NASA project manager . Attr_1}
+
+{Exp_0_Arg1 `` We have never been to the south pole of Mars before {Exp_0_conn_Conjunction and Exp_0_conn} {Exp_0_Arg2 we 're not exactly sure what we are going into Exp_0_Arg2} . '' Exp_0_Arg1}
+
+{Exp_1_Arg1 Frozen water exists on Mars in its northern ice cap . Exp_1_Arg1}
+{Attr_2 {Exp_1_conn_Contrast But Exp_1_conn} {Exp_1_Arg2 scientists believe Attr_2} there may be more underground . Exp_1_Arg2}
+
+{NonExp_4_Arg1 The Polar Lander will try to find evidence that the atmosphere was once warmer and thicker . NonExp_4_Arg1}
+{NonExp_4_Arg2_Cause Its landing site is believed to be an area where climate changes caused layering of dust and ice that can be read like the rings of a tree trunk . NonExp_4_Arg2}
+
+Any answers from the probe would help focus future missions searching for past or present life , {Exp_2_Arg1 which is dependent on water , Exp_2_Arg1} {Exp_2_conn_Contrast though Exp_2_conn} {Exp_2_Arg2 the Lander 's instruments can not detect fossils or living organisms Exp_2_Arg2} .
+
+{NonExp_5_Arg1 <QUESTIONS> <Q1> What about Mars made skywatchers in ancient Greece and Rome think of their god of war ? NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Asynchronous {Exp_3_Arg1 <Q2> Exp_3_Arg1} {Exp_3_conn_Synchrony When Exp_3_conn} {Exp_3_Arg2 was the Polar Lander launched ? Exp_3_Arg2} NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Cause <Q3> How is the Polar Lander being navigated ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Cause <Q4> Who first proposed including a microphone on a spacecraft sent to Mars ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Conjunction <Q5> What are scientists afraid the costly mission could do ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Cause <Q6> Where on Mars do scientists know there is frozen water ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Cause <Q7> Why are NASA scientists not exactly sure what they are going into , according to Sarah Gavit , NASA project manager ? NonExp_10_Arg2} NonExp_11_Arg1}
+{Attr_3 {NonExp_12_Arg1 {NonExp_11_Arg2_Cause <Q8> Where on Mars do scientists think Attr_3} there may be more water ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Cause <Q9> What will the Polar Lander try to find evidence of ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_13_Arg2_Cause <Q10> What can the Polar Lander 's instruments not detect ? NonExp_13_Arg2}
+

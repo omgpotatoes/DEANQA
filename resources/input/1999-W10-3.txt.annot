@@ -1,0 +1,40 @@
+{NonExp_0_Arg1 A Canadian Oscar ? NonExp_0_Arg1}
+{NonExp_0_Arg2_Instantiation March 3 , 1999 NonExp_0_Arg2}
+
+{Exp_0_Arg1 On Oscar night -- Sunday , March 21 -- actors Tom Hanks , and Gwyneth Paltrow and director Steven Spielberg wo n't be the only ones sitting on the edge of their seats , hoping to hear their name read out . Exp_0_Arg1}
+{Exp_0_Arg2 Canadian Wang Shui-Bo will {Exp_0_conn_Conjunction also Exp_0_conn} be in the audience hoping to win . Exp_0_Arg2}
+
+Wang Shui-Bo is nominated for an Oscar for Best Short Documentary for his half-hour film `` Sunrise over Tiananmen Square . ''
+
+The film is a Wang 's perspective on the events that led up to June 4 , 1989 , when Chinese government troops opened fire on student demonstrators in Beijing 's Tiananmen Square .
+
+{NonExp_1_Arg1 Wang traces his personal journey through a collage of original artwork mixed with family and archival photographs . NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_EntRel It 's a journey that begins with Wang as a loyal Communist , full of the political idealism common in China under the early years of leader Mao Tse Tung . NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel It ends with him as an anti-government activist willing to risk his life to uphold the first stirrings of democracy . NonExp_2_Arg2}
+
+{Exp_1_Arg1 `` Sunrise over Tiananmen Square '' shows how the dream starts to fade during the Cultural Revolution in the '60s and '70s , when the Red Guards attack and destroy anything linked to the old Chinese culture . Exp_1_Arg1}
+{Exp_1_conn_Conjunction And Exp_1_conn} {Exp_2_Arg1 {Exp_1_Arg2 how the dream is crushed Exp_2_Arg1} {Exp_2_conn_Synchrony when Exp_2_conn} {Exp_2_Arg2 the tanks roll in Tiananmen Square Exp_2_Arg2} . Exp_1_Arg2}
+
+{Exp_3_Arg1 Wang fled China after the student uprising and now lives in Montreal , Quebec . Exp_3_Arg1}
+{Exp_4_Arg1 {Exp_3_conn_Contrast But Exp_3_conn} {Exp_3_Arg2 he was in Beijing Exp_4_Arg1} {Exp_4_conn_Synchrony when Exp_4_conn} {Exp_4_Arg2 he learned of his Oscar nomination . Exp_3_Arg2} Exp_4_Arg2}
+
+{Exp_5_Arg1 Even today his film ca n't be shown in China . Exp_5_Arg1}
+{Exp_5_conn_Contrast But Exp_5_conn} {Exp_5_Arg2 Wang hopes that one day that will change , and explosive subjects such as the Tiananmen Square massacre will no longer be taboo . Exp_5_Arg2}
+
+{Attr_0 {NonExp_3_Arg1 Wang believes Attr_0} his film delivers a message that the tragedy at Tiananmen should never happen again . NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_Contrast `` China does n't need a revolution . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_EntRel The people here do n't need another revolution . NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Cause We have suffered so much since 100 years ago . '' NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_6_Arg2_EntRel `` It 's time to enjoy life , '' {Attr_1 Wang says . NonExp_6_Arg2} Attr_1}
+
+{NonExp_7_Arg1 {Exp_6_Arg1 Wang may now live in the West , Exp_6_Arg1} {Exp_6_conn_Contrast but Exp_6_conn} {Exp_7_Arg1 {Exp_6_Arg2 he 'll wear a traditional Chinese jacket for the Oscars Exp_7_Arg1} {Exp_7_conn_Conjunction and Exp_7_conn} {Exp_8_conn_Condition {Exp_7_Arg2 if Exp_8_conn} {Exp_8_Arg2 he wins , Exp_8_Arg2} {Exp_8_Arg1 Wang knows exactly what he 'll say : `` Thank you to my motherland , China Exp_7_Arg2} Exp_8_Arg1} . Exp_6_Arg2} NonExp_7_Arg1}
+{NonExp_7_Arg2_EntRel Thank you Canada , thank you Montreal , merci Quebec . '' NonExp_7_Arg2}
+
+{NonExp_8_Arg1 <QUESTIONS> <Q1> Why will Wang Shui-Bo be attending the Oscars this year ? NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_EntRel <Q2> What is the name of Wang 's documentary ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_EntRel <Q3> At the beginning of his story , what is Wang ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_EntRel <Q4> Who fired on the student demonstrators in Tiananmen Square ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Asynchronous {Exp_9_Arg1 <Q5> Exp_9_Arg1} {Exp_9_conn_Synchrony When Exp_9_conn} {Exp_9_Arg2 did Wang leave China ? Exp_9_Arg2} NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Contrast <Q6> Where does Wang live now ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_13_Arg2_Cause <Q7> Who does n't need another revolution , {Attr_2 according to Wang ? NonExp_13_Arg2} Attr_2}
+

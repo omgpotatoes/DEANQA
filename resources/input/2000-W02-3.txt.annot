@@ -1,0 +1,47 @@
+Newfoundland 's Contaminated Tap Water January 12 , 2000
+
+{NonExp_0_Arg1 The Newfoundland government has found that the tap water in 63 communities is contaminated . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel The water contains higher than acceptable levels of chemicals known as trihalomethanes or THMs . NonExp_0_Arg2}
+
+{NonExp_1_Arg1 These potentially dangerous chemicals have been linked to cancer and miscarriages -LRB- failed pregnancies -RRB- . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel {Exp_1_Arg1 {Exp_0_Arg1 They are formed Exp_0_Arg1} {Exp_0_conn_Synchrony when Exp_0_conn} {Exp_0_Arg2 tiny amounts of chlorine are added to drinking water . Exp_0_Arg2} Exp_1_Arg1} NonExp_1_Arg2}
+{NonExp_2_Arg1 {Exp_1_Arg2 Chlorine - also known as `` bleach '' - is {Exp_1_conn_Conjunction also Exp_1_conn} added to the water in many swimming pools . Exp_1_Arg2} NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel You 've no doubt noticed the smell . NonExp_2_Arg2}
+
+The danger of trihalomethanes in drinking water is faced mainly by small towns that ca n't afford expensive water filtration systems .
+
+{NonExp_3_Arg1 Chlorination is necessary for two reasons . NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_Restatement First , almost all sources of water contain microbiological organisms which have to be removed to prevent the outbreak of diseases such as typhoid fever and cholera . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_EntRel {Exp_2_Arg1 Second , {Exp_2_conn_Condition once Exp_2_conn} {Exp_2_Arg2 the treated water leaves the treatment plant Exp_2_Arg2} , it travels through water pipes . Exp_2_Arg1} NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_5_Arg2_Cause {Exp_3_Arg1 During this trip , from the plant to your tap , it is necessary to have a disinfectant in the water to guard against the regrowth of microorganisms . Exp_3_Arg1} NonExp_5_Arg2}
+
+{Exp_3_Arg2 Nova Scotia {Exp_3_conn_Conjunction also Exp_3_conn} recently identified 18 communities with unacceptably high levels of trihalomethanes . Exp_3_Arg2}
+
+{Attr_0 {Exp_4_Arg1 Newfoundland 's environment minister says Attr_0} he plans to hire an expert who will look into reducing the amount of THMs in the water supply . Exp_4_Arg1}
+
+{Exp_4_Arg2 In the {Exp_4_conn_Synchrony meantime Exp_4_conn} , {Attr_1 Oliver Langdon says Attr_1} people should n't panic . Exp_4_Arg2}
+
+{NonExp_6_Arg1 `` People should not be alarmed about this matter . NonExp_6_Arg1}
+{NonExp_6_Arg2_Conjunction The benefits of disinfecting our water far outweigh the health effects of THMs . '' NonExp_6_Arg2}
+
+{NonExp_7_Arg1 Many Newfoundland residents are upset with the government . NonExp_7_Arg1}
+{Attr_2 {NonExp_8_Arg1 {NonExp_7_Arg2_EntRel They say Attr_2} the government has known there were problems but hid the facts from the public . NonExp_7_Arg2} NonExp_8_Arg1}
+{Attr_3 {NonExp_8_Arg2_EntRel Fogo town manager Bruce Pomeroy says Attr_3} that the government `` should have made {Exp_5_Arg1 everyone aware Exp_5_Arg1} {Exp_5_conn_Condition if Exp_5_conn} {Exp_5_Arg2 there were risks Exp_5_Arg2} -- like they are doing now -- two years ago . '' NonExp_8_Arg2}
+
+There are easy ways of getting rid of many of the THMs in drinking water .
+
+{Exp_7_Arg1 {Exp_6_Arg1 You can leave water in an open container for 24 hours , Exp_6_Arg1} {Exp_6_conn_Conjunction and Exp_6_conn} {Exp_6_Arg2 many of the chemicals will evaporate . Exp_6_Arg2} Exp_7_Arg1}
+{NonExp_9_Arg1 {Exp_7_Arg2 You can {Exp_7_conn_Conjunction also Exp_7_conn} pour the water through a charcoal-based water filter , like the popular ones many people keep in the fridge . Exp_7_Arg2} NonExp_9_Arg1}
+{NonExp_9_Arg2_EntRel The charcoal will absorb the chemicals . NonExp_9_Arg2}
+
+{NonExp_10_Arg1 <QUESTIONS> <Q1> Where has the Newfoundland government found tap water contaminated ? NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Conjunction <Q2> How are trihalomethanes formed ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Instantiation <Q3> Which towns face the danger of THMs in drinking water ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Restatement <Q4> Why do microbiological organisms have to be removed from water ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_Cause <Q5> Why is chlorine used to treat water as it travels through water pipes ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_Cause <Q6> Who is Newfoundland 's environment minister ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_EntRel <Q7> Why are many Newfoundland residents upset with the government ? NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_17_Arg1 {NonExp_16_Arg2_Conjunction <Q8> According to Fogo town manager Bruce Pomeroy , when should the government have made {Exp_8_Arg1 everyone aware Exp_8_Arg1} {Exp_8_conn_Condition if Exp_8_conn} {Exp_8_Arg2 there were risks from THMs Exp_8_Arg2} ? NonExp_16_Arg2} NonExp_17_Arg1}
+{NonExp_18_Arg1 {NonExp_17_Arg2_Cause {Exp_9_Arg1 <Q9> {Exp_9_conn_Condition If Exp_9_conn} {Exp_9_Arg2 water is left in an opened container for 24 hours Exp_9_Arg2} , what happens to many of the chemicals ? Exp_9_Arg1} NonExp_17_Arg2} NonExp_18_Arg1}
+{NonExp_18_Arg2_Conjunction <Q10> What does charcoal do to chemicals in water ? NonExp_18_Arg2}
+

@@ -1,0 +1,54 @@
+Controversial School Television March 1 , 1999
+
+{Exp_0_Arg1 Television is behind a growing controversy in a Mississauga , Ontario high school . Exp_0_Arg1}
+{Exp_0_conn_Conjunction And Exp_0_conn} {Exp_0_Arg2 it 's got nothing to do with what students are watching in their spare time at home . Exp_0_Arg2}
+
+{NonExp_0_Arg1 It 's about teens having to watch commercials in school . NonExp_0_Arg1}
+{NonExp_1_Arg1 {NonExp_0_Arg2_Contrast Every day . NonExp_0_Arg2} NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel It 's a controversy about the growing commercialization of schools . NonExp_1_Arg2}
+
+{NonExp_2_Arg1 Youth News Network , a private news and current-affairs network , has installed a satellite dish and thousands of dollars worth of televisions and audio-visual equipment at Meadowvale Secondary School free of charge . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel {Exp_1_Arg1 It expects to start broadcasting its 12-minute newscast -- complete with 2?1\/2 minutes of commercials -- every day to the school 's 1,700 students starting in September . Exp_1_Arg1} NonExp_2_Arg2}
+
+{Exp_1_conn_Contrast But Exp_1_conn} {Exp_1_Arg2 along with the bonanza of technology , the school is inheriting a political hot potato . Exp_1_Arg2}
+
+{NonExp_3_Arg1 `` I happen to believe that it is completely unacceptable to sell off little bits of our kids , '' {Attr_0 said Heather-Jane Robertson , director of professional development with the Canadian Teachers Federation . NonExp_3_Arg1} Attr_0}
+{NonExp_3_Arg2_EntRel {Exp_2_Arg2 `` {Exp_2_conn_Condition If Exp_2_conn} {Exp_2_Arg1 we do n't understand that it 's wrong to sell off our kids to advertisers , to compromise public education in that way Exp_2_Arg1} , {Exp_2_conn_Condition then Exp_2_conn} we can hardly turn around and blame the people who want to make money off our stupidity . '' Exp_2_Arg2} NonExp_3_Arg2}
+
+{Attr_1 Some educators say Attr_1} YNN serves as an example of the wave of commercialization sweeping over schools at a time when funding cuts are forcing public boards to look to businesses for help .
+
+{NonExp_4_Arg1 {Exp_3_conn_Contrast While Exp_3_conn} {Exp_3_Arg2 public broadcasters such as CBC Newsworld and TV Ontario provide programming free of charge to schools , Exp_3_Arg2} {Exp_3_Arg1 none can come close to providing the wealth of televisions , VCRs , computers , and video cameras installed at Meadowvale under its pilot project with YNN 's owner , Montreal-based Athena Educational Partners Inc. . Exp_3_Arg1} NonExp_4_Arg1}
+{Attr_2 {NonExp_4_Arg2_EntRel {Exp_4_Arg1 Meadowvale principal Laurie Pedwell conceded Attr_2} that the technology was part of YNN 's appeal . Exp_4_Arg1} NonExp_4_Arg2}
+{Exp_4_conn_Contrast But Exp_4_conn} {Exp_4_Arg2 she insisted that the sample broadcast viewed by students last November was balanced and suitably tailored to teenagers . Exp_4_Arg2}
+
+As for the advertisements , {Attr_3 she said Attr_3} none was offensive or aggressively pushing a product , and most depicted teenagers positively .
+
+The school has a June deadline to decide whether it wants to sign a five-year contract with YNN .
+
+{NonExp_5_Arg1 Stephanie Lake is a grade twelve student at Meadowvale secondary . NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_EntRel She recently wrote this essay about YNN coming to her school . NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Cause {Exp_5_Arg1 `` We may be teenagers , Exp_5_Arg1} {Exp_5_conn_Contrast but Exp_5_conn} {Exp_5_Arg2 we 're not all couch potatoes ! Exp_5_Arg2} NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_7_Arg2_Conjunction Well , at least we were n't . NonExp_7_Arg2}
+
+{NonExp_8_Arg1 Who knows , maybe one day soon , secondary school students all across Canada will be the same - walking , brainwashed zombies . NonExp_8_Arg1}
+{NonExp_8_Arg2_Cause The blame for this can be placed squarely on the shoulders of YNN and the governors of our education system . NonExp_8_Arg2}
+
+{NonExp_9_Arg1 Trust the government . NonExp_9_Arg1}
+{NonExp_9_Arg2_Restatement I do n't think so ! NonExp_9_Arg2}
+
+{NonExp_10_Arg1 I am upset with the administration of my school for using us , the students , as guinea pigs , in a test which uses televisions inappropriately in my school . NonExp_10_Arg1}
+{NonExp_10_Arg2_EntRel To read the rest of Stephanie 's essay , click here NonExp_10_Arg2}
+
+{NonExp_11_Arg1 <QUESTIONS> <Q1> Who owns Youth News Network ? NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Contrast <Q2> What did it cost Meadowvale Secondary to have a satellite dish , televisions , and audio-visual equipment installed ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Conjunction <Q3> How many students attend Meadowvale Secondary School ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_Cause {Exp_6_Arg1 <Q4> Exp_6_Arg1} {Exp_6_conn_Synchrony When Exp_6_conn} {Exp_6_Arg2 is the deadline by which the school must decide whether to sign a five-year contract with YNN ? Exp_6_Arg2} NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_EntRel <Q5> Who said `` Trust the government . NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_EntRel I do n't think so ! '' NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_17_Arg1 {NonExp_16_Arg2_Instantiation <Q6> What does CBC Newsworld provide to schools ? NonExp_16_Arg2} NonExp_17_Arg1}
+{NonExp_18_Arg1 {NonExp_17_Arg2_EntRel <Q7> Who is the principal of Meadowvale secondary ? NonExp_17_Arg2} NonExp_18_Arg1}
+{NonExp_19_Arg1 {NonExp_18_Arg2_EntRel <Q8> Where is Meadowvale Secondary School located ? NonExp_18_Arg2} NonExp_19_Arg1}
+{NonExp_20_Arg1 {NonExp_19_Arg2_Cause <Q9> Which aspect of the YNN programming has people upset ? NonExp_19_Arg2} NonExp_20_Arg1}
+{NonExp_21_Arg1 {NonExp_20_Arg2_EntRel <Q10> How long is YNN 's newscast ? NonExp_20_Arg2} NonExp_21_Arg1}
+{NonExp_21_Arg2_List <Q11> What organization does Heather-Jane Robertson represent ? NonExp_21_Arg2}
+

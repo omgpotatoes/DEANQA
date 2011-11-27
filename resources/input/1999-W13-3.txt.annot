@@ -1,0 +1,62 @@
+A Looming Battle in Kosovo March 24 , 1999
+
+{NonExp_0_Arg1 Air-raid warning sirens sounded in the Kosovo capital of Pristina this morning . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel Yugoslavia is bracing for air strikes by NATO forces . NonExp_0_Arg2}
+
+{Attr_0 {NonExp_1_Arg1 Reporters say Attr_0} the siren lasted about 90 seconds . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel {Exp_0_Arg1 There was a brief pause Exp_0_Arg1} {Exp_0_conn_Asynchronous before Exp_0_conn} {Exp_0_Arg2 the siren sounded again . Exp_0_Arg2} NonExp_1_Arg2}
+
+{NonExp_2_Arg1 Yugoslav authorities have declared a state of emergency . NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_EntRel They are getting ready for war . NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause {Exp_1_Arg1 They 've shut down the country 's main independent radio station Exp_1_Arg1} {Exp_1_conn_Conjunction and Exp_1_conn} {Exp_1_Arg2 they 're preparing shelters for the civilian population . Exp_1_Arg2} NonExp_3_Arg2}
+
+{Exp_2_Arg1 This is happening Exp_2_Arg1} {Exp_2_conn_Cause because Exp_2_conn} {Exp_2_Arg2 the coalition of countries that are members of the North Atlantic Treaty Organizatoin -LRB- NATO -RRB- want to stop the Yugoslavians from invading the neighbouring region of Kosovo . Exp_2_Arg2}
+
+{NonExp_4_Arg1 Kosovo is a province of Serbia , which is one of the republics that make up Yugoslavia . NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_EntRel Ninety per cent of Kosovo 's population are ethnic Albanians , who have been pushing for independence from Serbia . NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_EntRel Brigadier-General Michel Maisonneuve is the senior Canadian Forces officer who has been serving with NATO . NonExp_5_Arg2} NonExp_6_Arg1}
+{Attr_1 {NonExp_7_Arg1 {NonExp_6_Arg2_EntRel He adds Attr_1} that `` Kosovo is a beautiful part of Yugoslavia . NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_EntRel It is relatively flat , with mountains surrounding it , as well as a spine that runs up the middle . NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_EntRel The province is in large majority ethnic Albanian , with many other minorities , including Serbs , gypsies , Turks , etc. . NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_9_Arg2_EntRel The people are hospitable and hardy . '' NonExp_9_Arg2}
+
+The conflict that is being played out today has roots that go back hundreds and hundreds of years .
+
+{NonExp_10_Arg1 In 1389 , Serbs lost a key battle against the forces of the invading Ottoman Empire on the fields of Kosovo . NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Cause The defeat marks the beginning of the end of Serbia 's Medieval Empire . NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_EntRel Kosovo became part of the Ottoman Empire . NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_12_Arg2_Asynchronous In the following centuries that battle become the key event in Serbian and Albanian national history . NonExp_12_Arg2}
+
+Over the last decade there have been many attempts at a peaceful settlement .
+
+{NonExp_13_Arg1 Representatives of the NATO countries have tried to negotiate with the government of Yugoslavia . NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_EntRel Those negotions failed earlier this week . NonExp_13_Arg2} NonExp_14_Arg1}
+{Attr_2 {NonExp_14_Arg2_EntRel NATO says Attr_2} that bombing Yugoslavia is the only way to get them to stop their assault on Kosovo . NonExp_14_Arg2}
+
+{Exp_3_Arg1 The question is no longer if , but {Exp_3_conn_Synchrony when Exp_3_conn} , Exp_3_Arg1} {Exp_3_Arg2 NATO will begin bombing . Exp_3_Arg2}
+
+NATO Secretary General Javier Solana assured Yugoslovia 's neighbors today that the alliance would protect them in the event of attacks by Yugoslavia .
+
+{Attr_3 {NonExp_15_Arg1 {Exp_4_Arg1 Yugoslav officials say Attr_3} they might not be able to win a war against NATO , Exp_4_Arg1} {Exp_4_conn_Contrast but Exp_4_conn} {Exp_4_Arg2 they feel they can inflict serious damage . Exp_4_Arg2} NonExp_15_Arg1}
+{NonExp_15_Arg2_Cause NATO military planners are n't taking the threats lightly . NonExp_15_Arg2}
+
+{NonExp_16_Arg1 Few people believe that Yugoslav President Slobodan Milosevic is ready to give in . NonExp_16_Arg1}
+{NonExp_17_Arg1 {NonExp_16_Arg2_Restatement He opposes outside interference in Kosovo . NonExp_16_Arg2} NonExp_17_Arg1}
+{Attr_4 {NonExp_18_Arg1 {NonExp_17_Arg2_EntRel The Yugoslav leader insists Attr_4} the problems in Kosovo are an internal Yugoslav matter . NonExp_17_Arg2} NonExp_18_Arg1}
+{NonExp_18_Arg2_EntRel He refuses to allow any outside force into Kosovo to monitor any peace agreement . NonExp_18_Arg2}
+
+{NonExp_19_Arg1 {Exp_5_conn_Condition If Exp_5_conn} {Exp_5_Arg2 NATO strikes proceed , Exp_5_Arg2} {Exp_5_Arg1 Canadians will be involved . Exp_5_Arg1} NonExp_19_Arg1}
+{NonExp_19_Arg2_EntRel There are about 130 Canadian Forces personnel and six CF-18 fighter aircraft based in Aviano , Italy who will likely participate . NonExp_19_Arg2}
+
+{NonExp_20_Arg1 <QUESTIONS> <Q1> What do the nations of the North Atlantic Treaty Organization want to stop the Yugoslavians from doing ? NonExp_20_Arg1}
+{NonExp_21_Arg1 {NonExp_20_Arg2_EntRel <Q2> What are the ethnic Albanians in Kosovo pushing for ? NonExp_20_Arg2} NonExp_21_Arg1}
+{NonExp_22_Arg1 {NonExp_21_Arg2_Conjunction <Q3> How old are the roots of the conflict between Kosovo and Serbia ? NonExp_21_Arg2} NonExp_22_Arg1}
+{NonExp_23_Arg1 {NonExp_22_Arg2_Cause {Exp_6_Arg1 <Q4> Exp_6_Arg1} {Exp_6_conn_Synchrony When Exp_6_conn} {Exp_6_Arg2 did the Serbs lose a key battle against the forces of the invading Ottoman Empire in Kosovo ? Exp_6_Arg2} NonExp_22_Arg2} NonExp_23_Arg1}
+{NonExp_24_Arg1 {NonExp_23_Arg2_Cause <Q5> Where is the capital of Kosovo ? NonExp_23_Arg2} NonExp_24_Arg1}
+{NonExp_25_Arg1 {NonExp_24_Arg2_EntRel <Q6> Who is Slobodan Milosevic ? NonExp_24_Arg2} NonExp_25_Arg1}
+{NonExp_26_Arg1 {NonExp_25_Arg2_EntRel <Q7> How has Milosevic described the problems in Kosovo ? NonExp_25_Arg2} NonExp_26_Arg1}
+{NonExp_27_Arg1 {NonExp_26_Arg2_Cause <Q8> Why is NATO going to bomb Yugoslavia ? NonExp_26_Arg2} NonExp_27_Arg1}
+{NonExp_28_Arg1 {NonExp_27_Arg2_EntRel <Q9> What does Milosevic refuse to do ? NonExp_27_Arg2} NonExp_28_Arg1}
+{NonExp_29_Arg1 {NonExp_28_Arg2_Conjunction <Q10> What do Yugoslav officials feel they can do in a war against NATO ? NonExp_28_Arg2} NonExp_29_Arg1}
+{NonExp_29_Arg2_Conjunction <Q11> How many Canadian Forces personnel are based in Aviano , Italy ? NonExp_29_Arg2}
+

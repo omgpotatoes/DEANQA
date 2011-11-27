@@ -1,0 +1,41 @@
+Nova Scotia School Pumps Up January 8 , 1999
+
+A middle school in Liverpool , Nova Scotia is pumping up bodies as well as minds .
+
+{NonExp_0_Arg1 It 's an example of a school teaming up with the community to raise money . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel South Queens Junior High School is taking aim at the fitness market . NonExp_0_Arg2}
+
+{NonExp_1_Arg1 The school has turned its one-time metal shop - lost to budget cuts almost two years ago - into a money-making professional fitness club . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel The club will be open seven days a week . NonExp_1_Arg2}
+
+The club , operated by a non-profit society made up of school and community volunteers , has sold more than 30 memberships and hired a full-time co-ordinator .
+
+{Attr_0 {NonExp_2_Arg1 Principal Betty Jean Aucoin says Attr_0} the club is a first for a Nova Scotia public school . NonExp_2_Arg1}
+{Attr_1 {NonExp_2_Arg2_EntRel She says Attr_1} the school took it on itself to provide a service needed in Liverpool . NonExp_2_Arg2}
+
+`` {Exp_0_Arg1 We do n't have any athletic facilities here on the South Shore of Nova Scotia Exp_0_Arg1} , {Exp_0_conn_Cause so Exp_0_conn} {Exp_1_conn_Condition {Exp_0_Arg2 if Exp_1_conn} {Exp_1_Arg2 we do n't use our schools , Exp_1_Arg2} {Exp_1_Arg1 communities such as Queens are going to be struggling to get anything going Exp_0_Arg2} Exp_1_Arg1} , '' Aucoin said .
+
+More than a $ 100,000 was raised through fund-raising and donations from government , Sport Nova Scotia , and two local companies .
+
+{NonExp_3_Arg1 {Exp_2_Arg1 Some people are wondering Exp_2_Arg1} {Exp_2_conn_Condition if Exp_2_conn} {Exp_2_Arg2 the ties between the businesses and the school are too close . Exp_2_Arg2} NonExp_3_Arg1}
+{NonExp_3_Arg2_Restatement Schools are not set up to make profits or promote businesses . NonExp_3_Arg2}
+
+{Attr_2 Southwest Regional School Board superintendent Ann Jones says Attr_2} there 's no fear the lines between education and business are blurring .
+
+`` First call on any school facility belongs to ... the youngsters in the school , '' {Attr_3 says Ann Jones . Attr_3}
+
+The 12,000-square-foot club has seven aerobic machines , including treadmills , steppers , and stationary bicycles , as well as weight machines and freeweights .
+
+Memberships cost $ 180 a year for adults and $ 135 for students and seniors .
+
+Proceeds pay the salary of the center co-ordinator and upkeep of the facility .
+
+{NonExp_4_Arg1 <QUESTIONS> <Q1> Where is South Queens Junior High School located ? NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_EntRel <Q2> Who is the principal of South Queens Junior High School ? NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Conjunction <Q3> What has South Queens Junior High School done with its old metal shop ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Asynchronous {Exp_3_Arg1 <Q4> Exp_3_Arg1} {Exp_3_conn_Synchrony When Exp_3_conn} {Exp_3_Arg2 did the metal shop close ? Exp_3_Arg2} NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Cause <Q5> Who runs the club ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Conjunction <Q6> How big is the club ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_EntRel {Exp_4_Arg1 <Q7> {Exp_4_conn_Condition If Exp_4_conn} {Exp_4_Arg2 you were a student Exp_4_Arg2} , how much would a club membership cost you ? Exp_4_Arg1} NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_10_Arg2_Cause <Q8> Why is the school opening the club ? NonExp_10_Arg2}
+

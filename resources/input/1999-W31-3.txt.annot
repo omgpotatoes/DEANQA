@@ -1,0 +1,37 @@
+Nova Scotia elects a new government July 28 , 1999
+
+{NonExp_0_Arg1 John Hamm has been elected the new Premier of Nova Scotia . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel Hamm is the leader of the Nova Scotia Progressive Conservative Party . NonExp_0_Arg2}
+
+The PC party defeated both the Liberal Party government led by Premier Russell MacLellan and Robert Chisholm 's New Democratic Party .
+
+{NonExp_1_Arg1 The election was not as close as many experts thought it would be . NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_Cause The Conservatives were able to win a majority government , meaning they will have more members in the legislature than both parties combined . NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel The Conservatives won 29 seats , the New Democrats 12 and the Liberals 11 . NonExp_2_Arg2}
+
+{NonExp_3_Arg1 After the last election Nova Scotia had a minority government . NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause That means that no one party had more than half the seats in the legislature . NonExp_3_Arg2}
+
+{Exp_0_Arg1 Hamm has promised to cut people 's taxes within three years . Exp_0_Arg1}
+{Exp_0_Arg2 He {Exp_0_conn_Conjunction also Exp_0_conn} plans to reduce the number of government workers . Exp_0_Arg2}
+
+{NonExp_4_Arg1 Hamm is a 61-year-old doctor with only six years of political experience . NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_EntRel His majority win was a comeback for the PC Party . NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_5_Arg2_Asynchronous The party placed third in the last election . NonExp_5_Arg2}
+
+{NonExp_6_Arg1 Liberal leader Russell MacLellan was forced {Exp_1_Arg1 to call the election Exp_1_Arg1} {Exp_1_conn_Asynchronous after Exp_1_conn} {Exp_1_Arg2 the other parties voted against his budget Exp_1_Arg2} . NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Cause {Exp_2_conn_Synchrony When Exp_2_conn} {Exp_2_Arg2 the government is defeated on a major bill , like one that is about money , Exp_2_Arg2} {Exp_2_Arg1 it means the legislature has lost confidence in them . Exp_2_Arg1} NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Cause This vote of non-confidence means the premier must either quit , or call a new election . NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_EntRel MacLellan decided to call a new election . NonExp_8_Arg2} NonExp_9_Arg1}
+{Attr_0 {NonExp_9_Arg2_EntRel He says Attr_0} he will stay on as leader of the Nova Scotia Liberal Party despite losing his job as premier . NonExp_9_Arg2}
+
+{NonExp_10_Arg1 <QUESTIONS> <Q1> Where were elections for premier held ? NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_EntRel <Q2> Who is Russell MacLellan ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Conjunction <Q3> How many seats in the legislature did the Progressive Conservatives win in the election ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_EntRel <Q4> What does it mean to have a minority government ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_Cause <Q5> How did the PC party place in the last election ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_Cause {Exp_3_Arg1 <Q6> By Exp_3_Arg1} {Exp_3_conn_Synchrony when Exp_3_conn} {Exp_3_Arg2 has Hamm promised to cut people 's taxes ? Exp_3_Arg2} NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_Cause <Q7> Why was Russell MacLellan forced to call an election ? NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_17_Arg1 {NonExp_16_Arg2_Cause {Exp_4_Arg1 <Q8> What does it mean Exp_4_Arg1} {Exp_4_conn_Synchrony when Exp_4_conn} {Exp_4_Arg2 the government is defeated on a major bill ? Exp_4_Arg2} NonExp_16_Arg2} NonExp_17_Arg1}
+{NonExp_17_Arg2_EntRel {Exp_5_Arg1 <Q9> What must a premier do Exp_5_Arg1} {Exp_5_conn_Synchrony when Exp_5_conn} {Exp_5_Arg2 there is a vote of non-confidence ? Exp_5_Arg2} NonExp_17_Arg2}
+

@@ -1,0 +1,30 @@
+Newfoundland Company Ready to Sell Water May 21 , 1999
+
+{Exp_0_Arg1 Gisborne Lake looks much like any other lake on the barrens of southern Newfoundland . Exp_0_Arg1}
+{Exp_0_conn_Contrast But Exp_0_conn} {Exp_0_Arg2 it is about to become the source of a $ 35-million water project -- and a free-trade controversy . Exp_0_Arg2}
+
+Gerry White has a plan to build a pipeline from Gisborne Lake to the neighbouring community of Grand Lepierre , where it will be pumped into waiting tankers and shipped overseas .
+
+{NonExp_0_Arg1 For months Ottawa and the provinces have been trying to negotiate an agreement banning bulk water exports . NonExp_0_Arg1}
+{NonExp_0_Arg2_Cause {Exp_1_Arg1 That agreement is still a long way off , Exp_1_Arg1} {Exp_1_conn_Conjunction and Exp_1_conn} {Exp_1_Arg2 critics think it may never be reached . Exp_1_Arg2} NonExp_0_Arg2}
+
+`` The federal government knows perfectly well that they 're in trouble with this , '' {Attr_0 says Maude Barlow of the Council of Canadians . Attr_0}
+
+{NonExp_1_Arg1 She says agreement or no agreement , this plan has to be stopped . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel {Exp_3_Arg1 {Exp_2_Arg2 `` {Exp_2_conn_Condition If Exp_2_conn} {Exp_2_Arg1 they go ahead Exp_2_Arg1} , {Exp_2_conn_Condition then Exp_2_conn} NAFTA -LRB- North American Free Trade Agreement -RRB- is triggered . Exp_2_Arg2} Exp_3_Arg1} NonExp_1_Arg2}
+{Exp_5_Arg1 {Exp_4_Arg1 {Exp_3_Arg2 NAFTA {Exp_3_conn_Asynchronous then Exp_3_conn} applies to the whole country {Exp_4_conn_Conjunction and Exp_4_conn} {Exp_4_Arg2 there 'll be no way for us to stop American corporations from coming in and helping themselves to Canadian water all over the country Exp_4_Arg2} . '' Exp_3_Arg2} Exp_4_Arg1} Exp_5_Arg1}
+
+{Exp_6_Arg1 {Exp_5_conn_Contrast But Exp_5_conn} {Exp_6_conn_Condition {Exp_5_Arg2 if Exp_6_conn} {Exp_6_Arg2 Ottawa wants to stop Gerry White from shipping Newfoundland water all over the world Exp_6_Arg2} , they 'll have to act soon . Exp_5_Arg2} Exp_6_Arg1}
+
+{NonExp_2_Arg1 After two and a half years of environmental impact studies , {Attr_1 he says Attr_1} he 's proven the project is safe . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel {Exp_7_Arg1 `` {Exp_7_conn_Asynchronous Until Exp_7_conn} {Exp_7_Arg2 such time as we are stopped Exp_7_Arg2} , we are going to proceed on and make the project work . '' Exp_7_Arg1} NonExp_2_Arg2}
+
+{NonExp_3_Arg1 <QUESTIONS> <Q1> Where is Gisborne Lake ? NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_Cause <Q2> Why does Gerry White want to build a pipeline from Gisborne Lake to Grand Lepierre ? NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_Restatement <Q3> What do Ottawa and the provinces want to negotiate ? NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_EntRel <Q4> Who is Maude Barlow ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Contrast {Exp_8_Arg1 <Q5> {Exp_8_conn_Condition If Exp_8_conn} {Exp_8_Arg2 the water export plan goes ahead Exp_8_Arg2} , what is triggered ? Exp_8_Arg1} NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_List <Q6> What does Maude Barlow think American firms will do ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Cause {Exp_9_Arg1 <Q7> Exp_9_Arg1} {Exp_9_conn_Synchrony When Exp_9_conn} {Exp_9_Arg2 does Ottowa have {Exp_10_Arg1 to act Exp_10_Arg1} {Exp_10_conn_Condition if Exp_10_conn} {Exp_10_Arg2 it wants to stop the pipeline plan Exp_10_Arg2} ? Exp_9_Arg2} NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_9_Arg2_Cause <Q8> How has the pipeline project been proved safe , {Attr_2 according to Gerry White ? NonExp_9_Arg2} Attr_2}
+

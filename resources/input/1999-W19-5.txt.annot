@@ -1,0 +1,47 @@
+Spring Fires May 7 , 1999
+
+{Exp_0_Arg1 Light rain and cooler temperatures are giving crews a hand in battling several large forest fires across Northern Ontario . Exp_0_Arg1}
+
+{Exp_1_Arg1 {Exp_0_conn_Contrast However Exp_0_conn} {Exp_0_Arg2 , it may be well into next week Exp_1_Arg1} {Exp_1_conn_Asynchronous before Exp_1_conn} {Exp_1_Arg2 some people will be allowed to return home . Exp_0_Arg2} Exp_1_Arg2}
+
+{Exp_2_Arg1 In the northwest , hundreds of residents from three communities have been forced to leave their homes . Exp_2_Arg1}
+
+{Exp_2_Arg2 A state of emergency has {Exp_2_conn_Conjunction also Exp_2_conn} been declared in Chapleau , where residents are on standby in preparation for an evacuation order . Exp_2_Arg2}
+
+{NonExp_0_Arg1 More than 700 people have already left . NonExp_0_Arg1}
+{NonExp_1_Arg1 {NonExp_0_Arg2_EntRel Yesterday , the fire was only 9 kilometres from the town . NonExp_0_Arg2} NonExp_1_Arg1}
+{NonExp_1_Arg2_Cause The area had a little rain overnight -- it 's not known what effect that has had on the fire . NonExp_1_Arg2}
+
+{NonExp_2_Arg1 Just across the border in Manitoba , some rain did fall and dampened the forest fire threat . NonExp_2_Arg1}
+{NonExp_2_Arg2_Cause It means the province could send fire fighters and equipment to the latest hot spot in northwestern Ontario . NonExp_2_Arg2}
+
+`` We are trying to assist our neighbors to the east , '' {Attr_0 said Natural Resources spokesman Bob Buck . Attr_0}
+
+Rain fell on most of the trouble spots in Manitoba during the middle of the week with the exception of the 120-hectare blaze at Island Lake , 500 kilometres northeast of Winnipeg .
+
+`` St. Theresa Point is the only area that did not receive precipitation , '' {Attr_1 said Natural Resources Minister Glen Cummings . Attr_1}
+
+{Attr_2 {NonExp_3_Arg1 He said Attr_2} investigators are looking at the possibility that the fire was deliberately set . NonExp_3_Arg1}
+{NonExp_3_Arg2_Conjunction {Exp_3_Arg1 It has already destroyed some houses in the tiny community and 57 residents were airlifted to Winnipeg , where they still await word that they can go home . Exp_3_Arg1} NonExp_3_Arg2}
+
+{Exp_4_Arg1 {Exp_3_conn_Contrast But Exp_3_conn} {Exp_3_Arg2 another 600 or more evacuated from the Manigotagan area on the eastern shore of Lake Winnipeg could return to their homes soon , Exp_4_Arg1} {Exp_4_conn_Synchrony now that Exp_4_conn} {Exp_4_Arg2 rain has helped crews get the fire in that area under control . Exp_3_Arg2} Exp_4_Arg2}
+
+{NonExp_4_Arg1 There were 61 fires burning in Manitoba Wednesday out of 171 so far this year . NonExp_4_Arg1}
+{NonExp_4_Arg2_EntRel About 33,500 hectares of timber have been consumed . NonExp_4_Arg2}
+
+There is now a ban on all open fires for most of Northwestern Ontario .
+
+{NonExp_5_Arg1 `` Our forest conditions right now are volatile , '' {Attr_3 said Bob Thomas , information officer for the provincial response center . NonExp_5_Arg1} Attr_3}
+{NonExp_5_Arg2_EntRel `` It virtually takes a spark to get it going . '' NonExp_5_Arg2}
+
+Since April 1 , almost all of the province 's 200 fires were triggered by human causes .
+
+{NonExp_6_Arg1 <QUESTIONS> <Q1> What is giving firefighters a hand in battling several large forest fires across Northern Ontario ? NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Pragmatic_cause {Exp_5_Arg1 <Q2> Exp_5_Arg1} {Exp_5_conn_Synchrony When Exp_5_conn} {Exp_5_Arg2 might some people be allowed to return to their homes ? Exp_5_Arg2} NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Cause <Q3> Where has a state of emergency been declared ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Cause <Q4> Why could Manitoba send fire fighters and equipment to the latest hotspot in northwestern Ontario ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_EntRel <Q5> Who is Natural Resources Minister ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_List <Q6> How did Bob Thomas describe forest conditions right now ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Instantiation <Q7> How many forest fires have there been in Ontario since April 1 ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_12_Arg2_Conjunction <Q8> What has triggered most of the fires in Ontario that have occurred since April 1 ? NonExp_12_Arg2}
+

@@ -1,0 +1,46 @@
+A Step to Curing Diabetes May 14 , 1999
+
+{Attr_0 A team of Calgary researchers says Attr_0} that they have discovered one of the causes of diabetes .
+
+The scientists have spent the last eight years in the lab trying to pinpoint the immune system 's role in diabetes .
+
+{Attr_1 {Exp_0_Arg1 Dr. Ji-Won Yoon and his team at the University of Calgary say Attr_1} their research gives insight into what triggers insulin-dependent diabetes . Exp_0_Arg1}
+
+{Exp_1_Arg1 {Exp_0_conn_Contrast But Exp_0_conn} {Exp_0_Arg2 , diabetics will have to be patient -- a cure for humans is between five and 10 years away . Exp_0_Arg2} Exp_1_Arg1}
+
+{NonExp_0_Arg1 {Exp_1_conn_Contrast However Exp_1_conn} {Exp_1_Arg2 , that did n't temper the enthusiasm of diabetic Holly McWilliams . Exp_1_Arg2} NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel `` This is very exciting , '' {Attr_2 said the 18-year-old Calgarian {Exp_2_Arg1 who has had to inject insulin four times a day Exp_2_Arg1} Attr_2} {Exp_2_conn_Cause since Exp_2_conn} {Exp_2_Arg2 she was three years old to stay alive Exp_2_Arg2} . NonExp_0_Arg2}
+
+She now uses an insulin pump to maintain proper levels of the hormone .
+
+{Exp_3_Arg1 Diabetics are at risk of blindness , circulatory problems , heart disease and kidney failure , Exp_3_Arg1} {Exp_3_conn_Contrast but Exp_3_conn} {Exp_3_Arg2 with proper diet , exercise and insulin , it can be controlled . Exp_3_Arg2}
+
+There are at least two strands of diabetes : Type 1 -- when the body does n't produce insulin .
+
+Type 2 -- when insulin in the body does n't work properly .
+
+Dr. Ji-Won Yoon 's discovery affects Type 1 diabetics , which inflicts about 100,000 Canadians .
+
+{NonExp_1_Arg1 One and a half million Canadians have diabetes ; more than 750,000 have it and do n't know it . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel `` {Exp_4_Arg1 This is a major landmark study Exp_4_Arg1} {Exp_4_conn_Conjunction and Exp_4_conn} {Exp_4_Arg2 it helps us understand the disease in a way we have n't in the past Exp_4_Arg2} , '' {Attr_3 says Dr. David Lau of the Julia McFarlane Diabetes Research Centre . NonExp_1_Arg2} Attr_3}
+
+Dr. Yoon 's research on mice focuses on how a diabetic 's immune system attacks cells that produce insulin , which is needed to help the body properly use sugars .
+
+{NonExp_2_Arg1 A protein in the pancreas , which produces insulin , plays a critical role in triggering diabetes in mice . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel Destruction of insulin-producing cells by the immune system can be prevented by halting protein production . NonExp_2_Arg2}
+
+{Attr_4 {Exp_5_Arg1 Dr. Yoon said Attr_4} his work could lead to transplants of tissue that fight the sugar build-up process or possibly a vaccine . Exp_5_Arg1}
+
+{Exp_5_Arg2 Lau is confident studies on mice will {Exp_5_conn_Conjunction also Exp_5_conn} work on humans . Exp_5_Arg2}
+
+{NonExp_3_Arg1 <QUESTIONS> <Q1> How many Canadians have diabetes and do n't realize it ? NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_List <Q2> What kinds of health problems do diabetics potentially face ? NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_Cause <Q3> How is diabetes currently controlled ? NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Instantiation <Q4> What does insulin do for our bodies ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_List <Q5> What do Type 1 diabetics ' immune systems do to insulin-producing cells ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_EntRel <Q6> What is Type 2 diabetes ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Contrast <Q7> Where does Dr. Yoon 's team work ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Cause <Q8> Why will diabetics have to be patient , despite Dr. Ji-Won Yoon 's discovery ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_EntRel <Q9> Who is Holly McWilliams ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_11_Arg2_Contrast {Exp_6_Arg1 <Q10> Exp_6_Arg1} {Exp_6_conn_Synchrony When Exp_6_conn} {Exp_6_Arg2 did Holly McWilliams have to start getting insulin injections ? Exp_6_Arg2} NonExp_11_Arg2}
+

@@ -1,0 +1,31 @@
+Scientists Hope to Clone Mammoth July 23 , 1999
+
+It sounds like the story from the dinosaur movie Jurassic Park .
+
+A wooly mammoth that was mummified 23,000 years ago , will be dug out of the frozen ground by a group of international scientists .
+
+{NonExp_0_Arg1 The mammoth was found in Siberia , a large area in Russia with a cold climate similar to Canada 's far north . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel {Exp_0_Arg1 His head has decomposed , Exp_0_Arg1} {Exp_0_conn_Contrast but Exp_0_conn} {Exp_0_Arg2 his body remains intact under the permanently frozen tundra . Exp_0_Arg2} NonExp_0_Arg2}
+
+{NonExp_1_Arg1 Scientists hope to create an exact duplicate mammoth through cloning techniques . NonExp_1_Arg1}
+{NonExp_1_Arg2_Cause To do this , they will use the DNA they hope to find in the mammoth 's soft tissues and hair . NonExp_1_Arg2}
+
+{Attr_0 {Exp_1_Arg1 The scientists say Attr_0} the color of the mammoth 's hair is still present , as is the smell of the skin . Exp_1_Arg1}
+{Exp_1_Arg2 This means the hair or skin may {Exp_1_conn_Contrast still Exp_1_conn} contain the DNA needed for the cloning experiment . Exp_1_Arg2}
+
+{NonExp_2_Arg1 Mammoths are most similar to modern-day Asian elephants . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel An elephant is expected {Exp_2_Arg1 to act as the host or mother of the mammoth Exp_2_Arg1} {Exp_2_conn_Synchrony when Exp_2_conn} {Exp_2_Arg2 it is created Exp_2_Arg2} . NonExp_2_Arg2}
+
+The scientists say a cloned mammoth will help them study the habits of an animal that lived many years ago .
+
+{NonExp_3_Arg1 The mystery of the mammoth 's extinction is still unsolved . NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause Scientists hope this discovery could be a giant leap in answering this puzzling question . NonExp_3_Arg2}
+
+{NonExp_4_Arg1 <QUESTIONS> <Q1> Where was a mummified wooly mammoth found ? NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_EntRel <Q2> Who is going to dig up the dead wooly mammoth ? NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Cause <Q3> How do scientists hope to create an exact duplicate of the mammoth ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Cause <Q4> Why is it important that the the color of the mammoth 's hair and the smell of the skin are still present ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Cause {Exp_3_Arg1 <Q5> Exp_3_Arg1} {Exp_3_conn_Synchrony When Exp_3_conn} {Exp_3_Arg2 did the wooly mammoth live ? Exp_3_Arg2} NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Cause <Q6> Why did the wooly mammoth become extinct ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_9_Arg2_Restatement <Q7> What modern animals do wooly mammoths look most like ? NonExp_9_Arg2}
+

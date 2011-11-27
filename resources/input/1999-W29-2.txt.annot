@@ -1,0 +1,38 @@
+{Attr_0 UN says Canada number one July 13 , Attr_0} 1999
+
+For the sixth year in a row , the United Nations has ranked Canada as the best country in the world to live in .
+
+The United Nations decides the number one country each year by a method called the Human Development Index .
+
+{NonExp_0_Arg1 The Human Development Index is calculated by looking at statistics about a country 's citizens . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel These statistics include life expectancy -LRB- how long a person lives -RRB- , quality of education , and personal income -LRB- how much money a person earns -RRB- . NonExp_0_Arg2}
+
+Canada scored high in many areas .
+
+{NonExp_1_Arg1 A Canadian 's average life expectancy is near the top , at 79 years . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel {Exp_1_Arg1 {Exp_0_Arg1 Japan 's life expectancy is 80 years old , Exp_0_Arg1} {Exp_0_conn_Conjunction and Exp_0_conn} {Exp_0_Arg2 the United States ' is at 76 . Exp_0_Arg2} Exp_1_Arg1} NonExp_1_Arg2}
+
+{Exp_2_Arg1 {Exp_1_Arg2 The United Nations {Exp_1_conn_Conjunction also Exp_1_conn} said Canada 's healthcare was good , placing second behind Japan . Exp_1_Arg2} Exp_2_Arg1}
+
+{NonExp_2_Arg1 {Exp_2_Arg2 Canadians {Exp_2_conn_Conjunction also Exp_2_conn} have high average yearly incomes . Exp_2_Arg2} NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_Instantiation Canadians earned $ 16,525 US a year in 1997 . NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_3_Arg2_EntRel That is better than many countries , but below top countries like Norway and Japan . NonExp_3_Arg2}
+
+{NonExp_4_Arg1 Not all of the UN report was good news . NonExp_4_Arg1}
+{NonExp_4_Arg2_EntRel {Exp_5_Arg1 {Exp_3_Arg1 Canada ranked ninth in the world Exp_3_Arg1} {Exp_3_conn_Synchrony when Exp_3_conn} {Exp_3_Arg2 it came to dealing with poverty . Exp_3_Arg2} Exp_5_Arg1} NonExp_4_Arg2}
+
+{Attr_1 {Exp_5_Arg2 {Exp_4_Arg1 The UN says Attr_1} technology may be improving life for people in developed countries like Canada , Exp_4_Arg1} {Exp_4_conn_Contrast but Exp_4_conn} {Exp_4_Arg2 it is {Exp_5_conn_Conjunction also Exp_5_conn} widening the gap between rich and poor people . Exp_4_Arg2} Exp_5_Arg2}
+
+{Exp_6_Arg1 Many countries disagree with the way the United Nations gathers its information to decide the best countries in the world . Exp_6_Arg1}
+
+{Attr_2 {Exp_6_conn_Contrast But Exp_6_conn} {Exp_6_Arg2 the UN says Attr_2} the Human Development Index is a comprehensive measure of a country 's standard of living . Exp_6_Arg2}
+
+{NonExp_5_Arg1 <QUESTIONS> <Q1> How many years in a row has the United Nations ranked Canada the best country in the world to live in ? NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_EntRel <Q2> Which statistics are looked at to calculate the Human Development Index ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Cause <Q3> What is personal income ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_EntRel <Q4> Where is life expectancy 76 years of age ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_EntRel <Q5> Who ranked first in healthcare ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_EntRel <Q6> In what year did Canadians earn an average of $ 16,525 US ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Cause <Q7> Why is life improving for people in developed countries like Canada , {Attr_3 according to the UN report ? NonExp_10_Arg2} NonExp_11_Arg1} Attr_3}
+{NonExp_11_Arg2_Conjunction <Q8> How does the United Nations defend the Human Development Index ? NonExp_11_Arg2}
+

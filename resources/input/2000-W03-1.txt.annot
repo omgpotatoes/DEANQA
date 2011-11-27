@@ -1,0 +1,57 @@
+Tragedy strikes Rankin family January 17 , 2000
+
+{Exp_0_Arg1 Three teenage boys were able to escape a truck that crashed in the Gulf of St. Lawrence in Cape Breton , Nova Scotia yesterday . Exp_0_Arg1}
+{Exp_0_conn_Contrast But Exp_0_conn} {Exp_0_Arg2 the driver and father of one of the teenagers was not so lucky . Exp_0_Arg2}
+
+John Morris Rankin , a member of the former Celtic group the Rankins , was killed in the accident .
+
+{Attr_0 Family friend Emily Butler said Attr_0} it appeared that Rankin told the teens {Exp_1_Arg1 to jump out of the truck Exp_1_Arg1} {Exp_1_conn_Synchrony as Exp_1_conn} {Exp_1_Arg2 it skidded towards the water Exp_1_Arg2} .
+
+{NonExp_0_Arg1 `` {Exp_2_Arg1 John Morris told them to jump Exp_2_Arg1} {Exp_2_conn_Conjunction and Exp_2_conn} {Exp_2_Arg2 they got out Exp_2_Arg2} , '' {Attr_1 she said . NonExp_0_Arg1} Attr_1}
+{NonExp_0_Arg2_EntRel `` John Morris went with the truck . '' NonExp_0_Arg2}
+
+It has n't yet been determined how the vehicle ended up in the water .
+
+{Exp_3_Arg1 Morris Green of Nova Scotia Emergency Health Services said one of the teenagers was being treated for hypothermia -- when one 's body temperature drops abnormally low -- Exp_3_Arg1} {Exp_3_conn_Conjunction and Exp_3_conn} {Exp_3_Arg2 the other two appeared to be OK . Exp_3_Arg2}
+
+{NonExp_1_Arg1 John Morris Rankin played fiddle and piano with the popular musical family from Cape Breton . NonExp_1_Arg1}
+{NonExp_1_Arg2_Cause {Exp_4_Arg1 The group broke up last summer Exp_4_Arg1} {Exp_4_conn_Cause so Exp_4_conn} {Exp_4_Arg2 its members could pursue independent careers and interests . Exp_4_Arg2} NonExp_1_Arg2}
+
+Over a decade-long , storybook career , the Mabou , Nova Scotia family band rose from playing at county fairs and church halls to become the most successful music acts on the East Coast through the 1990s .
+
+The five siblings sold more than two million records , won five Juno Awards , including group of the year in 1994 , and took its Celtic music to the world .
+
+Family friend and musician Denis Ryan said news of the accident spread quickly through the Nova Scotia music community .
+
+{NonExp_2_Arg1 `` It 's awful , awful , awful , '' {Attr_2 said Ryan , Attr_2} who played music with Rankin in the mid '80s . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel `` I 've known him for 25 years ... Why is it always the good people that die ? '' NonExp_2_Arg2}
+
+Ryan described Rankin as a dedicated family man and master carpenter who was like a younger brother to him .
+
+{Exp_5_Arg1 `` He was just a beautiful person to be around -- never offensive and could be awful funny at times . Exp_5_Arg1}
+{NonExp_3_Arg1 {Exp_5_conn_Conjunction And Exp_5_conn} {Exp_5_Arg2 he did have a great Celtic humor and wit about him . Exp_5_Arg2} NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause He could laugh and smile and have fun with very simple things in life . '' NonExp_3_Arg2}
+
+{Exp_6_Arg1 Rankin 's brother Jimmy Rankin left a Farm Aid concert in Toronto Exp_6_Arg1} {Exp_6_conn_Asynchronous after Exp_6_conn} {Exp_6_Arg2 being notified of the death . Exp_6_Arg2}
+
+Family friend Russell De Carle , lead singer for Prairie Oyster , {Attr_3 said Attr_3} {Exp_7_Arg1 he was stunned Exp_7_Arg1} {Exp_7_conn_Synchrony when Exp_7_conn} {Exp_7_Arg2 he heard the news at the benefit Exp_7_Arg2} .
+
+{NonExp_4_Arg1 `` He was a brilliant musician . NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_EntRel It 's a huge loss . NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_EntRel It 's unbelievable . NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_EntRel I had an incredible amount of admiration for his playing . NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_7_Arg2_EntRel He was a brilliant musician , keyboardist and fiddle player . '' NonExp_7_Arg2}
+
+Besides Michael , 15 , Rankin is survived by his wife Sally and daughter Molly , 13 .
+
+{NonExp_8_Arg1 <QUESTIONS> <Q1> Who did John Morris Rankin play for ? NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_List <Q2> How many records did his musical group sell ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_EntRel <Q3> What is hypothermia ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Cause {Exp_8_Arg1 <Q4> Exp_8_Arg1} {Exp_8_conn_Synchrony When Exp_8_conn} {Exp_8_Arg2 did John Morris Rankin tell the teenagers to jump out of the truck ? Exp_8_Arg2} NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Cause <Q5> Where was Jimmy Rankin when he heard the news of his brother 's death ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Cause <Q6> What musical instruments did John Morris Rankin play ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_EntRel <Q7> How old is Molly Rankin ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_EntRel <Q8> Who is the lead vocalist of Prairie Oyster ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_EntRel <Q9> Who is Denis Ryan ? NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_16_Arg2_List <Q10> Why did Rankin 's musical group break up ? NonExp_16_Arg2}
+

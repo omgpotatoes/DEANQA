@@ -1,0 +1,44 @@
+{NonExp_0_Arg1 Will Quebec 's Nurses Go to Jail ? NonExp_0_Arg1}
+{NonExp_0_Arg2_Asynchronous July 2 , 1999 NonExp_0_Arg2}
+
+{Attr_0 The president of the Quebec Federation of Nurses says Attr_0} she will not obey back-to-work legislation that Premier Lucien Bouchard is expected to introduce later today .
+
+{NonExp_1_Arg1 Premier Bouchard has called an emergency meeting of the Quebec National Assembly . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel He plans to introduce special legislation to force the province 's 47,000 striking nurses back to work . NonExp_1_Arg2}
+
+{Exp_0_Arg1 The legislation could impose jail sentences on the leaders of the nurses ' union Exp_0_Arg1} {Exp_0_conn_Condition if Exp_0_conn} {Exp_0_Arg2 they do not call off the strike immediately . Exp_0_Arg2}
+
+{Attr_1 Quebec Federation of Nurses Vice-President Michele Boisclair has said Attr_1} that {Exp_1_Arg1 the Executive of the Federation is prepared to go to jail Exp_1_Arg1} {Exp_1_conn_Condition if Exp_1_conn} {Exp_1_Arg2 that 's what it takes Exp_1_Arg2} .
+
+{Attr_2 Ms. Boisclair told the Montreal Gazette , Attr_2} `` {Exp_2_conn_Synchrony When Exp_2_conn} {Exp_2_Arg2 you see nurses are willing to go that far , Exp_2_Arg2} {Exp_2_Arg1 it shows how bad it is in the healthcare system Exp_2_Arg1} . ''
+
+{NonExp_2_Arg1 Nurses are now demonstrating on the sidewalks outside all Quebec hospitals . NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_Conjunction Public opinion seems to be on their side . NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_Cause Many drivers are honking their horns to show their support . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_4_Arg2_Conjunction In restaurants and on the street conversations are about the strike and how nurses deserve to be paid more money . NonExp_4_Arg2}
+
+{NonExp_5_Arg1 Quebec nurses make between $ 32,000 and $ 44,000 a year . NonExp_5_Arg1}
+{NonExp_5_Arg2_EntRel They are the lowest-paid nurses in Canada . NonExp_5_Arg2}
+
+{Exp_5_Arg1 Premier Bouchard is reluctant {Exp_3_Arg1 to give the nurses ' more money Exp_3_Arg1} {Exp_3_conn_Cause because Exp_3_conn} {Exp_3_Arg2 they are only the first of many labor organizations negotiating new contracts Exp_3_Arg2} . Exp_5_Arg1}
+{Exp_6_Arg1 {Exp_5_Arg2 {Exp_4_conn_Condition If Exp_4_conn} {Exp_4_Arg2 Bouchard agrees to give the nurses a raise , Exp_4_Arg2} {Exp_4_Arg1 he will {Exp_5_conn_Conjunction also Exp_5_conn} have to give the other health care groups more money . Exp_4_Arg1} Exp_5_Arg2} Exp_6_Arg1}
+
+{NonExp_6_Arg1 {Exp_7_Arg1 {Exp_6_Arg2 Quebec ambulance technicians have {Exp_6_conn_Conjunction also Exp_6_conn} threatened to strike , Exp_7_Arg1} {Exp_7_conn_Conjunction and Exp_7_conn} {Exp_7_Arg2 earlier this week , more than 90 per cent of hospital pharmacists submitted their resignations . Exp_6_Arg2} Exp_7_Arg2} NonExp_6_Arg1}
+{NonExp_6_Arg2_Cause {Exp_9_Arg1 {Exp_8_Arg1 The pharmacists will leave their jobs in 60 days Exp_8_Arg1} {Exp_8_conn_Condition if Exp_8_conn} {Exp_8_Arg2 the situation does not improve . Exp_8_Arg2} Exp_9_Arg1} NonExp_6_Arg2}
+
+{NonExp_7_Arg1 {Exp_9_Arg2 Some of Quebec 's doctors are {Exp_9_conn_Conjunction also Exp_9_conn} taking a stand . Exp_9_Arg2} NonExp_7_Arg1}
+{Attr_3 {NonExp_7_Arg2_EntRel Some doctors have said Attr_3} {Exp_10_Arg1 they will resign Exp_10_Arg1} {Exp_10_conn_Alternative unless Exp_10_conn} {Exp_10_Arg2 the Premier comes up with more money for health care Exp_10_Arg2} . NonExp_7_Arg2}
+
+Today is the seventh day of the nurses strike .
+
+{NonExp_8_Arg1 <QUESTIONS> <Q1> What is Quebec Premier Lucien Bouchard 's special legislation intended to do ? NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Restatement <Q2> Under Bouchard 's legislation , {Exp_11_Arg1 what could be imposed on the leaders of the nurses ' union Exp_11_Arg1} {Exp_11_conn_Condition if Exp_11_conn} {Exp_11_Arg2 they do not call off the strike immediately Exp_11_Arg2} ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Cause <Q3> Where are nurses demonstrating ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_EntRel <Q4> Who is Michele Boisclair ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_NoRel <Q5> Why is Premier Bouchard reluctant to give the nurses more money ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Cause <Q6> What are many drivers doing to show their support for the nurses on strike ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_Conjunction <Q7> In comparison to other nurses in Canada , how are the Quebec nurses paid ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_Cause <Q8> Who else has threatened to strike ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_Cause {Exp_13_Arg1 {Exp_12_Arg1 <Q9> Exp_12_Arg1} {Exp_12_conn_Synchrony When Exp_12_conn} {Exp_12_Arg2 will the hospital pharmacists leave their jobs Exp_13_Arg1} {Exp_13_conn_Condition if Exp_13_conn} {Exp_13_Arg2 the situation does not improve ? Exp_12_Arg2} Exp_13_Arg2} NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_16_Arg2_Cause {Exp_14_Arg1 <Q10> How will some Quebec doctors respond Exp_14_Arg1} {Exp_14_conn_Alternative unless Exp_14_conn} {Exp_14_Arg2 the Premier comes up with more money for health care ? Exp_14_Arg2} NonExp_16_Arg2}
+
