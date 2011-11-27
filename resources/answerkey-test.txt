@@ -1,0 +1,1622 @@
+<FILE>1999-W03-5.txt
+<Q_NUMBER>1
+<A_LINE>27
+<Q_TXT>What was Noella "Babe" MacLean's maiden name?
+<A_TXT>Babe Belanger married Ian MacLean, who continued the family sports tradition. 
+
+<Q_NUMBER>2
+<A_LINE>11
+<Q_TXT>What team did Babe play for?
+<A_TXT>Her team was known as the Edmonton Grads. 
+
+<Q_NUMBER>3
+<A_LINE>25
+<Q_TXT>What position did Babe play?
+<A_TXT>She was a forward and she stood only 5 feet, 2 inches tall. 
+
+<Q_NUMBER>4
+<A_LINE>25
+<Q_TXT>How tall was Babe?
+<A_TXT>She was a forward and she stood only 5 feet, 2 inches tall. 
+
+<Q_NUMBER>5
+<A_LINE>9
+<Q_TXT>How much was Babe paid to play basketball?
+<A_TXT>But unlike retired millionaire Jordan, Babe never made a cent for her skills. 
+
+<Q_NUMBER>6
+<A_LINE>21
+<Q_TXT>How many games did the Edmonton Grads win?
+<A_TXT>Of the 522 games they played they won 502! 
+
+<Q_NUMBER>7
+<A_LINE>24
+<Q_TXT>When did Babe play for "the finest basketball team that ever stepped out on a floor"?
+<A_TXT>Babe Belanger played with the Grads from 1929 to 1937. 
+
+<Q_NUMBER>8
+<A_LINE>27
+<Q_TXT>Who was Babe's husband?
+<A_TXT>Babe Belanger married Ian MacLean, who continued the family sports tradition. 
+
+<Q_NUMBER>9
+<A_LINE>31
+<Q_TXT>Where did Babe's daughter find scrapbooks?
+<A_TXT>But her daughter says the scrapbooks she found in the family's basement show she was a part of a team that was every bit as sensational as the Edmonton Oilers in Gretzky's time. 
+
+</FILE>
+<FILE>1999-W05-4.txt
+<Q_NUMBER>1
+<A_LINE>25,24
+<Q_TXT>In the initial days of computing, how was the year "1999" represented?
+<A_TXT>So in the date 1999, for example, only the 99 was counted.  -OR- But in the early years of computing, in an attempt to save space and time on the less powerful machines, year dates were recognized by their last two digits only. 
+
+<Q_NUMBER>2
+<A_LINE>27
+<Q_TXT>How will the year 2000 be interpreted by a computer with the Y2K bug?
+<A_TXT>Of course, by using the only last two digits in a date, the year 2000 would look like the year 1900 -- "00". 
+
+<Q_NUMBER>3
+<A_LINE>9
+<Q_TXT>Who is Dave Johnson?
+<A_TXT>The education minister says each board that needs to can take as much time as necessary, as long as they follow regulations. 
+
+<Q_NUMBER>4
+<A_LINE>11
+<Q_TXT>What sorts of things in the schools do computers control?
+<A_TXT>Dave Johnson says some boards are worried about computers that run things such as heating, lighting and door locks. 
+
+<Q_NUMBER>5
+<A_LINE>13
+<Q_TXT>Why is the Y2K bug affecting school vacations?
+<A_TXT>Schools in New Brunswick changed the date of Christmas break earlier this week, because of Y2K worries. 
+
+<Q_NUMBER>6
+<A_LINE>14
+<Q_TXT>When will New Brunswick students take Christmas break this year?
+<A_TXT>Students in that province will take holidays a week late, leaving December 23 and returning January 10. 
+
+<Q_NUMBER>7
+<A_LINE>17
+<Q_TXT>In what province is the Halifax Regional School Board coping with the Y2K problem?
+<A_TXT>In Nova Scotia, the Halifax Regional School Board is discussing the issue with provincial authorities. 
+
+</FILE>
+<FILE>1999-W06-5.txt
+<Q_NUMBER>1
+<A_LINE>18
+<Q_TXT>What is the name of the new accord between most of Canada's provinces and territories?
+<A_TXT>These negotiations are called the "social union". 
+
+<Q_NUMBER>2
+<A_LINE>11
+<Q_TXT>How many provinces does Canada have?
+<A_TXT>Yesterday the leaders of all of Canada's ten provinces and two territories got together in Ottawa, Ontario with the Prime Minister. 
+
+<Q_NUMBER>3
+<A_LINE>11
+<Q_TXT>Where did the Canadian leaders meet to discuss the accord?
+<A_TXT>Yesterday the leaders of all of Canada's ten provinces and two territories got together in Ottawa, Ontario with the Prime Minister. 
+
+<Q_NUMBER>4
+<A_LINE>36
+<Q_TXT>Which leader is the premier of Ontario?
+<A_TXT>Ontario Premier Mike Harris called it "a tremendous day." 
+
+<Q_NUMBER>5
+<A_LINE>22,23
+<Q_TXT>Who did not sign the new accord?
+<A_TXT>Only the leader of Quebec didn't agree.  -OR- Quebec premier Lucien Bouchard refused to sign yesterday's accord. 
+
+<Q_NUMBER>6
+<A_LINE>27,28
+<Q_TXT>Why did the one province not sign the accord?
+<A_TXT>But he refused to add Quebec to a wider deal on paying for and running Canada's social programs.  -OR- He sees this as a threat to Quebec's future. 
+
+<Q_NUMBER>7
+<A_LINE>25,38
+<Q_TXT>How much will the provinces receive for health care?
+<A_TXT>The deal will see the federal government add a few billion dollars for health care in the year to come.  -OR- The health care agreement is expected to send as much $2.5 billion to the provinces. 
+
+<Q_NUMBER>8
+<A_LINE>46
+<Q_TXT>What are "mobility rights"?
+<A_TXT>That simply means that Canadians will be able to use their health care cards if they move to another part of Canada except Quebec. 
+
+<Q_NUMBER>9
+<A_LINE>42
+<Q_TXT>When will the agreement be reviewed and possibly changed?
+<A_TXT>The social union agreement will be reviewed after three years. 
+
+</FILE>
+<FILE>1999-W08-1.txt
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>What does "perjury" mean?
+<A_TXT>President Clinton was acquitted of the charge of perjury (lying in court) and of obstructing justice (hiding evidence, or getting others to lie in court). 
+
+<Q_NUMBER>2
+<A_LINE>12
+<Q_TXT>How many senators voted that President Clinton was guilty of perjury?
+<A_TXT>The senators were split 50-50 on the charge of obstruction of justice, and only 45 voted Clinton "guilty" on the charge of perjury. 
+
+<Q_NUMBER>3
+<A_LINE>5
+<Q_TXT>When was Clinton acquitted of the charges of perjury and obstructing justice?
+<A_TXT>The trial of the American president ended Friday when he was found not guilty of both charges against him. 
+
+<Q_NUMBER>4
+<A_LINE>24
+<Q_TXT>Where did Monica Lewinsky work as an intern?
+<A_TXT>Clinton had denied having an affair with White House intern, Monica Lewinsky, but later admitted that he did have a relationship with her. 
+
+<Q_NUMBER>5
+<A_LINE>27
+<Q_TXT>Who claimed that Clinton tried to get Lewinsky to lie about her affair with the president?
+<A_TXT>Republican senators claim Clinton tried to get Lewinsky to lie, but she says it was her own decision to cover up the affair. 
+
+<Q_NUMBER>6
+<A_LINE>20
+<Q_TXT>Why do most Americans not want Clinton impeached?
+<A_TXT>Although most Americans believe Clinton acted immorally, they don't think his actions were serious enough to impeach him. 
+
+<Q_NUMBER>7
+<A_LINE>22
+<Q_TXT>What happened to Clinton's approval ratings during the impeachment trial?
+<A_TXT>In fact, Clinton's approval rating climbed during the trial, which means Americans think he is still fit to be their president. 
+
+</FILE>
+<FILE>1999-W09-5.txt
+<Q_NUMBER>1
+<A_LINE>28,12
+<Q_TXT>Who is Moshe Akavak?
+<A_TXT>When Moshe Akavak became a jail guard 16 years ago, he was appalled so many Inuit had lost their traditional skills.  -OR- Moshe Akavak, a guard with the BCC says learning the traditional ways will help the prisoners' rehabilitation. 
+
+<Q_NUMBER>2
+<A_LINE>28
+<Q_TXT>When did Akavak get his job?
+<A_TXT>When Moshe Akavak became a jail guard 16 years ago, he was appalled so many Inuit had lost their traditional skills. 
+
+<Q_NUMBER>3
+<A_LINE>5
+<Q_TXT>What potentially dangerous objects are the inmates at BBC being given in order to help them rehabilitate?
+<A_TXT>Inmates at a prison in Iqaluit, on Baffin Island in the North West Territories (soon to be Nunavut) are being given something that few prisoners in the world are allowed: guns. 
+
+<Q_NUMBER>4
+<A_LINE>41
+<Q_TXT>How much do the hunting programs cost?
+<A_TXT>It's all very expensive, costing tens of thousands of dollars for equipment, clothing and supervision. 
+
+<Q_NUMBER>5
+<A_LINE>15
+<Q_TXT>Where do the hunting parties go to hunt caribou?
+<A_TXT>The party is hunting caribou, far from the city on the frozen tundra. 
+
+<Q_NUMBER>6
+<A_LINE>38
+<Q_TXT>What kind of animal do the inmates hunt in the summertime?
+<A_TXT>In the summer they go after seals. 
+
+</FILE>
+<FILE>1999-W10-2.txt
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Why were bells ringing all over the world at noon yesterday?
+<A_TXT>Church bells around the world rang out at noon yesterday as an international ban on landmines became international law. 
+
+<Q_NUMBER>2
+<A_LINE>15
+<Q_TXT>When was the international landmine treaty agreed to by 130 countries?
+<A_TXT>The pact was agreed to by 130 countries in Ottawa, Ontario in 1997. 
+
+<Q_NUMBER>3
+<A_LINE>16
+<Q_TXT>Which countries refused to sign the international accord on landmines?
+<A_TXT>Russia, the United States, China and Ukraine did not sign the treaty. 
+
+<Q_NUMBER>4
+<A_LINE>12
+<Q_TXT>What do we call groups of people who are experts at ringing bells?
+<A_TXT>In Paris, France members of carillon associations - people who are experts at ringing bells - coordinated the ringing of cathedral bells across the city. 
+
+<Q_NUMBER>5
+<A_LINE>32
+<Q_TXT>How long have North Korea and South Korea been in conflict?
+<A_TXT>The governments of North and South Korea have been in constant conflict for more then 40 years. 
+
+<Q_NUMBER>6
+<A_LINE>10
+<Q_TXT>What is the name of the Portuguese anti-landmine film?
+<A_TXT>In Brasilia, the capital city of Brazil, anti-landmine pamphlets were distributed and there were screenings of "Spotlight on a Massacre", an anti-landmines film in Portuguese. 
+
+<Q_NUMBER>7
+<A_LINE>20
+<Q_TXT>Who is the Secretary General of the United Nations?
+<A_TXT>The head of the United Nations, Secretary-General Kofi Annan described the treaty's entry into force as a milestone. 
+
+<Q_NUMBER>8
+<A_LINE>28
+<Q_TXT>What is the purpose of an anti-personnel landmine?
+<A_TXT>-Anti-personnel (AP) landmine - "A mine designed to be exploded by the presence, proximity or contact of a person and that will incapacitate, injure or kill one or more persons." 
+
+<Q_NUMBER>9
+<A_LINE>10
+<Q_TXT>Where is Brasilia?
+<A_TXT>In Brasilia, the capital city of Brazil, anti-landmine pamphlets were distributed and there were screenings of "Spotlight on a Massacre", an anti-landmines film in Portuguese. 
+
+</FILE>
+<FILE>1999-W10-4.txt
+<Q_NUMBER>1
+<A_LINE>10
+<Q_TXT>What is the scientific name for marijuana?
+<A_TXT>Marijuana is the common name of Cannabis sativa, a plant which contains more than 400 chemicals. 
+
+<Q_NUMBER>2
+<A_LINE>14
+<Q_TXT>What is the Health Department's study going to examine about marijuana?
+<A_TXT>The study would examine how the drug should be administered, and how a safe supply could be distributed to patients. 
+
+<Q_NUMBER>3
+<A_LINE>20
+<Q_TXT>Who has the Canadian Health Department consulted with about obtaining marijuana?
+<A_TXT>The Health Department has already consulted with the Food and Drug Administration in the United States -- which is also planning similar trials -- about acquiring marijuana for the tests. 
+
+<Q_NUMBER>4
+<A_LINE>31
+<Q_TXT>Why was Mark Crossley sentenced to house arrest?
+<A_TXT>He was sentenced last week to four months of house arrest and 18 months probation for growing marijuana in his backyard. 
+
+<Q_NUMBER>5
+<A_LINE>49,48
+<Q_TXT>Where has marijuana already been approved for medical use?
+<A_TXT>It was taken to a vote in seven U.S. states and the District of Columbia.  -OR- Several American states have already approved the medical use of marijuana. 
+
+<Q_NUMBER>6
+<A_LINE>28
+<Q_TXT>How long does it take for delta-9 tetrahydrocannabinol to be absorbed into the bloodstream when someone smokes marijuana?
+<A_TXT>When marijuana is smoked, THC is absorbed from the lungs to the bloodstream within minutes. 
+
+<Q_NUMBER>7
+<A_LINE>42
+<Q_TXT>What happened after Dr. Hays' patient smoked marijuana?
+<A_TXT>"There was a tremendous improvement," she said. 
+
+</FILE>
+<FILE>1999-W11-3.txt
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>How does Newfoundland intend to use a film of seals feasting on cod?
+<A_TXT>The Newfoundland government has a new weapon in its fight to increase the seal hunt: film of cod carnage. 
+
+<Q_NUMBER>2
+<A_LINE>8
+<Q_TXT>Who described the film as "the killing fields"?
+<A_TXT>It looks pretty bad," says Mary MacNab, the government's seal industry promotions officer. 
+
+<Q_NUMBER>3
+<A_LINE>12
+<Q_TXT>Who shot the footage of seals eating cod?
+<A_TXT>The footage, filmed last week by fishermen using government supplied equipment, shows the ocean floor after a group of seals crowded cod into a bay and started feasting. 
+
+<Q_NUMBER>4
+<A_LINE>25
+<Q_TXT>Why has there been a moratorium on cod fishing?
+<A_TXT>There has been a moratorium - a temporary ban - on fishing for cod since 1992 after fish stocks dropped to dangerous levels. 
+
+<Q_NUMBER>5
+<A_LINE>25
+<Q_TXT>When was the moratorium instituted?
+<A_TXT>There has been a moratorium - a temporary ban - on fishing for cod since 1992 after fish stocks dropped to dangerous levels. 
+
+<Q_NUMBER>6
+<A_LINE>33
+<Q_TXT>What is the estimated size of the seal herd?
+<A_TXT>Mr. Efford says the seal herd, which is estimated at six million, needs to be cut in half. 
+
+<Q_NUMBER>7
+<A_LINE>33
+<Q_TXT>By how much does John Efford want to cut the seal herd?
+<A_TXT>Mr. Efford says the seal herd, which is estimated at six million, needs to be cut in half. 
+
+<Q_NUMBER>8
+<A_LINE>36
+<Q_TXT>Where is Dalhousie University?
+<A_TXT>Jeff Hutchings, a professor at Dalhousie University in Halifax, Nova Scotia says it is a stretch for Mr. Efford to use evidence of seals preying on cod in one location to argue for a massive cull (harvest) of the seal herd. 
+
+<Q_NUMBER>9
+<A_LINE>42,44
+<Q_TXT>Why does Jeff Hutchings of Dalhousie University think that scientists may have underestimated how many cod seals kill?
+<A_TXT>He adds that documentation of seals having eaten only the fish stomachs suggests scientists may have underestimated how many cod the seals kill.  -OR- Researchers detect traces of fish in seal stomachs only if they eat the whole fish. 
+
+<Q_NUMBER>10
+<A_LINE>47
+<Q_TXT>How much was sealing worth to the Newfoundland economy in 1996?
+<A_TXT>In 1996 alone it was worth in excess of $11 million, with seal products being sold in Canada, Norway and Asia. 
+
+</FILE>
+<FILE>1999-W12-5.txt
+<Q_NUMBER>1
+<A_LINE>10
+<Q_TXT>What was the racist incident that occurred at Monday night's Manitoba Junior Hockey League game in Dauphin?
+<A_TXT>On Monday night, visiting Native spectators and players discovered racist pamphlets on their bus seats following a Manitoba Junior Hockey League game in the northwestern town of Dauphin, Manitoba. 
+
+<Q_NUMBER>2
+<A_LINE>12
+<Q_TXT>Who won Monday night's game?
+<A_TXT>The OCN Blizzards of the Opaskwayak Cree Nation had beaten the hometown Dauphin Kings in a playoff game. 
+
+<Q_NUMBER>3
+<A_LINE>18
+<Q_TXT>When did hockey fans bring hand drums to a game to taunt the Native players?
+<A_TXT>Two weeks ago at a Bantam hockey game in Dauphin involving a team from Waywayseecappo First Nation, fans for the other team brought hand drums to the game to taunt the Native players and fans, Bushie said. 
+
+<Q_NUMBER>4
+<A_LINE>14
+<Q_TXT>Why do First Nations people allegedly "hate white people," according to some?
+<A_TXT>The unsigned flyers suggested that First Nations people love welfare and hate white people because "they have brand new cars nice homes... and new clothes." 
+
+<Q_NUMBER>5
+<A_LINE>7
+<Q_TXT>What is Rod Bushie's role in the Assembly of Manitoba Chiefs?
+<A_TXT>"It s not the first incident," said Rod Bushie, grand chief of the Assembly of Manitoba Chiefs. 
+
+<Q_NUMBER>6
+<A_LINE>25
+<Q_TXT>How should politicians respond to racism, according to Bushie?
+<A_TXT>Bushie called on politicians to encourage racial tolerance. 
+
+<Q_NUMBER>7
+<A_LINE>26
+<Q_TXT>According to Bushie, what should the schools do to combat racism?
+<A_TXT>He suggested more aboriginal education in schools. 
+
+<Q_NUMBER>8
+<A_LINE>31
+<Q_TXT>Where have the First Nation leaders been invited?
+<A_TXT>Dauphin Mayor Bill Nicholson said he has apologized to First Nations leaders and has invited them to discuss the matter with city council on April 12. 
+
+</FILE>
+<FILE>1999-W13-5.txt
+<Q_NUMBER>1
+<A_LINE>8
+<Q_TXT>Where are the Canadian fighter bombers based?
+<A_TXT>Four of the fighter bombers from Bagotville, Quebec returned safely to their Italian base late Thursday after a second day of air strikes aimed at ending ethnic bloodshed in the province of Kosovo. 
+
+<Q_NUMBER>2
+<A_LINE>23
+<Q_TXT>What is the goal of the NATO bombing in Yugoslavia?
+<A_TXT>Foreign Affairs Minister Lloyd Axworthy has said the goal is to force Yugoslavia to accept a peace agreement proposed by the United States. 
+
+<Q_NUMBER>3
+<A_LINE>24
+<Q_TXT>How would the U.S. peace proposal settle the crisis?
+<A_TXT>It would allow ethnic Albanians in Kosovo to govern themselves. 
+
+<Q_NUMBER>4
+<A_LINE>17
+<Q_TXT>How many of the targets they were given did the Canadian fighter bombers hit?
+<A_TXT>"Three of the four targets assigned to our aircraft were hit. 
+
+<Q_NUMBER>5
+<A_LINE>19
+<Q_TXT>Why did one pilot not launch his weapons?
+<A_TXT>"One of the pilots was unable to positively identify the target that he had been assigned and, as a measure and a mark of excellent discipline, he didn't launch his weapons." 
+
+<Q_NUMBER>6
+<A_LINE>38
+<Q_TXT>Who has been protesting the bombing in Yugoslavia?
+<A_TXT>Over the past three days Serbian Canadians and anti-war demonstrators have been holding protests in a number of Canadian cities. 
+
+<Q_NUMBER>7
+<A_LINE>39
+<Q_TXT>When is a demonstration planned for the front of the House of Commons?
+<A_TXT>Tomorrow there will be a demonstration in front of the House of Commons. 
+
+<Q_NUMBER>8
+<A_LINE>29
+<Q_TXT>What does Lloyd Axworthy say is the message that NATO is trying to deliver with the bombing?
+<A_TXT>"We are trying to deliver the message that military force against civilians is not acceptable," Mr. Axworthy said in Winnipeg, Manitoba. 
+
+<Q_NUMBER>9
+<A_LINE>33
+<Q_TXT>Who is Art Eggleton?
+<A_TXT>"We are trying to stop a humanitarian disaster," Defence Minister Art Eggleton told the House of Commons. 
+
+</FILE>
+<FILE>1999-W15-5.txt
+<Q_NUMBER>1
+<A_LINE>12
+<Q_TXT>What is an ombudsman?
+<A_TXT>An ombudsman is a person who is appointed by a government to investigate individuals' complaints against public authorities. 
+
+<Q_NUMBER>2
+<A_LINE>10,14
+<Q_TXT>When were the 170 children of the Sons of Freedom sect of the Doukhobor faith locked up in internment camp?
+<A_TXT>British Columbia's ombudsman says the provincial government should apologize to and compensate the children of a controversial religious group who were locked up in an internment camp during the 1950s.  -OR- Ombudsman Dulcie McCallum said an investigation found the 170 Doukhobor children were subjected to abuse and suffered "loss of love, nurturing guidance and childhood" while they were detained from 1953 to 1959. 
+
+<Q_NUMBER>3
+<A_LINE>20
+<Q_TXT>Where was the internment camp for the children located?
+<A_TXT>Provincial officials and the Royal Canadian Mounted Police held the truant children, many of whom spoke only Russian, at a former sanatorium - a hospital for people with tuberculosis - in New Denver, British Columbia, and forced them to attend local public schools. 
+
+<Q_NUMBER>4
+<A_LINE>18,17
+<Q_TXT>Why were the Doukhobor children locked up in the internment camp?
+<A_TXT>They refused to send children to public schools.  -OR- The sect strongly condemned private property and government control. 
+
+<Q_NUMBER>5
+<A_LINE>36,14
+<Q_TXT>What did ombudsman Dulcie McCallum's investigation into the treatment of the Doukhobor children find?
+<A_TXT>"As a result of the maltreatment, those who were institutionalized in New Denver suffered harm and continue to suffer from the long-term ill-effects of this trauma," wrote Ms. McCallum.  -OR- Ombudsman Dulcie McCallum said an investigation found the 170 Doukhobor children were subjected to abuse and suffered "loss of love, nurturing guidance and childhood" while they were detained from 1953 to 1959. 
+
+<Q_NUMBER>6
+<A_LINE>25
+<Q_TXT>What did the government force the children to build while they were interned in the camp?
+<A_TXT>The report said one example of the mistreatment was that children could only visit with their parents through a chain-link fence that the children themselves had been forced to construct. 
+
+<Q_NUMBER>7
+<A_LINE>28
+<Q_TXT>How often were the interned children allowed to visit with their parents?
+<A_TXT>And for some reason they put up this fence and once in two weeks you get to see your parents through a fence. 
+
+<Q_NUMBER>8
+<A_LINE>42
+<Q_TXT>Who is Ujjal Dosanjn?
+<A_TXT>This was a difficult time in British Columbia history," Attorney General Ujjal Dosanjn said yesterday. 
+
+<Q_NUMBER>9
+<A_LINE>39
+<Q_TXT>How have provincial officials responded to the ombudsman's report?
+<A_TXT>Provincial officials are studying the report and preparing a response. 
+
+</FILE>
+<FILE>1999-W17-1.txt
+<Q_NUMBER>1
+<A_LINE>39,24
+<Q_TXT>How long did Gretzky dominate the sport of hockey?
+<A_TXT>"It's going to be very difficult for the National Hockey League to lose the best hockey player that ever played, and he's been such a great ambassador for the game for 20 years."  -OR- "It was a tough game for me today," Mr. Gretzky said of his farewell from the sport he dominated for two decades. 
+
+<Q_NUMBER>2
+<A_LINE>38,43
+<Q_TXT>Who won the last game Gretzky played?
+<A_TXT>"It's always too soon when you see a great player retire," said Mario Lemieux, the retired Pittsburgh Penguins centre.  -OR- When the game was over (the Penguins won 2-1) Gretzky smiled through tears during four final laps of Madison Square Garden. 
+
+<Q_NUMBER>3
+<A_LINE>43
+<Q_TXT>Where did Gretzky play his last hockey game?
+<A_TXT>When the game was over (the Penguins won 2-1) Gretzky smiled through tears during four final laps of Madison Square Garden. 
+
+<Q_NUMBER>4
+<A_LINE>31
+<Q_TXT>Why will the number 99 never be worn again by a professional hockey player?
+<A_TXT>The National Hockey League also retired No. 99, which commissioner Gary Bettman announced would never be worn in the league again. 
+
+<Q_NUMBER>5
+<A_LINE>56
+<Q_TXT>When did Gretzky's parents tell him they were proud of him?
+<A_TXT>As he left the arena, Wayne's father and mother told him they were proud of him. 
+
+<Q_NUMBER>6
+<A_LINE>44
+<Q_TXT>Why did Gretzky skate slowly around the rink after his last game?
+<A_TXT>He skated slowly enough for plenty of souvenir photos to be taken of the player who holds or shares 61 NHL records. 
+
+<Q_NUMBER>7
+<A_LINE>51
+<Q_TXT>Why did Gretzky say he was "devastated"??
+<A_TXT>"I'm devastated I will no longer be a hockey player," said Wayne Gretzky, 38, his eyes still red, said more than an hour after his final skate. 
+
+<Q_NUMBER>8
+<A_LINE>13,15
+<Q_TXT>How will Wayne Gretzky be competing again?
+<A_TXT>In front of hundreds of reporters from all over North America and Europe Wayne Gretzky announced that he was going to hit the 10-pin bowling lanes in New York City.  -OR- "I'm going to spend the afternoon with my teammates - a bowling party and I'm looking forward to it, I'm going to enjoy. 
+
+<Q_NUMBER>9
+<A_LINE>46
+<Q_TXT>What did Gretzky do when he saw a youngster's hand extended from the crowd?
+<A_TXT>Whenever he noticed a youngster's extended hand from the crowd, he touched it. 
+
+<Q_NUMBER>10
+<A_LINE>41
+<Q_TXT>Who played with Gretzky on the Edmonton Oilers?
+<A_TXT>In front of Lemieux sat Mark Messier - who played with Mr. Gretzky for the Edmonton Oilers - and many other former teammates and opponents who admired "The Great One". 
+
+</FILE>
+<FILE>1999-W18-5.txt
+<Q_NUMBER>1
+<A_LINE>16
+<Q_TXT>When did Qemal Sefa's family flee Kosovo?
+<A_TXT>A month ago, Sefa, 59, and his family were given less than five minutes to leave their home in the town of Gjakov by Serb forces who ordered them out of Kosovo. 
+
+<Q_NUMBER>2
+<A_LINE>16
+<Q_TXT>Why did Sefa's family leave their home?
+<A_TXT>A month ago, Sefa, 59, and his family were given less than five minutes to leave their home in the town of Gjakov by Serb forces who ordered them out of Kosovo. 
+
+<Q_NUMBER>3
+<A_LINE>18
+<Q_TXT>How did Sefa's family reach the Albanian border?
+<A_TXT>The family took no clothes, mementos or household items with them and walked about seven kilometres to the Albanian border. 
+
+<Q_NUMBER>4
+<A_LINE>18
+<Q_TXT>How far did Sefa's family live from the Albanian border?
+<A_TXT>The family took no clothes, mementos or household items with them and walked about seven kilometres to the Albanian border. 
+
+<Q_NUMBER>5
+<A_LINE>20
+<Q_TXT>Which of Sefa's children is not with the family in Canada?
+<A_TXT>While most of Sefa's family made the trip to the Albanian capital of Tirana safely, his youngest son, Orland, 23, never showed up. 
+
+<Q_NUMBER>6
+<A_LINE>30
+<Q_TXT>Where did Qemal Sefa use to work?
+<A_TXT>But Sefa - who recently retired from his job at a theatre after 45 years - said last night it may not take that long for him to decide where to make his new home. 
+
+<Q_NUMBER>7
+<A_LINE>16
+<Q_TXT>How old is Qemal Sefa?
+<A_TXT>A month ago, Sefa, 59, and his family were given less than five minutes to leave their home in the town of Gjakov by Serb forces who ordered them out of Kosovo. 
+
+<Q_NUMBER>8
+<A_LINE>11
+<Q_TXT>Who is Sefa's family staying with in Canada?
+<A_TXT>The six ethnic Albanian refugees - the first to make their way to Western Canada - will be staying with Sefa's brother Esat and his son Haki. 
+
+<Q_NUMBER>9
+<A_LINE>26
+<Q_TXT>What happened to the money and supplies Esat tried to send to his brother's family?
+<A_TXT>He said he often tried to send money and supplies to them but shipments were regularly intercepted by Serb forces who kept the money and goods for themselves. 
+
+<Q_NUMBER>10
+<A_LINE>40
+<Q_TXT>What is the name of the UN organization responsible for refugees?
+<A_TXT>The United Nations High Commission for Refugees says those camps are almost full. 
+
+<Q_NUMBER>11
+<A_LINE>51,44
+<Q_TXT>Why did the UN want to keep ethnic Albanian refugees close to home?
+<A_TXT>At that time, the UN figured it would be easier to resettle them when a peace deal is reached with Yugoslavia.  -OR- But the UN decided it would be better to keep refugees closer to home to ease their return when the war ends. 
+
+<Q_NUMBER>12
+<A_LINE>47
+<Q_TXT>How will 5000 refugees be brought to Canada?
+<A_TXT>The federal government has reopened its plan to airlift 5,000 Kosovo Albanians to refuge in Canada. 
+
+</FILE>
+<FILE>1999-W20-4.txt
+<Q_NUMBER>1
+<A_LINE>6
+<Q_TXT>What gives Sean O'Neill the right to panhandle, according to him?
+<A_TXT>He believes Canada's Charter of Rights and Freedoms means that Canadians are free to beg if they want to. 
+
+<Q_NUMBER>2
+<A_LINE>12
+<Q_TXT>Where did Sean use to do his panhandling?
+<A_TXT>Sean used to beg on a patch of downtown Ottawa sidewalk, wedged between a bank and a grocery store. 
+
+<Q_NUMBER>3
+<A_LINE>13,20
+<Q_TXT>What would Sean say to people to convince them to give him money?
+<A_TXT>He sat on the ground, silent, with a hat in front of him.  -OR- "What I was doing wasn't wrong, there was nothing wrong with it. 
+
+<Q_NUMBER>4
+<A_LINE>15
+<Q_TXT>When was Sean fined for begging?
+<A_TXT>In March, he got a $50 ticket -- and decided to take it to court. 
+
+<Q_NUMBER>5
+<A_LINE>26,17
+<Q_TXT>Before Sean O'Neill's case, how many other times have anti-begging laws been challenged in court?
+<A_TXT>"You can understand that the police would see it was sort of fruitless to charge people who are begging with an offence for which they're going to receive a fine, which they can never pay anyway.  -OR- This is the first time an individual has challenged begging laws in court. 
+
+<Q_NUMBER>6
+<A_LINE>24
+<Q_TXT>Who is Sean's lawyer?
+<A_TXT>Lawyer Mark Ertle plans to challenge the law on two counts -- it restricts freedom of expression, and security of the person, individual freedoms guaranteed under the Charter. 
+
+<Q_NUMBER>7
+<A_LINE>45,10
+<Q_TXT>What kinds of laws have governments passed that limit the freedom of expression?
+<A_TXT>For example, laws against pornography and hate propaganda are reasonable limits on freedom of expression because they prevent harm to individuals and groups.  -OR- Sean's launching a Charter challenge against Ottawa's anti-panhandling laws after he was ticketed for begging on the street. 
+
+<Q_NUMBER>8
+<A_LINE>42,41
+<Q_TXT>Why must people living in a democratic society have freedom of expression, thought, and assembly?
+<A_TXT>In a democracy, people must be free to discuss matters of public policy, criticize governments and offer their own solutions to social problems.  -OR- They are also important to the success of a democratic society like Canada. 
+
+</FILE>
+<FILE>1999-W21-3.txt
+<Q_NUMBER>1
+<A_LINE>15
+<Q_TXT>When did Star Wars fans across Canada begin lining up for tickets to Star Wars: Episode 1 The Phantom Menace" movie?
+<A_TXT>In cities across Canada fans began lining up for tickets in late April. 
+
+<Q_NUMBER>2
+<A_LINE>16
+<Q_TXT>Why did someone sleep in a tent on a sidewalk in front of a theater in Montreal?
+<A_TXT>In Montreal someone actually slept in a tent out on the sidewalk in front of a movie theatre to make sure he got the first ticket. 
+
+<Q_NUMBER>3
+<A_LINE>19
+<Q_TXT>How did Mark Churchill describe the movie, "The Phantom Menace"?
+<A_TXT>Mark says it's "definitely a five star movie." 
+
+<Q_NUMBER>4
+<A_LINE>18
+<Q_TXT>Who said "the effects were top notch" when he was talking about "The Phantom Menace"?
+<A_TXT>Mark Churchill and Ken Green were at the St. John's screening. 
+
+<Q_NUMBER>5
+<A_LINE>23
+<Q_TXT>How long would Star Wars fans from Iceland have had to wait to see the Phantom Menace if they had not flown to Halifax to see it?
+<A_TXT>Otherwise, they would to have had to wait several months for its Icelandic release. 
+
+<Q_NUMBER>6
+<A_LINE>25
+<Q_TXT>How much money are some scalpers in Los Angeles asking for a Phantom Menace ticket?
+<A_TXT>And as if shelling out up to $9 for a Star War's ticket isn't bad enough: How about $50 or more? 
+
+<Q_NUMBER>7
+<A_LINE>34
+<Q_TXT>Where have offers for tickets been common?
+<A_TXT>Offers for tickets have been common on the Internet. 
+
+<Q_NUMBER>8
+<A_LINE>44
+<Q_TXT>What does Stephen Cole of the National Post say is missing in the Phantom Menace?
+<A_TXT>In the National Post, Stephen Cole says, "...it's a piece that's missing, specifically the presence of a larger-than-life villain, that prevents Lucas's new film from truly succeeding as epic entertainment." 
+
+</FILE>
+<FILE>1999-W22-2.txt
+<Q_NUMBER>1
+<A_LINE>7,16
+<Q_TXT>Where is Kosovo?
+<A_TXT>The Red Cross is thanking the public for donating more than $250,000 to help refugees in the Balkans over the past two months.  -OR- "Kosovars" is the term generally used for people of Albanian ethnic heritage who live in the southern Yugolsavian province of Kosovo. 
+
+<Q_NUMBER>2
+<A_LINE>1,13,10,5
+<Q_TXT>In addition to money, what is the Red Cross asking the people of British Columbia for in response to the problems in Kosovo?
+<A_TXT>Canadians Lend Kosovars a Hand -OR- Mr. Dosanjh says he is looking for more than 200 sponsors who can provide emotional and psychological support.  -OR- But B.C.'s attorney general says few people have come forward to help the Kosovo refugees who will soon arrive in British Columbia.  -OR- Residents of British Columbia's Lower Mainland seem to be freer with their cash than they are with their time. 
+
+<Q_NUMBER>3
+<A_LINE>19
+<Q_TXT>What does it involve to "sponsor" Kosovo refugees?
+<A_TXT>This means everything from finding clothes and shelter to finding schools for the children and jobs for their parents. 
+
+<Q_NUMBER>4
+<A_LINE>24
+<Q_TXT>When did the NATO bombing start?
+<A_TXT>Ms. Gutnick has been opposed to the bombing since it began on March 24. 
+
+<Q_NUMBER>5
+<A_LINE>21
+<Q_TXT>What will Thordis Gutnick do for the refugees?
+<A_TXT>One member of the church, Thordis Gutnick, will be spending the next couple of months teaching English to the refugees. 
+
+<Q_NUMBER>6
+<A_LINE>31
+<Q_TXT>How many Kosovars are eligible for Canada's family reunification program?
+<A_TXT>"Some 2,000 people have been identified as potentially eligible for that program. 
+
+<Q_NUMBER>7
+<A_LINE>41
+<Q_TXT>Why is the Kosovo leadership concerned about taking refugees so far from home?
+<A_TXT>The ambassador said that there is anxiety among the Kosovar leadership that by taking refugees so far afield "many of these people will not return and in so doing Yugoslavia President Slobodan Milosevic's agenda (of getting rid of ethnic Albanians living in the southern Yugoslavian province of Kosovo) will be achieved." 
+
+<Q_NUMBER>8
+<A_LINE>11
+<Q_TXT>Who is the attorney general of British Columbia?
+<A_TXT>Ujal Dosnajh stresses there is no cost, and no requirement to put refugees in homes. 
+
+</FILE>
+<FILE>1999-W22-5.txt
+<Q_NUMBER>1
+<A_LINE>28
+<Q_TXT>What led to the forest fire near La Ronge?
+<A_TXT>After days of dry winds and electrical storms - there have been 3,000 lightning strikes over the last couple days - the fire began in the bush southwest of town at about noon Thursday. 
+
+<Q_NUMBER>2
+<A_LINE>12,5
+<Q_TXT>Where are La Ronge and lac La Ronge?
+<A_TXT>La Ronge is a community of 2,800 people located 300 kilometres north of Saskatoon.  -OR- More than half the residents of the northern Saskatchewan community of La Ronge were evacuated briefly yesterday as a forest fire scorched its outskirts. 
+
+<Q_NUMBER>3
+<A_LINE>12
+<Q_TXT>How many people live in La Ronge?
+<A_TXT>La Ronge is a community of 2,800 people located 300 kilometres north of Saskatoon. 
+
+<Q_NUMBER>4
+<A_LINE>55
+<Q_TXT>Who is the mayor of La Ronge?
+<A_TXT>"It's amazing that so much vegetation on the perimeter of our community was totally destroyed and we were very fortunate that so little property was destroyed," says La Ronge Mayor Joe Hordyski. 
+
+<Q_NUMBER>5
+<A_LINE>24
+<Q_TXT>Why did Gary Vettree's house not burn down?
+<A_TXT>Vettree saved his house by soaking it with water. 
+
+<Q_NUMBER>6
+<A_LINE>35
+<Q_TXT>How high was the fire in the industrial area of town?
+<A_TXT>The fire shot six metres above the trees as it roared through the industrial area of town. 
+
+<Q_NUMBER>7
+<A_LINE>40
+<Q_TXT>Where were the evacuees taken when the fire threatened their homes?
+<A_TXT>Evacuees were housed in the local health clinic and a hockey arena. 
+
+<Q_NUMBER>8
+<A_LINE>7
+<Q_TXT>When were the evacuees able to go back to their homes?
+<A_TXT>But roughly 1,500 residents were able to return to their homes last night as winds died and the danger decreased. 
+
+</FILE>
+<FILE>1999-W24-5.txt
+<Q_NUMBER>1
+<A_LINE>8,23
+<Q_TXT>When will Judge Arbour start her new job on Canada's Supreme Court?
+<A_TXT>Louise Arbour will become the high court's third female justice when she begins her new job in September.  -OR- Judge Arbour will not start work until September 15th. 
+
+<Q_NUMBER>2
+<A_LINE>10
+<Q_TXT>Who is Judge Arbour replacing in her new job?
+<A_TXT>Justice Minister Anne McLellan says the 52-year-old Arbour is perfect for the job and will replace retired justice Peter Cory quite nicely. 
+
+<Q_NUMBER>3
+<A_LINE>33
+<Q_TXT>Before getting her new position, what was Judge Arbour's job?
+<A_TXT>In 1996, she was appointed to her position as chief prosecutor at the war-crimes tribunal. 
+
+<Q_NUMBER>4
+<A_LINE>30
+<Q_TXT>Where did Judge Arbour get her law degree?
+<A_TXT>Judge Arbour graduated from the University of Montreal with a law degree in 1970. 
+
+<Q_NUMBER>5
+<A_LINE>28
+<Q_TXT>Who says Louise Arbour is "a down-to-earth individual"?
+<A_TXT>"Louise Arbour is a down-to-earth individual, who understands the needs of the ordinary person," says lawyer Earl Levy. 
+
+<Q_NUMBER>6
+<A_LINE>15
+<Q_TXT>How many sitting heads of state have been charged with war crimes?
+<A_TXT>"I think it is unquestioned that she will make a singular contribution to the highest court in the land." 
+
+<Q_NUMBER>7
+<A_LINE>17
+<Q_TXT>What was the president of Yugoslavia indicted for?
+<A_TXT>Judge Arbour's last major act as chief prosecutor was to indict Slobodan Milosevic for crimes against humanity two weeks ago -- the first time an international court has charged a sitting head of state with war crimes. 
+
+<Q_NUMBER>8
+<A_LINE>21
+<Q_TXT>Why was the announcement about Judge Arbour not made until NATO and Yugoslavia signed an agreement?
+<A_TXT>The government was very aware of how tricky it would be to take her away from her high-profile assignment of prosecuting Milosevic. 
+
+</FILE>
+<FILE>1999-W25-5.txt
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>When was the last time a Canadian was executed in the United States?
+<A_TXT>After 22 years on death row, the Alberta native became the first Canadian to be executed in the U.S. since 1952. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>Of which province in Canada was Stanley Faulder a native?
+<A_TXT>After 22 years on death row, the Alberta native became the first Canadian to be executed in the U.S. since 1952. 
+
+<Q_NUMBER>3
+<A_LINE>11
+<Q_TXT>What would a stay of execution have allowed?
+<A_TXT>A "stay of execution" delays the execution, and would have allowed Mr. Faulder's lawyer to continue her quest to allow him to live. 
+
+<Q_NUMBER>4
+<A_LINE>15
+<Q_TXT>How was Faulder killed?
+<A_TXT>"The United States is one of our world leaders and world powers, and yet they allow the basic human rights of people to be violated in their own country," said Charlene Gingera, about an hour after Faulder was killed by an injection of deadly chemicals. 
+
+<Q_NUMBER>5
+<A_LINE>29
+<Q_TXT>What has Charlene Gingera been working with the Faulder family to do since 1997?
+<A_TXT>Ms. Gingera has been working with the Faulder family since 1997 to try to get human rights groups interested in the case. 
+
+<Q_NUMBER>6
+<A_LINE>19
+<Q_TXT>What did Texas officials fail to do, in apparent violation of international law?
+<A_TXT>She was referring to the fact that both Canada's Foreign Affairs Minister Lloyd Axworthy and his U.S. counterpart, Madeleine Albright, agreed Faulder was denied his international rights because Texas officials failed to tell Canadian diplomats that he was in jail. 
+
+<Q_NUMBER>7
+<A_LINE>22
+<Q_TXT>Why did Texas Governor George W. Bush refuse to grant a stay of execution for Faulder?
+<A_TXT>Texas Governor and presidential candidate George W. Bush refused to grant a stay of the execution, saying there was no new evidence that questioned the jury's verdict in the death of Inez Phillips, who Faulder was convicted of killing in 1977. 
+
+<Q_NUMBER>8
+<A_LINE>36
+<Q_TXT>Which member of the Canadian Parliament said that Texas officials should ignore the argument that Faulder's rights were violated when he wasn't told he could contact Canadian consular officials when he was charged with murder?
+<A_TXT>Ms. Gingera says she was alarmed by comments from Alberta Reform Member of Parliament Cliff Breitkreuz, who wanted Texas officials to ignore the argument that Mr. Faulder's rights were violated when he wasn't told he could contact Canadian consular officials when he was charged with murder. 
+
+<Q_NUMBER>9
+<A_LINE>40
+<Q_TXT>How was Faulder on the day of his execution, according to Charlene Gingera?
+<A_TXT>She says while Faulder's supporters struggled with their anger Thursday, the inmate himself was peaceful. 
+
+<Q_NUMBER>10
+<A_LINE>44
+<Q_TXT>In the last few days before the execution, what were Faulder's relatives hoping for?
+<A_TXT>In the last few days, Mr. Faulder's relatives had hoped for a stay of execution but they weren't overly optimistic, she says. 
+
+</FILE>
+<FILE>1999-W27-2.txt
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Where in the Canadian Arctic are the 50 beluga whales trapped?
+<A_TXT>A group of 50 beluga whales is fighting to stay alive in an icy trap in the Canadian Arctic near Ellesmere Island. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>Why have the whales become trapped?
+<A_TXT>An unexpected freeze has left dozens of the whales trapped in a sea of ice, with one small hole as their only window for air. 
+
+<Q_NUMBER>3
+<A_LINE>7
+<Q_TXT>Through what are the whales breathing?
+<A_TXT>An unexpected freeze has left dozens of the whales trapped in a sea of ice, with one small hole as their only window for air. 
+
+<Q_NUMBER>4
+<A_LINE>10
+<Q_TXT>Who is trying to save the whales?
+<A_TXT>About 20 of them have already died, despite the best efforts of wildlife officials. 
+
+<Q_NUMBER>5
+<A_LINE>15
+<Q_TXT>Even in the best of conditions, how long can beluga whales stay under water?
+<A_TXT>Even in the best of conditions, belugas can only spend about 10 minutes underwater. 
+
+<Q_NUMBER>6
+<A_LINE>16
+<Q_TXT>How are the bears killing the whales?
+<A_TXT>When they come up, the bears jump onto the whales and tear chunks out of them. 
+
+<Q_NUMBER>7
+<A_LINE>18
+<Q_TXT>When will the belugas' chances for survival improve?
+<A_TXT>Unless the ice breaks up soon, the belugas' chances of survival are grim. 
+
+<Q_NUMBER>8
+<A_LINE>21,20
+<Q_TXT>Where do beluga whales live?
+<A_TXT>They live in the Arctic Ocean and its adjoining seas, including the Sea of Okhotsk, the Bering Sea, the Gulf of Alaska, the Beaufort Sea, Baffin Bay, Hudson Bay, and the Gulf of St. Lawrence.  -OR- Beluga whales live only in the arctic and subarctic. 
+
+</FILE>
+<FILE>1999-W28-5.txt
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>What parts of the dinosaurs did the scientists find?
+<A_TXT>Scientists in the Antarctic have discovered some very old dinosaur bones, including partial skeletons, whole jaws and teeth. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>Who is the plesiosaur supposed to resemble?
+<A_TXT>The remains include the bones of two giant water dinosaurs: the mosasaur, a razor-toothed "duck-bill" animal with paddles, and the plesiosaur, which scientists say looks like Scotland's legendary Loch Ness monster. 
+
+<Q_NUMBER>3
+<A_LINE>20
+<Q_TXT>How big were the mosasaur's teeth?
+<A_TXT>Their huge skulls were filled with 10 centimetre long teeth. 
+
+<Q_NUMBER>4
+<A_LINE>17
+<Q_TXT>When did mosasaurs probably arrive in Antarctica?
+<A_TXT>The scientists believe the creatures probably came to the Antarctic around 75 million or 80 million years ago. 
+
+<Q_NUMBER>5
+<A_LINE>16
+<Q_TXT>What does this new discovery of dinosaur bones tell us about the Antarctic?
+<A_TXT>The mosasaur discovery shows the Antarctic was once much warmer than it is now. 
+
+</FILE>
+<FILE>1999-W29-5.txt
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>Who traveled across America to help convince the American government that stricter gun control laws are needed?
+<A_TXT>About 95 students from across the United States made their way to the White House to help President Clinton convince the American government to put stricter controls on guns. 
+
+<Q_NUMBER>2
+<A_LINE>8
+<Q_TXT>Where is Columbine High School?
+<A_TXT>Included in the group were six students from Columbine High School in Littleton, Colorado. 
+
+<Q_NUMBER>3
+<A_LINE>11
+<Q_TXT>What happened at Columbine High School in April?
+<A_TXT>Two teenage gunmen shot and killed 13 students. 
+
+<Q_NUMBER>4
+<A_LINE>12
+<Q_TXT>How did the two teenage gunmen at Columbine High School die?
+<A_TXT>The gunmen then killed themselves. 
+
+<Q_NUMBER>5
+<A_LINE>14
+<Q_TXT>When does Bill Clinton want to have new gun laws passed?
+<A_TXT>Clinton wants to pass new gun control laws before school starts in September. 
+
+<Q_NUMBER>6
+<A_LINE>16
+<Q_TXT>How does President Clinton hope to put an end to school shootings?
+<A_TXT>By limiting access to guns, President Clinton hopes to put an end to school shootings like the one in Littleton. 
+
+<Q_NUMBER>7
+<A_LINE>21
+<Q_TXT>Why do some members of the government oppose gun control?
+<A_TXT>They think violent video games and movies are more to blame for these incidents than guns. 
+
+<Q_NUMBER>8
+<A_LINE>24
+<Q_TXT>Why do some members of the public oppose gun control?
+<A_TXT>They believe people should decide for themselves if they want to own a gun or not. 
+
+</FILE>
+<FILE>1999-W30-3.txt
+<Q_NUMBER>1
+<A_LINE>8,5
+<Q_TXT>Who is at risk of suffering from shellfish asthma?
+<A_TXT>It can happen to workers who are exposed to crab and shrimp meat.  -OR- Fish plant workers in Newfoundland are concerned about a work hazard called "shellfish asthma." 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>What type of illness is shellfish asthma?
+<A_TXT>The illness, which appears unique to this kind of work, is an allergy that gives a person flu-like symptoms. 
+
+<Q_NUMBER>3
+<A_LINE>8
+<Q_TXT>Which types of shellfish cause the illness?
+<A_TXT>It can happen to workers who are exposed to crab and shrimp meat. 
+
+<Q_NUMBER>4
+<A_LINE>11
+<Q_TXT>Why did the government place limits on how many fish can be caught?
+<A_TXT>However, in recent years environmental concerns have forced the government to place limits on how many fish can be caught. 
+
+<Q_NUMBER>5
+<A_LINE>11
+<Q_TXT>Why is it difficult to find a job in Newfoundland's fishing industry?
+<A_TXT>However, in recent years environmental concerns have forced the government to place limits on how many fish can be caught. 
+
+<Q_NUMBER>6
+<A_LINE>15
+<Q_TXT>Where have important jobs been created that help replace the ones that were lost?
+<A_TXT>Shellfish plants have created some important jobs that help replace the ones that were lost. 
+
+<Q_NUMBER>7
+<A_LINE>16
+<Q_TXT>Why are many workers are trying to live with their symptoms?
+<A_TXT>Many workers are trying to live with their symptoms so they can keep their jobs at the fish plants. 
+
+<Q_NUMBER>8
+<A_LINE>18
+<Q_TXT>How does the union representing plant workers feel about shellfish asthma?
+<A_TXT>But the union representing plant workers says shellfish asthma is a real workplace disease. 
+
+</FILE>
+<FILE>1999-W31-1.txt
+<Q_NUMBER>1
+<A_LINE>13
+<Q_TXT>Why is the round goby dangerous?
+<A_TXT>It is dangerous because it leaves almost no food for other fish. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>Who is warning people in Ontario about the round goby?
+<A_TXT>Environment Canada is warning people in Ontario about a foreign fish called the round goby. 
+
+<Q_NUMBER>3
+<A_LINE>14
+<Q_TXT>What does the round goby eat?
+<A_TXT>It eats the eggs and young of the sport fish and chases larger fish away from food sources, leaving little for them to eat. 
+
+<Q_NUMBER>4
+<A_LINE>16
+<Q_TXT>When can the round goby feed due to its special sensors?
+<A_TXT>The round goby also has the advantage of being able to feed right through the night. 
+
+<Q_NUMBER>5
+<A_LINE>22
+<Q_TXT>Where did the round goby come from?
+<A_TXT>The round goby came from the Black Sea, likely in water held in the bottom of a boat. 
+
+<Q_NUMBER>6
+<A_LINE>22
+<Q_TXT>How did the round goby likely get to Canadian waters?
+<A_TXT>The round goby came from the Black Sea, likely in water held in the bottom of a boat. 
+
+<Q_NUMBER>7
+<A_LINE>28
+<Q_TXT>What should be people clean off their boats to keep the round goby from moving into new waters?
+<A_TXT>Also, if they have a boat to make sure they clean off plants that might have small goby in them. 
+
+</FILE>
+<FILE>1999-W31-5.txt
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>What was Eugene Shoemaker's lifelong wish?
+<A_TXT>Eugene Shoemaker may finally fulfill his lifelong wish to go to the moon. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>How big is the container holding Shoemaker's ashes?
+<A_TXT>If all goes as planned on Saturday, a lipstick-sized container will carry his ashes to the moon's south pole. 
+
+<Q_NUMBER>3
+<A_LINE>7,13
+<Q_TXT>Where is the Lunar Prospector supposed to crash-land?
+<A_TXT>If all goes as planned on Saturday, a lipstick-sized container will carry his ashes to the moon's south pole.  -OR- It is expected to crash land on the moon early Saturday morning. 
+
+<Q_NUMBER>4
+<A_LINE>14
+<Q_TXT>What is NASA hoping the Lunar Prospector will create when it crash-lands?
+<A_TXT>NASA is hopeful that the impact of Prospector's crash into the moon will create a plume of water which will be visible from Earth with a telescope. 
+
+<Q_NUMBER>5
+<A_LINE>18
+<Q_TXT>On what was Shoemaker considered an authority?
+<A_TXT>He was considered an authority on craters and the collisions that cause them. 
+
+<Q_NUMBER>6
+<A_LINE>19
+<Q_TXT>How many comets is Shoemaker credited with discovering?
+<A_TXT>He is credited with discovering about 20 comets and 800 asteroids. 
+
+<Q_NUMBER>7
+<A_LINE>20
+<Q_TXT>When did Shoemaker discover the comet Shoemaker-Levy 9?
+<A_TXT>Shoemaker gained worldwide fame in 1994, when he helped discover the comet Shoemaker-Levy 9. The comet slammed into Jupiter in 1994. 
+
+<Q_NUMBER>8
+<A_LINE>20
+<Q_TXT>What did Shoemaker-Levy 9 slam into?
+<A_TXT>Shoemaker gained worldwide fame in 1994, when he helped discover the comet Shoemaker-Levy 9. The comet slammed into Jupiter in 1994. 
+
+<Q_NUMBER>9
+<A_LINE>25
+<Q_TXT>Whom did Shoemaker teach about craters?
+<A_TXT>He taught Apollo astronauts about craters. 
+
+<Q_NUMBER>10
+<A_LINE>23
+<Q_TXT>Why was Eugene Shoemaker rejected for astronaut training?
+<A_TXT>He applied to be an astronaut in the 1960s, but was rejected because of a medical problem. 
+
+<Q_NUMBER>11
+<A_LINE>27
+<Q_TXT>What was Eugene Shoemaker's biggest disappointment in his life?
+<A_TXT>Shoemaker said shortly before his death the biggest disappointment in his life was "not going to the moon and banging on it with my own hammer." 
+
+</FILE>
+<FILE>1999-W33-5.txt
+<Q_NUMBER>1
+<A_LINE>9
+<Q_TXT>Why does more sewage run into Lunenberg Harbour every year?
+<A_TXT>Each year, more tourists from all over the world come to visit Lunenburg. 
+
+<Q_NUMBER>2
+<A_LINE>12
+<Q_TXT>Who do town officials want to help clean up the harbour?
+<A_TXT>Now town officials want the federal and provincial governments to help clean up the harbour. 
+
+<Q_NUMBER>3
+<A_LINE>14
+<Q_TXT>Why do so many people want to visit Lunenberg?
+<A_TXT>Many people come to visit Lunenburg because the town is a United Nations World Heritage Site. 
+
+<Q_NUMBER>4
+<A_LINE>20
+<Q_TXT>When was the first International Fisherman's Trophy race held?
+<A_TXT>The first International Fisherman's Trophy race was in 1920. 
+
+<Q_NUMBER>5
+<A_LINE>21
+<Q_TXT>How did the International Fisherman's Trophy race start?
+<A_TXT>It started as a friendly competition between US and Canadian fishing schooners. 
+
+<Q_NUMBER>6
+<A_LINE>23
+<Q_TXT>How many times did the Bluenose win the International Fisherman's Trophy race?
+<A_TXT>The Bluenose won the race four times. 
+
+<Q_NUMBER>7
+<A_LINE>26
+<Q_TXT>Where did the Bluenose sink?
+<A_TXT>In January 1946, it went down after striking a reef in the Caribbean Sea. 
+
+<Q_NUMBER>8
+<A_LINE>29
+<Q_TXT>Where has a picture of the Bluenose appeared since 1937?
+<A_TXT>A picture of the Bluenose has been on the tails side of Canadian dimes since 1937. 
+
+<Q_NUMBER>9
+<A_LINE>31
+<Q_TXT>What is the Bluenose II?
+<A_TXT>The Bluenose II is a replica of the original Bluenose. 
+
+<Q_NUMBER>10
+<A_LINE>39
+<Q_TXT>How much of the cleanup cost for Lunenberg Harbor does the mayor of Lunenberg want the federal and provincial governments to pay?
+<A_TXT>Now the Mayor wants the federal and provincial governments to pay half the cost of cleaning up Lunenburg Harbour. 
+
+</FILE>
+<FILE>1999-W35-5.txt
+<Q_NUMBER>1
+<A_LINE>13
+<Q_TXT>According to a new study, where are Canadian kids spending almost one full day a week?
+<A_TXT>A new study shows Canadian kids are spending almost one full day a week glued to their television screens. 
+
+<Q_NUMBER>2
+<A_LINE>16
+<Q_TXT>What new question are Canadian pediatricians considering asking parents during a child's checkup?
+<A_TXT>A group representing Canadian pediatricians - doctors who specialize in treating children - may have a new question for parents when they take their children for a checkup: How much television do your kids watch? 
+
+<Q_NUMBER>3
+<A_LINE>19
+<Q_TXT>Why does the Canadian Pediatric Society want doctors to monitor how much time children are sitting in front of electronic screens?
+<A_TXT>That's because excessive and inappropriate exposure can harm a child's physical, mental and social skills. 
+
+<Q_NUMBER>4
+<A_LINE>21
+<Q_TXT>How much time should school children spend watching TV each day?
+<A_TXT>The society wants parents to limit preschoolers to one hour of TV a day, while school children should watch no more than two hours daily. 
+
+<Q_NUMBER>5
+<A_LINE>23
+<Q_TXT>At their current viewing rates, who will spend more time watching TV than they will in the classroom?
+<A_TXT>At current Canadian rates, the average high school graduate will have spent more time watching TV than they did learning in a classroom. 
+
+<Q_NUMBER>6
+<A_LINE>26
+<Q_TXT>According to pediatricians, there is a relationship between watching television and an increase in what kind of behaviour?
+<A_TXT>But there is a relationship between watching television and an increase in violent behaviour. 
+
+<Q_NUMBER>7
+<A_LINE>33
+<Q_TXT>When do pediatricians say the TV should be turned off?
+<A_TXT>The pediatricians also believe televisions should be turned off during meal times. 
+
+<Q_NUMBER>8
+<A_LINE>32
+<Q_TXT>What do pediatricians recommend parents do with their children when they watch TV?
+<A_TXT>Among the suggested habits are recommendations for parents to watch television with their children and discuss the programs. 
+
+<Q_NUMBER>9
+<A_LINE>10
+<Q_TXT>How much time does the average Canadian kid spend watching television each week?
+<A_TXT>If you answered 23 hours, you're right. 
+
+</FILE>
+<FILE>1999-W36-4.txt
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>Where is the Canadian National Exhibition?
+<A_TXT>The children were on the Wave Swinger at the Canadian National Exhibition in Toronto, Ontario. 
+
+<Q_NUMBER>2
+<A_LINE>13
+<Q_TXT>What kinds of injuries did most of the children on the Wave Swinger suffer?
+<A_TXT>Police say most of the injured children, ages five to 15, suffered cuts, bruises and neck and back injuries. 
+
+<Q_NUMBER>3
+<A_LINE>9
+<Q_TXT>How are the 48 swing-style seats attached to the Wave Swinger?
+<A_TXT>The Wave Swinger is a circular ride with 48 swing-style seats attached by metal chains to a dome. 
+
+<Q_NUMBER>4
+<A_LINE>16
+<Q_TXT>Who described the experience on the Wave Swinger as "a horror show"?
+<A_TXT>I've never been that scared," says Sayland Green, 12, as she was being examined by paramedics. 
+
+<Q_NUMBER>5
+<A_LINE>20
+<Q_TXT>Who owns the midway where the Wave Swinger is located?
+<A_TXT>There was a malfunction, and the chairs dropped to the platform," says Alfie Phillips, president of Conklin Shows, the company which owns the midway. 
+
+<Q_NUMBER>6
+<A_LINE>22
+<Q_TXT>When was the Wave Swinger last inspected by an inspector from the Canadian National Exhibition?
+<A_TXT>Phillips says the Wave Swinger had been inspected Wednesday morning by the ride foreman, a Conklin Shows employee, and Tuesday morning by a safety inspector from the Canadian National Exhibition. 
+
+<Q_NUMBER>7
+<A_LINE>26
+<Q_TXT>According to Tom Zach, what will happen before a decision is made on whether to reopen the Wave Swinger?
+<A_TXT>The ride has been shut down and will be carefully inspected before a decision is made on whether to let it reopen, says Tom Zach, spokesman for the Technical Standards and Safety Association. 
+
+<Q_NUMBER>8
+<A_LINE>31
+<Q_TXT>Why did 20 people have to be rescued from a roller coaster in California?
+<A_TXT>Last week, 20 people had to be rescued from a roller coaster in California when it stalled. 
+
+<Q_NUMBER>9
+<A_LINE>33
+<Q_TXT>Where has a ride similar to the Wave Swinger been shut down until safety inspectors complete their investigation?
+<A_TXT>The Paramount Canada's Wonderland amusement park near Toronto has shut down a ride similar to The Wave Swinger until safety inspectors complete their investigation. 
+
+</FILE>
+<FILE>1999-W39-5.txt
+<Q_NUMBER>1
+<A_LINE>8
+<Q_TXT>Why were the students protesting?
+<A_TXT>They are protesting the lack of extra-curricular activities in schools. 
+
+<Q_NUMBER>2
+<A_LINE>13
+<Q_TXT>What kinds of activities are not taking place because teachers do them on their own time?
+<A_TXT>That's meant that there are no football practices, or school trips, or special classes after school. 
+
+<Q_NUMBER>3
+<A_LINE>11
+<Q_TXT>How are Montreal teachers pressuring the provincial government?
+<A_TXT>To put pressure on the government, they are refusing to do any activities that are not paid. 
+
+<Q_NUMBER>4
+<A_LINE>16
+<Q_TXT>How large a fine do the students who are arrested face?
+<A_TXT>The students who were arrested face $100 fines. 
+
+<Q_NUMBER>5
+<A_LINE>18
+<Q_TXT>Who says the disorganized protests are becoming dangerous?
+<A_TXT>Deputy police director Serge Meloche says the disorganized protests were becoming dangerous. 
+
+<Q_NUMBER>6
+<A_LINE>22
+<Q_TXT>When did students begin to take to the streets of Quebec to express their frustrations?
+<A_TXT>During the past few days, students have taken to the streets throughout Quebec to express their frustrations. 
+
+<Q_NUMBER>7
+<A_LINE>24
+<Q_TXT>What did police get pelted with during the demonstrations?
+<A_TXT>"Windows of stores were broken, car windows were also broken," says Montreal police spokesman Michel Fontaine, who added that police were also pelted with rocks and garbage. 
+
+<Q_NUMBER>8
+<A_LINE>26
+<Q_TXT>Where did students rove?
+<A_TXT>The students roved between two east-end high schools and drew between 300 and 400 students at the demonstration's peak. 
+
+</FILE>
+<FILE>1999-W43-5.txt
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>What is the Youth News Network?
+<A_TXT>The Youth News Network, a news show that airs in some Canadian schools, is in trouble in Manitoba. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>Why does YNN give schools free equipment like televisions and computers?
+<A_TXT>YNN is a private company that gives schools free equipment - like televisions and computers - to make sure it has an audience for its commercial news service. 
+
+<Q_NUMBER>3
+<A_LINE>13
+<Q_TXT>How does YNN make a profit?
+<A_TXT>YNN makes a profit by selling advertising space. 
+
+<Q_NUMBER>4
+<A_LINE>11
+<Q_TXT>How many minutes of commercials are in YNN's 12-minute daily feature?
+<A_TXT>The feature includes two and a half minutes of commercials. 
+
+<Q_NUMBER>5
+<A_LINE>22,24
+<Q_TXT>Why is Manitoba's new NDP government kicking YNN out of Manitoba classrooms?
+<A_TXT>The move, announced by Manitoba's new NDP government, follows through on a promise the party made in the September provincial election campaign.  -OR- "We will not have commercials and products being sold in the classrooms," says Education Minister Drew Caldwell. 
+
+<Q_NUMBER>6
+<A_LINE>24
+<Q_TXT>Who said, "We will not have commercials and products being sold in the classrooms"?
+<A_TXT>"We will not have commercials and products being sold in the classrooms," says Education Minister Drew Caldwell. 
+
+<Q_NUMBER>7
+<A_LINE>28
+<Q_TXT>What company runs YNN?
+<A_TXT>As of the end of June, schools in Alberta, Saskatchewan, Manitoba, Ontario, Quebec and Newfoundland had agreed to show the news program run by Montreal-based Athena Educational Partners. 
+
+<Q_NUMBER>8
+<A_LINE>29
+<Q_TXT>Which provinces rejected the idea of having YNN in the classrooms?
+<A_TXT>British Columbia, Nova Scotia and New Brunswick rejected the idea. 
+
+<Q_NUMBER>9
+<A_LINE>33
+<Q_TXT>On what basis did eight schools in Manitoba agree to show the YNN program?
+<A_TXT>Eight schools in Manitoba agreed to show the program on a six-month trial basis. 
+
+</FILE>
+<FILE>1999-W47-5.txt
+<Q_NUMBER>1
+<A_LINE>8
+<Q_TXT>How did the woman from China arrive in Canada?
+<A_TXT>She was on one of the boats from China that was intercepted by the Coast Guard off the coast of British Columbia earlier this year. 
+
+<Q_NUMBER>2
+<A_LINE>5
+<Q_TXT>Where in China did the woman come from?
+<A_TXT>One of the women from China's Fujian province told a compelling story to the Immigration and Refugee Board yesterday. 
+
+<Q_NUMBER>3
+<A_LINE>12
+<Q_TXT>Why can't the woman be identified by name?
+<A_TXT>The Chinese woman can't be identified because of a legal order, but it seems her claim to be accepted as a refugee to Canada may succeed where the claims of 32 people who arrived with her have failed. 
+
+<Q_NUMBER>4
+<A_LINE>12
+<Q_TXT>How many other people arrived in Canada with the woman?
+<A_TXT>The Chinese woman can't be identified because of a legal order, but it seems her claim to be accepted as a refugee to Canada may succeed where the claims of 32 people who arrived with her have failed. 
+
+<Q_NUMBER>5
+<A_LINE>13
+<Q_TXT>What will happen to the Chinese people whose requests for refugee status fail?
+<A_TXT>They will be sent back to China. 
+
+<Q_NUMBER>6
+<A_LINE>15
+<Q_TXT>When did the woman get pregnant for the second time?
+<A_TXT>The woman says that seven years ago she got pregnant for the second time. 
+
+<Q_NUMBER>7
+<A_LINE>17
+<Q_TXT>How many children are Chinese couples allowed to have?
+<A_TXT>Couples in China are only allowed to have one child. 
+
+<Q_NUMBER>8
+<A_LINE>28
+<Q_TXT>Why has every claim from the Chinese refugees been rejected so far?
+<A_TXT>So far, every refugee claim from the Chinese migrants has been rejected, usually because the board has found no evidence of persecution. 
+
+<Q_NUMBER>9
+<A_LINE>32
+<Q_TXT>What will happen to the woman if she returns to China?
+<A_TXT>The woman also says her family received a notice that she'll be sterilized so she can't have any more babies if she returns to China. 
+
+<Q_NUMBER>10
+<A_LINE>36
+<Q_TXT>On what does the Immigration and Refugee Board's decision on the woman's request for refugee status depend?
+<A_TXT>Since there is little evidence beyond the woman's own testimony, the decision depends on whether the board members believe she is telling the truth. 
+
+<Q_NUMBER>11
+<A_LINE>34
+<Q_TXT>Who is Larry Smeets?
+<A_TXT>Larry Smeets, her lawyer, says the Federal Court of Appeal has concluded in the past that forced sterilization was a form of persecution, so this reason could be recognized as a reason for refugees to be allowed to remain in Canada. 
+
+</FILE>
+<FILE>1999-W51-1.txt
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>What kind of lawsuit was filed against Sarah McLachlan?
+<A_TXT>A Vancouver, British Columbia, judge has thrown out a copyright lawsuit against Canadian pop singer Sarah McLachlan. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>How did McLachlan feel about the suit being thrown out?
+<A_TXT>The Grammy and Juno-award winning singer is very relieved, says her lawyer. 
+
+<Q_NUMBER>3
+<A_LINE>9
+<Q_TXT>Who dismissed the lawsuit?
+<A_TXT>British Columbia Supreme Court Justice Bruce Cohen dismissed the lawsuit by Darryl Neudorf. 
+
+<Q_NUMBER>4
+<A_LINE>13
+<Q_TXT>When did McLachlan move to Vancouver?
+<A_TXT>Neudorf, a former drummer with the band 54-40, was recruited to help the then-promising 19-year-old McLachlan, who had just recently moved to Vancouver from Halifax, Nova Scotia, to pursue a career as a recording artist. 
+
+<Q_NUMBER>5
+<A_LINE>13
+<Q_TXT>Where did McLachlan move from?
+<A_TXT>Neudorf, a former drummer with the band 54-40, was recruited to help the then-promising 19-year-old McLachlan, who had just recently moved to Vancouver from Halifax, Nova Scotia, to pursue a career as a recording artist. 
+
+<Q_NUMBER>6
+<A_LINE>19,13
+<Q_TXT>Why was Bruce Neudorf hired, according to McLachlan?
+<A_TXT>McLachlan and the other defendants rejected Neudorf's claims, suggesting he was not hired to write songs, but rather to do pre-production work.  -OR- Neudorf, a former drummer with the band 54-40, was recruited to help the then-promising 19-year-old McLachlan, who had just recently moved to Vancouver from Halifax, Nova Scotia, to pursue a career as a recording artist. 
+
+<Q_NUMBER>7
+<A_LINE>17
+<Q_TXT>What did Neudorf claim he did not receive from McLachlan?
+<A_TXT>He said he did not receive proper royalties for producing "Touch," which sold more than 625,000 copies. 
+
+<Q_NUMBER>8
+<A_LINE>17
+<Q_TXT>How many copies of the album "Touch" were sold?
+<A_TXT>He said he did not receive proper royalties for producing "Touch," which sold more than 625,000 copies. 
+
+<Q_NUMBER>9
+<A_LINE>23
+<Q_TXT>What concert series did McLachlan mastermind?
+<A_TXT>McLachlan's lawyer Jennifer Conkie said the performer - the mastermind of the popular Lilith Fair concert series that toured North America - is "very, very pleased and relieved." 
+
+<Q_NUMBER>10
+<A_LINE>27
+<Q_TXT>What did McLachlan occasionally do during the trial?
+<A_TXT>During the trial, McLachlan occasionally sang and played a keyboard before court staff, reporters and teenaged fans to illustrate how songs are put together. 
+
+</FILE>
+<FILE>2000-W02-5.txt
+<Q_NUMBER>1
+<A_LINE>8
+<Q_TXT>When did reports of a crisis on Canadian farms first become national news?
+<A_TXT>Reports of crisis on Canadian farms first became national news in the Fall of 1998. 
+
+<Q_NUMBER>2
+<A_LINE>13
+<Q_TXT>Where is the Family Farm Tribute concert being held?
+<A_TXT>This Sunday she's going to be singing in Toronto, Ontario, with some of the best-known names in Canadian music. 
+
+<Q_NUMBER>3
+<A_LINE>15
+<Q_TXT>What is the Family Farm Tribute concert meant to do?
+<A_TXT>The concert is meant to open people's eyes to the growing farm crisis in Canada. 
+
+<Q_NUMBER>4
+<A_LINE>20
+<Q_TXT>What pressure does Amanda Scott say she feels?
+<A_TXT>"And then also it's the pressure of continuing on with what your forefathers have started on the family farm." 
+
+<Q_NUMBER>5
+<A_LINE>24
+<Q_TXT>What two things will the Family Farm Tribute concert achieve, according to organizer Dennis Mills?
+<A_TXT>It will bring rural problems to the attention of an urban audience, and it will show the country that Toronto cares. 
+
+<Q_NUMBER>6
+<A_LINE>26
+<Q_TXT>According to Mills, how do people beyond the 416 area code, especially in the West, tend to think of Toronto?
+<A_TXT>"People beyond the 416 area code [the area code for Toronto], especially in the West, tend to think we are an evil, uncaring, don't-give-a-damn-kind of community. 
+
+<Q_NUMBER>7
+<A_LINE>31
+<Q_TXT>Why does Mills say that the concert's message will get out even if it's not a sellout?
+<A_TXT>Even if it's not packed to the rafters, Mills says the concert's message will still get out as people across the country can tune into the event live on CBC Newsworld. 
+
+<Q_NUMBER>8
+<A_LINE>33
+<Q_TXT>Who is meeting in Ottawa, Ontario, to work out a new aid package for cash-strapped farmers?
+<A_TXT>Federal Agriculture Minister Lyle Vanclief and his provincial counterparts are meeting today in Ottawa, Ontario, to work out a new aid package for cash-strapped farmers. 
+
+<Q_NUMBER>9
+<A_LINE>36
+<Q_TXT>How will CBC Online be presenting the Family Farm Tribute concert?
+<A_TXT>CBC Online will be presenting a live webcast of The Family Farm Tribute starting at 1pm Eastern right here: http://cbc.ca/news/live/familyfarm.html. 
+
+</FILE>
+<FILE>2000-W03-2.txt
+<Q_NUMBER>1
+<A_LINE>9
+<Q_TXT>When was the Polar Lander supposed to have landed?
+<A_TXT>Polar Lander was to have touched down December 3 for a 90-day mission. 
+
+<Q_NUMBER>2
+<A_LINE>17
+<Q_TXT>Who is the Polar Lander's project manager?
+<A_TXT>"We didn't see anything," said Richard Cook, the spacecraft's project manager at NASA's Jet Propulsion Laboratory. 
+
+<Q_NUMBER>3
+<A_LINE>10
+<Q_TXT>Where on Mars was the spacecaft supposed to touch down?
+<A_TXT>It was to land near Mars' south pole. 
+
+<Q_NUMBER>4
+<A_LINE>30
+<Q_TXT>What did the Mars Global Surveyor do?
+<A_TXT>NASA sent a spacecraft called the Mars Global Surveyor to take high-resolution images of the landing site to search for signs of the lander. 
+
+<Q_NUMBER>5
+<A_LINE>7
+<Q_TXT>What was the mission of the Mars Polar Lander?
+<A_TXT>The Mars Polar Lander was on a mission to Mars to study its atmosphere and search for water, something that could help scientists determine whether life ever existed on Mars. 
+
+<Q_NUMBER>6
+<A_LINE>7
+<Q_TXT>Why did NASA want the Polar Lander to look for water?
+<A_TXT>The Mars Polar Lander was on a mission to Mars to study its atmosphere and search for water, something that could help scientists determine whether life ever existed on Mars. 
+
+<Q_NUMBER>7
+<A_LINE>19
+<Q_TXT>How much did the Polar Lander mission cost?
+<A_TXT>The failed mission to the Red Planet cost the American government more than $200 million dollars. 
+
+<Q_NUMBER>8
+<A_LINE>41
+<Q_TXT>How much did the Polar Lander weigh?
+<A_TXT>Its total weight was 576 kilograms. 
+
+<Q_NUMBER>9
+<A_LINE>14
+<Q_TXT>How many legs did the Mars Polar Lander have?
+<A_TXT>The last effort to communicate with the three-legged lander ended with frustration at 8 a.m 
+
+</FILE>
+<FILE>2000-W03-4.txt
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>Who is Canada's Minister of Health?
+<A_TXT>Allan Rock said yesterday that he's convinced the labels will work. 
+
+<Q_NUMBER>2
+<A_LINE>6,9
+<Q_TXT>Where does the government want to put pictures of diseased lungs?
+<A_TXT>The government wants to put graphic pictures and warnings on all cigarette packages.  -OR- The warnings cover half of each side of a cigarette package. 
+
+<Q_NUMBER>3
+<A_LINE>5
+<Q_TXT>Who is Canada's cigarette packaging plan intended to affect?
+<A_TXT>Canada's minister of health has announced a new plan to try to discourage teenagers from smoking: The Yuck Factor. 
+
+<Q_NUMBER>4
+<A_LINE>41
+<Q_TXT>When does Allen Rock want the new cigarette packages in Canadian stores?
+<A_TXT>The minister says he hopes to have the new cigarette packages on store shelves by the end of the year. 
+
+<Q_NUMBER>5
+<A_LINE>35
+<Q_TXT>Who is Rob Parker a spokesman for?
+<A_TXT>The Canadian Tobacco Manufacturers Association, which represents tobacco companies, says it would take two years and cost millions of dollars to change the packaging on Canadian cigarettes. 
+
+<Q_NUMBER>6
+<A_LINE>35
+<Q_TXT>How much would it cost to change the cigarette packaging, according to The Canadian Tobacco Manufacturers Association?
+<A_TXT>The Canadian Tobacco Manufacturers Association, which represents tobacco companies, says it would take two years and cost millions of dollars to change the packaging on Canadian cigarettes. 
+
+<Q_NUMBER>7
+<A_LINE>30,29
+<Q_TXT>What do anti-smoking organizations think about the cigarette packaging plan?
+<A_TXT>The Non-Smokers Rights Association says the labels will give people a graphic reminder of the harmful effects of smoking a cigarette.  -OR- Anti-smoking organizations have applauded the strategy. 
+
+<Q_NUMBER>8
+<A_LINE>24
+<Q_TXT>Why does Allan Rock think the new packaging will make a difference?
+<A_TXT>He says his department has done extensive surveys and he thinks the labels will be effective. 
+
+</FILE>
+<FILE>2000-W06-4.txt
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Why could students at Sisler High School be sent home or suspended for kissing?
+<A_TXT>Students who lock lips in the hallways of Winnipeg's Sisler High School have been warned: if that friendly peck gets too passionate, they couldbe sent home or even suspended. 
+
+<Q_NUMBER>2
+<A_LINE>9
+<Q_TXT>How are students at Sisler expected to treat each other, according to vice-principal Mike Kachmar?
+<A_TXT>He says students are expected to treat each other with courtesy and respect, and that doesn't include passionate embracing in the hall. 
+
+<Q_NUMBER>3
+<A_LINE>11
+<Q_TXT>How did Kachmar describe school?
+<A_TXT>"School is a place of business and we expect students to act and behave accordingly," Kachmar says. 
+
+<Q_NUMBER>4
+<A_LINE>13
+<Q_TXT>Why did Kachmar say he announced the ban on kissing?
+<A_TXT>Kachmar says he made the announcement after receiving complaints about a few students whose intense kissing was making others uncomfortable. 
+
+<Q_NUMBER>5
+<A_LINE>20
+<Q_TXT>How far back in Western civilization are there references to kissing?
+<A_TXT>Kissing has a long history in Western civilization, with references dating back to the Old Testament. 
+
+<Q_NUMBER>6
+<A_LINE>15
+<Q_TXT>Who said he has never witnessed a problem in Sisler's hallways?
+<A_TXT>Jeffrey Besyk is in Grade 12. 
+
+<Q_NUMBER>7
+<A_LINE>25
+<Q_TXT>Where was kissing rarely practiced until the 20th century?
+<A_TXT>Until the 20th century, kissing was rarely practiced in East Asia, where bowing was the all-purpose form of greeting, and kissing was left for private moments. 
+
+<Q_NUMBER>8
+<A_LINE>23
+<Q_TXT>When were medieval knights kissed?
+<A_TXT>Medieval knights were kissed after being knighted, and the custom of kissing the bride remains almost universal in Western marriage ceremonies. 
+
+<Q_NUMBER>9
+<A_LINE>22
+<Q_TXT>What is the "holy kiss" still a part of?
+<A_TXT>The ancient Greeks and Romans Early Christians greeted one another with a kiss, and this "holy kiss" is still a part of Roman Catholic rituals, such as when a bishop kisses a newly ordained priest. 
+
+</FILE>
