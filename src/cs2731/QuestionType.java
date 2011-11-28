@@ -2,9 +2,9 @@
 package cs2731;
 
 import java.lang.ref.SoftReference;
-import java.util.EnumSet;
+import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -28,95 +28,96 @@ public enum QuestionType {
     
 	private static SoftReference<WordMap> wordMapRef = new SoftReference<WordMap>(null);
 	
-	/**
-	 * Get a set of question types that might be
-	 * associated with a list of words
-	 * @param words
-	 * @return 
-	 */
-	public static Set<QuestionType> getQuestionTypes(List<String> words) {
-		Set<QuestionType> set = EnumSet.noneOf(QuestionType.class);
-		for (String word : words) {
-			set.add(getTypeFromWord(word));
-		}
-		return set;
-	}
+//	/**
+//	 * Get a set of question types that might be
+//	 * associated with a list of words
+//	 * @param words
+//	 * @return 
+//	 */
+//	public static Set<QuestionType> getQuestionTypes(Collection<String> words) {
+//		Set<QuestionType> set = EnumSet.noneOf(QuestionType.class);
+//		for (String word : words) {
+//			set.add(getTypeFromWord(word));
+//		}
+//		return set;
+//	}
+//	
+//	/**
+//	 * returns a named entity type associated with a particular word.
+//	 * For example, "he" would map to PERSON,
+//	 * and "during" would associate with TIME
+//	 * @param word
+//	 * @return 
+//	 */
+//	public static QuestionType getTypeFromWord(String word) {
+//		WordMap map = wordMapRef.get();
+//		if (map == null) {
+//			wordMapRef = new SoftReference<WordMap>(new WordMap());
+//			map = wordMapRef.get();
+//		}
+//		
+//		if (map.containsKey(word)) {
+//			return map.get(word);
+//		} else {
+//			return OTHER;
+//		}
+//	}
 	
-	/**
-	 * returns a named entity type associated with a particular word.
-	 * For example, "he" would map to PERSON,
-	 * and "during" would associate with TIME
-	 * @param word
-	 * @return 
-	 */
-	public static QuestionType getTypeFromWord(String word) {
-		WordMap map = wordMapRef.get();
-		if (map == null) {
-			wordMapRef = new SoftReference<WordMap>(new WordMap());
-			map = wordMapRef.get();
-		}
-		
-		if (map.containsKey(word)) {
-			return map.get(word);
-		} else {
-			return OTHER;
-		}
-	}
 	
 	
-	private static class WordMap extends HashMap<String, QuestionType>
+//	private static class WordMap extends HashMap<String, QuestionType>
+	private static class WordMap extends HashMap<QuestionType, Set<String>>
 	{
 		private WordMap() {
+			
 			// WHO
-			put("he", WHO);
-			put("she", WHO);
-			put("it", WHO);
-			put("they", WHO);
-			put("him", WHO);
-			put("her", WHO);
-			put("them", WHO);
+			put(WHO, new HashSet<String>(
+					Arrays.asList("he","she","it","they","them","him","her")));
 			
-			// WHERE
-			put("at", WHERE);
-			put("located", WHERE);
-			put("position", WHERE);
-			put("where", WHERE);
-			put("near", WHERE);
-			put("close", WHERE);
-			put("around", WHERE);
-			put("inside", WHERE);
+			put(WHERE, new HashSet<String>(
+					Arrays.asList(
+					"at","in","inside","around","under","over",
+					"close","near","where","next","aside","below",
+					"located","on","along","against","between","beneath"
+					)));
 			
-			// TIME
-			put("during", WHEN);
-			put("time", WHEN);
-			put("when", WHEN);
-			put("before", WHEN);
-			put("after", WHEN);
-			put("until", WHEN);
+			put(WHEN, new HashSet<String>(
+					Arrays.asList(
+					"during","time","before","after","when","later","until",
+					"ago","first","last","then","afternoon","morning","evening",
+					"night","day","year"
+					)));
 			
-			// REASON
-			put("because", WHY);
-			put("for", WHY);
-			put("reason", WHY);
-			put("in order", WHY);
+			put(HOW, new HashSet<String>(
+					Arrays.asList(
+					"by"
+					)));
 			
-			// HOW
-			put("by", HOW);
+			put(WHY, new HashSet<String>(
+					Arrays.asList(
+					"because","for","so","to","reason"
+					)));
 			
-			// WHICH
-			put("those", WHICH);
-			put("ones", WHICH);
+			put(WHICH, new HashSet<String>(
+					Arrays.asList(
+					"those","that","this","ones","these"
+					)));
+
+			put(HOW_MANY, new HashSet<String>(
+					Arrays.asList(
+					"many","all","none","some","few","percent"
+					)));
 			
-			put("years", HOW_OLD);
-			
-			put("many", HOW_MANY);
-			put("percent", HOW_MANY);
-			put("all", HOW_MANY);
-			put("none", HOW_MANY);
-			
-			put("much", HOW_MUCH);
-			put("very", HOW_MUCH);
-			put("lot", HOW_MUCH);
+			put(HOW_OLD, new HashSet<String>(
+					Arrays.asList(
+					"years","old","young"
+					)));
+
+			put(HOW_MUCH, new HashSet<String>(
+					Arrays.asList(
+					"much","all","no","some","lot",
+					"little","very"
+					)));
 		}
 	}
 	
