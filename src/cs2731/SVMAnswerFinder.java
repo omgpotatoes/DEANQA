@@ -6,7 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
+import weka.classifiers.functions.LibSVM;
 import weka.core.Attribute;
+import weka.core.FastVector;
+import weka.core.Instance;
+import weka.core.Instances;
 
 import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.NamedEntityTagAnnotation;
@@ -25,7 +29,8 @@ import edu.stanford.nlp.util.CoreMap;
  */
 public class SVMAnswerFinder implements AnswerFinder {
 
-	private SVMData data;
+	private Instances data;
+	private LibSVM model = new LibSVM();
 	
     /**
 	 * Constructor that takes the training data folder path and the answer file path as 
@@ -40,11 +45,33 @@ public class SVMAnswerFinder implements AnswerFinder {
 		 */
 		File trainingAnswersFile = new File(trainingAnswersFilePath);
 		File[] trainingQuestionFiles = new File(trainingQuestionsFolder).listFiles();
+		String [] options = new String [4];
+		options[0] = "-S";
+		options[1] = "0";
+		options[2] = "-K";
+		options[3] = "2";
+		try {
+			model.setOptions(options);
+		} catch (Exception e) {
+			System.err.println("Error in the options for the SVM model");
+		}
+		
 		if (trainingQuestionFiles == null) {
 		    System.err.println("This folder does not exisit or is not a directory.");
 		} else {
 			data = extractData(trainingQuestionFiles, trainingAnswersFile);
 		}
+		for(int i = 0; i < data.numInstances(); i++) {
+			System.out.println(data.instance(i));
+		}
+		
+		try {
+			model.buildClassifier(data);
+		} catch (Exception e) {
+			System.err.println("Error in training the model");
+			e.printStackTrace();
+		}
+		
 	}
 
 	/**
@@ -57,10 +84,23 @@ public class SVMAnswerFinder implements AnswerFinder {
 	 * @return 
 	 * @throws FileNotFoundException 
 	 */
-	private SVMData extractData(File[] documents, File answerKey) throws FileNotFoundException {
+	private Instances extractData(File[] documents, File answerKey) throws FileNotFoundException {
 		
-		//WEKA STARTS HERE
-		
+		//WEKA Stuff
+		Attribute [] attributeNames = new Attribute [3];
+		attributeNames[0] = new Attribute("DMWM");
+		attributeNames[1] = new Attribute("DMVM");
+		FastVector labels = new FastVector();
+		labels.addElement("Yes");
+		labels.addElement("No");
+		attributeNames[2] = new Attribute("Labels", labels);
+		FastVector attributes = new FastVector();
+		attributes.addElement(attributeNames[0]);
+		attributes.addElement(attributeNames[1]);
+		attributes.addElement(attributeNames[2]);
+		Instances dataset = new Instances("testDataset", attributes, 0);
+	
+		//Extracting the data
 		TrainingFileData [] trainingData = Utils.extractAllDataFromFile(documents, answerKey);
 		Properties props = new Properties();
 	    props.put("annotators", "tokenize, ssplit, pos, lemma");
@@ -92,10 +132,10 @@ public class SVMAnswerFinder implements AnswerFinder {
 	    		maxVerbMatch = 0;
 	    		for(CoreMap sentence: sentenceAnno.get(SentencesAnnotation.class)) {
 	    			String [] multipleAnswers = dataFile.answerMap[questionCounter].split("-OR-");
-    				double label = -1.0;
+    				double label = dataset.attribute(2).indexOfValue("No");
     				for(String anAnswer : multipleAnswers) {
     					if(anAnswer.trim().equals(sentence.toString().trim()))
-		    				label = 1.0;
+		    				label = dataset.attribute(2).indexOfValue("Yes");
     				}
     				tempY.add(label);
     				
@@ -144,15 +184,22 @@ public class SVMAnswerFinder implements AnswerFinder {
 		Y = new double[tempY.size()];
 		for(int q=0; q < Y.length; q++) 
 			Y[q] = tempY.get(q);
-		
-		for(int i = 0; i < X.length; i++) {
-			for(int j = 0; j < X[0].length; j++) {
-				//System.out.print(X[i][j] + " ");
-			}
-			//System.out.println(" | " + Y[i]);
-		}
 
-		return new SVMData(X, Y);
+		//WEKA Stuff
+		double [][] instances = new double [X.length][3];
+		
+		for(int i = 0; i < instances.length; i ++) {
+			instances[i][0] = X[i][0];
+			instances[i][1] = X[i][1];
+			instances[i][2] = Y[i];
+		}		
+		
+		
+		for(double [] instance : instances)
+			dataset.add(new Instance(1.0, instance));
+		
+		dataset.setClassIndex(2);
+		return dataset;
 	}
 
 
@@ -163,21 +210,6 @@ public class SVMAnswerFinder implements AnswerFinder {
 	public List<Guess> getAnswerLines(List<String> document, String question) {	    
 		return null;
 	}
-	
-	/**
-	 * Feature and label representation of the data for the SVM to digest
-	 * @author Eric Heim
-	 */
-	private class SVMData {
-		public double [][] X;
-		public double [] Y;
-		public SVMData(double [][] inX, double [] inY) {
-			this.X = inX;
-			this.Y = inY;
-		}
-		
-	}
-
 }
 
 
