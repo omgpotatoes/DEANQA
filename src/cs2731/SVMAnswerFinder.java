@@ -29,8 +29,10 @@ import edu.stanford.nlp.util.CoreMap;
  */
 public class SVMAnswerFinder implements AnswerFinder {
 
+	private StanfordCoreNLP pipeline;
 	private Instances data;
 	private LibSVM model = new LibSVM();
+	private static boolean flag = true;
 	
     /**
 	 * Constructor that takes the training data folder path and the answer file path as 
@@ -59,11 +61,18 @@ public class SVMAnswerFinder implements AnswerFinder {
 		if (trainingQuestionFiles == null) {
 		    System.err.println("This folder does not exisit or is not a directory.");
 		} else {
-			data = extractData(trainingQuestionFiles, trainingAnswersFile);
+			//Creates the annotation pipeline
+			Properties props = new Properties();
+		    props.put("annotators", "tokenize, ssplit, pos, lemma");
+		    pipeline = new StanfordCoreNLP(props);
+			
+			data = extractTrainingData(trainingQuestionFiles, trainingAnswersFile);
 		}
+		/*
 		for(int i = 0; i < data.numInstances(); i++) {
 			System.out.println(data.instance(i));
 		}
+		*/
 		
 		try {
 			model.buildClassifier(data);
@@ -84,7 +93,7 @@ public class SVMAnswerFinder implements AnswerFinder {
 	 * @return 
 	 * @throws FileNotFoundException 
 	 */
-	private Instances extractData(File[] documents, File answerKey) throws FileNotFoundException {
+	private Instances extractTrainingData(File[] documents, File answerKey) throws FileNotFoundException {
 		
 		//WEKA Stuff
 		Attribute [] attributeNames = new Attribute [3];
@@ -102,9 +111,6 @@ public class SVMAnswerFinder implements AnswerFinder {
 	
 		//Extracting the data
 		TrainingFileData [] trainingData = Utils.extractAllDataFromFile(documents, answerKey);
-		Properties props = new Properties();
-	    props.put("annotators", "tokenize, ssplit, pos, lemma");
-	    StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 	    Annotation sentenceAnno;
 	    Annotation questionAnno;
 	    int rawWordMatch = 0;
@@ -201,14 +207,115 @@ public class SVMAnswerFinder implements AnswerFinder {
 		dataset.setClassIndex(2);
 		return dataset;
 	}
-
-
+	
 	/** 
 	 * First I'll focus on training the SVM then I'll work on this
 	 * @return
 	 */
 	public List<Guess> getAnswerLines(List<String> document, String question) {	    
+		Instances testData = extractTestData(document, question);
+		//Possibly count the blank lines, because the data that is returned includes those blanks
+		//DEBUGGING CONSIDER CHANGING TO PROBABLEISTIC MODEL
+		if(flag) {
+			for(int i = 0; i < testData.numInstances(); i++) {
+				try {
+					double[] tempGuesses = model.distributionForInstance(testData.instance(i));
+					for(double guess : tempGuesses) 
+						System.out.print(guess + " ");
+					System.out.println("");
+				} catch (Exception e) {
+					System.err.println("Error in classifying an instance");
+					e.printStackTrace();
+				}
+			}
+				
+			flag = false;
+		}
+		//
 		return null;
+	}
+	
+	private Instances extractTestData(List<String> document, String question) {
+		String sentences = "";
+		
+		for(String line: document) 
+			sentences += line.trim().replaceAll("[.,!?]", "") + "?" + "\n";
+		
+		question = question.replaceAll("[.,!?]", "") + "?";
+		int maxWordMatch = 0;
+		int maxVerbMatch = 0;
+		ArrayList<double []> tempX = new ArrayList<double []>();
+	    ArrayList<double []> unDiffed = new ArrayList<double []>();
+	    double [] tempDataPoint;
+		
+	    Annotation sentenceAnno = new Annotation(sentences);
+	    Annotation questionAnno = new Annotation(question);
+	    pipeline.annotate(questionAnno);
+    	pipeline.annotate(sentenceAnno);
+	    
+	    //WEKA Stuff
+	    Attribute [] attributeNames = new Attribute [3];
+		attributeNames[0] = new Attribute("DMWM");
+		attributeNames[1] = new Attribute("DMVM");
+		FastVector labels = new FastVector();
+		labels.addElement("Yes");
+		labels.addElement("No");
+		attributeNames[2] = new Attribute("Labels", labels);
+		FastVector attributes = new FastVector();
+		attributes.addElement(attributeNames[0]);
+		attributes.addElement(attributeNames[1]);
+		attributes.addElement(attributeNames[2]);
+		Instances dataset = new Instances("testDataset", attributes, 0);
+	    
+		for(CoreMap sentence: sentenceAnno.get(SentencesAnnotation.class)) {
+			int rawWordMatch = 0;
+			int rawVerbMatch = 0;
+			
+			for (CoreLabel questionToken: questionAnno.get(SentencesAnnotation.class).get(0).get(TokensAnnotation.class)) {
+				String questionLemma = questionToken.get(LemmaAnnotation.class).toLowerCase();
+				String questionPOS = questionToken.get(PartOfSpeechAnnotation.class);
+				for (CoreLabel sentenceToken: sentence.get(TokensAnnotation.class)) {
+					String sentenceLemma = sentenceToken.get(LemmaAnnotation.class).toLowerCase();
+					String sentencePOS = sentenceToken.get(PartOfSpeechAnnotation.class);
+					if(questionLemma.equals(sentenceLemma)) {
+						rawWordMatch++;
+						if(questionPOS.startsWith("VB") && sentencePOS.startsWith("VB") && !questionLemma.equals("be") && !questionLemma.equals("do") && !questionLemma.equals("have")) 
+							rawVerbMatch++;
+					}	
+				}
+			}
+			if(rawWordMatch > maxWordMatch)
+				maxWordMatch = rawWordMatch;
+			if(rawVerbMatch > maxVerbMatch)
+				maxVerbMatch = rawVerbMatch;
+			tempDataPoint = new double [3];
+			tempDataPoint[0] = rawWordMatch;
+			tempDataPoint[1] = rawVerbMatch;
+			tempDataPoint[2] = dataset.attribute(2).indexOfValue("No");
+			unDiffed.add(tempDataPoint);
+		}
+		int size = unDiffed.size();
+		for(int q = 0; q < size; q++) {
+			tempDataPoint = new double[2];
+			tempDataPoint[0] = maxWordMatch - unDiffed.get(0)[0];
+			if(maxVerbMatch == 0)
+				tempDataPoint[1] = 200;
+			else
+				tempDataPoint[1] = maxVerbMatch - unDiffed.get(0)[1];
+			tempX.add(tempDataPoint);
+			unDiffed.remove(0);
+		}
+		
+		for(double [] instance : tempX)
+			dataset.add(new Instance(1.0, instance));
+		
+		//STUFF TO MAKE SURE ONE CAN BE CHOSEN AS YES
+		double [] tempInstance = {0, 0, dataset.attribute(2).indexOfValue("No")};
+		dataset.add(new Instance(1.0, tempInstance));
+		//
+		
+		dataset.setClassIndex(2);
+		return dataset;
 	}
 }
 
