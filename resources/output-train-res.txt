@@ -1,0 +1,1805 @@
+
+<FILE>1999-W02-5.txt
+
+<Q_NUMBER>1
+<A_LINE>18
+<Q_TXT>Where is South Queens Junior High School located?
+<A_TXT>"We don't have any athletic facilities here on the South Shore of Nova Scotia, so if school and community volunteers don't use school and community volunteers schools, communities such as Queens are going to be struggling to get anything going," Betty Jean Aucoin said. 
+
+<Q_NUMBER>2
+<A_LINE>25
+<Q_TXT>Who is the principal of South Queens Junior High School?
+<A_TXT>Southwest Regional School Board superintendent Ann Jones says there's no fear the lines between education and business are blurring. 
+
+<Q_NUMBER>3
+<A_LINE>18
+<Q_TXT>What has South Queens Junior High School done with its old metal shop?
+<A_TXT>"We don't have any athletic facilities here on the South Shore of Nova Scotia, so if school and community volunteers don't use school and community volunteers schools, communities such as Queens are going to be struggling to get anything going," Betty Jean Aucoin said. 
+
+<Q_NUMBER>4
+<A_LINE>2
+<Q_TXT>When did the metal shop close?
+<A_TXT>January 8, 1999
+
+<Q_NUMBER>5
+<A_LINE>33
+<Q_TXT>Who runs the club?
+<A_TXT>Proceeds pay the salary of the centre co-ordinator and upkeep of the facility. 
+
+<Q_NUMBER>6
+<A_LINE>22
+<Q_TXT>How big is the club?
+<A_TXT>Some people are wondering if the ties between the businesses and a school teaming up with the community to raise money are too close. 
+
+<Q_NUMBER>7
+<A_LINE>31
+<Q_TXT>If you were a student, how much would a club membership cost you?
+<A_TXT>Memberships cost $180 a year for adults and $135 for students and seniors. 
+
+<Q_NUMBER>8
+<A_LINE>18
+<Q_TXT>Why is the school opening the club?
+<A_TXT>"We don't have any athletic facilities here on the South Shore of Nova Scotia, so if school and community volunteers don't use school and community volunteers schools, communities such as Queens are going to be struggling to get anything going," Betty Jean Aucoin said. 
+
+</FILE>
+
+
+<FILE>1999-W04-5.txt
+
+<Q_NUMBER>1
+<A_LINE>13
+<Q_TXT>What reason did Alexi Yashin give for backing out of his promised donation?
+<A_TXT>Earlier this year star Alexi Yashin promised to give one million dollars to the National Arts Centre, a concert hall where people go to see plays and dance and to hear live music. 
+
+<Q_NUMBER>2
+<A_LINE>41
+<Q_TXT>How much does Alexi Yashin earn as a hockey player?
+<A_TXT>As well, a lawyer working for star Alexi Yashin was to get $15,000 out of the remaining $115,000. 
+
+<Q_NUMBER>3
+<A_LINE>53
+<Q_TXT>Who does Alexi Yashin play for?
+<A_TXT>He said simply that "I know star Alexi Yashin didn't do anything illegal. 
+
+<Q_NUMBER>4
+<A_LINE>41
+<Q_TXT>How much money did Alexi Yashin actually donate to the National Arts Centre?
+<A_TXT>As well, a lawyer working for star Alexi Yashin was to get $15,000 out of the remaining $115,000. 
+
+<Q_NUMBER>5
+<A_LINE>50
+<Q_TXT>What do Alexi Yashin's teammates think about this donation gone bad?
+<A_TXT>After the game reporters went to the locker room to ask Alexi Yashin what was going on. 
+
+<Q_NUMBER>6
+<A_LINE>66
+<Q_TXT>How would Alexi Yashin himself benefit from his donation scheme?
+<A_TXT>"He benefited from the publicity and now he's got to own up." 
+
+<Q_NUMBER>7
+<A_LINE>13
+<Q_TXT>Why do people go to the National Arts Centre?
+<A_TXT>Earlier this year star Alexi Yashin promised to give one million dollars to the National Arts Centre, a concert hall where people go to see plays and dance and to hear live music. 
+
+<Q_NUMBER>8
+<A_LINE>17
+<Q_TXT>How would Alexi's parents have benefited from his donation to the National Arts Centre?
+<A_TXT>It is very expensive to put on live live performances and the National Arts Centre in Ottawa , Ontario has recently had to raise ticket prices and cut back on live performances because of a lack of funds. 
+
+<Q_NUMBER>9
+<A_LINE>8
+<Q_TXT>Where did reporters question Alexi Yashin?
+<A_TXT>Well, you is exactly what the federal government is doing concerning a million dollar gift to the National Arts Centre in Ottawa, Ontario. 
+
+</FILE>
+
+
+<FILE>1999-W05-5.txt
+
+<Q_NUMBER>1
+<A_LINE>19
+<Q_TXT>Who was the focus of the health study discussed in this article?
+<A_TXT>The survey "confirms what we've been saying for years," says Ghislain Picard, vice-chief of the Assembly of First Nations for Quebec and Labrador. 
+
+<Q_NUMBER>2
+<A_LINE>13
+<Q_TXT>What, according to the study, do some aboriginals start doing at age five?
+<A_TXT>What's more, A new study of 56,000 native people found that some Quebec natives start smoking at five years old. 
+
+<Q_NUMBER>3
+<A_LINE>40
+<Q_TXT>How old were the majority of those studied?
+<A_TXT>The results of A new study of 56,000 native people are even more startling because a majority of the people studied are under 45. 
+
+<Q_NUMBER>4
+<A_LINE>48
+<Q_TXT>How many of the adults in the general population are smokers?
+<A_TXT>
+
+<Q_NUMBER>5
+<A_LINE>27
+<Q_TXT>Why are most native Canandians exposed to second hand smoke in their homes?
+<A_TXT>Two thousand people in 10 Quebec communities were studied, including 200 aboriginals living in Montreal. 
+
+<Q_NUMBER>6
+<A_LINE>46
+<Q_TXT>Compared to the rest of the world, how do the living conditions of aboriginals rank?
+<A_TXT>Garry Carbonnell, who helped with A new study of 56,000 native people says, "we all know of the deplorable the deplorable living conditions of aboriginal people of aboriginal people -- aboriginal people rank 63rd in the world in terms of living conditions. 
+
+<Q_NUMBER>7
+<A_LINE>19
+<Q_TXT>Who is the vice-chief of the Assembly of First Nations for Quebec and Labrador?
+<A_TXT>The survey "confirms what we've been saying for years," says Ghislain Picard, vice-chief of the Assembly of First Nations for Quebec and Labrador. 
+
+</FILE>
+
+
+<FILE>1999-W07-5.txt
+
+<Q_NUMBER>1
+<A_LINE>10
+<Q_TXT>Where did the Kolla boys get lost?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>2
+<A_LINE>10
+<Q_TXT>Who is the youngest brother?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>3
+<A_LINE>10
+<Q_TXT>How old is the older brother?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>4
+<A_LINE>10
+<Q_TXT>When did the boys realize they were lost?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>5
+<A_LINE>10
+<Q_TXT>Where did they dig the snow cave in which they spent the night?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>6
+<A_LINE>10
+<Q_TXT>What did they use to dig the snow cave?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>7
+<A_LINE>10
+<Q_TXT>Why was the search for the boys called off?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>8
+<A_LINE>10
+<Q_TXT>Who found the boys?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>9
+<A_LINE>10
+<Q_TXT>What were the brothers hoping might spot them from the air?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>10
+<A_LINE>10
+<Q_TXT>Where did the boys learn how to survive a winter storm?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>11
+<A_LINE>10
+<Q_TXT>Where was their mom when she heard the news that the boys were okay?
+<A_TXT>"We had faith that the Kolla brothers ' could pull through Earlier this week and the Kolla brothers ' kept the Kolla brothers ' cool and didn't panic," said A.J. Kolla, who celebrated A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday, two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after A.J. Kolla , who celebrated A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho 14th birthday on Tuesday , two days after he and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho and A.J. Kolla , who celebrated his 14th birthday on Tuesday , two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint , Idaho brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+</FILE>
+
+
+<FILE>1999-W08-5.txt
+
+<Q_NUMBER>1
+<A_LINE>17
+<Q_TXT>What is the resolution of Canada's Radarsat-2 satellite?
+<A_TXT>The Radarsat-2 satellite is owned and operated by Macdonald Dettwiler of Richmond, British Columbia, near Vancouver. 
+
+<Q_NUMBER>2
+<A_LINE>22
+<Q_TXT>How can the satellite help farmers?
+<A_TXT>
+
+<Q_NUMBER>3
+<A_LINE>17
+<Q_TXT>Where is the Radarsat-2 satellite supposed to be in order to perform its function?
+<A_TXT>The Radarsat-2 satellite is owned and operated by Macdonald Dettwiler of Richmond, British Columbia, near Vancouver. 
+
+<Q_NUMBER>4
+<A_LINE>21
+<Q_TXT>Why might the Canadian government have to get someone else beside NASA to launch the satellite for them?
+<A_TXT>The government may pay another space agency to launch the satellite. 
+
+<Q_NUMBER>5
+<A_LINE>17
+<Q_TXT>Who is concerned about Radarsat-2's powerful abilities?
+<A_TXT>The Radarsat-2 satellite is owned and operated by Macdonald Dettwiler of Richmond, British Columbia, near Vancouver. 
+
+<Q_NUMBER>6
+<A_LINE>11
+<Q_TXT>Who is the director of strategic development for the Canadian Space Agency?
+<A_TXT>"Anything below five metres causes concern to the U.S. intelligence community," said Hugues Gilbert, director of strategic development for the Canadian Space Agency. 
+
+</FILE>
+
+
+<FILE>1999-W10-1.txt
+
+<Q_NUMBER>1
+<A_LINE>41
+<Q_TXT>Who owns Youth News Network?
+<A_TXT>I am upset with the administration of a Mississauga for using us, the students, as guinea pigs, in a test which uses televisions inappropriately in five-year school. 
+
+<Q_NUMBER>2
+<A_LINE>12
+<Q_TXT>What did it cost Meadowvale Secondary to have a satellite dish, televisions, and audio-visual equipment installed?
+<A_TXT>Youth News Network, Youth News Network , a private news and Youth News Network , a private news and current-affairs network , , and current-affairs network, has installed a satellite dish and thousands of dollars worth of televisions and audio-visual equipment at Meadowvale Secondary School free of charge. 
+
+<Q_NUMBER>3
+<A_LINE>41
+<Q_TXT>How many students attend Meadowvale Secondary School?
+<A_TXT>I am upset with the administration of a Mississauga for using us, the students, as guinea pigs, in a test which uses televisions inappropriately in five-year school. 
+
+<Q_NUMBER>4
+<A_LINE>28
+<Q_TXT>When is the deadline by which the school must decide whether to sign a five-year contract with YNN?
+<A_TXT>The school has a June deadline to decide whether a Mississauga wants to sign a five-year contract with YNN. 
+
+<Q_NUMBER>5
+<A_LINE>17
+<Q_TXT>Who said "Trust the government. I don't think so!"
+<A_TXT>"I happen to believe that it is completely unacceptable to sell off little bits of the school 's 1,700 students kids," said Heather-Jane Robertson, director of professional development with the Canadian Teachers Federation. 
+
+<Q_NUMBER>6
+<A_LINE>22
+<Q_TXT>What does CBC Newsworld provide to schools?
+<A_TXT>While public broadcasters such as CBC Newsworld and Ontario provide programming free of charge to schools, none can come close to providing the wealth of televisions, VCRs, computers, and televisions , VCRs , computers , and video cameras installed at Meadowvale Secondary School free of charge under Meadowvale Secondary School free of charge pilot project with YNN's owner, Montreal-based Athena Educational Partners Inc. 
+
+<Q_NUMBER>7
+<A_LINE>22
+<Q_TXT>Who is the principal of Meadowvale secondary?
+<A_TXT>While public broadcasters such as CBC Newsworld and Ontario provide programming free of charge to schools, none can come close to providing the wealth of televisions, VCRs, computers, and televisions , VCRs , computers , and video cameras installed at Meadowvale Secondary School free of charge under Meadowvale Secondary School free of charge pilot project with YNN's owner, Montreal-based Athena Educational Partners Inc. 
+
+<Q_NUMBER>8
+<A_LINE>22
+<Q_TXT>Where is Meadowvale Secondary School located?
+<A_TXT>While public broadcasters such as CBC Newsworld and Ontario provide programming free of charge to schools, none can come close to providing the wealth of televisions, VCRs, computers, and televisions , VCRs , computers , and video cameras installed at Meadowvale Secondary School free of charge under Meadowvale Secondary School free of charge pilot project with YNN's owner, Montreal-based Athena Educational Partners Inc. 
+
+<Q_NUMBER>9
+<A_LINE>41
+<Q_TXT>Which aspect of the YNN programming has people upset?
+<A_TXT>I am upset with the administration of a Mississauga for using us, the students, as guinea pigs, in a test which uses televisions inappropriately in five-year school. 
+
+<Q_NUMBER>10
+<A_LINE>18
+<Q_TXT>How long is YNN's newscast?
+<A_TXT>"If the school 's 1,700 students don't understand that it's wrong to sell off the school 's 1,700 students kids to advertisers, to compromise public education in that way, then the school 's 1,700 students can hardly turn around and blame the people who want to make money off the school 's 1,700 students stupidity." 
+
+<Q_NUMBER>11
+<A_LINE>17
+<Q_TXT>What organization does Heather-Jane Robertson represent?
+<A_TXT>"I happen to believe that it is completely unacceptable to sell off little bits of the school 's 1,700 students kids," said Heather-Jane Robertson, director of professional development with the Canadian Teachers Federation. 
+
+</FILE>
+
+
+<FILE>1999-W10-3.txt
+
+<Q_NUMBER>1
+<A_LINE>8
+<Q_TXT>Why will Wang Shui-Bo be attending the Oscars this year?
+<A_TXT>Wang Shui-Bo is nominated for an Oscar for Best Short Documentary for Canadian Wang Shui-Bo half-hour film "Sunrise over Tiananmen Square." 
+
+<Q_NUMBER>2
+<A_LINE>10
+<Q_TXT>What is the name of Wang's documentary?
+<A_TXT>The film is a Wang's perspective on the events that led up to June 4, 1989, when Chinese government troops opened fire on student demonstrators in Beijing's Tiananmen Square. 
+
+<Q_NUMBER>3
+<A_LINE>31
+<Q_TXT>At the beginning of his story, what is Wang?
+<A_TXT>Wang may now live in the West, but he'll wear a traditional Chinese jacket for the Oscars and if Wang wins, Wang knows exactly what he'll say: "Thank you to Wang motherland, China. 
+
+<Q_NUMBER>4
+<A_LINE>33
+<Q_TXT>Who fired on the student demonstrators in Tiananmen Square?
+<A_TXT>
+
+<Q_NUMBER>5
+<A_LINE>5
+<Q_TXT>When did Wang leave China?
+<A_TXT>On Oscar night -- Sunday, March 21 -- actors Tom Hanks, and Gwyneth Paltrow and director Steven Spielberg won't be the only ones sitting on the edge of -- Sunday , March 21 -- actors Tom Hanks seats, hoping to hear -- Sunday , March 21 -- actors Tom Hanks name read out. 
+
+<Q_NUMBER>6
+<A_LINE>31
+<Q_TXT>Where does Wang live now?
+<A_TXT>Wang may now live in the West, but he'll wear a traditional Chinese jacket for the Oscars and if Wang wins, Wang knows exactly what he'll say: "Thank you to Wang motherland, China. 
+
+<Q_NUMBER>7
+<A_LINE>27
+<Q_TXT>Who doesn't need another revolution, according to Wang?
+<A_TXT>The people here don't need another revolution. 
+
+</FILE>
+
+
+<FILE>1999-W10-5.txt
+
+<Q_NUMBER>1
+<A_LINE>28
+<Q_TXT>Who authored a study on the differences between the rich and poor in Canada?
+<A_TXT>And the more disparate incomes get, the more accentuated attitudes get, and more of a lottery mentality occurs." 
+
+<Q_NUMBER>2
+<A_LINE>17
+<Q_TXT>Who was the study performed for?
+<A_TXT>When Armine Yalnizyan looked at the Alberta data, growing income differences between Canada 's discovered that while Alberta's economy is growing, the difference between rich and poor is expanding more rapidly than anywhere else in Canada. 
+
+<Q_NUMBER>3
+<A_LINE>17
+<Q_TXT>How is Alberta's economy doing?
+<A_TXT>When Armine Yalnizyan looked at the Alberta data, growing income differences between Canada 's discovered that while Alberta's economy is growing, the difference between rich and poor is expanding more rapidly than anywhere else in Canada. 
+
+<Q_NUMBER>4
+<A_LINE>17
+<Q_TXT>What government programs are not doing well in Alberta?
+<A_TXT>When Armine Yalnizyan looked at the Alberta data, growing income differences between Canada 's discovered that while Alberta's economy is growing, the difference between rich and poor is expanding more rapidly than anywhere else in Canada. 
+
+<Q_NUMBER>5
+<A_LINE>17
+<Q_TXT>Where in Alberta, Canada is the difference between rich and poor most noticible?
+<A_TXT>When Armine Yalnizyan looked at the Alberta data, growing income differences between Canada 's discovered that while Alberta's economy is growing, the difference between rich and poor is expanding more rapidly than anywhere else in Canada. 
+
+<Q_NUMBER>6
+<A_LINE>19
+<Q_TXT>Why does Calgary have many high-paying management jobs?
+<A_TXT>The difference is most noticeable in Calgary where the city's prosperity has meant more high-paying management jobs, but also more unstable and low-paying part-time work. 
+
+</FILE>
+
+
+<FILE>1999-W11-5.txt
+
+<Q_NUMBER>1
+<A_LINE>32
+<Q_TXT>What is Bill 101?
+<A_TXT>For many years Quebec as there were many demonstrations - both from people who supported the bill and from those was big news in Quebec as there were many demonstrations - both from people who supported Bill 101 and from those who hated it. 
+
+<Q_NUMBER>2
+<A_LINE>28
+<Q_TXT>What does Bill 101 require?
+<A_TXT>Many French-speaking Quebecers did not like Bill 101 because Many English-speaking Quebecers felt French-speaking Quebecers took away Many English-speaking Quebecers freedom to put up English signs. 
+
+<Q_NUMBER>3
+<A_LINE>37
+<Q_TXT>Who described Dr. Laurin as "a pioneer, a builder, a man of conviction, determined"?
+<A_TXT>Laurin was a pioneer, a builder, a man of conviction, determined," says Francois Gendron, chairman of the Parti Quebecois caucus in the legislature. 
+
+<Q_NUMBER>4
+<A_LINE>31
+<Q_TXT>When did Bill 101 come into effect?
+<A_TXT>Bill 101 came into effect in 1977. 
+
+<Q_NUMBER>5
+<A_LINE>14
+<Q_TXT>How does the president of the Alliance Quebec English-rights lobby describe Laurin's masterwork, Bill 101?
+<A_TXT>Dr. Camille Laurin once described Dr. Camille Laurin beloved language law as the "re-conquest" of Quebec. 
+
+<Q_NUMBER>6
+<A_LINE>28
+<Q_TXT>Why do many English-speaking Quebecers not like Bill 101?
+<A_TXT>Many French-speaking Quebecers did not like Bill 101 because Many English-speaking Quebecers felt French-speaking Quebecers took away Many English-speaking Quebecers freedom to put up English signs. 
+
+<Q_NUMBER>7
+<A_LINE>28
+<Q_TXT>How do Quebec nationalists credit Bill 101?
+<A_TXT>Many French-speaking Quebecers did not like Bill 101 because Many English-speaking Quebecers felt French-speaking Quebecers took away Many English-speaking Quebecers freedom to put up English signs. 
+
+<Q_NUMBER>8
+<A_LINE>53
+<Q_TXT>Why did Dr. Laurin make no apologies for the toughness of Bill 101?
+<A_TXT>Dr. Laurin made no apologies for the law's toughness, saying his beloved language law simply reflected Quebec's demographic reality. 
+
+</FILE>
+
+
+<FILE>1999-W13-3.txt
+
+<Q_NUMBER>1
+<A_LINE>15
+<Q_TXT>What do the nations of the North Atlantic Treaty Organization want to stop the Yugoslavians from doing?
+<A_TXT>This is happening because the coalition of countries that are the North Atlantic Treaty Organizatoin (NATO) want to stop the Yugoslavians from invading the neighbouring region of Kosovo. 
+
+<Q_NUMBER>2
+<A_LINE>18
+<Q_TXT>What are the ethnic Albanians in Kosovo pushing for?
+<A_TXT>Ninety per cent of Kosovo's population are ethnic Albanians, who have been pushing for independence from Serbia. 
+
+<Q_NUMBER>3
+<A_LINE>15
+<Q_TXT>How old are the roots of the conflict between Kosovo and Serbia?
+<A_TXT>This is happening because the coalition of countries that are the North Atlantic Treaty Organizatoin (NATO) want to stop the Yugoslavians from invading the neighbouring region of Kosovo. 
+
+<Q_NUMBER>4
+<A_LINE>26
+<Q_TXT>When did the Serbs lose a key battle against the forces of the invading Ottoman Empire in Kosovo?
+<A_TXT>In 1389, Serbs lost a key battle against the forces of the invading Ottoman Empire on the fields of Kosovo. 
+
+<Q_NUMBER>5
+<A_LINE>15
+<Q_TXT>Where is the capital of Kosovo?
+<A_TXT>This is happening because the coalition of countries that are the North Atlantic Treaty Organizatoin (NATO) want to stop the Yugoslavians from invading the neighbouring region of Kosovo. 
+
+<Q_NUMBER>6
+<A_LINE>19
+<Q_TXT>Who is Slobodan Milosevic?
+<A_TXT>Brigadier-General Michel Maisonneuve is the senior Canadian Forces officer who has been serving with NATO. 
+
+<Q_NUMBER>7
+<A_LINE>33
+<Q_TXT>How has Milosevic described the problems in Kosovo?
+<A_TXT>Representatives of the the North Atlantic Treaty Organizatoin countries have tried to negotiate with the government of Yugoslavia. 
+
+<Q_NUMBER>8
+<A_LINE>35
+<Q_TXT>Why is NATO going to bomb Yugoslavia?
+<A_TXT>NATO says that Yugoslavia is the only way to get the North Atlantic Treaty Organizatoin to stop the North Atlantic Treaty Organizatoin assault on Kosovo. 
+
+<Q_NUMBER>9
+<A_LINE>47
+<Q_TXT>What does Milosevic refuse to do?
+<A_TXT>He refuses to allow any outside force into Kosovo to monitor any peace agreement. 
+
+<Q_NUMBER>10
+<A_LINE>41
+<Q_TXT>What do Yugoslav officials feel they can do in a war against NATO?
+<A_TXT>Yugoslav officials say Yugoslav officials might not be able to win a war against NATO, but Yugoslav officials feel Yugoslav officials can inflict serious damage. 
+
+<Q_NUMBER>11
+<A_LINE>48
+<Q_TXT>How many Canadian Forces personnel are based in Aviano, Italy?
+<A_TXT>
+
+</FILE>
+
+
+<FILE>1999-W14-5.txt
+
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>Where is CNN opening up a new news bureau?
+<A_TXT>It's not in China or Chile -- it's at a high school in Winnipeg! 
+
+<Q_NUMBER>2
+<A_LINE>8
+<Q_TXT>How will the new bureau's news be shared with the world?
+<A_TXT>The students in Ken Corley's World Studies class at Sisler High School will be contributing stories to a CNN Bureau web site aimed at young people. 
+
+<Q_NUMBER>3
+<A_LINE>13
+<Q_TXT>Who will write stories for the new bureau?
+<A_TXT>
+
+<Q_NUMBER>4
+<A_LINE>12
+<Q_TXT>What did Ms. Finlay ask Mr. Corley?
+<A_TXT>Mary Lou Finlay of CBC Radio's weeknight program As CBC Radio 's weeknight program Happens asked Mr. Corley how Mary Lou Finlay of CBC Radio 's weeknight program first heard about the idea. 
+
+<Q_NUMBER>5
+<A_LINE>13
+<Q_TXT>When does Ms. Finlay's radio program air?
+<A_TXT>
+
+</FILE>
+
+
+<FILE>1999-W16-5.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Where is the Fraser River?
+<A_TXT>Catastrophic flooding is possible in British Columbia's Fraser Valley this year, because an estimated 150 kilometres of dikes along the banks of The Fraser River are at risk, officials say. 
+
+<Q_NUMBER>2
+<A_LINE>5
+<Q_TXT>What are the fertile soils of the Fraser River good for?
+<A_TXT>Catastrophic flooding is possible in British Columbia's Fraser Valley this year, because an estimated 150 kilometres of dikes along the banks of The Fraser River are at risk, officials say. 
+
+<Q_NUMBER>3
+<A_LINE>5
+<Q_TXT>How large is the Fraser River watershed?
+<A_TXT>Catastrophic flooding is possible in British Columbia's Fraser Valley this year, because an estimated 150 kilometres of dikes along the banks of The Fraser River are at risk, officials say. 
+
+<Q_NUMBER>4
+<A_LINE>29
+<Q_TXT>What has been built along the river to hold back high water levels?
+<A_TXT>A federal-provincial the Fraser River this spring are predicted to reach 94 per cent of 1948 flood levels flood-control program has rebuilt about 250 kilometres of some dikes to withhold water levels as high as those in the 1894 , when water levels reached 7.92 metres flood. 
+
+<Q_NUMBER>5
+<A_LINE>45
+<Q_TXT>When will the river probably reach its highest level this year?
+<A_TXT>Even if 1894 , when water levels reached 7.92 metres river levels aren't reached this spring, it's just 1894 , when water levels reached 7.92 metres before We are, Environment Ministry spokesman Neil Peters says. 
+
+<Q_NUMBER>6
+<A_LINE>45
+<Q_TXT>Why would a month of really hot weather cause major flooding?
+<A_TXT>Even if 1894 , when water levels reached 7.92 metres river levels aren't reached this spring, it's just 1894 , when water levels reached 7.92 metres before We are, Environment Ministry spokesman Neil Peters says. 
+
+<Q_NUMBER>7
+<A_LINE>21
+<Q_TXT>How deep were the flood waters in 1948?
+<A_TXT>The flood of 1948, the last major flood in the Lower British Columbia Mainland, flooded the area of Great Britain with almost 8 metres of water, just 80 kilometres from Vancouver. 
+
+<Q_NUMBER>8
+<A_LINE>45
+<Q_TXT>How many people died in the 1948 flood?
+<A_TXT>Even if 1894 , when water levels reached 7.92 metres river levels aren't reached this spring, it's just 1894 , when water levels reached 7.92 metres before We are, Environment Ministry spokesman Neil Peters says. 
+
+<Q_NUMBER>9
+<A_LINE>45
+<Q_TXT>Who is the Environment Ministry spokesman quoted in this story?
+<A_TXT>Even if 1894 , when water levels reached 7.92 metres river levels aren't reached this spring, it's just 1894 , when water levels reached 7.92 metres before We are, Environment Ministry spokesman Neil Peters says. 
+
+</FILE>
+
+
+<FILE>1999-W17-5.txt
+
+<Q_NUMBER>1
+<A_LINE>30
+<Q_TXT>How many parents from Calgary protested against a teachers' strike?
+<A_TXT>
+
+<Q_NUMBER>2
+<A_LINE>30
+<Q_TXT>Where did the parents protest?
+<A_TXT>
+
+<Q_NUMBER>3
+<A_LINE>14
+<Q_TXT>What is the biggest stumbling block in the dispute between the teachers and the school board?
+<A_TXT>Class size is the biggest stumbling block in the dispute between the board and the teachers' union. 
+
+<Q_NUMBER>4
+<A_LINE>27
+<Q_TXT>Who is Teresa Woo-Paw?
+<A_TXT>School board chair Teresa Woo-Paw has said the board can't afford to meet the teachers' demands. 
+
+<Q_NUMBER>5
+<A_LINE>17
+<Q_TXT>Why do the teachers want the ratio to return to 18.4 students for one teacher?
+<A_TXT>The 6,600 teachers want the return of a ratio of one teacher for every 18.4 students. 
+
+<Q_NUMBER>6
+<A_LINE>8
+<Q_TXT>When are teachers poised to strike?
+<A_TXT>Well over 6,000 Calgary public school teachers are poised to strike Monday, which would cancel classes for 100,000 students. 
+
+<Q_NUMBER>7
+<A_LINE>30
+<Q_TXT>What will a teachers' strike force parents to do?
+<A_TXT>
+
+<Q_NUMBER>8
+<A_LINE>27
+<Q_TXT>What effect will the present school board plans have on teachers?
+<A_TXT>School board chair Teresa Woo-Paw has said the board can't afford to meet the teachers' demands. 
+
+<Q_NUMBER>9
+<A_LINE>8
+<Q_TXT>What happens to Grade 12 diploma exams if teachers strike?
+<A_TXT>Well over 6,000 Calgary public school teachers are poised to strike Monday, which would cancel classes for 100,000 students. 
+
+<Q_NUMBER>10
+<A_LINE>21
+<Q_TXT>Who is urging the teachers and school board to keep talking?
+<A_TXT>"I think there's going to be a strike -- Alberta Premier Ralph Klein hope that there won't be," said Klein in Edmonton, the province's capitol city. 
+
+</FILE>
+
+
+<FILE>1999-W19-5.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>What is giving firefighters a hand in battling several large forest fires across Northern Ontario?
+<A_TXT>Light rain and cooler temperatures are giving crews a hand in battling several large forest fires across Northern Ontario. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>When might some people be allowed to return to their homes?
+<A_TXT>However, Light rain may be well into next week before some people will be allowed to return home. 
+
+<Q_NUMBER>3
+<A_LINE>11
+<Q_TXT>Where has a state of emergency been declared?
+<A_TXT>A state of emergency has also been declared in Chapleau, where residents are on standby in preparation for an evacuation order. 
+
+<Q_NUMBER>4
+<A_LINE>18
+<Q_TXT>Why could Manitoba send fire fighters and equipment to the latest hotspot in northwestern Ontario?
+<A_TXT>It means the province could send fire fighters and equipment to the latest hot spot in northwestern Ontario. 
+
+<Q_NUMBER>5
+<A_LINE>24
+<Q_TXT>Who is Natural Resources Minister?
+<A_TXT>"St. Theresa Point is the only area that did not receive precipitation," said Natural Resources Minister Glen Cummings. 
+
+<Q_NUMBER>6
+<A_LINE>36
+<Q_TXT>How did Bob Thomas describe forest conditions right now?
+<A_TXT>"Our forest conditions now are volatile," said Bob Thomas, information officer for the provincial response centre. 
+
+<Q_NUMBER>7
+<A_LINE>40
+<Q_TXT>How many forest fires have there been in Ontario since April 1?
+<A_TXT>
+
+<Q_NUMBER>8
+<A_LINE>15
+<Q_TXT>What has triggered most of the fires in Ontario that have occurred since April 1?
+<A_TXT>The area had a little rain overnight -- it's not known what effect that has had on the fire. 
+
+</FILE>
+
+
+<FILE>1999-W20-5.txt
+
+<Q_NUMBER>1
+<A_LINE>37
+<Q_TXT>How many Canadians have diabetes and don't realize it?
+<A_TXT>Lau is confident studies on mice will also work on humans. 
+
+<Q_NUMBER>2
+<A_LINE>18
+<Q_TXT>What kinds of health problems do diabetics potentially face?
+<A_TXT>Diabetics are at risk of blindness, circulatory problems, blindness , circulatory problems , heart disease and blindness , circulatory problems , heart disease and kidney failure and kidney failure, but with proper diet, exercise and insulin, risk of blindness , circulatory problems , blindness , circulatory problems , heart disease and blindness , circulatory problems , heart disease and kidney failure and blindness , circulatory problems , heart disease and kidney failure can be controlled. 
+
+<Q_NUMBER>3
+<A_LINE>18
+<Q_TXT>How is diabetes currently controlled?
+<A_TXT>Diabetics are at risk of blindness, circulatory problems, blindness , circulatory problems , heart disease and blindness , circulatory problems , heart disease and kidney failure and kidney failure, but with proper diet, exercise and insulin, risk of blindness , circulatory problems , blindness , circulatory problems , heart disease and blindness , circulatory problems , heart disease and kidney failure and blindness , circulatory problems , heart disease and kidney failure can be controlled. 
+
+<Q_NUMBER>4
+<A_LINE>23
+<Q_TXT>What does insulin do for our bodies?
+<A_TXT>Type 2 -- when insulin in the body doesn't work properly. 
+
+<Q_NUMBER>5
+<A_LINE>28
+<Q_TXT>What do Type 1 diabetics' immune systems do to insulin-producing cells?
+<A_TXT>"This is a major landmark study and a major landmark study helps Type 1 diabetics , which inflicts about 100,000 Canadians understand the disease in a way Type 1 diabetics , which inflicts about 100,000 Canadians haven't in the past," says Dr. David Lau of the Julia McFarlane Diabetes Research Centre. 
+
+<Q_NUMBER>6
+<A_LINE>28
+<Q_TXT>What is Type 2 diabetes?
+<A_TXT>"This is a major landmark study and a major landmark study helps Type 1 diabetics , which inflicts about 100,000 Canadians understand the disease in a way Type 1 diabetics , which inflicts about 100,000 Canadians haven't in the past," says Dr. David Lau of the Julia McFarlane Diabetes Research Centre. 
+
+<Q_NUMBER>7
+<A_LINE>5
+<Q_TXT>Where does Dr. Yoon's team work?
+<A_TXT>A team of Calgary researchers says that Calgary researchers have discovered one of the causes of diabetes. 
+
+<Q_NUMBER>8
+<A_LINE>11
+<Q_TXT>Why will diabetics have to be patient, despite Dr. Ji-Won Yoon's discovery?
+<A_TXT>But, Diabetics will have to be patient -- a cure for humans is between five and 10 years away. 
+
+<Q_NUMBER>9
+<A_LINE>28
+<Q_TXT>Who is Holly McWilliams?
+<A_TXT>"This is a major landmark study and a major landmark study helps Type 1 diabetics , which inflicts about 100,000 Canadians understand the disease in a way Type 1 diabetics , which inflicts about 100,000 Canadians haven't in the past," says Dr. David Lau of the Julia McFarlane Diabetes Research Centre. 
+
+<Q_NUMBER>10
+<A_LINE>7
+<Q_TXT>When did Holly McWilliams have to start getting insulin injections?
+<A_TXT>The scientists have spent the last eight years in the lab trying to pinpoint the immune system's role in diabetes. 
+
+</FILE>
+
+
+<FILE>1999-W21-5.txt
+
+<Q_NUMBER>1
+<A_LINE>15
+<Q_TXT>Where is Gisborne Lake?
+<A_TXT>She says agreement or no agreement, a plan to build a pipeline from Gisborne Lake to the neighbouring community of Grand Lepierre , where it will be pumped into waiting tankers and shipped overseas has to be stopped. 
+
+<Q_NUMBER>2
+<A_LINE>8
+<Q_TXT>Why does Gerry White want to build a pipeline from Gisborne Lake to Grand Lepierre?
+<A_TXT>Gerry White has a plan to build a pipeline from Gisborne Lake to the neighbouring community of Grand Lepierre, where a pipeline will be pumped into waiting tankers and shipped overseas. 
+
+<Q_NUMBER>3
+<A_LINE>10
+<Q_TXT>What do Ottawa and the provinces want to negotiate?
+<A_TXT>For months Ottawa and the provinces have been trying to negotiate an agreement banning bulk water exports. 
+
+<Q_NUMBER>4
+<A_LINE>13
+<Q_TXT>Who is Maude Barlow?
+<A_TXT>"The federal government knows perfectly well that they're in trouble with this," says Maude Barlow of the Council of Canadians. 
+
+<Q_NUMBER>5
+<A_LINE>16
+<Q_TXT>If the water export plan goes ahead, what is triggered?
+<A_TXT>"If critics go ahead, then NAFTA (North American Free Trade Agreement) is triggered. 
+
+<Q_NUMBER>6
+<A_LINE>11
+<Q_TXT>What does Maude Barlow think American firms will do?
+<A_TXT>That agreement is still a long way off, and critics think That agreement may never be reached. 
+
+<Q_NUMBER>7
+<A_LINE>2
+<Q_TXT>When does Ottowa have to act if it wants to stop the pipeline plan?
+<A_TXT>May 21, 1999
+
+<Q_NUMBER>8
+<A_LINE>8
+<Q_TXT>How has the pipeline project been proved safe, according to Gerry White?
+<A_TXT>Gerry White has a plan to build a pipeline from Gisborne Lake to the neighbouring community of Grand Lepierre, where a pipeline will be pumped into waiting tankers and shipped overseas. 
+
+</FILE>
+
+
+<FILE>1999-W22-4.txt
+
+<Q_NUMBER>1
+<A_LINE>39
+<Q_TXT>When she was in school, what would Julie do instead of going to recess?
+<A_TXT>She has been training for the mission 's since 1992, when Russian astronaut Valery Tokarev was first selected to be an astronaut by the Canadian Space Agency. 
+
+<Q_NUMBER>2
+<A_LINE>48
+<Q_TXT>How many languages does Julie speak?
+<A_TXT>
+
+<Q_NUMBER>3
+<A_LINE>39
+<Q_TXT>When was Julie selected to be an astronaut by the Canadian Space Agency?
+<A_TXT>She has been training for the mission 's since 1992, when Russian astronaut Valery Tokarev was first selected to be an astronaut by the Canadian Space Agency. 
+
+<Q_NUMBER>4
+<A_LINE>30
+<Q_TXT>On May 27, 1999, from where did the space shuttle Discovery blast off?
+<A_TXT>Although Julie will not be the first Canadian woman in space, Julie will be the first Canadian astronaut to enter and work on the International Space Station platform, launched last year by the United States and Russia. 
+
+<Q_NUMBER>5
+<A_LINE>39
+<Q_TXT>Why was the launch of Mission STS-96 delayed for a week?
+<A_TXT>She has been training for the mission 's since 1992, when Russian astronaut Valery Tokarev was first selected to be an astronaut by the Canadian Space Agency. 
+
+<Q_NUMBER>6
+<A_LINE>30
+<Q_TXT>Where will the space shuttle Discovery be taking Julie?
+<A_TXT>Although Julie will not be the first Canadian woman in space, Julie will be the first Canadian astronaut to enter and work on the International Space Station platform, launched last year by the United States and Russia. 
+
+<Q_NUMBER>7
+<A_LINE>32
+<Q_TXT>What will Julie use to document the mission progress?
+<A_TXT>Her tasks will include unloading and arranging the 2,200 kilograms of equipment being carried to the station for future astronauts for future astronauts; working the remote-control Canadarm while supervising crew members constructing parts of the station, and documenting the mission's progress with video cameras. 
+
+<Q_NUMBER>8
+<A_LINE>30
+<Q_TXT>Who will be Julie work with to change solar batteries?
+<A_TXT>Although Julie will not be the first Canadian woman in space, Julie will be the first Canadian astronaut to enter and work on the International Space Station platform, launched last year by the United States and Russia. 
+
+<Q_NUMBER>9
+<A_LINE>37
+<Q_TXT>Why did Julie learn Russian?
+<A_TXT>To make sure the job is done correctly, Julie Payette 's learned Russian so Russian astronaut Valery Russian astronaut Valery Tokarev could communicate with Tokarev. 
+
+<Q_NUMBER>10
+<A_LINE>44
+<Q_TXT>Who is Aline Chretien married to?
+<A_TXT>She's very young, very articulate and perfectly bilingual and she's showing the Canadian colours with pride and dignity and we should pray for Russian astronaut Valery Tokarev that everything will be all right, and very articulate will be," said Prime Minister Jean Chretien 
+
+<Q_NUMBER>11
+<A_LINE>39
+<Q_TXT>When was the International Space Station launched?
+<A_TXT>She has been training for the mission 's since 1992, when Russian astronaut Valery Tokarev was first selected to be an astronaut by the Canadian Space Agency. 
+
+</FILE>
+
+
+<FILE>1999-W23-5.txt
+
+<Q_NUMBER>1
+<A_LINE>22
+<Q_TXT>How did Ontario Premier Mike Harris describe his re-election campaign?
+<A_TXT>"Four years ago you sent 32 to do a job, you placed you faith in The Liberals led by Dalton McGuinty team, in The Liberals led by Dalton McGuinty plan, and The Liberals led by Dalton McGuinty have done The Liberals led by Dalton McGuinty very best to implement another ambitious plan for the province and keep you faith," Ontario Premier Mike Harris told cheering supporters in North Bay. 
+
+<Q_NUMBER>2
+<A_LINE>32
+<Q_TXT>What are ridings?
+<A_TXT>In some cases, ballot boxes did not arrive on time in several ridings and in other cases, The problems caused long line-ups. 
+
+<Q_NUMBER>3
+<A_LINE>15
+<Q_TXT>Why does a majority government make it much easier for the ruling party to make decisions?
+<A_TXT>A majority government makes a majority government much easier for the ruling party to make decisions, because The Liberals led by Dalton McGuinty get more than half of the votes on any issue. 
+
+<Q_NUMBER>4
+<A_LINE>22
+<Q_TXT>Who is the leader of the Liberals?
+<A_TXT>"Four years ago you sent 32 to do a job, you placed you faith in The Liberals led by Dalton McGuinty team, in The Liberals led by Dalton McGuinty plan, and The Liberals led by Dalton McGuinty have done The Liberals led by Dalton McGuinty very best to implement another ambitious plan for the province and keep you faith," Ontario Premier Mike Harris told cheering supporters in North Bay. 
+
+<Q_NUMBER>5
+<A_LINE>36
+<Q_TXT>When was the last time any party won two majority governments in a row in Ontario?
+<A_TXT>The residents of New Brunswick will be going to the polls on Monday, June 7th. 
+
+<Q_NUMBER>6
+<A_LINE>22
+<Q_TXT>Where did Premier Mike Harris address cheering supporters?
+<A_TXT>"Four years ago you sent 32 to do a job, you placed you faith in The Liberals led by Dalton McGuinty team, in The Liberals led by Dalton McGuinty plan, and The Liberals led by Dalton McGuinty have done The Liberals led by Dalton McGuinty very best to implement another ambitious plan for the province and keep you faith," Ontario Premier Mike Harris told cheering supporters in North Bay. 
+
+<Q_NUMBER>7
+<A_LINE>27
+<Q_TXT>Why was Premier Harris attacked during the campaign?
+<A_TXT>Premier Harris was attacked during his campaign promises as leading a mean-spirited government, and for being a man who refused to compromise. 
+
+<Q_NUMBER>8
+<A_LINE>28
+<Q_TXT>Who hounded Mike Harris at every appearance?
+<A_TXT>During the campaign, Ontario Premier Mike Harris was hounded by protesters at every appearance. 
+
+<Q_NUMBER>9
+<A_LINE>30
+<Q_TXT>Why did election day begin with controversy?
+<A_TXT>Election day began with a controversy, as polls did not open on time in several ridings. 
+
+<Q_NUMBER>10
+<A_LINE>31
+<Q_TXT>What are returning officers?
+<A_TXT>Several returning officers (the people in charge of a polling station) called in sick. 
+
+</FILE>
+
+
+<FILE>1999-W24-3.txt
+
+<Q_NUMBER>1
+<A_LINE>37
+<Q_TXT>Why will this year's sealift to northern Canada start early?
+<A_TXT>
+
+<Q_NUMBER>2
+<A_LINE>36
+<Q_TXT>Why can't all supplies just be flown to northern Canada?
+<A_TXT>This year, Iqaluit is very scarce on materials, so the fact that it's going to open up early is a positive thing," says Suzanne Paquin, vice-president of Nunavut Eastern Arctic Shipping said. 
+
+<Q_NUMBER>3
+<A_LINE>37
+<Q_TXT>How much can a can of pop cost in northern Canada?
+<A_TXT>
+
+<Q_NUMBER>4
+<A_LINE>13
+<Q_TXT>What does a litre of milk cost in northern Canada?
+<A_TXT>Food can cost from twice to three times what Food does down south. 
+
+<Q_NUMBER>5
+<A_LINE>31
+<Q_TXT>When did Colin Crosbie become involved in shipping in the Arctic?
+<A_TXT>"I have been involved in shipping in the the eastern Arctic since 1969 and certainly nobody I've talked to who had been up there for decades before had ever seen anything like this," Colin Crosbie , vice-president of Nunavut Ocean Transport , and veteran of the northern sealift , says. 
+
+<Q_NUMBER>6
+<A_LINE>36
+<Q_TXT>Where is Iqaluit?
+<A_TXT>This year, Iqaluit is very scarce on materials, so the fact that it's going to open up early is a positive thing," says Suzanne Paquin, vice-president of Nunavut Eastern Arctic Shipping said. 
+
+<Q_NUMBER>7
+<A_LINE>31
+<Q_TXT>Who is forecasting smooth sailing in much of James Bay, Hudson Bay and Hudson Strait by the first week of July?
+<A_TXT>"I have been involved in shipping in the the eastern Arctic since 1969 and certainly nobody I've talked to who had been up there for decades before had ever seen anything like this," Colin Crosbie , vice-president of Nunavut Ocean Transport , and veteran of the northern sealift , says. 
+
+</FILE>
+
+
+<FILE>1999-W25-1.txt
+
+<Q_NUMBER>1
+<A_LINE>41
+<Q_TXT>When did 14,000 NATO troops enter the southern Yugoslavian province of Kosovo?
+<A_TXT>Under the peace agreement, all Serb forces must have withdrawn by Sunday, June 20. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>Who is Slobodan Milosevic?
+<A_TXT>This is the result of the agreement to end the war between The North Atlantic Treaty Organization -LRB- NATO -RRB- and the Yugoslav government led by President Slobodan Milosevic. 
+
+<Q_NUMBER>3
+<A_LINE>40
+<Q_TXT>Why are the NATO troops in Kosovo?
+<A_TXT>He says Yugoslav troops are sticking to Yugoslav troops timetable for leaving the area and should be out of the southern sector of Kosovo by tomorrow's deadline. 
+
+<Q_NUMBER>4
+<A_LINE>11
+<Q_TXT>As the NATO troops enter Kosovo, what do many of the residents of Kosovo feel they must do?
+<A_TXT>But as The North Atlantic Treaty Organization -LRB- NATO -RRB- Troops Enter Kosovo pour into the province, many of The North Atlantic Treaty Organization -LRB- NATO -RRB- residents feel The North Atlantic Treaty Organization -LRB- NATO -RRB- Troops Enter Kosovo must leave. 
+
+<Q_NUMBER>5
+<A_LINE>40
+<Q_TXT>Why are ethnic Serbians leaving Kosovo?
+<A_TXT>He says Yugoslav troops are sticking to Yugoslav troops timetable for leaving the area and should be out of the southern sector of Kosovo by tomorrow's deadline. 
+
+<Q_NUMBER>6
+<A_LINE>31
+<Q_TXT>What do ethnic Albanians say they suffered at the hands of Serbian military and police?
+<A_TXT>Many of ethnic Albanian residents of Prizren , who like others across Kosovo , say Many of us suffered looting , humiliation and expulsion at the hands of the Serb military and police wept when Many of us were forced to leave," said the theology professor. 
+
+<Q_NUMBER>7
+<A_LINE>18
+<Q_TXT>Where are the ethnic Serbian refugees heading?
+<A_TXT>With belongings lashed to the top of Many of them cars, the new refugees said Many of them were heading northwards to the Kosovo capital of Pristina or all the way to Serbia itself. 
+
+<Q_NUMBER>8
+<A_LINE>21
+<Q_TXT>How did the theology professor describe the politics of the Kosovo situation?
+<A_TXT>"We don't know where Many are going. 
+
+<Q_NUMBER>9
+<A_LINE>39
+<Q_TXT>According to NATO spokesman Jamie Shea, how is troop deployment going?
+<A_TXT>NATO spokesman Jamie Shea says troop deployment is going "very smoothly" and is slightly ahead of schedule. 
+
+<Q_NUMBER>10
+<A_LINE>41
+<Q_TXT>When do all Serb forces have to be withdrawn from Kosovo?
+<A_TXT>Under the peace agreement, all Serb forces must have withdrawn by Sunday, June 20. 
+
+</FILE>
+
+
+<FILE>1999-W26-5.txt
+
+<Q_NUMBER>1
+<A_LINE>19
+<Q_TXT>What is a "resident"?
+<A_TXT>"The feedback a patient who is n't breathing have received here has helped a patient who is n't breathing to go home and perfect a patient who is n't breathing technique," says Dr. Douglas Grace. 
+
+<Q_NUMBER>2
+<A_LINE>6
+<Q_TXT>Where is Mt. Sinai hospital?
+<A_TXT>Now, doctors learning surgery at a Toronto hospital are being trying a new method of learning. 
+
+<Q_NUMBER>3
+<A_LINE>5
+<Q_TXT>How does a doctor usually learn how to perform operations?
+<A_TXT>Usually, a when doctors are being trained to perform operations, doctors learn by practising on real, live human patients -- something patients are not always happy about. 
+
+<Q_NUMBER>4
+<A_LINE>6
+<Q_TXT>What do doctors at Mt. Sinai hospital learn on?
+<A_TXT>Now, doctors learning surgery at a Toronto hospital are being trying a new method of learning. 
+
+<Q_NUMBER>5
+<A_LINE>26
+<Q_TXT>In the future, what might doctors use to perfect their techniques?
+<A_TXT>For now, new doctors might have to settle for the latex simulations. 
+
+<Q_NUMBER>6
+<A_LINE>6
+<Q_TXT>Why are latex intestines a good teaching tool?
+<A_TXT>Now, doctors learning surgery at a Toronto hospital are being trying a new method of learning. 
+
+</FILE>
+
+
+<FILE>1999-W27-5.txt
+
+<Q_NUMBER>1
+<A_LINE>12
+<Q_TXT>What is Quebec Premier Lucien Bouchard's special legislation intended to do?
+<A_TXT>Quebec Federation of Nurses Vice-President Michele Boisclair has said Nurses Vice-President Michele Boisclair the Executive of Quebec Federation of Nurses Vice-President Michele Boisclair is prepared to go to jail if that's what Quebec Federation of Nurses Vice-President Michele Boisclair takes. 
+
+<Q_NUMBER>2
+<A_LINE>10
+<Q_TXT>Under Bouchard's legislation, what could be imposed on the leaders of the nurses' union if they do not call off the strike immediately?
+<A_TXT>The legislation could impose jail sentences on the leaders of the nurses' union if the leaders of the nurses ' union do not call off the strike immediately. 
+
+<Q_NUMBER>3
+<A_LINE>16
+<Q_TXT>Where are nurses demonstrating?
+<A_TXT>Nurses are now demonstrating on the sidewalks outside all Quebec 's hospitals. 
+
+<Q_NUMBER>4
+<A_LINE>12
+<Q_TXT>Who is Michele Boisclair?
+<A_TXT>Quebec Federation of Nurses Vice-President Michele Boisclair has said Nurses Vice-President Michele Boisclair the Executive of Quebec Federation of Nurses Vice-President Michele Boisclair is prepared to go to jail if that's what Quebec Federation of Nurses Vice-President Michele Boisclair takes. 
+
+<Q_NUMBER>5
+<A_LINE>24
+<Q_TXT>Why is Premier Bouchard reluctant to give the nurses more money?
+<A_TXT>Premier Bouchard is reluctant to give the nurses' more money because the province 's 47,000 striking nurses are only the first of many labour organizations negotiating new contracts. 
+
+<Q_NUMBER>6
+<A_LINE>14
+<Q_TXT>What are many drivers doing to show their support for the nurses on strike?
+<A_TXT>Ms. Boisclair told the Montreal Gazette, "When you see the province 's 47,000 striking nurses are willing to go that far, Montreal Gazette shows how bad Montreal Gazette is in the healthcare system." 
+
+<Q_NUMBER>7
+<A_LINE>12
+<Q_TXT>In comparison to other nurses in Canada, how are the Quebec nurses paid?
+<A_TXT>Quebec Federation of Nurses Vice-President Michele Boisclair has said Nurses Vice-President Michele Boisclair the Executive of Quebec Federation of Nurses Vice-President Michele Boisclair is prepared to go to jail if that's what Quebec Federation of Nurses Vice-President Michele Boisclair takes. 
+
+<Q_NUMBER>8
+<A_LINE>12
+<Q_TXT>Who else has threatened to strike?
+<A_TXT>Quebec Federation of Nurses Vice-President Michele Boisclair has said Nurses Vice-President Michele Boisclair the Executive of Quebec Federation of Nurses Vice-President Michele Boisclair is prepared to go to jail if that's what Quebec Federation of Nurses Vice-President Michele Boisclair takes. 
+
+<Q_NUMBER>9
+<A_LINE>28
+<Q_TXT>When will the hospital pharmacists leave their jobs if the situation does not improve?
+<A_TXT>The pharmacists will leave hospital pharmacists jobs in 60 days if the situation does not improve. 
+
+<Q_NUMBER>10
+<A_LINE>31
+<Q_TXT>How will some Quebec doctors respond unless the Premier comes up with more money for health care?
+<A_TXT>Some doctors have said Some doctors will resign unless the Premier comes up with more money for health care. 
+
+</FILE>
+
+
+<FILE>1999-W29-2.txt
+
+<Q_NUMBER>1
+<A_LINE>20
+<Q_TXT>How many years in a row has the United Nations ranked Canada the best country in the world to live in?
+<A_TXT>Canadians earned $16,525 ' in 1997. 
+
+<Q_NUMBER>2
+<A_LINE>9
+<Q_TXT>Which statistics are looked at to calculate the Human Development Index?
+<A_TXT>The Human Development Index is calculated by looking at statistics about a country's citizens. 
+
+<Q_NUMBER>3
+<A_LINE>15
+<Q_TXT>What is personal income?
+<A_TXT>Japan's life expectancy is 80 years old, and the United States' is at 76. 
+
+<Q_NUMBER>4
+<A_LINE>15
+<Q_TXT>Where is life expectancy 76 years of age?
+<A_TXT>Japan's life expectancy is 80 years old, and the United States' is at 76. 
+
+<Q_NUMBER>5
+<A_LINE>5
+<Q_TXT>Who ranked first in healthcare?
+<A_TXT>For the sixth year in a row, the United Nations has ranked Canada as the best country in the world to live in. 
+
+<Q_NUMBER>6
+<A_LINE>20
+<Q_TXT>In what year did Canadians earn an average of $16,525 US?
+<A_TXT>Canadians earned $16,525 ' in 1997. 
+
+<Q_NUMBER>7
+<A_LINE>26
+<Q_TXT>Why is life improving for people in developed countries like Canada, according to the UN report?
+<A_TXT>The UN says technology may be improving life for people in developed countries like Canada, but the United Nations is also widening the gap between rich and poor people. 
+
+<Q_NUMBER>8
+<A_LINE>30
+<Q_TXT>How does the United Nations defend the Human Development Index?
+<A_TXT>But the United Nations says the Human Development Index is a comprehensive measure of a country's standard of living. 
+
+</FILE>
+
+
+<FILE>1999-W30-2.txt
+
+<Q_NUMBER>1
+<A_LINE>19
+<Q_TXT>Why is B.C. Premier Glen Clark unpopular?
+<A_TXT>According to a B.C. New Democratic Party television station, Glen Clark was sent a letter by a group of people in Glen Clark own party. 
+
+<Q_NUMBER>2
+<A_LINE>19
+<Q_TXT>How should Clark handle his unpopularity, according to political analysts?
+<A_TXT>According to a B.C. New Democratic Party television station, Glen Clark was sent a letter by a group of people in Glen Clark own party. 
+
+<Q_NUMBER>3
+<A_LINE>8
+<Q_TXT>Who wrote Glen Clark and specifically asked him to quit his job?
+<A_TXT>Either Glen Clark can ask the other elected members in Glen Clark party for forgiveness, or Glen Clark can quit Glen Clark job. 
+
+<Q_NUMBER>4
+<A_LINE>23
+<Q_TXT>Where was the information about the letter reported?
+<A_TXT>But not everyone in the B.C. government has problems with Clark. 
+
+<Q_NUMBER>5
+<A_LINE>19
+<Q_TXT>What party is Glen Clark the leader of in B.C.?
+<A_TXT>According to a B.C. New Democratic Party television station, Glen Clark was sent a letter by a group of people in Glen Clark own party. 
+
+</FILE>
+
+
+<FILE>1999-W30-5.txt
+
+<Q_NUMBER>1
+<A_LINE>9
+<Q_TXT>Where was a mummified wooly mammoth found?
+<A_TXT>The mammoth was found in Siberia, Siberia with a cold climate similar to Canada's far north. 
+
+<Q_NUMBER>2
+<A_LINE>24
+<Q_TXT>Who is going to dig up the dead wooly mammoth?
+<A_TXT>Scientists hope this discovery could be a giant leap in answering this puzzling question. 
+
+<Q_NUMBER>3
+<A_LINE>12
+<Q_TXT>How do scientists hope to create an exact duplicate of the mammoth?
+<A_TXT>Scientists hope to create an exact duplicate A wooly mammoth that was mummified 23,000 years ago through cloning techniques. 
+
+<Q_NUMBER>4
+<A_LINE>19
+<Q_TXT>Why is it important that the the colour of the mammoth's hair and the smell of the skin are still present?
+<A_TXT>An elephant is expected to act as the host or mother of A wooly mammoth that was mummified 23,000 years ago when the host or mother of the mammoth is created. 
+
+<Q_NUMBER>5
+<A_LINE>13
+<Q_TXT>When did the wooly mammoth live?
+<A_TXT>To do this, The scientists will use the DNA The scientists hope to find in the mammoth's soft tissues and hair. 
+
+<Q_NUMBER>6
+<A_LINE>13
+<Q_TXT>Why did the wooly mammoth become extinct?
+<A_TXT>To do this, The scientists will use the DNA The scientists hope to find in the mammoth's soft tissues and hair. 
+
+<Q_NUMBER>7
+<A_LINE>13
+<Q_TXT>What modern animals do wooly mammoths look most like?
+<A_TXT>To do this, The scientists will use the DNA The scientists hope to find in the mammoth's soft tissues and hair. 
+
+</FILE>
+
+
+<FILE>1999-W31-3.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Where were elections for premier held?
+<A_TXT>John Hamm has been elected the new Premier of Nova Scotia. 
+
+<Q_NUMBER>2
+<A_LINE>24
+<Q_TXT>Who is Russell MacLellan?
+<A_TXT>Liberal leader Russell MacLellan was forced to call The election after the other parties voted against Russell MacLellan budget. 
+
+<Q_NUMBER>3
+<A_LINE>28
+<Q_TXT>How many seats in the legislature did the Progressive Conservatives win in the election?
+<A_TXT>He says Russell MacLellan will stay on as leader of Liberal Party despite losing Russell MacLellan job as premier. 
+
+<Q_NUMBER>4
+<A_LINE>25
+<Q_TXT>What does it mean to have a minority government?
+<A_TXT>When a minority government is defeated on a major bill, like one that is about money, it means the legislature has lost confidence in them. 
+
+<Q_NUMBER>5
+<A_LINE>28
+<Q_TXT>How did the PC party place in the last election?
+<A_TXT>He says Russell MacLellan will stay on as leader of Liberal Party despite losing Russell MacLellan job as premier. 
+
+<Q_NUMBER>6
+<A_LINE>2
+<Q_TXT>By when has Hamm promised to cut people's taxes?
+<A_TXT>July 28, 1999
+
+<Q_NUMBER>7
+<A_LINE>24
+<Q_TXT>Why was Russell MacLellan forced to call an election?
+<A_TXT>Liberal leader Russell MacLellan was forced to call The election after the other parties voted against Russell MacLellan budget. 
+
+<Q_NUMBER>8
+<A_LINE>25
+<Q_TXT>What does it mean when the government is defeated on a major bill?
+<A_TXT>When a minority government is defeated on a major bill, like one that is about money, it means the legislature has lost confidence in them. 
+
+<Q_NUMBER>9
+<A_LINE>25
+<Q_TXT>What must a premier do when there is a vote of non-confidence?
+<A_TXT>When a minority government is defeated on a major bill, like one that is about money, it means the legislature has lost confidence in them. 
+
+</FILE>
+
+
+<FILE>1999-W33-3.txt
+
+<Q_NUMBER>1
+<A_LINE>28
+<Q_TXT>For whom did the last solar eclipse of the millennium brighten the morning?
+<A_TXT>
+
+<Q_NUMBER>2
+<A_LINE>20
+<Q_TXT>What causes a solar eclipse?
+<A_TXT>What made this eclipse special is that special was A total eclipse eclipse, where the moon totally blocks the sun. 
+
+<Q_NUMBER>3
+<A_LINE>15
+<Q_TXT>Where did the path of the moon's shadow begin?
+<A_TXT>The path of the moon's shadow began in the Atlantic, and crossed central Europe, Turkey, central Europe and India. 
+
+<Q_NUMBER>4
+<A_LINE>20
+<Q_TXT>What is a total eclipse?
+<A_TXT>What made this eclipse special is that special was A total eclipse eclipse, where the moon totally blocks the sun. 
+
+<Q_NUMBER>5
+<A_LINE>28
+<Q_TXT>How many times can an eclipse occur in one year?
+<A_TXT>
+
+<Q_NUMBER>6
+<A_LINE>20
+<Q_TXT>Why was this eclipse special?
+<A_TXT>What made this eclipse special is that special was A total eclipse eclipse, where the moon totally blocks the sun. 
+
+<Q_NUMBER>7
+<A_LINE>20
+<Q_TXT>How long do total eclipses last?
+<A_TXT>What made this eclipse special is that special was A total eclipse eclipse, where the moon totally blocks the sun. 
+
+<Q_NUMBER>8
+<A_LINE>28
+<Q_TXT>If an astronomer observed every total solar eclipse for twenty-five years, how much total eclipse time would he actually watch?
+<A_TXT>
+
+<Q_NUMBER>9
+<A_LINE>27
+<Q_TXT>Where could a partial eclipse be seen?
+<A_TXT>A partial eclipse {where the moon covers part, but not all of the sun} could be seen in Eastern Canada. 
+
+<Q_NUMBER>10
+<A_LINE>20
+<Q_TXT>What is a partial eclipse?
+<A_TXT>What made this eclipse special is that special was A total eclipse eclipse, where the moon totally blocks the sun. 
+
+</FILE>
+
+
+<FILE>1999-W34-4.txt
+
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>Where did the centre of the earthquake hit?
+<A_TXT>The centre of An powerful earthquake hit Izmit, the region just south of Istanbul, the country's capital. 
+
+<Q_NUMBER>2
+<A_LINE>16
+<Q_TXT>What is the capital of Turkey?
+<A_TXT>As a result, many of the earthquake victims were being treated on the streets. 
+
+<Q_NUMBER>3
+<A_LINE>10
+<Q_TXT>When did the earthquake hit?
+<A_TXT>The earthquake hit at about 3 o'clock in the morning, while many people were still sleeping. 
+
+<Q_NUMBER>4
+<A_LINE>18
+<Q_TXT>Who spent hours digging through the rubble?
+<A_TXT>The earthquake had a magnitude of 7.8, according to the National Earthquake Information Centre in Colorado. 
+
+<Q_NUMBER>5
+<A_LINE>30
+<Q_TXT>About how many people were reportedly injured by the earthquake?
+<A_TXT>
+
+<Q_NUMBER>6
+<A_LINE>16
+<Q_TXT>Why are earthquake victims being treated on the streets?
+<A_TXT>As a result, many of the earthquake victims were being treated on the streets. 
+
+<Q_NUMBER>7
+<A_LINE>18
+<Q_TXT>What was the magnitude of the earthquake, according to the National Earthquake Information Centre in Colorado?
+<A_TXT>The earthquake had a magnitude of 7.8, according to the National Earthquake Information Centre in Colorado. 
+
+<Q_NUMBER>8
+<A_LINE>30
+<Q_TXT>What does earthquake magnitude measure?
+<A_TXT>
+
+<Q_NUMBER>9
+<A_LINE>22
+<Q_TXT>What are aftershocks?
+<A_TXT>Aftershocks are vibrations that follow an earthquake. 
+
+<Q_NUMBER>10
+<A_LINE>24
+<Q_TXT>Why did officials warn people not to return to buildings with even some sign of structural damage?
+<A_TXT>Officials have warned more than 6,000 people not to return to buildings with even some sign of structural damage, for fear there may be more collapses. 
+
+<Q_NUMBER>11
+<A_LINE>28
+<Q_TXT>What are Canada's disaster assistance troops trained in?
+<A_TXT>Canada sent disaster assistance troops to Turkey on Wednesday night. 
+
+</FILE>
+
+
+<FILE>1999-W36-3.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Why were the blue tarp walls put up?
+<A_TXT>The last passengers of the Swissair Tragedy Flight 111 were laid to rest yesterday in a solemn ceremony hidden by blue tarp walls that were put up to keep preparations for today's memorial service private. 
+
+<Q_NUMBER>2
+<A_LINE>35
+<Q_TXT>When did Swissair Flight 111 crash into the ocean?
+<A_TXT>"But the families that plan to attend also want to come and meet the people who died who were so good to the people who died and who did so much after the tragedy," Barbara Fetherolf of Philadelphia , Pennsylvania , whose teenage daughter Tara died in the crash , says. 
+
+<Q_NUMBER>3
+<A_LINE>18
+<Q_TXT>What did the two dozen caskets buried at the scenic site contain?
+<A_TXT>Two dozen caskets containing the unidentified remains of passengers from the transatlantic flight were buried at this scenic point overlooking the crash site. 
+
+<Q_NUMBER>4
+<A_LINE>7
+<Q_TXT>Where was Swissair Flight 111 bound for?
+<A_TXT>On the night of September 2, 1998, the Swissair Tragedy Flight 111 was following the night of September 2 , 1998 regular course from New York to Geneva, Switzerland. 
+
+<Q_NUMBER>5
+<A_LINE>35
+<Q_TXT>Where did the pilots intend to dump fuel?
+<A_TXT>"But the families that plan to attend also want to come and meet the people who died who were so good to the people who died and who did so much after the tragedy," Barbara Fetherolf of Philadelphia , Pennsylvania , whose teenage daughter Tara died in the crash , says. 
+
+<Q_NUMBER>6
+<A_LINE>7
+<Q_TXT>What kind of plane were the Swissair Flight 111 pilots flying?
+<A_TXT>On the night of September 2, 1998, the Swissair Tragedy Flight 111 was following the night of September 2 , 1998 regular course from New York to Geneva, Switzerland. 
+
+<Q_NUMBER>7
+<A_LINE>36
+<Q_TXT>How many friends and relatives of the people who died in the plane crash were expected to mark the one-year anniversary?
+<A_TXT>
+
+<Q_NUMBER>8
+<A_LINE>18
+<Q_TXT>Who described her visit to the scenic point overlooking the crash site as bittersweet?
+<A_TXT>Two dozen caskets containing the unidentified remains of passengers from the transatlantic flight were buried at this scenic point overlooking the crash site. 
+
+<Q_NUMBER>9
+<A_LINE>27
+<Q_TXT>What did Barbara Fetherolf of Philadelphia say she could not bear to do?
+<A_TXT>Barbara Fetherolf of Philadelphia, Pennsylvania, whose teenage daughter Tara died in the crash, says that Barbara Fetherolf of Philadelphia , Pennsylvania , whose teenage daughter Tara died in the crash , could not bear to attend the memorial. 
+
+<Q_NUMBER>10
+<A_LINE>33
+<Q_TXT>What does the group that Mary Garnier is part of do for victims' relatives?
+<A_TXT>Most of the families that plan to attend are hoping to put the Swissair Tragedy behind them, says Mary Garnier, part of a group that pairs victims' relatives with Nova Scotia families. 
+
+</FILE>
+
+
+<FILE>1999-W37-5.txt
+
+<Q_NUMBER>1
+<A_LINE>2
+<Q_TXT>When did Tawny Meiorin lose her job as a forest fire fighter?
+<A_TXT>September 10, 1999
+
+<Q_NUMBER>2
+<A_LINE>5
+<Q_TXT>Why did Tawny Meiorin lose her job as a forest fire fighter?
+<A_TXT>Five years ago, 33-year-old Tawny Meiorin lost 33-year-old Tawny Meiorin job as a forest fire-fighter because 33-year-old Tawny Meiorin failed a fitness test designed for a man. 
+
+<Q_NUMBER>3
+<A_LINE>37
+<Q_TXT>How much longer did Meiorin take to run 2.5 kilometres than she was supposed to?
+<A_TXT>
+
+<Q_NUMBER>4
+<A_LINE>13
+<Q_TXT>What did Meiorin do to get her job back?
+<A_TXT>So 33-year-old Tawny Meiorin hired a lawyer and went to court to get 33-year-old Tawny Meiorin job back. 
+
+<Q_NUMBER>5
+<A_LINE>19
+<Q_TXT>What did the Supreme Court order the government to do?
+<A_TXT>"What Now means is that what they did to 33-year-old Tawny Meiorin was unjustified. 
+
+<Q_NUMBER>6
+<A_LINE>24
+<Q_TXT>How did Meiorin describe the fitness exam she failed?
+<A_TXT>Meiorin also said the fitness exam 33-year-old Tawny Meiorin failed was not a good measure of 33-year-old Tawny Meiorin abilities in the field. 
+
+<Q_NUMBER>7
+<A_LINE>36
+<Q_TXT>Where is Meiorin now working?
+<A_TXT>It rewrites the law for discrimination in Canada and Canada will ensure fair treatment for all workers, both women and men." 
+
+<Q_NUMBER>8
+<A_LINE>19
+<Q_TXT>What does Meiorin say are the "actual requirements of fighting fires"?
+<A_TXT>"What Now means is that what they did to 33-year-old Tawny Meiorin was unjustified. 
+
+<Q_NUMBER>9
+<A_LINE>31
+<Q_TXT>Who is George Heyman??
+<A_TXT>George Heyman, president of the B.C. Government and Services Employees Union, was pleased with the court's ruling. 
+
+<Q_NUMBER>10
+<A_LINE>19
+<Q_TXT>What does the Supreme Court's decision do to discrimination law in Canada, according to Heyman?
+<A_TXT>"What Now means is that what they did to 33-year-old Tawny Meiorin was unjustified. 
+
+</FILE>
+
+
+<FILE>1999-W41-5.txt
+
+<Q_NUMBER>1
+<A_LINE>30
+<Q_TXT>Who delivered the Oath of Office to Adrienne Clarkson?
+<A_TXT>Next week Former CBC broadcaster Adrienne Clarkson will read a speech from the throne to open the new session of parliament. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>Where did the swearing-in of Ms. Clarkson take place?
+<A_TXT>Ms. Clarkson took the Oath of Office in front of Supreme Court of Canada Justice Claire L'Heureux Dube. 
+
+<Q_NUMBER>3
+<A_LINE>11
+<Q_TXT>While in office, what title does Ms. Clarkson assume?
+<A_TXT>The Governor General formally takes office once the oaths have been sworn and assumes the title "Excellency" while in office, and the lifetime title of "Right Honourable". 
+
+<Q_NUMBER>4
+<A_LINE>15
+<Q_TXT>Why do many of Canada's political leaders attend the installation ceremony for Governor General?
+<A_TXT>Many of Canada's political leaders, including Prime Minister Jean Chretien, Supreme Court of Canada Justice Claire L'Heureux Dube Chief Justice Antonio Lamer, the cabinet, and Prime Minister Jean Chretien attended the ceremony. 
+
+<Q_NUMBER>5
+<A_LINE>30
+<Q_TXT>Who did Ms. Clarkson praise during her speech?
+<A_TXT>Next week Former CBC broadcaster Adrienne Clarkson will read a speech from the throne to open the new session of parliament. 
+
+<Q_NUMBER>6
+<A_LINE>30
+<Q_TXT>When did Ms. Clarkson's family arrive in Canada?
+<A_TXT>Next week Former CBC broadcaster Adrienne Clarkson will read a speech from the throne to open the new session of parliament. 
+
+<Q_NUMBER>7
+<A_LINE>20
+<Q_TXT>In her speech, Ms. Clarkson quoted poets and philosophers in praising Canada for struggling to do what?
+<A_TXT>In Former CBC broadcaster Adrienne Clarkson speech Former CBC broadcaster Adrienne Clarkson quoted poets and philosophers, including Former CBC broadcaster Adrienne Clarkson husband John Ralston Saul in praising Canada's struggle to create a country filled with tolerance and civility. 
+
+<Q_NUMBER>8
+<A_LINE>22
+<Q_TXT>How did Ms. Clarkson say her teachers treated her?
+<A_TXT>Ms. Clarkson also thanked teachers whom Former CBC broadcaster Adrienne Clarkson said treated Former CBC broadcaster Adrienne Clarkson as "bright, not bright yellow." 
+
+<Q_NUMBER>9
+<A_LINE>24
+<Q_TXT>As Governor General, who does Ms. Clarkson represent?
+<A_TXT>As Governor General, Former CBC broadcaster Adrienne Clarkson represents the Queen of England, who is the legal head of the Canada. 
+
+<Q_NUMBER>10
+<A_LINE>28
+<Q_TXT>As Governor General, Ms. Clarkson presides over the swearing-in of what Canadian officials?
+<A_TXT>She also presides over the swearing-in of the Prime Minister, the Chief Justice of the Canada and cabinet ministers. 
+
+</FILE>
+
+
+<FILE>1999-W45-5.txt
+
+<Q_NUMBER>1
+<A_LINE>8
+<Q_TXT>Where did Susan Aglukark's family eventually settle?
+<A_TXT>They eventually settled in Arviat, Northwest Territories, a community of 1,300 people on the northwest shore of Hudson Bay. 
+
+<Q_NUMBER>2
+<A_LINE>37
+<Q_TXT>Who donated the pizza and the $10,000 cheque to Inuksuk High School?
+<A_TXT>
+
+<Q_NUMBER>3
+<A_LINE>10
+<Q_TXT>Why did Canadian singer Susan Aglukark make a special appearance at Inuksuk High School?
+<A_TXT>The Canadian singing star made a special appearance at the high school to present officials with a $10,000 cheque for the purchase of music instruments. 
+
+<Q_NUMBER>4
+<A_LINE>5
+<Q_TXT>How long has Inuksuk High School been without a music program?
+<A_TXT>Students at Iqaluit's Inuksuk High School are celebrating the revival of Students at Iqaluit 's Inuksuk High School music program with singer Susan Aglukark, pizza and a $10,000 cheque today. 
+
+<Q_NUMBER>5
+<A_LINE>23
+<Q_TXT>Who should the music society and school provide instruments for, according to Ryan MacLeod?
+<A_TXT>Students can rent The The instruments from the South, but Ryan MacLeod says running a successful music program in the North often requires providing The The instruments for students. 
+
+<Q_NUMBER>6
+<A_LINE>21
+<Q_TXT>When did the new musical instruments begin arriving at the high school?
+<A_TXT>The instruments arrived at the beginning of the high school to present officials year. 
+
+<Q_NUMBER>7
+<A_LINE>5
+<Q_TXT>What proportion of the school's population is enrolled in music classes at Inuksuk?
+<A_TXT>Students at Iqaluit's Inuksuk High School are celebrating the revival of Students at Iqaluit 's Inuksuk High School music program with singer Susan Aglukark, pizza and a $10,000 cheque today. 
+
+<Q_NUMBER>8
+<A_LINE>29
+<Q_TXT>How many students commonly share a single musical instrument?
+<A_TXT>A single instrument is often shared between two or three students. 
+
+<Q_NUMBER>9
+<A_LINE>36
+<Q_TXT>Who will be able to use the school's instruments?
+<A_TXT>For example, the music society will be able to use the school's instruments and students may perform at community events, Ryan MacLeod said. 
+
+</FILE>
+
+
+<FILE>1999-W49-5.txt
+
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>What about Mars made skywatchers in ancient Greece and Rome think of their god of war?
+<A_TXT>In ancient Greece and Rome, the planet's fiery red hue made skywatchers think of skywatchers god of war. 
+
+<Q_NUMBER>2
+<A_LINE>14
+<Q_TXT>When was the Polar Lander launched?
+<A_TXT>Early this afternoon, NASA's Mars Polar Lander touches down on the surface of the red planet. 
+
+<Q_NUMBER>3
+<A_LINE>19
+<Q_TXT>How is the Polar Lander being navigated?
+<A_TXT>It's hoped that the $200 million Polar Lander will help solve an old mystery -- whether there's ever been life-sustaining water on Earth's nearest planetary neighbour. 
+
+<Q_NUMBER>4
+<A_LINE>29
+<Q_TXT>Who first proposed including a microphone on a spacecraft sent to Mars?
+<A_TXT>For the first time ever, NASA 's has included a microphone on a spacecraft sent to Mars, an idea originally proposed by astronomer Carl Sagan. 
+
+<Q_NUMBER>5
+<A_LINE>36
+<Q_TXT>What are scientists afraid the costly mission could do?
+<A_TXT>"We have never been to the south pole of Mars before and we're not exactly sure what NASA scientists are going into." 
+
+<Q_NUMBER>6
+<A_LINE>7
+<Q_TXT>Where on Mars do scientists know there is frozen water?
+<A_TXT>In ancient Greece and Rome, the planet's fiery red hue made skywatchers think of skywatchers god of war. 
+
+<Q_NUMBER>7
+<A_LINE>36
+<Q_TXT>Why are NASA scientists not exactly sure what they are going into, according to Sarah Gavit, NASA project manager?
+<A_TXT>"We have never been to the south pole of Mars before and we're not exactly sure what NASA scientists are going into." 
+
+<Q_NUMBER>8
+<A_LINE>7
+<Q_TXT>Where on Mars do scientists think there may be more water?
+<A_TXT>In ancient Greece and Rome, the planet's fiery red hue made skywatchers think of skywatchers god of war. 
+
+<Q_NUMBER>9
+<A_LINE>41
+<Q_TXT>What will the Polar Lander try to find evidence of?
+<A_TXT>The Polar Lander will try to find evidence that the atmosphere was Once the atmosphere and thicker. 
+
+<Q_NUMBER>10
+<A_LINE>44
+<Q_TXT>What can the Polar Lander's instruments not detect?
+<A_TXT>Any answers from the probe would help focus future missions searching for past or present life, which is dependent on water, though the Lander's instruments cannot detect fossils or living organisms. 
+
+</FILE>
+
+
+<FILE>2000-W02-3.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Where has the Newfoundland government found tap water contaminated?
+<A_TXT>The Newfoundland 's government has found that the tap The water is contaminated. 
+
+<Q_NUMBER>2
+<A_LINE>9
+<Q_TXT>How are trihalomethanes formed?
+<A_TXT>They are formed when tiny amounts of chlorine are added to drinking water. 
+
+<Q_NUMBER>3
+<A_LINE>13
+<Q_TXT>Which towns face the danger of THMs in drinking water?
+<A_TXT>The danger of trihalomethanes in drinking water is faced mainly by small towns that can't afford expensive water filtration systems. 
+
+<Q_NUMBER>4
+<A_LINE>31
+<Q_TXT>Why do microbiological organisms have to be removed from water?
+<A_TXT>Fogo town manager Bruce Pomeroy says that The Newfoundland government "should have made everyone aware if there were risks -- like Many Newfoundland residents are doing now -- two years ago." 
+
+<Q_NUMBER>5
+<A_LINE>31
+<Q_TXT>Why is chlorine used to treat water as it travels through water pipes?
+<A_TXT>Fogo town manager Bruce Pomeroy says that The Newfoundland government "should have made everyone aware if there were risks -- like Many Newfoundland residents are doing now -- two years ago." 
+
+<Q_NUMBER>6
+<A_LINE>31
+<Q_TXT>Who is Newfoundland's environment minister?
+<A_TXT>Fogo town manager Bruce Pomeroy says that The Newfoundland government "should have made everyone aware if there were risks -- like Many Newfoundland residents are doing now -- two years ago." 
+
+<Q_NUMBER>7
+<A_LINE>31
+<Q_TXT>Why are many Newfoundland residents upset with the government?
+<A_TXT>Fogo town manager Bruce Pomeroy says that The Newfoundland government "should have made everyone aware if there were risks -- like Many Newfoundland residents are doing now -- two years ago." 
+
+<Q_NUMBER>8
+<A_LINE>2
+<Q_TXT>According to Fogo town manager Bruce Pomeroy, when should the government have made everyone aware if there were risks from THMs?
+<A_TXT>January 12, 2000
+
+<Q_NUMBER>9
+<A_LINE>31
+<Q_TXT>If water is left in an opened container for 24 hours, what happens to many of the chemicals?
+<A_TXT>Fogo town manager Bruce Pomeroy says that The Newfoundland government "should have made everyone aware if there were risks -- like Many Newfoundland residents are doing now -- two years ago." 
+
+<Q_NUMBER>10
+<A_LINE>31
+<Q_TXT>What does charcoal do to chemicals in water?
+<A_TXT>Fogo town manager Bruce Pomeroy says that The Newfoundland government "should have made everyone aware if there were risks -- like Many Newfoundland residents are doing now -- two years ago." 
+
+</FILE>
+
+
+<FILE>2000-W03-1.txt
+
+<Q_NUMBER>1
+<A_LINE>35
+<Q_TXT>Who did John Morris Rankin play for?
+<A_TXT>And musician Denis Ryan did have a great Celtic humour and wit about him. 
+
+<Q_NUMBER>2
+<A_LINE>48
+<Q_TXT>How many records did his musical group sell?
+<A_TXT>Besides Michael, 15, John Morris Rankin is survived by Michael , 15 wife his wife Sally and daughter Molly, 13. 
+
+<Q_NUMBER>3
+<A_LINE>17
+<Q_TXT>What is hypothermia?
+<A_TXT>Morris Green of Nova Scotia Emergency Health Services said one of the teenagers was being treated for hypothermia -- when one's body temperature drops abnormally low -- and the other two appeared to be OK. 
+
+<Q_NUMBER>4
+<A_LINE>10
+<Q_TXT>When did John Morris Rankin tell the teenagers to jump out of the truck?
+<A_TXT>Family friend Emily Butler said a truck that crashed in the Gulf of St. Lawrence in Cape Breton , Nova Scotia yesterday appeared that John Morris Rankin told the teens to jump out of a truck that crashed in the Gulf of St. Lawrence in Cape Breton , Nova Scotia yesterday as a truck that crashed in the Gulf of St. Lawrence in Cape Breton , Nova Scotia yesterday skidded towards the water. 
+
+<Q_NUMBER>5
+<A_LINE>10
+<Q_TXT>Where was Jimmy Rankin when he heard the news of his brother's death?
+<A_TXT>Family friend Emily Butler said a truck that crashed in the Gulf of St. Lawrence in Cape Breton , Nova Scotia yesterday appeared that John Morris Rankin told the teens to jump out of a truck that crashed in the Gulf of St. Lawrence in Cape Breton , Nova Scotia yesterday as a truck that crashed in the Gulf of St. Lawrence in Cape Breton , Nova Scotia yesterday skidded towards the water. 
+
+<Q_NUMBER>6
+<A_LINE>19
+<Q_TXT>What musical instruments did John Morris Rankin play?
+<A_TXT>John Morris Rankin played fiddle and piano with the popular musical family from Cape Breton. 
+
+<Q_NUMBER>7
+<A_LINE>48
+<Q_TXT>How old is Molly Rankin?
+<A_TXT>Besides Michael, 15, John Morris Rankin is survived by Michael , 15 wife his wife Sally and daughter Molly, 13. 
+
+<Q_NUMBER>8
+<A_LINE>40
+<Q_TXT>Who is the lead vocalist of Prairie Oyster?
+<A_TXT>Family friend Russell De Carle, lead singer for Prairie Oyster, said Family friend Russell De Carle , lead singer for Prairie Oyster , was stunned when Family friend Russell De Carle , lead singer for Prairie Oyster , heard the news at the benefit. 
+
+<Q_NUMBER>9
+<A_LINE>28
+<Q_TXT>Who is Denis Ryan?
+<A_TXT>"It's awful, awful, awful," said Ryan, who played music with John Morris Rankin in the mid '80s. 
+
+<Q_NUMBER>10
+<A_LINE>35
+<Q_TXT>Why did Rankin's musical group break up?
+<A_TXT>And musician Denis Ryan did have a great Celtic humour and wit about him. 
+
+</FILE>
+
+
+<FILE>2000-W03-3.txt
+
+<Q_NUMBER>1
+<A_LINE>32
+<Q_TXT>Who does Turner Stevenson play for?
+<A_TXT>"I've been doing this for 13 or 14 years, running on the national team and we've been forced to live on from $450 a month to $810 a month," metre sprinter Glenroy Gilbert said from Austin, Texas, where Olympic 100 metre sprinter Glenroy Gilbert is training for the Sydney Olympics. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>Where will the money come from that the government gives to the hockey teams
+<A_TXT>Various levels of government will give millions of dollars to the teams in Montreal, Ottawa, Toronto, Calgary, Edmonton and Vancouver to help the teams in Montreal , Ottawa , Toronto , Calgary , Edmonton and Vancouver stay in business. 
+
+<Q_NUMBER>3
+<A_LINE>12
+<Q_TXT>Why did Canadian hockey teams threaten to move to America?
+<A_TXT>They have threatened to move to the United States - where NHL teams like the Ottawa Senators and the Edmonton Oilers say business is better - unless The Federal government helps NHL teams like the Ottawa Senators and the Edmonton Oilers out. 
+
+<Q_NUMBER>4
+<A_LINE>32
+<Q_TXT>How much does the average Canadian NHL player make in a season?
+<A_TXT>"I've been doing this for 13 or 14 years, running on the national team and we've been forced to live on from $450 a month to $810 a month," metre sprinter Glenroy Gilbert said from Austin, Texas, where Olympic 100 metre sprinter Glenroy Gilbert is training for the Sydney Olympics. 
+
+<Q_NUMBER>5
+<A_LINE>30
+<Q_TXT>What is Pavel Bure's occupation?
+<A_TXT>He says that it is not fair that millionaire hockey players like winger Turner Stevenson of Prince George , British Columbia , and Pavel Bure are getting help while hundreds of Olympic athletes have to scramble every month just to pay hundreds of Olympic athletes bills. 
+
+<Q_NUMBER>6
+<A_LINE>32
+<Q_TXT>What is a subsidy?
+<A_TXT>"I've been doing this for 13 or 14 years, running on the national team and we've been forced to live on from $450 a month to $810 a month," metre sprinter Glenroy Gilbert said from Austin, Texas, where Olympic 100 metre sprinter Glenroy Gilbert is training for the Sydney Olympics. 
+
+<Q_NUMBER>7
+<A_LINE>32
+<Q_TXT>What is Glenroy Gilbert doing in Texas?
+<A_TXT>"I've been doing this for 13 or 14 years, running on the national team and we've been forced to live on from $450 a month to $810 a month," metre sprinter Glenroy Gilbert said from Austin, Texas, where Olympic 100 metre sprinter Glenroy Gilbert is training for the Sydney Olympics. 
+
+<Q_NUMBER>8
+<A_LINE>32
+<Q_TXT>Who is the Manitoba Agriculture Minister?
+<A_TXT>"I've been doing this for 13 or 14 years, running on the national team and we've been forced to live on from $450 a month to $810 a month," metre sprinter Glenroy Gilbert said from Austin, Texas, where Olympic 100 metre sprinter Glenroy Gilbert is training for the Sydney Olympics. 
+
+<Q_NUMBER>9
+<A_LINE>15
+<Q_TXT>What does Frank Gilbert think about giving money to NHL teams?
+<A_TXT>He has given the go-ahead to negotiate subsidies (money given to help out) on a team-by-team basis. 
+
+<Q_NUMBER>10
+<A_LINE>45
+<Q_TXT>When will the government subsidy plan end?
+<A_TXT>
+
+</FILE>
+
+
+<FILE>2000-W03-5.txt
+
+<Q_NUMBER>1
+<A_LINE>21
+<Q_TXT>What do Jerry's glasses have on them?
+<A_TXT>"When Researchers in New York City first did those experiments, first would have taken a room full of computers to process the image," says Girvin. 
+
+<Q_NUMBER>2
+<A_LINE>11
+<Q_TXT>When did Jerry get electrodes implanted in his brain?
+<A_TXT>John Girvin, a neurosurgery (brain surgery) professor in London, Ontario is the doctor who implanted the electrodes in the patient's brain at the New York Neurological Institute in 1979. 
+
+<Q_NUMBER>3
+<A_LINE>39
+<Q_TXT>How old is Jerry?
+<A_TXT>Girvin said the artifician eye has "great potential," but it's hard to predict how fast the artifician eye can be perfected to something more like real sight. 
+
+<Q_NUMBER>4
+<A_LINE>27
+<Q_TXT>Who helped Jerry see?
+<A_TXT>But Jerry - the name of the patient - was enough to help Jerry - the name of the patient - locate a blackstocking cap hanging on a white wall and place cap hanging on a white wall on the head of a mannequin in a recent demonstration. 
+
+<Q_NUMBER>5
+<A_LINE>21
+<Q_TXT>Where does John Girvin work as a professor?
+<A_TXT>"When Researchers in New York City first did those experiments, first would have taken a room full of computers to process the image," says Girvin. 
+
+<Q_NUMBER>6
+<A_LINE>19
+<Q_TXT>What will it take to develop the artificial eye into a device that allows something like real sight?
+<A_TXT>Although the research began in 1970, it's taken all these years to develop computers small and powerful enough to process the camera images and send Researchers in New York City to the brain. 
+
+<Q_NUMBER>7
+<A_LINE>19
+<Q_TXT>Why did it take so long to develop artificial sight?
+<A_TXT>Although the research began in 1970, it's taken all these years to develop computers small and powerful enough to process the camera images and send Researchers in New York City to the brain. 
+
+</FILE>
+

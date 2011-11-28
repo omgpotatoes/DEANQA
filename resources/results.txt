@@ -1,0 +1,214 @@
+
+
+
+
+
+
+res-tfidf
+
+******************************************************************
+Accuracy: 142 correct out of 324 questions - 43.83%.
+******************************************************************
+Statistics by question type:
+WHEN   :   19 out of   32 -  59.38%.
+WHERE  :   16 out of   42 -  38.10%.
+WHAT   :   42 out of   88 -  47.73%.
+WHY    :   17 out of   45 -  37.78%.
+WHO    :   22 out of   54 -  40.74%.
+HOW    :   25 out of   59 -  42.37%.
+OTHER  :    1 out of    4 -  25.00%.
+
+NORMALIZED ACCURACY : 44.35%
+
+
+
+
+
+
+res-ner-tfidf
+
+******************************************************************
+Accuracy: 137 correct out of 324 questions - 42.28%.
+******************************************************************
+Statistics by question type:
+WHEN   :   11 out of   32 -  34.38%.
+WHERE  :   17 out of   42 -  40.48%.
+WHAT   :   42 out of   88 -  47.73%.
+WHY    :   16 out of   45 -  35.56%.
+WHO    :   23 out of   54 -  42.59%.
+HOW    :   27 out of   59 -  45.76%.
+OTHER  :    1 out of    4 -  25.00%.
+
+NORMALIZED ACCURACY : 41.08%
+
+
+
+
+
+
+res-tfidf-qexp
+
+******************************************************************
+Accuracy: 137 correct out of 324 questions - 42.28%.
+******************************************************************
+Statistics by question type:
+WHEN   :   21 out of   32 -  65.62%.
+WHERE  :   17 out of   42 -  40.48%.
+WHAT   :   36 out of   88 -  40.91%.
+WHY    :   16 out of   45 -  35.56%.
+WHO    :   23 out of   54 -  42.59%.
+HOW    :   24 out of   59 -  40.68%.
+OTHER  :    0 out of    4 -   0.00%.
+
+NORMALIZED ACCURACY : 44.31%
+
+
+
+
+
+tfidf
+
+******************************************************************
+Accuracy: 153 correct out of 324 questions - 47.22%.
+******************************************************************
+Statistics by question type:
+WHEN   :   20 out of   32 -  62.50%.
+WHERE  :   17 out of   42 -  40.48%.
+WHAT   :   45 out of   88 -  51.14%.
+WHY    :   16 out of   45 -  35.56%.
+WHO    :   26 out of   54 -  48.15%.
+HOW    :   29 out of   59 -  49.15%.
+OTHER  :    0 out of    4 -   0.00%.
+
+NORMALIZED ACCURACY : 47.83%
+
+
+
+
+
+
+tfidf-qexp
+
+
+******************************************************************
+Accuracy: 141 correct out of 324 questions - 43.52%.
+******************************************************************
+Statistics by question type:
+WHEN   :   21 out of   32 -  65.62%.
+WHERE  :   18 out of   42 -  42.86%.
+WHAT   :   36 out of   88 -  40.91%.
+WHY    :   16 out of   45 -  35.56%.
+WHO    :   25 out of   54 -  46.30%.
+HOW    :   25 out of   59 -  42.37%.
+OTHER  :    0 out of    4 -   0.00%.
+
+NORMALIZED ACCURACY : 45.60%
+
+
+
+
+
+
+
+tfidf-swrem
+
+******************************************************************
+Accuracy: 144 correct out of 324 questions - 44.44%.
+******************************************************************
+Statistics by question type:
+WHEN   :   20 out of   32 -  62.50%.
+WHERE  :   20 out of   42 -  47.62%.
+WHAT   :   38 out of   88 -  43.18%.
+WHY    :   17 out of   45 -  37.78%.
+WHO    :   22 out of   54 -  40.74%.
+HOW    :   27 out of   59 -  45.76%.
+OTHER  :    0 out of    4 -   0.00%.
+
+NORMALIZED ACCURACY : 46.26%
+
+
+
+
+
+tfidt-swrem-qexp
+
+******************************************************************
+Accuracy: 130 correct out of 324 questions - 40.12%.
+******************************************************************
+Statistics by question type:
+WHEN   :   20 out of   32 -  62.50%.
+WHERE  :   14 out of   42 -  33.33%.
+WHAT   :   39 out of   88 -  44.32%.
+WHY    :   14 out of   45 -  31.11%.
+WHO    :   21 out of   54 -  38.89%.
+HOW    :   22 out of   59 -  37.29%.
+OTHER  :    0 out of    4 -   0.00%.
+
+NORMALIZED ACCURACY : 41.24%
+
+
+
+
+
+
+bow
+
+******************************************************************
+Accuracy: 169 correct out of 324 questions - 52.16%.
+******************************************************************
+Statistics by question type:
+WHEN   :   21 out of   32 -  65.62%.
+WHERE  :   18 out of   42 -  42.86%.
+WHAT   :   50 out of   88 -  56.82%.
+WHY    :   22 out of   45 -  48.89%.
+WHO    :   25 out of   54 -  46.30%.
+HOW    :   32 out of   59 -  54.24%.
+OTHER  :    1 out of    4 -  25.00%.
+
+NORMALIZED ACCURACY : 52.45%
+
+
+
+
+
+
+bow-swrem
+
+******************************************************************
+Accuracy: 175 correct out of 324 questions - 54.01%.
+******************************************************************
+Statistics by question type:
+WHEN   :   21 out of   32 -  65.62%.
+WHERE  :   18 out of   42 -  42.86%.
+WHAT   :   53 out of   88 -  60.23%.
+WHY    :   22 out of   45 -  48.89%.
+WHO    :   26 out of   54 -  48.15%.
+HOW    :   33 out of   59 -  55.93%.
+OTHER  :    2 out of    4 -  50.00%.
+
+NORMALIZED ACCURACY : 53.61%
+
+
+
+
+
+
+
+bow-qexp
+
+******************************************************************
+Accuracy: 142 correct out of 324 questions - 43.83%.
+******************************************************************
+Statistics by question type:
+WHEN   :   17 out of   32 -  53.12%.
+WHERE  :   16 out of   42 -  38.10%.
+WHAT   :   38 out of   88 -  43.18%.
+WHY    :   21 out of   45 -  46.67%.
+WHO    :   22 out of   54 -  40.74%.
+HOW    :   27 out of   59 -  45.76%.
+OTHER  :    1 out of    4 -  25.00%.
+
+NORMALIZED ACCURACY : 44.60%
+
+
+
