@@ -1,4 +1,4 @@
-./resources/input
+./resources/input-test1
 1999-W03-5.txt
 1999-W05-4.txt
 1999-W06-5.txt
