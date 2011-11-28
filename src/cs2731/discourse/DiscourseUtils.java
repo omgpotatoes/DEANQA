@@ -1,13 +1,14 @@
-
-
 package cs2731.discourse;
 
-import cs2731.Sentence;
+import cs2731.QuestionType;
+import cs2731.QuestionTypeDetector;
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
@@ -21,7 +22,6 @@ import java.util.Set;
 public class DiscourseUtils {
 
     public static final String DATASET_PATH_ROOT = "resources/";
-
     public static final String DISCOURSE_EXEC = "lib\\pdtb-parser-v110102\\src\\parse.rb";
 
     public static String executeDiscourseParser(String filePath) {
@@ -31,7 +31,7 @@ public class DiscourseUtils {
 
         try {
 
-            Process p = Runtime.getRuntime().exec("ruby "+DISCOURSE_EXEC+" "+filePath);
+            Process p = Runtime.getRuntime().exec("ruby " + DISCOURSE_EXEC + " " + filePath);
 
             BufferedReader output = new BufferedReader(new InputStreamReader(p.getInputStream()));
             BufferedReader err = new BufferedReader(new InputStreamReader(p.getErrorStream()));
@@ -51,14 +51,14 @@ public class DiscourseUtils {
 
         } catch (IOException e) {
             e.printStackTrace();
-            System.err.println("error executing external discourse parser "+DISCOURSE_EXEC);
+            System.err.println("error executing external discourse parser " + DISCOURSE_EXEC);
         } catch (InterruptedException e) {
             e.printStackTrace();
-            System.err.println("error executing external discourse parser "+DISCOURSE_EXEC);
+            System.err.println("error executing external discourse parser " + DISCOURSE_EXEC);
         }
 
         if (!errString.equals("")) {
-            System.out.println("errors occured during parsing:\n"+errString);
+            System.out.println("errors occured during parsing:\n" + errString);
         }
 
         return outputString;
@@ -125,12 +125,28 @@ public class DiscourseUtils {
         while (docScanner.hasNext()) {
 
             String token = docScanner.next();
-            if (token.length() > 0
+            // handle attributions separately
+            if (token.length() > 5
+                    && token.substring(0, 1).equals("{")
+                    && token.substring(1, 5).equals("Attr")) {
+                // beginning of an attribution
+                // debug
+                //System.out.println("debug: openbrace attr token="+token);
+            } else if (token.length() > 5
+                    && token.substring(token.length() - 1).equals("}")
+                    && token.substring(0, 4).equals("Attr")) {
+                // ending of an attribution
+                // debug
+                //System.out.println("debug: closebrace attr token="+token);
+            } else if (token.length() > 0
                     && (token.substring(0, 1).equals("{"))) {
                 // beginning a new annot
 
                 Scanner annotSplitter = new Scanner(token.substring(1));
                 annotSplitter.useDelimiter("_");
+
+                // debug
+                //System.out.println("debug: openbrace token="+token);
 
                 String isExp = "";
                 int id = -1;
@@ -148,6 +164,10 @@ public class DiscourseUtils {
                 }
                 if (annotSplitter.hasNext()) {
                     relType = annotSplitter.next();
+                }
+                while (annotSplitter.hasNext()) {
+                    // for relTypes which contain underscores (ie, "Pragmatic_cause")
+                    relType += "_" + annotSplitter.next();
                 }
 
                 DiscourseAnnotation thisAnnotation = null;
@@ -175,6 +195,9 @@ public class DiscourseUtils {
                 Scanner annotSplitter = new Scanner(token.substring(0, token.length() - 1));
                 annotSplitter.useDelimiter("_");
 
+                // debug
+                //System.out.println("debug: closebrace token="+token);
+
                 String isExp = "";
                 int id = -1;
                 String spanType = "";
@@ -191,6 +214,10 @@ public class DiscourseUtils {
                 }
                 if (annotSplitter.hasNext()) {
                     relType = annotSplitter.next();
+                }
+                while (annotSplitter.hasNext()) {
+                    // for relTypes which contain underscores (ie, "Pragmatic_cause")
+                    relType += "_" + annotSplitter.next();
                 }
 
                 DiscourseAnnotation thisAnnotation = annotMap.get(isExp + "_" + id);
@@ -287,6 +314,7 @@ public class DiscourseUtils {
                     maxMatchIndexArg1 = i;
                 }
             }
+            annotation.setArg1SentIndex(maxMatchIndexArg1);
 
             // debug
             System.out.println("debug: matching arg1 span \n\t\"" + annotation.getArg1() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexArg1) + "\"");
@@ -309,6 +337,7 @@ public class DiscourseUtils {
                     maxMatchIndexArg2 = i;
                 }
             }
+            annotation.setArg2SentIndex(maxMatchIndexArg2);
 
             // debug
             System.out.println("debug: matching arg2 span \n\t\"" + annotation.getArg2() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexArg2) + "\"");
@@ -332,23 +361,254 @@ public class DiscourseUtils {
                         maxMatchIndexConn = i;
                     }
                 }
+                annotation.setConnSentIndex(maxMatchIndexConn);
 
                 // debug
                 System.out.println("debug: matching conn span \n\t\"" + annotation.getConn() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexConn) + "\"");
             }
 
+        }
+
+    }
+
+    /**
+     * Generates the prior probs of each question type to be answered by a line
+     * participating in a particular discourse role.
+     *
+     * @param answerFilePath
+     * @param trainDataFolderPath
+     * @return
+     */
+    public static EnumMap<QuestionType, HashMap<String, Double>> getTrainQuestionTypeDiscourseRoleAnswerProbs(String answerFilePath, String trainDataFolderPath) {
+
+        EnumMap<QuestionType, HashMap<String, Double>> answerProbs = new EnumMap<QuestionType, HashMap<String, Double>>(QuestionType.class);
+        EnumMap<QuestionType, HashMap<String, Integer>> answerCounts = new EnumMap<QuestionType, HashMap<String, Integer>>(QuestionType.class);
+        EnumMap<QuestionType, Integer> answerTotals = new EnumMap<QuestionType, Integer>(QuestionType.class);
 
 
 
+        // read answer file, storing filename, questions, answers
+
+        Scanner answerKey = null;
+        try {
+            answerKey = new Scanner(new BufferedReader(new FileReader(answerFilePath)));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            System.err.println("could not find the answer file specified: " + answerFilePath);
+            return null;
+        }
+
+        List<String> inputFileNames = new ArrayList<String>();
+        List<List<QuestionType>> inputFilesQuestionTypes = new ArrayList<List<QuestionType>>();
+        List<List<String>> inputFilesRawAnswers = new ArrayList<List<String>>();
+
+        List<QuestionType> questionTypesCurrentFile = null;
+        List<String> rawAnswersCurrentFile = null;
+
+        while (answerKey.hasNextLine()) {
+
+            String line = answerKey.nextLine();
+
+            if (line.length() > 6 && line.substring(0, 6).equalsIgnoreCase("<FILE>")) {
+                // new input file name
+                questionTypesCurrentFile = new ArrayList<QuestionType>();
+                rawAnswersCurrentFile = new ArrayList<String>();
+                inputFilesQuestionTypes.add(questionTypesCurrentFile);
+                inputFilesRawAnswers.add(rawAnswersCurrentFile);
+                inputFileNames.add(line.substring(6));
+                // debug
+                //System.out.println("debug: detecting <FILE>: "+line.substring(6));
+
+            } else if (line.length() > 10 && line.substring(0, 10).equalsIgnoreCase("<Q_NUMBER>")) {
+                // question id number; we don't really care about this
+                // debug
+                //System.out.println("debug: detecting <Q_NUMBER>: "+line.substring(10));
+            } else if (line.length() > 8 && line.substring(0, 8).equalsIgnoreCase("<A_LINE>")) {
+                // answer line number; we don't really care about this, since
+                //  we're going to manually match up lines later anyway (parsers
+                //  may be mangling line breaks)
+                // debug
+                //System.out.println("debug: detecting <A_LINE>: "+line.substring(8));
+            } else if (line.length() > 7 && line.substring(0, 7).equalsIgnoreCase("<Q_TXT>")) {
+                // question; we want to find and store the type
+                QuestionType thisQuestionType = QuestionTypeDetector.getQuestionType(line.substring(7));
+                questionTypesCurrentFile.add(thisQuestionType);
+                // debug
+                //System.out.println("debug: detecting <Q_TXT>: "+line.substring(7)+", QuestionType="+thisQuestionType);
+
+
+            } else if (line.length() > 7 && line.substring(0, 7).equalsIgnoreCase("<A_TXT>")) {
+                // answer; we want to store this string so that we can match it
+                //  with a line in the parsed version of the document later
+                rawAnswersCurrentFile.add(line.substring(7));
+                // debug
+                //System.out.println("debug: detecting <A_TXT>: "+line.substring(7));
+
+            }
+        }
+
+
+        // for each input file, get discourse-parsed version, match up
+        //  question line from answer file with line from input file,
+        //  identify any participation of line in a relevant discourse role.
+        for (int i = 0; i < inputFileNames.size(); i++) {
+
+            String inputFileName = inputFileNames.get(i);
+
+            String inputFile = readDoc(trainDataFolderPath + "/" + inputFileName + ".annot");
+
+            // debug
+            //System.out.println("debug: inputFile: "+inputFile);
+
+            List<DiscourseAnnotation> discourseAnnotations = buildDiscourseAnnots(inputFile);
+
+            // debug:
+            System.out.println("debug: all annotations for current inputFile: " + discourseAnnotations.toString());
+
+            Scanner inputFileScanner = new Scanner(inputFile);
+
+            List<String> inputFileLines = new ArrayList<String>();
+            while (inputFileScanner.hasNextLine()) {
+                inputFileLines.add(inputFileScanner.nextLine());
+            }
+
+            integrateSentIndices(inputFileLines, discourseAnnotations);
+
+            // for each answer line, find matching line index and
+            //  any discourse roles in which it participates
+            questionTypesCurrentFile = inputFilesQuestionTypes.get(i);
+            rawAnswersCurrentFile = inputFilesRawAnswers.get(i);
+
+            for (int j = 0; j < rawAnswersCurrentFile.size(); j++) {
+
+                QuestionType questionType = questionTypesCurrentFile.get(j);
+                String rawAnswer = rawAnswersCurrentFile.get(j);
+
+                // debug
+                System.out.println("debug: new question: type=" + questionType);
+
+                int maxMatchLine = -1;
+                int maxMatchIndexLine = -1;
+                List<String> nGramsLine = generateNGrams(rawAnswer);
+                for (int k = 0; k < inputFileLines.size(); k++) {
+                    String sentStr = inputFileLines.get(k);
+                    int match = 0;
+                    for (String nGram : nGramsLine) {
+                        if (sentStr.contains(nGram)) {
+                            match++;
+                        }
+                    }
+                    if (match > maxMatchLine) {
+                        maxMatchLine = match;
+                        maxMatchIndexLine = k;
+                    }
+                }
+
+                // debug
+                System.out.println("debug: matching rawAnswer \n\t" + rawAnswer + "\nwith sentence\n\t" + inputFileLines.get(maxMatchIndexLine));
+
+                // note all discourse roles this sent was a member of
+                //  (string format: discourseRelType-{Arg1,Arg2} )
+                boolean answerContainsDiscourseRel = false;
+                for (int k = 0; k < discourseAnnotations.size(); k++) {
+                    DiscourseAnnotation annotation = discourseAnnotations.get(k);
+
+                    // see if this index is included as either arg1 or arg2
+                    if (annotation.getArg1SentIndex() == maxMatchIndexLine) {
+
+                        String typeArgKey = annotation.getType().name() + "-Arg1";
+                        if (!answerProbs.containsKey(questionType)) {
+                            answerProbs.put(questionType, new HashMap<String, Double>());
+                            answerCounts.put(questionType, new HashMap<String, Integer>());
+                            answerTotals.put(questionType, 0);
+                        }
+                        HashMap<String, Integer> answerCount = answerCounts.get(questionType);
+                        answerTotals.put(questionType, answerTotals.get(questionType) + 1);
+                        if (!answerCount.containsKey(typeArgKey)) {
+                            answerCount.put(typeArgKey, 0);
+                        }
+                        answerCount.put(typeArgKey, answerCount.get(typeArgKey) + 1);
+                        answerContainsDiscourseRel = true;
+                        // debug
+                        System.out.println("debug: sent \"" + inputFileLines.get(maxMatchIndexLine) + "\" participates in " + typeArgKey);
+
+                    }
+
+                    if (annotation.getArg2SentIndex() == maxMatchIndexLine) {
+
+                        String typeArgKey = annotation.getType().name() + "-Arg2";
+                        if (!answerProbs.containsKey(questionType)) {
+                            answerProbs.put(questionType, new HashMap<String, Double>());
+                            answerCounts.put(questionType, new HashMap<String, Integer>());
+                            answerTotals.put(questionType, 0);
+                        }
+                        HashMap<String, Integer> answerCount = answerCounts.get(questionType);
+                        answerTotals.put(questionType, answerTotals.get(questionType) + 1);
+                        if (!answerCount.containsKey(typeArgKey)) {
+                            answerCount.put(typeArgKey, 0);
+                        }
+                        answerCount.put(typeArgKey, answerCount.get(typeArgKey) + 1);
+                        answerContainsDiscourseRel = true;
+                        // debug
+                        System.out.println("debug: sent \"" + inputFileLines.get(maxMatchIndexLine) + "\" participates in " + typeArgKey);
+                    }
+
+                }
+
+                if (!answerContainsDiscourseRel) {
+
+                    String typeArgKey = "no-rel";
+                    if (!answerProbs.containsKey(questionType)) {
+                        answerProbs.put(questionType, new HashMap<String, Double>());
+                        answerCounts.put(questionType, new HashMap<String, Integer>());
+                        answerTotals.put(questionType, 0);
+                    }
+                    HashMap<String, Integer> answerCount = answerCounts.get(questionType);
+                    answerTotals.put(questionType, answerTotals.get(questionType) + 1);
+                    if (!answerCount.containsKey(typeArgKey)) {
+                        answerCount.put(typeArgKey, 0);
+                    }
+                    answerCount.put(typeArgKey, answerCount.get(typeArgKey) + 1);
+                    answerContainsDiscourseRel = true;
+                    // debug
+                    System.out.println("debug: sent \"" + inputFileLines.get(maxMatchIndexLine) + "\" participates in " + typeArgKey);
+
+
+                }
+
+            }
 
         }
+
+        // build probabilities
+
+        for (QuestionType questionType : answerCounts.keySet()) {
+
+            HashMap<String, Integer> answerCount = answerCounts.get(questionType);
+            HashMap<String, Double> answerProb = answerProbs.get(questionType);
+            int questionTypeTotal = answerTotals.get(questionType);
+
+            for (String typeArgKey : answerCount.keySet()) {
+
+                double prob = (double) answerCount.get(typeArgKey) / (double) questionTypeTotal;
+                answerProb.put(typeArgKey, prob);
+                // debug
+                System.out.println("debug: prob for questionType=" + questionType.name() + " answered by typeArg=" + typeArgKey + ": " + prob);
+
+            }
+
+        }
+
+
+
+        return answerProbs;
 
     }
 
     // for testing only
     public static void main(String[] args) {
 
-        test1();
+        test3();
 
     }
 
@@ -381,7 +641,14 @@ public class DiscourseUtils {
 
         String parserOutput = executeDiscourseParser(sampleDocPath);
 
-        System.out.println("discourse parser output: "+parserOutput);
+        System.out.println("discourse parser output: " + parserOutput);
+
+    }
+
+    public static void test3() {
+
+        getTrainQuestionTypeDiscourseRoleAnswerProbs("resources/answerkey.txt", "resources/input");
+
 
     }
 
@@ -398,5 +665,4 @@ public class DiscourseUtils {
         return sentences;
 
     }
-    
 }

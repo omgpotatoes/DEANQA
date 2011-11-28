@@ -25,7 +25,7 @@ public class DiscourseAnnotation {
     protected String arg1Sent;
 
     // index to sentence in which arg1 appears (optional)
-    protected String arg1SentIndex;
+    protected int arg1SentIndex;
 
     // text in the arg2 span
     protected String arg2;
@@ -34,13 +34,13 @@ public class DiscourseAnnotation {
     protected String arg2Sent;
 
     // index to sentence in which arg2 appears (optional)
-    protected String arg2SentIndex;
+    protected int arg2SentIndex;
 
     // (if present) text in the conn span
     protected String conn;
 
     // index to sentence in which conn appears (optional)
-    protected String connSentIndex;
+    protected int connSentIndex;
 
     public DiscourseAnnotation(boolean isExp, int id) {
         // other fields will be filled in later
@@ -62,27 +62,27 @@ public class DiscourseAnnotation {
         arg2 = "";
     }
 
-    public String getArg1SentIndex() {
+    public int getArg1SentIndex() {
         return arg1SentIndex;
     }
 
-    public void setArg1SentIndex(String arg1SentIndex) {
+    public void setArg1SentIndex(int arg1SentIndex) {
         this.arg1SentIndex = arg1SentIndex;
     }
 
-    public String getArg2SentIndex() {
+    public int getArg2SentIndex() {
         return arg2SentIndex;
     }
 
-    public void setArg2SentIndex(String arg2SentIndex) {
+    public void setArg2SentIndex(int arg2SentIndex) {
         this.arg2SentIndex = arg2SentIndex;
     }
 
-    public String getConnSentIndex() {
+    public int getConnSentIndex() {
         return connSentIndex;
     }
 
-    public void setConnSentIndex(String connSentIndex) {
+    public void setConnSentIndex(int connSentIndex) {
         this.connSentIndex = connSentIndex;
     }
 

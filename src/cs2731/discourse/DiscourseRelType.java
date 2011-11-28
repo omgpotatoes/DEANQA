@@ -13,10 +13,14 @@ public enum DiscourseRelType {
     Conjunction,
     Alternative,
     Cause,
+    Pragmatic_cause,
     Condition,
     Restatement,
     Instantiation,
+    List,
+    Concession,
     Attr,
     EntRel,
+    NoRel,
     unknown;
 }
