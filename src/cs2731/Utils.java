@@ -267,6 +267,8 @@ public class Utils
 		
 		for(File document : documents) {
 			filename = document.getName();
+			if(filename.endsWith("ot"))
+				continue;
 			documentInput = new Scanner(document);
 			tempAnswers = new ArrayList<String>();
 			answerInput = new Scanner(answerKey);
