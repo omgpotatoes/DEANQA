@@ -142,7 +142,7 @@ public class DeanQA
 		AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
 		AnswerFinder nerFinder = new RandomNameAnswerFinder();
 		AnswerFinder nameFinder = new NameAnswerFinder();
-		AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
+		AnswerFinder qtFinder = new RuleAnswerFinder();
 		AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
 		QuestionExpander qExp = new QuestionExpander();
 		*/

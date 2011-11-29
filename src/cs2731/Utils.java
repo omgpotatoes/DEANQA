@@ -1,6 +1,7 @@
 
 package cs2731;
 
+import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import cs2731.ner.NamedEntityType;
@@ -17,10 +18,19 @@ import static cs2731.ner.NamedEntityType.*;
 
 public class Utils
 {
-	private Utils() {}
-	
 	public static final Set<Character> punctuationSet = new HashSet<Character>(Arrays.asList(',','.','!','?',':',';','\''));
+	
+	private Utils() {}
 
+	public static String[] tokenize(String line) {
+		return tokenize(line, Options.getDefaultOptions());
+	}
+	
+	public static String[] tokenize(String line, Options options) {
+		String splitString = (options.get(Options.IGNORE_PUNCTUATION))? "\\W+" : "\\s+";
+		return line.split(splitString);
+	}
+	
 	public static boolean containsOnlyWhitespace(String str) {
 		for (char c : str.toCharArray()) {
 			if (!Character.isWhitespace(c)) {
@@ -111,6 +121,38 @@ public class Utils
 			if (it.hasNext()) { sb.append(delim); }
 		}
 		return sb.toString();
+	}
+	
+	/**
+	 * 
+	 * @param haystack
+	 * @param needles
+	 * @return 
+	 */
+	public static boolean containsAny(Collection<String> haystack, Collection<String> needles) {
+		Set<String> set = new HashSet<String>(haystack);
+		for (String s : needles) {
+			if (set.contains(s)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	/**
+	 * 
+	 * @param haystack
+	 * @param needles
+	 * @return 
+	 */
+	public static boolean containsAny(Collection<String> haystack, String... needles) {
+		Set<String> set = new HashSet<String>(haystack);
+		for (String s : needles) {
+			if (set.contains(s)) {
+				return true;
+			}
+		}
+		return false;
 	}
 	
 	/**
