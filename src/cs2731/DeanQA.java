@@ -69,7 +69,7 @@ public class DeanQA
 		int origLen = document.size();
 		//preprocessDocument();
 		StopwordRemover swRem = new StopwordRemover();
-		swRem.removeStopwordsFromDocument(document);
+		//swRem.removeStopwordsFromDocument(document);
 		//System.out.println("debug: new doc: " + document.toString());
 		//System.out.println("debug: new numsents: " + document.size() + "\n");
 		int newLen = document.size();
@@ -136,6 +136,7 @@ public class DeanQA
 	 */
 	private static void answerQuestions(String input) throws IOException {
 		answers = new ArrayList<Guess>();
+		/*
 		AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
 		AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
 		AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
@@ -144,6 +145,8 @@ public class DeanQA
 		AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
 		AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
 		QuestionExpander qExp = new QuestionExpander();
+		*/
+		SVMAnswerFinder SVMFinder = new SVMAnswerFinder("./resources/input", "./resources/answerkey.txt");
 
 		// for each question get a list of possible answers
 		List<Guess> guesses = new ArrayList<Guess>();
@@ -157,7 +160,9 @@ public class DeanQA
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
 
-			guesses.addAll(bowFinder.getAnswerLines(document, question));
+			SVMFinder.getAnswerLines(document, question);
+			//guesses.addAll(SVMFinder.getAnswerLines(document, question));
+			//guesses.addAll(bowFinder.getAnswerLines(document, question));
 			//guesses.addAll(lemmaFinder.getAnswerLines(document, question));
 			//guesses.addAll(nerFinder.getAnswerLines(document, question));
 			//guesses.addAll(qtFinder.getAnswerLines(document, question));
@@ -166,12 +171,13 @@ public class DeanQA
 			//guesses.addAll(tfidfFinder.getAnswerLines(document, question));
 
 			// combine probabilities from multiple oracles
+			/*
 			guesses = combineGuesses(guesses);
 
 			Collections.sort(guesses);
 			Collections.reverse(guesses);
 			answers.add(guesses.get(0));
-
+*/
 //			answers.addAll(guesses);
 		}
 
@@ -236,7 +242,6 @@ public class DeanQA
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
-		//SVMAnswerFinder test = new SVMAnswerFinder("./resources/input", "./resources/answerkey.txt");
 		// get the input and output file paths  from the command line:
 		if (args.length < 1) {
 			out.println("too few arguments: missing input-file");
@@ -254,12 +259,13 @@ public class DeanQA
 		outputFile = args[1];
 
 		// do any one-time expensive initialization
-		initializeModels();
+		//initializeModels();
 
 		writer = new PrintWriter(outputFile);
 		document = new ArrayList<String>();
 		questions = new LinkedList<String>();
 
 		processDataset(rootPath);
+		
 	}
 }
