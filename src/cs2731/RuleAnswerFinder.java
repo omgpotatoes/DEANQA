@@ -2,9 +2,7 @@
 package cs2731;
 
 import java.util.Collection;
-import cs2731.ner.NamedEntityService;
 import cs2731.ner.NamedEntityType;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -17,8 +15,8 @@ import static cs2731.ner.NamedEntityType.*;
 /**
  * Implements the rule-based AnswerFinder by
  * Ellen Riloff and Michael Thelen
- * Department of Computer Science
- * University of Utah
+ * 
+ * So far does well with the WHAT and HOW rules
  * @author ylegall
  */
 public class RuleAnswerFinder implements AnswerFinder
@@ -34,7 +32,6 @@ public class RuleAnswerFinder implements AnswerFinder
 	private boolean ignorePunctuation;
 	
 	private CoreProcessor coreProcessor;
-	private NamedEntityService nerService;
 	
 	public RuleAnswerFinder() {
 		this(Options.getDefaultOptions()); 
@@ -44,6 +41,8 @@ public class RuleAnswerFinder implements AnswerFinder
 		this.options = options;
 		ignoreCase = options.get(Options.IGNORE_CASE);
 		ignorePunctuation = options.get(Options.IGNORE_PUNCTUATION);
+		
+		coreProcessor = CoreProcessor.getInstance();
 	}
 	
 	/**
@@ -61,8 +60,11 @@ public class RuleAnswerFinder implements AnswerFinder
 		// get the target of the question type
 		if (ignoreCase) { question = question.toLowerCase(); }
 		QuestionType type = QuestionTypeDetector.getQuestionType(question);
-		List<String> questionWords = Arrays.asList(tokenize(question, options));
+//		List<String> questionWords = Arrays.asList(tokenize(question, options));
+		List<String> questionWords = coreProcessor.getLemmas(question);
 		Set<NamedEntityType> questionEntities = coreProcessor.getNamedEntities(question);
+		
+		int bestLine = bestLine(document, questionWords);
 		
 		// loop over every line of the document and see how many words match:
 		int lineNum = 0;
@@ -74,7 +76,8 @@ public class RuleAnswerFinder implements AnswerFinder
 			
 			// get the named entities for the line:
 			Set<NamedEntityType> lineEntities = coreProcessor.getNamedEntities(line);
-			List<String> lineWords = Arrays.asList(tokenize(line, options));
+//			List<String> lineWords = Arrays.asList(tokenize(line, options));
+			List<String> lineWords = coreProcessor.getLemmas(line);
 			
 			double score = 0;
 			
@@ -113,16 +116,50 @@ public class RuleAnswerFinder implements AnswerFinder
 					
 				case WHERE:
 					score += wordMatch(questionWords, lineWords);
-					// TODO: finish
+					if (containsAny(lineWords, QuestionType.getWords(WHERE))) {
+						score += GOOD_CLUE;
+					}
+					if (lineEntities.contains(LOCATION)) {
+						score += CONFIDENT;
+					}
 					break;
 					
 				case WHAT:
+					score += wordMatch(questionWords, lineWords);
+					if (containsAny(questionWords, QuestionType.getWords(WHEN))) {
+						if (containsAny(lineWords, QuestionType.getWords(WHEN))) {
+							score += CLUE;
+						}
+					}
+					if (questionWords.contains("kind")) {
+						if (containsAny(lineWords, "call", "from", "called")) {
+							score += GOOD_CLUE;
+						}
+					}
+					if (questionWords.contains("name")) {
+						if (containsAny(lineWords, "call", "name", "named", "known", "called")) {
+							score += SLAM_DUNK;
+						}
+					}
 					break;
+					
+				case WHY:
+					if (lineNum == bestLine || lineNum == (bestLine - 1)) {
+						score += CLUE;
+					}
+					if (lineNum == (bestLine + 1)) {
+						score += GOOD_CLUE;
+					}
+					if (containsAny(lineWords, QuestionType.getWords(WHY))) {
+						score += GOOD_CLUE;
+					}
+					break;
+					
 				default:
+					score += wordMatch(questionWords, lineWords);
 					break;
 			}
 			
-
 			scores.add(new Guess(score, lineNum));
 			totalScore += score;
 		}
@@ -151,6 +188,29 @@ public class RuleAnswerFinder implements AnswerFinder
 			}
 		}
 		return count;
+	}
+
+	/**
+	 * get the best match for a question based on bag of words alone.
+	 * this is needed for the why question.
+	 * @param document
+	 * @param question
+	 * @return 
+	 */
+	private int bestLine(Collection<String> document, List<String> questionWords) {
+		int bestLine = -1;
+		int maxMatch = -1;
+		int i = 1;
+		for (String line : document) {
+			List<String> lineWords = coreProcessor.getLemmas(line);
+			int match = wordMatch(questionWords, lineWords);
+			if (match > maxMatch) {
+				maxMatch = match;
+				bestLine = i;
+			}
+			i++;
+		}
+		return bestLine;
 	}
 	
 	/**

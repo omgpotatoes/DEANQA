@@ -123,6 +123,28 @@ public class Utils
 		return sb.toString();
 	}
 	
+	/**
+	 * 
+	 * @param haystack
+	 * @param needles
+	 * @return 
+	 */
+	public static boolean containsAny(Collection<String> haystack, Collection<String> needles) {
+		Set<String> set = new HashSet<String>(haystack);
+		for (String s : needles) {
+			if (set.contains(s)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	/**
+	 * 
+	 * @param haystack
+	 * @param needles
+	 * @return 
+	 */
 	public static boolean containsAny(Collection<String> haystack, String... needles) {
 		Set<String> set = new HashSet<String>(haystack);
 		for (String s : needles) {

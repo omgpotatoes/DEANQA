@@ -28,51 +28,40 @@ public enum QuestionType {
     
 	private static SoftReference<WordMap> wordMapRef = new SoftReference<WordMap>(null);
 	
-//	/**
-//	 * Get a set of question types that might be
-//	 * associated with a list of words
-//	 * @param words
-//	 * @return 
-//	 */
-//	public static Set<QuestionType> getQuestionTypes(Collection<String> words) {
-//		Set<QuestionType> set = EnumSet.noneOf(QuestionType.class);
-//		for (String word : words) {
-//			set.add(getTypeFromWord(word));
-//		}
-//		return set;
-//	}
-//	
-//	/**
-//	 * returns a named entity type associated with a particular word.
-//	 * For example, "he" would map to PERSON,
-//	 * and "during" would associate with TIME
-//	 * @param word
-//	 * @return 
-//	 */
-//	public static QuestionType getTypeFromWord(String word) {
-//		WordMap map = wordMapRef.get();
-//		if (map == null) {
-//			wordMapRef = new SoftReference<WordMap>(new WordMap());
-//			map = wordMapRef.get();
-//		}
-//		
-//		if (map.containsKey(word)) {
-//			return map.get(word);
-//		} else {
-//			return OTHER;
-//		}
-//	}
+	/**
+	 * 
+	 */
+	private static WordMap getWordMap() {
+		WordMap map = wordMapRef.get();
+		if (map == null) {
+			wordMapRef = new SoftReference<WordMap>(new WordMap());
+			map = wordMapRef.get();
+		}
+		return map;
+	}
 	
 	
-	
-//	private static class WordMap extends HashMap<String, QuestionType>
+	/**
+	 * 
+	 * @param type
+	 * @return 
+	 */
+	public static Set<String> getWords(QuestionType type) {
+		return getWordMap().get(type);
+	}
+
+	/**
+	 * 
+	 */
 	private static class WordMap extends HashMap<QuestionType, Set<String>>
 	{
 		private WordMap() {
 			
 			// WHO
 			put(WHO, new HashSet<String>(
-					Arrays.asList("he","she","it","they","them","him","her")));
+					Arrays.asList(
+					"he","she","it","they","them","him","her"
+					)));
 			
 			put(WHERE, new HashSet<String>(
 					Arrays.asList(
@@ -83,9 +72,11 @@ public enum QuestionType {
 			
 			put(WHEN, new HashSet<String>(
 					Arrays.asList(
-					"during","time","before","after","when","later","until",
-					"ago","first","last","then","afternoon","morning","evening",
-					"night","day","year"
+					"after","afternoon","ago","before",
+					"day","during","evening","first","last",
+					"later","month","morning","night",
+					"then","time","today","tomorrow",
+					"until","when","year","yesterday"
 					)));
 			
 			put(HOW, new HashSet<String>(
@@ -95,7 +86,7 @@ public enum QuestionType {
 			
 			put(WHY, new HashSet<String>(
 					Arrays.asList(
-					"because","for","so","to","reason"
+					"because","for","so","to","reason","want"
 					)));
 			
 			put(WHICH, new HashSet<String>(
