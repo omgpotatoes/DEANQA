@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Properties;
 
 import weka.classifiers.functions.LibSVM;
+import weka.classifiers.trees.J48;
 import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
@@ -31,7 +32,7 @@ public class SVMAnswerFinder implements AnswerFinder {
 
 	private StanfordCoreNLP pipeline;
 	private Instances data;
-	private LibSVM model = new LibSVM();
+	private J48 model = new J48();
 	private static boolean flag = true;
 	
     /**
@@ -47,15 +48,15 @@ public class SVMAnswerFinder implements AnswerFinder {
 		 */
 		File trainingAnswersFile = new File(trainingAnswersFilePath);
 		File[] trainingQuestionFiles = new File(trainingQuestionsFolder).listFiles();
-		String [] options = new String [4];
-		options[0] = "-S";
-		options[1] = "0";
-		options[2] = "-K";
-		options[3] = "2";
+		String [] options = new String [3];
+		options[0] = "-U";
+		options[1] = "-M";
+		options[2] = "1";
 		try {
 			model.setOptions(options);
 		} catch (Exception e) {
-			System.err.println("Error in the options for the SVM model");
+			e.printStackTrace();
+			System.err.println("Error in the options for the model");
 		}
 		
 		if (trainingQuestionFiles == null) {
@@ -214,25 +215,34 @@ public class SVMAnswerFinder implements AnswerFinder {
 	 */
 	public List<Guess> getAnswerLines(List<String> document, String question) {	    
 		Instances testData = extractTestData(document, question);
+		
+		List<Guess> guessList = new ArrayList<Guess>();
+		double currentMax = 0.0;
 		//Possibly count the blank lines, because the data that is returned includes those blanks
-		//DEBUGGING CONSIDER CHANGING TO PROBABLEISTIC MODEL
-		if(flag) {
-			for(int i = 0; i < testData.numInstances(); i++) {
-				try {
-					double[] tempGuesses = model.distributionForInstance(testData.instance(i));
-					for(double guess : tempGuesses) 
-						System.out.print(guess + " ");
-					System.out.println("");
-				} catch (Exception e) {
-					System.err.println("Error in classifying an instance");
-					e.printStackTrace();
+		for(int i = 0; i < testData.numInstances(); i++) {
+			try {
+				double[] tempGuesses = model.distributionForInstance(testData.instance(i));
+				if(tempGuesses[0] == currentMax) {
+					 guessList.add(new Guess(1.0, i+1));
 				}
+				else if(tempGuesses[0] > currentMax) {
+					currentMax = tempGuesses[0];
+					guessList.clear();
+					guessList.add(new Guess(1.0, i+1));
+				}
+			} catch (Exception e) {
+				System.err.println("Error in classifying an instance");
+				e.printStackTrace();
 			}
-				
-			flag = false;
 		}
-		//
-		return null;
+		
+		double prob = 1.0/guessList.size();
+		
+		for(Guess aGuess : guessList) 
+			aGuess.setProb(prob);
+		
+
+		return guessList;
 	}
 	
 	private Instances extractTestData(List<String> document, String question) {
@@ -308,11 +318,6 @@ public class SVMAnswerFinder implements AnswerFinder {
 		
 		for(double [] instance : tempX)
 			dataset.add(new Instance(1.0, instance));
-		
-		//STUFF TO MAKE SURE ONE CAN BE CHOSEN AS YES
-		double [] tempInstance = {0, 0, dataset.attribute(2).indexOfValue("No")};
-		dataset.add(new Instance(1.0, tempInstance));
-		//
 		
 		dataset.setClassIndex(2);
 		return dataset;
