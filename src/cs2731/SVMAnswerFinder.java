@@ -34,6 +34,7 @@ public class SVMAnswerFinder implements AnswerFinder {
 	private Instances data;
 	private J48 model = new J48();
 	private static boolean flag = true;
+	private final int classFeature = 8;
 	
     /**
 	 * Constructor that takes the training data folder path and the answer file path as 
@@ -97,17 +98,24 @@ public class SVMAnswerFinder implements AnswerFinder {
 	private Instances extractTrainingData(File[] documents, File answerKey) throws FileNotFoundException {
 		
 		//WEKA Stuff
-		Attribute [] attributeNames = new Attribute [3];
+		Attribute [] attributeNames = new Attribute [classFeature + 1];
 		attributeNames[0] = new Attribute("DMWM");
 		attributeNames[1] = new Attribute("DMVM");
+		attributeNames[2] = new Attribute("DMWM-Prev");
+		attributeNames[3] = new Attribute("DMVM-Prev");
+		attributeNames[4] = new Attribute("DMWM-Next");
+		attributeNames[5] = new Attribute("DMVM-Next");
 		FastVector labels = new FastVector();
 		labels.addElement("Yes");
 		labels.addElement("No");
-		attributeNames[2] = new Attribute("Labels", labels);
+		attributeNames[6] = new Attribute("IsTitle", labels);
+		attributeNames[7] = new Attribute("IsDateline", labels);
+		attributeNames[classFeature] = new Attribute("Labels", labels);
 		FastVector attributes = new FastVector();
-		attributes.addElement(attributeNames[0]);
-		attributes.addElement(attributeNames[1]);
-		attributes.addElement(attributeNames[2]);
+		
+		for(Attribute attributeName : attributeNames) 
+			attributes.addElement(attributeName);
+
 		Instances dataset = new Instances("testDataset", attributes, 0);
 	
 		//Extracting the data
@@ -119,11 +127,13 @@ public class SVMAnswerFinder implements AnswerFinder {
 	    int rawVerbMatch = 0;
 	    int maxVerbMatch = 0;
 	    int questionCounter = 0;
+	    int sentenceCounter = 0;
 	    double [][] X;
 	    double [] Y;
 	    ArrayList<Double> tempY = new ArrayList<Double>();
 	    ArrayList<double []> tempX = new ArrayList<double []>();
 	    ArrayList<double []> unDiffed = new ArrayList<double []>();
+	    ArrayList<boolean []> isSpecial = new ArrayList<boolean[]>(); 
 	    double [] tempDataPoint;
 	
 	    for(TrainingFileData dataFile : trainingData) {
@@ -137,12 +147,13 @@ public class SVMAnswerFinder implements AnswerFinder {
 	    	for(CoreMap question: questionAnno.get(SentencesAnnotation.class)) {
 	    		maxWordMatch = 0;
 	    		maxVerbMatch = 0;
+	    		sentenceCounter = 0;
 	    		for(CoreMap sentence: sentenceAnno.get(SentencesAnnotation.class)) {
 	    			String [] multipleAnswers = dataFile.answerMap[questionCounter].split("-OR-");
-    				double label = dataset.attribute(2).indexOfValue("No");
+    				double label = dataset.attribute(classFeature).indexOfValue("No");
     				for(String anAnswer : multipleAnswers) {
     					if(anAnswer.trim().equals(sentence.toString().trim()))
-		    				label = dataset.attribute(2).indexOfValue("Yes");
+		    				label = dataset.attribute(classFeature).indexOfValue("Yes");
     				}
     				tempY.add(label);
     				
@@ -166,10 +177,26 @@ public class SVMAnswerFinder implements AnswerFinder {
     					maxWordMatch = rawWordMatch;
 	    			if(rawVerbMatch > maxVerbMatch)
     					maxVerbMatch = rawVerbMatch;
-    				tempDataPoint = new double [2];
+    				tempDataPoint = new double [4];
     				tempDataPoint[0] = rawWordMatch;
     				tempDataPoint[1] = rawVerbMatch;
     				unDiffed.add(tempDataPoint);
+    				
+    				boolean [] tempIsSpecial = new boolean [2];
+    				if(sentenceCounter == 0) {
+						tempIsSpecial[0] = true;
+						tempIsSpecial[1] = false;
+    				}
+    				else if(sentenceCounter == 1) {
+    					tempIsSpecial[0] = false;
+    					tempIsSpecial[1] = true;
+    				}
+    				else {
+    					tempIsSpecial[0] = false;
+    					tempIsSpecial[1] = false;
+    				}
+    				isSpecial.add(tempIsSpecial);
+    				sentenceCounter++;
 		    	}
 	    		questionCounter++;
 	    		int size = unDiffed.size();
@@ -186,26 +213,75 @@ public class SVMAnswerFinder implements AnswerFinder {
 	    	}
 	    }
 
-	    X = new double[tempX.size()][1];
+	    X = new double[tempX.size()][2];
 		tempX.toArray(X);
 		Y = new double[tempY.size()];
 		for(int q=0; q < Y.length; q++) 
 			Y[q] = tempY.get(q);
 
 		//WEKA Stuff
-		double [][] instances = new double [X.length][3];
+		double [][] instances = new double [X.length][classFeature + 1];
 		
+		//*Its actually a little more complicated than this...Need to find the dateline title, then figure this out
 		for(int i = 0; i < instances.length; i ++) {
 			instances[i][0] = X[i][0];
 			instances[i][1] = X[i][1];
-			instances[i][2] = Y[i];
+			instances[i][classFeature] = Y[i];
+			
+			//Its a title
+			if(isSpecial.get(i)[0]) {
+				instances[i][6] = dataset.attribute(6).indexOfValue("Yes");
+				instances[i][2] = 0;
+				instances[i][3] = 0;
+				instances[i][4] = 0;
+				instances[i][5] = 0;
+			}
+			else
+				instances[i][6] = dataset.attribute(6).indexOfValue("No");
+			
+			//Its a Dateline
+			if(isSpecial.get(i)[1]) {
+				instances[i][7] = dataset.attribute(7).indexOfValue("Yes");
+				instances[i][2] = 0;
+				instances[i][3] = 0;
+				instances[i][4] = 0;
+				instances[i][5] = 0;
+			}
+			else
+				instances[i][7] = dataset.attribute(7).indexOfValue("No");
+			
+
+			//If its neither
+			if(!isSpecial.get(i)[0] && !isSpecial.get(i)[1]) {
+				//Its the last line of the article
+				if(i == instances.length-1 || isSpecial.get(i+1)[0]) {
+					instances[i][2] = X[i-1][0];
+					instances[i][3] = X[i-1][1];
+					instances[i][4] = 0;
+					instances[i][5] = 0;
+				}
+				//Its the first line of the article
+				else if(i != 0 && isSpecial.get(i-1)[1]) {
+					instances[i][2] = 0;
+					instances[i][3] = 0;
+					instances[i][4] = X[i+1][0];
+					instances[i][5] = X[i+1][1];
+				}
+				//Its some line in the middle of the article
+				else {
+					instances[i][2] = X[i-1][0];
+					instances[i][3] = X[i-1][1];
+					instances[i][4] = X[i+1][0];
+					instances[i][5] = X[i+1][1];
+				}
+			}
 		}		
-		
 		
 		for(double [] instance : instances)
 			dataset.add(new Instance(1.0, instance));
 		
-		dataset.setClassIndex(2);
+		dataset.setClassIndex(classFeature);
+	
 		return dataset;
 	}
 	
@@ -215,7 +291,6 @@ public class SVMAnswerFinder implements AnswerFinder {
 	 */
 	public List<Guess> getAnswerLines(List<String> document, String question) {	    
 		Instances testData = extractTestData(document, question);
-		
 		List<Guess> guessList = new ArrayList<Guess>();
 		double currentMax = 0.0;
 		//Possibly count the blank lines, because the data that is returned includes those blanks
@@ -238,10 +313,11 @@ public class SVMAnswerFinder implements AnswerFinder {
 		
 		double prob = 1.0/guessList.size();
 		
-		for(Guess aGuess : guessList) 
+		for(Guess aGuess : guessList) { 
 			aGuess.setProb(prob);
-		
-
+			//System.out.println(aGuess);
+		}
+			
 		return guessList;
 	}
 	
@@ -256,7 +332,9 @@ public class SVMAnswerFinder implements AnswerFinder {
 		int maxVerbMatch = 0;
 		ArrayList<double []> tempX = new ArrayList<double []>();
 	    ArrayList<double []> unDiffed = new ArrayList<double []>();
+	    ArrayList<boolean []> isSpecial = new ArrayList<boolean[]>(); 
 	    double [] tempDataPoint;
+	    int sentenceCounter = 0;
 		
 	    Annotation sentenceAnno = new Annotation(sentences);
 	    Annotation questionAnno = new Annotation(question);
@@ -264,17 +342,24 @@ public class SVMAnswerFinder implements AnswerFinder {
     	pipeline.annotate(sentenceAnno);
 	    
 	    //WEKA Stuff
-	    Attribute [] attributeNames = new Attribute [3];
+    	Attribute [] attributeNames = new Attribute [classFeature + 1];
 		attributeNames[0] = new Attribute("DMWM");
 		attributeNames[1] = new Attribute("DMVM");
+		attributeNames[2] = new Attribute("DMWM-Prev");
+		attributeNames[3] = new Attribute("DMVM-Prev");
+		attributeNames[4] = new Attribute("DMWM-Next");
+		attributeNames[5] = new Attribute("DMVM-Next");
 		FastVector labels = new FastVector();
 		labels.addElement("Yes");
 		labels.addElement("No");
-		attributeNames[2] = new Attribute("Labels", labels);
+		attributeNames[6] = new Attribute("IsTitle", labels);
+		attributeNames[7] = new Attribute("IsDateline", labels);
+		attributeNames[classFeature] = new Attribute("Labels", labels);
 		FastVector attributes = new FastVector();
-		attributes.addElement(attributeNames[0]);
-		attributes.addElement(attributeNames[1]);
-		attributes.addElement(attributeNames[2]);
+		
+		for(Attribute attributeName : attributeNames) 
+			attributes.addElement(attributeName);
+
 		Instances dataset = new Instances("testDataset", attributes, 0);
 	    
 		for(CoreMap sentence: sentenceAnno.get(SentencesAnnotation.class)) {
@@ -298,11 +383,26 @@ public class SVMAnswerFinder implements AnswerFinder {
 				maxWordMatch = rawWordMatch;
 			if(rawVerbMatch > maxVerbMatch)
 				maxVerbMatch = rawVerbMatch;
-			tempDataPoint = new double [3];
+			tempDataPoint = new double [2];
 			tempDataPoint[0] = rawWordMatch;
 			tempDataPoint[1] = rawVerbMatch;
-			tempDataPoint[2] = dataset.attribute(2).indexOfValue("No");
 			unDiffed.add(tempDataPoint);
+			
+			boolean [] tempIsSpecial = new boolean [2];
+			if(sentenceCounter == 0) {
+				tempIsSpecial[0] = true;
+				tempIsSpecial[1] = false;
+			}
+			else if(sentenceCounter == 1) {
+				tempIsSpecial[0] = false;
+				tempIsSpecial[1] = true;
+			}
+			else {
+				tempIsSpecial[0] = false;
+				tempIsSpecial[1] = false;
+			}
+			isSpecial.add(tempIsSpecial);
+			sentenceCounter++;
 		}
 		int size = unDiffed.size();
 		for(int q = 0; q < size; q++) {
@@ -316,10 +416,62 @@ public class SVMAnswerFinder implements AnswerFinder {
 			unDiffed.remove(0);
 		}
 		
-		for(double [] instance : tempX)
+		double [][] X = new double[tempX.size()][2];
+		tempX.toArray(X);
+		double [] Y = new double[tempX.size()];
+		for(int q=0; q < Y.length; q++) 
+			Y[q] = dataset.attribute(classFeature).indexOfValue("No");
+
+		//WEKA Stuff
+		double [][] instances = new double [X.length][classFeature + 1];
+		
+		for(int i = 0; i < instances.length; i ++) {
+			instances[i][0] = X[i][0];
+			instances[i][1] = X[i][1];
+			instances[i][classFeature] = Y[i];
+			
+			if(isSpecial.get(i)[0])
+				instances[i][6] = dataset.attribute(6).indexOfValue("Yes");
+			else
+				instances[i][6] = dataset.attribute(6).indexOfValue("No");
+			
+			if(isSpecial.get(i)[1])
+				instances[i][7] = dataset.attribute(7).indexOfValue("Yes");
+			else
+				instances[i][7] = dataset.attribute(7).indexOfValue("No");
+			
+			if(i == 0 || i == 1) {
+				instances[i][2] = 0;
+				instances[i][3] = 0;
+				instances[i][4] = 0;
+				instances[i][5] = 0;
+			}
+			else if(i == instances.length-1) {
+				instances[i][2] = X[i-1][0];
+				instances[i][3] = X[i-1][1];
+				instances[i][4] = 0;
+				instances[i][5] = 0;
+			}
+			else if(i == 2) {
+				instances[i][2] = 0;
+				instances[i][3] = 0;
+				instances[i][4] = X[i+1][0];
+				instances[i][5] = X[i+1][1];
+			}
+			else {
+				instances[i][2] = X[i-1][0];
+				instances[i][3] = X[i-1][1];
+				instances[i][4] = X[i+1][0];
+				instances[i][5] = X[i+1][1];
+			}
+		}		
+		
+		
+		for(double [] instance : instances)
 			dataset.add(new Instance(1.0, instance));
 		
-		dataset.setClassIndex(2);
+		dataset.setClassIndex(classFeature);
+		
 		return dataset;
 	}
 }
