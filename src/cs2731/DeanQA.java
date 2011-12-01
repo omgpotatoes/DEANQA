@@ -168,7 +168,7 @@ public class DeanQA
 			//guesses.addAll(SVMFinder.getAnswerLines(document, question));
 			//guesses.addAll(bowFinder.getAnswerLines(document, question));
 			//guesses.addAll(lemmaFinder.getAnswerLines(document, question));
-			guesses.addAll(nerFinder.getAnswerLines(document, question));
+			//guesses.addAll(nerFinder.getAnswerLines(document, question));
 			//guesses.addAll(qtFinder.getAnswerLines(document, question));
 			//guesses.addAll(verbFinder.getAnswerLines(document, question));
 			//guesses.addAll(nameFinder.getAnswerLines(document, question));
