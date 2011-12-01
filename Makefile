@@ -21,7 +21,8 @@ DEBUGFLAGS = -g -ea
 RUNFLAGS = 
 
 # arguments
-ARGS = $(RES_DIR)/input-train.txt output.txt
+#ARGS = $(RES_DIR)/input-train.txt output.txt
+ARGS = $(RES_DIR)/input-test1.txt output.txt
 
 #.SUFFIXES: .java .class
 
@@ -50,6 +51,9 @@ debug: build
 # grader.pl input_filename answerkey_filename your_answer_filename
 grade:
 	perl $(RES_DIR)/grader.pl $(RES_DIR)/input-train.txt $(RES_DIR)/answerkey.txt output.txt
+
+grade2:
+	perl $(RES_DIR)/grader.pl $(RES_DIR)/input-test1.txt $(RES_DIR)/answerkey-test.txt output.txt
 
 report:
 	pdflatex report.tex
