@@ -22,6 +22,10 @@ public class Guess implements Comparable<Guess>
 	public double getProb() {
 		return prob;
 	}
+	
+	public void setProb(double inProb) {
+		this.prob = inProb;
+	}
 
 	@Override
 	public int compareTo(Guess o) {
