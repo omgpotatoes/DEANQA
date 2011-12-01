@@ -39,7 +39,7 @@ public class BagOfVerbsAnswerFinder implements AnswerFinder
 
 		// get the lemmas for verbs only
 		List<CoreMap> verbs = coreProcessor.annotateDocument(question);
-		verbSet.addAll(CoreProcessor.getVerbLemmas(verbs));
+		verbSet.addAll(coreProcessor.getVerbLemmas(verbs));
 		
 		// loop over every line of the document and see how many verbs match:
 		int lineNum = 0;
@@ -50,7 +50,7 @@ public class BagOfVerbsAnswerFinder implements AnswerFinder
 			// count the number of matching verb lemmas:
 			int score = 0;
 			verbs = coreProcessor.annotateDocument(line);
-			List<String> verbLemmas = CoreProcessor.getVerbLemmas(verbs);
+			List<String> verbLemmas = coreProcessor.getVerbLemmas(verbs);
 			for (String verb : verbLemmas) {
 				if (verbSet.contains(verb)) {
 					score++;

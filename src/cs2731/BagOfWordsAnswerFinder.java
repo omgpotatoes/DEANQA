@@ -18,6 +18,7 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 
 	private Options options;
 	private boolean ignoreCase;
+//	private CoreProcessor processor;
 	
 	public BagOfWordsAnswerFinder() {
 		this(Options.getDefaultOptions()); 
@@ -26,6 +27,7 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 	public BagOfWordsAnswerFinder(Options options) {
 		this.options = options;
 		ignoreCase = options.get(Options.IGNORE_CASE);
+//		processor = CoreProcessor.getInstance();
 	}
 	
 	/**
@@ -48,6 +50,8 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		String[] tokens = question.split(splitString);
 		wordSet.addAll(Arrays.asList(tokens));
 		
+//		wordSet.addAll(processor.getLemmas(question));
+		
 		// loop over every line of the document and see how many words match:
 		int lineNum = 0;
 		for (String line : document) {
@@ -59,6 +63,7 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 			}
 			
 			int score = 0;
+
 			tokens = line.split(splitString);
 			for (String token : tokens) {
 				if (wordSet.contains(token)) {
