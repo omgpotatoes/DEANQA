@@ -1,0 +1,1805 @@
+
+<FILE>1999-W02-5.txt
+
+<Q_NUMBER>1
+<A_LINE>8
+<Q_TXT>Where is South Queens Junior High School located?
+<A_TXT>South Queens Junior High School is taking aim at the fitness market. 
+
+<Q_NUMBER>2
+<A_LINE>8
+<Q_TXT>Who is the principal of South Queens Junior High School?
+<A_TXT>South Queens Junior High School is taking aim at the fitness market. 
+
+<Q_NUMBER>3
+<A_LINE>8
+<Q_TXT>What has South Queens Junior High School done with its old metal shop?
+<A_TXT>South Queens Junior High School is taking aim at the fitness market. 
+
+<Q_NUMBER>4
+<A_LINE>10
+<Q_TXT>When did the metal shop close?
+<A_TXT>The school has turned its one-time metal shop - lost to budget cuts almost two years ago - into a money-making professional fitness club. 
+
+<Q_NUMBER>5
+<A_LINE>15
+<Q_TXT>Who runs the club?
+<A_TXT>Principal Betty Jean Aucoin says the club is a first for a Nova Scotia public school. 
+
+<Q_NUMBER>6
+<A_LINE>15
+<Q_TXT>How big is the club?
+<A_TXT>Principal Betty Jean Aucoin says the club is a first for a Nova Scotia public school. 
+
+<Q_NUMBER>7
+<A_LINE>27
+<Q_TXT>If you were a student, how much would a club membership cost you?
+<A_TXT>"First call on any school facility belongs to... the youngsters in the school," says Ann Jones. 
+
+<Q_NUMBER>8
+<A_LINE>15
+<Q_TXT>Why is the school opening the club?
+<A_TXT>Principal Betty Jean Aucoin says the club is a first for a Nova Scotia public school. 
+
+</FILE>
+
+
+<FILE>1999-W04-5.txt
+
+<Q_NUMBER>1
+<A_LINE>36
+<Q_TXT>What reason did Alexi Yashin give for backing out of his promised donation?
+<A_TXT>They would have been paid out of Alexi Yashin's yearly $200,000 donation. 
+
+<Q_NUMBER>2
+<A_LINE>39
+<Q_TXT>How much does Alexi Yashin earn as a hockey player?
+<A_TXT>This was a way for Alexi Yashin to give money to his parents while illegally saving thousands of dollars in taxes. 
+
+<Q_NUMBER>3
+<A_LINE>39
+<Q_TXT>Who does Alexi Yashin play for?
+<A_TXT>This was a way for Alexi Yashin to give money to his parents while illegally saving thousands of dollars in taxes. 
+
+<Q_NUMBER>4
+<A_LINE>19
+<Q_TXT>How much money did Alexi Yashin actually donate to the National Arts Centre?
+<A_TXT>It was the most famous donation ever to the National Arts Centre. 
+
+<Q_NUMBER>5
+<A_LINE>36
+<Q_TXT>What do Alexi Yashin's teammates think about this donation gone bad?
+<A_TXT>They would have been paid out of Alexi Yashin's yearly $200,000 donation. 
+
+<Q_NUMBER>6
+<A_LINE>36
+<Q_TXT>How would Alexi Yashin himself benefit from his donation scheme?
+<A_TXT>They would have been paid out of Alexi Yashin's yearly $200,000 donation. 
+
+<Q_NUMBER>7
+<A_LINE>13
+<Q_TXT>Why do people go to the National Arts Centre?
+<A_TXT>Earlier this year he promised to give one million dollars to the National Arts Centre, a concert hall where people go to see plays and dance and to hear live music. 
+
+<Q_NUMBER>8
+<A_LINE>19
+<Q_TXT>How would Alexi's parents have benefited from his donation to the National Arts Centre?
+<A_TXT>It was the most famous donation ever to the National Arts Centre. 
+
+<Q_NUMBER>9
+<A_LINE>50
+<Q_TXT>Where did reporters question Alexi Yashin?
+<A_TXT>After the game reporters went to the locker room to ask Alexi Yashin what was going on. 
+
+</FILE>
+
+
+<FILE>1999-W05-5.txt
+
+<Q_NUMBER>1
+<A_LINE>40
+<Q_TXT>Who was the focus of the health study discussed in this article?
+<A_TXT>The results of this study are even more startling because a majority of the people studied are under 45. 
+
+<Q_NUMBER>2
+<A_LINE>13
+<Q_TXT>What, according to the study, do some aboriginals start doing at age five?
+<A_TXT>What's more, the study found that some Quebec natives start smoking at five years old. 
+
+<Q_NUMBER>3
+<A_LINE>40
+<Q_TXT>How old were the majority of those studied?
+<A_TXT>The results of this study are even more startling because a majority of the people studied are under 45. 
+
+<Q_NUMBER>4
+<A_LINE>31
+<Q_TXT>How many of the adults in the general population are smokers?
+<A_TXT>The rate in the general population is 3 in 10. 
+
+<Q_NUMBER>5
+<A_LINE>33
+<Q_TXT>Why are most native Canandians exposed to second hand smoke in their homes?
+<A_TXT>So there is almost always second hand smoke in the air. 
+
+<Q_NUMBER>6
+<A_LINE>46
+<Q_TXT>Compared to the rest of the world, how do the living conditions of aboriginals rank?
+<A_TXT>Garry Carbonnell, who helped with the study says, "we all know of the deplorable living conditions of the aboriginal people -- they rank 63rd in the world in terms of living conditions. 
+
+<Q_NUMBER>7
+<A_LINE>19
+<Q_TXT>Who is the vice-chief of the Assembly of First Nations for Quebec and Labrador?
+<A_TXT>The survey "confirms what we've been saying for years," says Ghislain Picard, vice-chief of the Assembly of First Nations for Quebec and Labrador. 
+
+</FILE>
+
+
+<FILE>1999-W07-5.txt
+
+<Q_NUMBER>1
+<A_LINE>61
+<Q_TXT>Where did the Kolla boys get lost?
+<A_TXT>The boys soon figured they would have to stick together to survive. 
+
+<Q_NUMBER>2
+<A_LINE>10
+<Q_TXT>Who is the youngest brother?
+<A_TXT>"We had faith that we could pull through it and we kept our cool and didn't panic," said A.J. Kolla, who celebrated his 14th birthday on Tuesday, two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>3
+<A_LINE>10
+<Q_TXT>How old is the older brother?
+<A_TXT>"We had faith that we could pull through it and we kept our cool and didn't panic," said A.J. Kolla, who celebrated his 14th birthday on Tuesday, two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho. 
+
+<Q_NUMBER>4
+<A_LINE>15
+<Q_TXT>When did the boys realize they were lost?
+<A_TXT>The two kept heading downhill, but when they reached a riverbank around 4 p.m., they realized they were lost and decided to head back uphill to try to regain their way. 
+
+<Q_NUMBER>5
+<A_LINE>56
+<Q_TXT>Where did they dig the snow cave in which they spent the night?
+<A_TXT>Although they'd never slept out in one before, Michael and A.J. had built snow shelters many times in their backyard. 
+
+<Q_NUMBER>6
+<A_LINE>39
+<Q_TXT>What did they use to dig the snow cave?
+<A_TXT>After a rest, they set out again and soon came to the cross-country ski trail where they were found by a party of snowmobilers. 
+
+<Q_NUMBER>7
+<A_LINE>32
+<Q_TXT>Why was the search for the boys called off?
+<A_TXT>Shortly after 6 a.m., there was enough light for the boys to start hiking back again. 
+
+<Q_NUMBER>8
+<A_LINE>55
+<Q_TXT>Who found the boys?
+<A_TXT>The family credits winter camping tips from a friend for saving the boys' lives. 
+
+<Q_NUMBER>9
+<A_LINE>49
+<Q_TXT>What were the brothers hoping might spot them from the air?
+<A_TXT>His wife Carol was on a plane flying to Sandpoint when a message came back from the pilot saying: "Boys found. 
+
+<Q_NUMBER>10
+<A_LINE>61
+<Q_TXT>Where did the boys learn how to survive a winter storm?
+<A_TXT>The boys soon figured they would have to stick together to survive. 
+
+<Q_NUMBER>11
+<A_LINE>44
+<Q_TXT>Where was their mom when she heard the news that the boys were okay?
+<A_TXT>Father Michael Kolla was at the resort after a sleepless night when he got the word the boys were safe and sound. 
+
+</FILE>
+
+
+<FILE>1999-W08-5.txt
+
+<Q_NUMBER>1
+<A_LINE>17
+<Q_TXT>What is the resolution of Canada's Radarsat-2 satellite?
+<A_TXT>The Radarsat-2 satellite is owned and operated by Macdonald Dettwiler of Richmond, British Columbia, near Vancouver. 
+
+<Q_NUMBER>2
+<A_LINE>15
+<Q_TXT>How can the satellite help farmers?
+<A_TXT>These satellites can help farmers forecast crop yields, keep track of ice conditions in the Arctic ocean and help mining companies look for mineral resources. 
+
+<Q_NUMBER>3
+<A_LINE>6
+<Q_TXT>Where is the Radarsat-2 satellite supposed to be in order to perform its function?
+<A_TXT>NASA is refusing to send the Radarsat-2 satellite into the sky. 
+
+<Q_NUMBER>4
+<A_LINE>21
+<Q_TXT>Why might the Canadian government have to get someone else beside NASA to launch the satellite for them?
+<A_TXT>The government may pay another space agency to launch the satellite. 
+
+<Q_NUMBER>5
+<A_LINE>17
+<Q_TXT>Who is concerned about Radarsat-2's powerful abilities?
+<A_TXT>The Radarsat-2 satellite is owned and operated by Macdonald Dettwiler of Richmond, British Columbia, near Vancouver. 
+
+<Q_NUMBER>6
+<A_LINE>11
+<Q_TXT>Who is the director of strategic development for the Canadian Space Agency?
+<A_TXT>"Anything below five metres causes concern to the U.S. intelligence community," said Hugues Gilbert, director of strategic development for the Canadian Space Agency. 
+
+</FILE>
+
+
+<FILE>1999-W10-1.txt
+
+<Q_NUMBER>1
+<A_LINE>12
+<Q_TXT>Who owns Youth News Network?
+<A_TXT>Youth News Network, a private news and current-affairs network, has installed a satellite dish and thousands of dollars worth of televisions and audio-visual equipment at Meadowvale Secondary School free of charge. 
+
+<Q_NUMBER>2
+<A_LINE>12
+<Q_TXT>What did it cost Meadowvale Secondary to have a satellite dish, televisions, and audio-visual equipment installed?
+<A_TXT>Youth News Network, a private news and current-affairs network, has installed a satellite dish and thousands of dollars worth of televisions and audio-visual equipment at Meadowvale Secondary School free of charge. 
+
+<Q_NUMBER>3
+<A_LINE>12
+<Q_TXT>How many students attend Meadowvale Secondary School?
+<A_TXT>Youth News Network, a private news and current-affairs network, has installed a satellite dish and thousands of dollars worth of televisions and audio-visual equipment at Meadowvale Secondary School free of charge. 
+
+<Q_NUMBER>4
+<A_LINE>28
+<Q_TXT>When is the deadline by which the school must decide whether to sign a five-year contract with YNN?
+<A_TXT>The school has a June deadline to decide whether it wants to sign a five-year contract with YNN. 
+
+<Q_NUMBER>5
+<A_LINE>39
+<Q_TXT>Who said "Trust the government. I don't think so!"
+<A_TXT>I don't think so! 
+
+<Q_NUMBER>6
+<A_LINE>22
+<Q_TXT>What does CBC Newsworld provide to schools?
+<A_TXT>While public broadcasters such as CBC Newsworld and TV Ontario provide programming free of charge to schools, none can come close to providing the wealth of televisions, VCRs, computers, and video cameras installed at Meadowvale under its pilot project with YNN's owner, Montreal-based Athena Educational Partners Inc. 
+
+<Q_NUMBER>7
+<A_LINE>30
+<Q_TXT>Who is the principal of Meadowvale secondary?
+<A_TXT>Stephanie Lake is a grade twelve student at Meadowvale secondary. 
+
+<Q_NUMBER>8
+<A_LINE>12
+<Q_TXT>Where is Meadowvale Secondary School located?
+<A_TXT>Youth News Network, a private news and current-affairs network, has installed a satellite dish and thousands of dollars worth of televisions and audio-visual equipment at Meadowvale Secondary School free of charge. 
+
+<Q_NUMBER>9
+<A_LINE>22
+<Q_TXT>Which aspect of the YNN programming has people upset?
+<A_TXT>While public broadcasters such as CBC Newsworld and TV Ontario provide programming free of charge to schools, none can come close to providing the wealth of televisions, VCRs, computers, and video cameras installed at Meadowvale under its pilot project with YNN's owner, Montreal-based Athena Educational Partners Inc. 
+
+<Q_NUMBER>10
+<A_LINE>22
+<Q_TXT>How long is YNN's newscast?
+<A_TXT>While public broadcasters such as CBC Newsworld and TV Ontario provide programming free of charge to schools, none can come close to providing the wealth of televisions, VCRs, computers, and video cameras installed at Meadowvale under its pilot project with YNN's owner, Montreal-based Athena Educational Partners Inc. 
+
+<Q_NUMBER>11
+<A_LINE>17
+<Q_TXT>What organization does Heather-Jane Robertson represent?
+<A_TXT>"I happen to believe that it is completely unacceptable to sell off little bits of our kids," said Heather-Jane Robertson, director of professional development with the Canadian Teachers Federation. 
+
+</FILE>
+
+
+<FILE>1999-W10-3.txt
+
+<Q_NUMBER>1
+<A_LINE>6
+<Q_TXT>Why will Wang Shui-Bo be attending the Oscars this year?
+<A_TXT>Canadian Wang Shui-Bo will also be in the audience hoping to win. 
+
+<Q_NUMBER>2
+<A_LINE>13
+<Q_TXT>What is the name of Wang's documentary?
+<A_TXT>It's a journey that begins with Wang as a loyal Communist, full of the political idealism common in China under the early years of leader Mao Tse Tung. 
+
+<Q_NUMBER>3
+<A_LINE>13
+<Q_TXT>At the beginning of his story, what is Wang?
+<A_TXT>It's a journey that begins with Wang as a loyal Communist, full of the political idealism common in China under the early years of leader Mao Tse Tung. 
+
+<Q_NUMBER>4
+<A_LINE>10
+<Q_TXT>Who fired on the student demonstrators in Tiananmen Square?
+<A_TXT>The film is a Wang's perspective on the events that led up to June 4, 1989, when Chinese government troops opened fire on student demonstrators in Beijing's Tiananmen Square. 
+
+<Q_NUMBER>5
+<A_LINE>31
+<Q_TXT>When did Wang leave China?
+<A_TXT>Wang may now live in the West, but he'll wear a traditional Chinese jacket for the Oscars and if he wins, Wang knows exactly what he'll say: "Thank you to my motherland, China. 
+
+<Q_NUMBER>6
+<A_LINE>31
+<Q_TXT>Where does Wang live now?
+<A_TXT>Wang may now live in the West, but he'll wear a traditional Chinese jacket for the Oscars and if he wins, Wang knows exactly what he'll say: "Thank you to my motherland, China. 
+
+<Q_NUMBER>7
+<A_LINE>27
+<Q_TXT>Who doesn't need another revolution, according to Wang?
+<A_TXT>The people here don't need another revolution. 
+
+</FILE>
+
+
+<FILE>1999-W10-5.txt
+
+<Q_NUMBER>1
+<A_LINE>17
+<Q_TXT>Who authored a study on the differences between the rich and poor in Canada?
+<A_TXT>When Yalnizyan looked at the Alberta data, she discovered that while Alberta's economy is growing, the difference between the rich and poor is expanding more rapidly than anywhere else in Canada. 
+
+<Q_NUMBER>2
+<A_LINE>24
+<Q_TXT>Who was the study performed for?
+<A_TXT>One example, she said, is Albertans' enthusiasm for tax cuts even though the province's health care and education systems are in bad shape, and need tax money to be improved. 
+
+<Q_NUMBER>3
+<A_LINE>17
+<Q_TXT>How is Alberta's economy doing?
+<A_TXT>When Yalnizyan looked at the Alberta data, she discovered that while Alberta's economy is growing, the difference between the rich and poor is expanding more rapidly than anywhere else in Canada. 
+
+<Q_NUMBER>4
+<A_LINE>24
+<Q_TXT>What government programs are not doing well in Alberta?
+<A_TXT>One example, she said, is Albertans' enthusiasm for tax cuts even though the province's health care and education systems are in bad shape, and need tax money to be improved. 
+
+<Q_NUMBER>5
+<A_LINE>7
+<Q_TXT>Where in Alberta, Canada is the difference between rich and poor most noticible?
+<A_TXT>Armine Yalnizyan, an economist who studied the differences between Canada's rich and poor, found that the difference between rich and poor was growing fastest in Alberta. 
+
+<Q_NUMBER>6
+<A_LINE>19
+<Q_TXT>Why does Calgary have many high-paying management jobs?
+<A_TXT>The difference is most noticeable in Calgary where the city's prosperity has meant more high-paying management jobs, but also more unstable and low-paying part-time work. 
+
+</FILE>
+
+
+<FILE>1999-W11-5.txt
+
+<Q_NUMBER>1
+<A_LINE>51
+<Q_TXT>What is Bill 101?
+<A_TXT>Bill 101 is credited by Quebec nationalists as helping preserve the French language in a sea of English in North America. 
+
+<Q_NUMBER>2
+<A_LINE>22
+<Q_TXT>What does Bill 101 require?
+<A_TXT>Bill 101 required signs in Quebec to be in French. 
+
+<Q_NUMBER>3
+<A_LINE>37
+<Q_TXT>Who described Dr. Laurin as "a pioneer, a builder, a man of conviction, determined"?
+<A_TXT>Laurin was a pioneer, a builder, a man of conviction, determined," says Francois Gendron, chairman of the Parti Quebecois caucus in the legislature. 
+
+<Q_NUMBER>4
+<A_LINE>31
+<Q_TXT>When did Bill 101 come into effect?
+<A_TXT>Bill 101 came into effect in 1977. 
+
+<Q_NUMBER>5
+<A_LINE>49
+<Q_TXT>How does the president of the Alliance Quebec English-rights lobby describe Laurin's masterwork, Bill 101?
+<A_TXT>But the president of the Alliance Quebec English-rights lobby condemned Laurin's masterwork as an attempt to "wipe out bilingualism" in Canada. 
+
+<Q_NUMBER>6
+<A_LINE>28
+<Q_TXT>Why do many English-speaking Quebecers not like Bill 101?
+<A_TXT>Many English-speaking Quebecers did not like Bill 101 because they felt it took away their freedom to put up English signs. 
+
+<Q_NUMBER>7
+<A_LINE>51
+<Q_TXT>How do Quebec nationalists credit Bill 101?
+<A_TXT>Bill 101 is credited by Quebec nationalists as helping preserve the French language in a sea of English in North America. 
+
+<Q_NUMBER>8
+<A_LINE>53
+<Q_TXT>Why did Dr. Laurin make no apologies for the toughness of Bill 101?
+<A_TXT>Dr. Laurin made no apologies for the law's toughness, saying the law simply reflected Quebec's demographic reality. 
+
+</FILE>
+
+
+<FILE>1999-W13-3.txt
+
+<Q_NUMBER>1
+<A_LINE>15
+<Q_TXT>What do the nations of the North Atlantic Treaty Organization want to stop the Yugoslavians from doing?
+<A_TXT>This is happening because the coalition of countries that are members of the North Atlantic Treaty Organizatoin (NATO) want to stop the Yugoslavians from invading the neighbouring region of Kosovo. 
+
+<Q_NUMBER>2
+<A_LINE>18
+<Q_TXT>What are the ethnic Albanians in Kosovo pushing for?
+<A_TXT>Ninety per cent of Kosovo's population are ethnic Albanians, who have been pushing for independence from Serbia. 
+
+<Q_NUMBER>3
+<A_LINE>17
+<Q_TXT>How old are the roots of the conflict between Kosovo and Serbia?
+<A_TXT>Kosovo is a province of Serbia, which is one of the republics that make up Yugoslavia. 
+
+<Q_NUMBER>4
+<A_LINE>26
+<Q_TXT>When did the Serbs lose a key battle against the forces of the invading Ottoman Empire in Kosovo?
+<A_TXT>In 1389, Serbs lost a key battle against the forces of the invading Ottoman Empire on the fields of Kosovo. 
+
+<Q_NUMBER>5
+<A_LINE>5
+<Q_TXT>Where is the capital of Kosovo?
+<A_TXT>Air-raid warning sirens sounded in the Kosovo capital of Pristina this morning. 
+
+<Q_NUMBER>6
+<A_LINE>44
+<Q_TXT>Who is Slobodan Milosevic?
+<A_TXT>Few people believe that Yugoslav President Slobodan Milosevic is ready to give in. 
+
+<Q_NUMBER>7
+<A_LINE>46
+<Q_TXT>How has Milosevic described the problems in Kosovo?
+<A_TXT>The Yugoslav leader insists the problems in Kosovo are an internal Yugoslav matter. 
+
+<Q_NUMBER>8
+<A_LINE>35
+<Q_TXT>Why is NATO going to bomb Yugoslavia?
+<A_TXT>NATO says that bombing Yugoslavia is the only way to get them to stop their assault on Kosovo. 
+
+<Q_NUMBER>9
+<A_LINE>44
+<Q_TXT>What does Milosevic refuse to do?
+<A_TXT>Few people believe that Yugoslav President Slobodan Milosevic is ready to give in. 
+
+<Q_NUMBER>10
+<A_LINE>41
+<Q_TXT>What do Yugoslav officials feel they can do in a war against NATO?
+<A_TXT>Yugoslav officials say they might not be able to win a war against NATO, but they feel they can inflict serious damage. 
+
+<Q_NUMBER>11
+<A_LINE>50
+<Q_TXT>How many Canadian Forces personnel are based in Aviano, Italy?
+<A_TXT>There are about 130 Canadian Forces personnel and six CF-18 fighter aircraft based in Aviano, Italy who will likely participate. 
+
+</FILE>
+
+
+<FILE>1999-W14-5.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Where is CNN opening up a new news bureau?
+<A_TXT>The big cable news network CNN has opened up a new bureau. 
+
+<Q_NUMBER>2
+<A_LINE>10
+<Q_TXT>How will the new bureau's news be shared with the world?
+<A_TXT>This new bureau will join other student sites around the world. 
+
+<Q_NUMBER>3
+<A_LINE>10
+<Q_TXT>Who will write stories for the new bureau?
+<A_TXT>This new bureau will join other student sites around the world. 
+
+<Q_NUMBER>4
+<A_LINE>12
+<Q_TXT>What did Ms. Finlay ask Mr. Corley?
+<A_TXT>Mary Lou Finlay of CBC Radio's weeknight program As It Happens asked Mr. Corley how he first heard about the idea. 
+
+<Q_NUMBER>5
+<A_LINE>12
+<Q_TXT>When does Ms. Finlay's radio program air?
+<A_TXT>Mary Lou Finlay of CBC Radio's weeknight program As It Happens asked Mr. Corley how he first heard about the idea. 
+
+</FILE>
+
+
+<FILE>1999-W16-5.txt
+
+<Q_NUMBER>1
+<A_LINE>24
+<Q_TXT>Where is the Fraser River?
+<A_TXT>Total water flows in the Fraser River this spring are predicted to reach 94 per cent of 1948 flood levels. 
+
+<Q_NUMBER>2
+<A_LINE>9
+<Q_TXT>What are the fertile soils of the Fraser River good for?
+<A_TXT>Early settlers recognized the potential of the fertile soils along the Fraser for growing food. 
+
+<Q_NUMBER>3
+<A_LINE>24
+<Q_TXT>How large is the Fraser River watershed?
+<A_TXT>Total water flows in the Fraser River this spring are predicted to reach 94 per cent of 1948 flood levels. 
+
+<Q_NUMBER>4
+<A_LINE>29
+<Q_TXT>What has been built along the river to hold back high water levels?
+<A_TXT>A federal-provincial Fraser River flood-control program has rebuilt about 250 kilometres of dikes to withhold water levels as high as those in the 1894 flood. 
+
+<Q_NUMBER>5
+<A_LINE>45
+<Q_TXT>When will the river probably reach its highest level this year?
+<A_TXT>Even if 1894 river levels aren't reached this spring, it's just a matter of time before they are, Peters says. 
+
+<Q_NUMBER>6
+<A_LINE>40
+<Q_TXT>Why would a month of really hot weather cause major flooding?
+<A_TXT>"The worst-case scenario is a month of scorching weather," Peters said. 
+
+<Q_NUMBER>7
+<A_LINE>24
+<Q_TXT>How deep were the flood waters in 1948?
+<A_TXT>Total water flows in the Fraser River this spring are predicted to reach 94 per cent of 1948 flood levels. 
+
+<Q_NUMBER>8
+<A_LINE>24
+<Q_TXT>How many people died in the 1948 flood?
+<A_TXT>Total water flows in the Fraser River this spring are predicted to reach 94 per cent of 1948 flood levels. 
+
+<Q_NUMBER>9
+<A_LINE>34
+<Q_TXT>Who is the Environment Ministry spokesman quoted in this story?
+<A_TXT>"This can be quite dangerous if not controlled," says Environment Ministry spokesman Neil Peters. 
+
+</FILE>
+
+
+<FILE>1999-W17-5.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>How many parents from Calgary protested against a teachers' strike?
+<A_TXT>About 150 angry Calgary, Alberta parents braved cold, wet weather yesterday to protest in hopes of avoiding a teachers' strike. 
+
+<Q_NUMBER>2
+<A_LINE>5
+<Q_TXT>Where did the parents protest?
+<A_TXT>About 150 angry Calgary, Alberta parents braved cold, wet weather yesterday to protest in hopes of avoiding a teachers' strike. 
+
+<Q_NUMBER>3
+<A_LINE>14
+<Q_TXT>What is the biggest stumbling block in the dispute between the teachers and the school board?
+<A_TXT>Class size is the biggest stumbling block in the dispute between the board and the teachers' union. 
+
+<Q_NUMBER>4
+<A_LINE>27
+<Q_TXT>Who is Teresa Woo-Paw?
+<A_TXT>School board chair Teresa Woo-Paw has said the board can't afford to meet the teachers' demands. 
+
+<Q_NUMBER>5
+<A_LINE>17
+<Q_TXT>Why do the teachers want the ratio to return to 18.4 students for one teacher?
+<A_TXT>The 6,600 teachers want the return of a ratio of one teacher for every 18.4 students. 
+
+<Q_NUMBER>6
+<A_LINE>8
+<Q_TXT>When are teachers poised to strike?
+<A_TXT>Well over 6,000 Calgary public school teachers are poised to strike Monday, which would cancel classes for 100,000 students. 
+
+<Q_NUMBER>7
+<A_LINE>5
+<Q_TXT>What will a teachers' strike force parents to do?
+<A_TXT>About 150 angry Calgary, Alberta parents braved cold, wet weather yesterday to protest in hopes of avoiding a teachers' strike. 
+
+<Q_NUMBER>8
+<A_LINE>29
+<Q_TXT>What effect will the present school board plans have on teachers?
+<A_TXT>The present school board plans would mean that 200 teachers would lose their jobs. 
+
+<Q_NUMBER>9
+<A_LINE>25
+<Q_TXT>What happens to Grade 12 diploma exams if teachers strike?
+<A_TXT>While a strike will leave more than 95,000 students in academic limbo and parents scrambling to make alternate arrangements, Grade 12 diploma exams will go on. 
+
+<Q_NUMBER>10
+<A_LINE>23
+<Q_TXT>Who is urging the teachers and school board to keep talking?
+<A_TXT>The province's education minister has urged both sides to keep talking. 
+
+</FILE>
+
+
+<FILE>1999-W19-5.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>What is giving firefighters a hand in battling several large forest fires across Northern Ontario?
+<A_TXT>Light rain and cooler temperatures are giving crews a hand in battling several large forest fires across Northern Ontario. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>When might some people be allowed to return to their homes?
+<A_TXT>However, it may be well into next week before some people will be allowed to return home. 
+
+<Q_NUMBER>3
+<A_LINE>11
+<Q_TXT>Where has a state of emergency been declared?
+<A_TXT>A state of emergency has also been declared in Chapleau, where residents are on standby in preparation for an evacuation order. 
+
+<Q_NUMBER>4
+<A_LINE>18
+<Q_TXT>Why could Manitoba send fire fighters and equipment to the latest hotspot in northwestern Ontario?
+<A_TXT>It means the province could send fire fighters and equipment to the latest hot spot in northwestern Ontario. 
+
+<Q_NUMBER>5
+<A_LINE>24
+<Q_TXT>Who is Natural Resources Minister?
+<A_TXT>"St. Theresa Point is the only area that did not receive precipitation," said Natural Resources Minister Glen Cummings. 
+
+<Q_NUMBER>6
+<A_LINE>36
+<Q_TXT>How did Bob Thomas describe forest conditions right now?
+<A_TXT>"Our forest conditions right now are volatile," said Bob Thomas, information officer for the provincial response centre. 
+
+<Q_NUMBER>7
+<A_LINE>39
+<Q_TXT>How many forest fires have there been in Ontario since April 1?
+<A_TXT>Since April 1, almost all of the province's 200 fires were triggered by human causes. 
+
+<Q_NUMBER>8
+<A_LINE>39
+<Q_TXT>What has triggered most of the fires in Ontario that have occurred since April 1?
+<A_TXT>Since April 1, almost all of the province's 200 fires were triggered by human causes. 
+
+</FILE>
+
+
+<FILE>1999-W20-5.txt
+
+<Q_NUMBER>1
+<A_LINE>27
+<Q_TXT>How many Canadians have diabetes and don't realize it?
+<A_TXT>One and a half million Canadians have diabetes; more than 750,000 have it and don't know it. 
+
+<Q_NUMBER>2
+<A_LINE>18
+<Q_TXT>What kinds of health problems do diabetics potentially face?
+<A_TXT>Diabetics are at risk of blindness, circulatory problems, heart disease and kidney failure, but with proper diet, exercise and insulin, it can be controlled. 
+
+<Q_NUMBER>3
+<A_LINE>18
+<Q_TXT>How is diabetes currently controlled?
+<A_TXT>Diabetics are at risk of blindness, circulatory problems, heart disease and kidney failure, but with proper diet, exercise and insulin, it can be controlled. 
+
+<Q_NUMBER>4
+<A_LINE>23
+<Q_TXT>What does insulin do for our bodies?
+<A_TXT>Type 2 -- when insulin in the body doesn't work properly. 
+
+<Q_NUMBER>5
+<A_LINE>25
+<Q_TXT>What do Type 1 diabetics' immune systems do to insulin-producing cells?
+<A_TXT>Dr. Ji-Won Yoon's discovery affects Type 1 diabetics, which inflicts about 100,000 Canadians. 
+
+<Q_NUMBER>6
+<A_LINE>23
+<Q_TXT>What is Type 2 diabetes?
+<A_TXT>Type 2 -- when insulin in the body doesn't work properly. 
+
+<Q_NUMBER>7
+<A_LINE>30
+<Q_TXT>Where does Dr. Yoon's team work?
+<A_TXT>Dr. Yoon's research on mice focuses on how a diabetic's immune system attacks cells that produce insulin, which is needed to help the body properly use sugars. 
+
+<Q_NUMBER>8
+<A_LINE>25
+<Q_TXT>Why will diabetics have to be patient, despite Dr. Ji-Won Yoon's discovery?
+<A_TXT>Dr. Ji-Won Yoon's discovery affects Type 1 diabetics, which inflicts about 100,000 Canadians. 
+
+<Q_NUMBER>9
+<A_LINE>13
+<Q_TXT>Who is Holly McWilliams?
+<A_TXT>However, that didn't temper the enthusiasm of diabetic Holly McWilliams. 
+
+<Q_NUMBER>10
+<A_LINE>13
+<Q_TXT>When did Holly McWilliams have to start getting insulin injections?
+<A_TXT>However, that didn't temper the enthusiasm of diabetic Holly McWilliams. 
+
+</FILE>
+
+
+<FILE>1999-W21-5.txt
+
+<Q_NUMBER>1
+<A_LINE>8
+<Q_TXT>Where is Gisborne Lake?
+<A_TXT>Gerry White has a plan to build a pipeline from Gisborne Lake to the neighbouring community of Grand Lepierre, where it will be pumped into waiting tankers and shipped overseas. 
+
+<Q_NUMBER>2
+<A_LINE>8
+<Q_TXT>Why does Gerry White want to build a pipeline from Gisborne Lake to Grand Lepierre?
+<A_TXT>Gerry White has a plan to build a pipeline from Gisborne Lake to the neighbouring community of Grand Lepierre, where it will be pumped into waiting tankers and shipped overseas. 
+
+<Q_NUMBER>3
+<A_LINE>10
+<Q_TXT>What do Ottawa and the provinces want to negotiate?
+<A_TXT>For months Ottawa and the provinces have been trying to negotiate an agreement banning bulk water exports. 
+
+<Q_NUMBER>4
+<A_LINE>13
+<Q_TXT>Who is Maude Barlow?
+<A_TXT>"The federal government knows perfectly well that they're in trouble with this," says Maude Barlow of the Council of Canadians. 
+
+<Q_NUMBER>5
+<A_LINE>16
+<Q_TXT>If the water export plan goes ahead, what is triggered?
+<A_TXT>"If they go ahead, then NAFTA (North American Free Trade Agreement) is triggered. 
+
+<Q_NUMBER>6
+<A_LINE>13
+<Q_TXT>What does Maude Barlow think American firms will do?
+<A_TXT>"The federal government knows perfectly well that they're in trouble with this," says Maude Barlow of the Council of Canadians. 
+
+<Q_NUMBER>7
+<A_LINE>19
+<Q_TXT>When does Ottowa have to act if it wants to stop the pipeline plan?
+<A_TXT>But if Ottawa wants to stop Gerry White from shipping Newfoundland water all over the world, they'll have to act soon. 
+
+<Q_NUMBER>8
+<A_LINE>8
+<Q_TXT>How has the pipeline project been proved safe, according to Gerry White?
+<A_TXT>Gerry White has a plan to build a pipeline from Gisborne Lake to the neighbouring community of Grand Lepierre, where it will be pumped into waiting tankers and shipped overseas. 
+
+</FILE>
+
+
+<FILE>1999-W22-4.txt
+
+<Q_NUMBER>1
+<A_LINE>27
+<Q_TXT>When she was in school, what would Julie do instead of going to recess?
+<A_TXT>Julie's space dream finally began to come true last year when she was selected for mission STS-96, which was supposed to launch on May 20th, 1999. 
+
+<Q_NUMBER>2
+<A_LINE>24
+<Q_TXT>How many languages does Julie speak?
+<A_TXT>Along with being an astronaut, Julie is a computer engineer, can speak 5 languages (French, English, German, Spanish and Russian), has competed in triathalon races (swimming, running, and biking), is a deep-sea diver, and has a jet pilot's licence. 
+
+<Q_NUMBER>3
+<A_LINE>39
+<Q_TXT>When was Julie selected to be an astronaut by the Canadian Space Agency?
+<A_TXT>She has been training for the mission since 1992, when she was first selected to be an astronaut by the Canadian Space Agency. 
+
+<Q_NUMBER>4
+<A_LINE>2
+<Q_TXT>On May 27, 1999, from where did the space shuttle Discovery blast off?
+<A_TXT>May 27, 1999
+
+<Q_NUMBER>5
+<A_LINE>45
+<Q_TXT>Why was the launch of Mission STS-96 delayed for a week?
+<A_TXT>Aline Chretien, the Prime Minister's wife, was invited by Julie Payette to watch the launch in Florida. 
+
+<Q_NUMBER>6
+<A_LINE>30
+<Q_TXT>Where will the space shuttle Discovery be taking Julie?
+<A_TXT>Although she will not be the first Canadian woman in space, she will be the first Canadian astronaut to enter and work on the International Space Station platform, launched last year by the United States and Russia. 
+
+<Q_NUMBER>7
+<A_LINE>32
+<Q_TXT>What will Julie use to document the mission progress?
+<A_TXT>Her tasks will include unloading and arranging the 2,200 kilograms of equipment being carried to the station for future astronauts; working the remote-control Canadarm while supervising crew members constructing parts of the station, and documenting the mission's progress with video cameras. 
+
+<Q_NUMBER>8
+<A_LINE>34
+<Q_TXT>Who will be Julie work with to change solar batteries?
+<A_TXT>Julie will also have to help change the 18 solar batteries on the station module Zarya. 
+
+<Q_NUMBER>9
+<A_LINE>37
+<Q_TXT>Why did Julie learn Russian?
+<A_TXT>To make sure the job is done correctly, Payette learned Russian so she could communicate with Tokarev. 
+
+<Q_NUMBER>10
+<A_LINE>45
+<Q_TXT>Who is Aline Chretien married to?
+<A_TXT>Aline Chretien, the Prime Minister's wife, was invited by Julie Payette to watch the launch in Florida. 
+
+<Q_NUMBER>11
+<A_LINE>30
+<Q_TXT>When was the International Space Station launched?
+<A_TXT>Although she will not be the first Canadian woman in space, she will be the first Canadian astronaut to enter and work on the International Space Station platform, launched last year by the United States and Russia. 
+
+</FILE>
+
+
+<FILE>1999-W23-5.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>How did Ontario Premier Mike Harris describe his re-election campaign?
+<A_TXT>Ontario Premier Mike Harris says his re-election victory last night is an order for him to carry out another ambitious plan for the province. 
+
+<Q_NUMBER>2
+<A_LINE>30
+<Q_TXT>What are ridings?
+<A_TXT>Election day began with a controversy, as polls did not open on time in several ridings. 
+
+<Q_NUMBER>3
+<A_LINE>15
+<Q_TXT>Why does a majority government make it much easier for the ruling party to make decisions?
+<A_TXT>A majority government makes it much easier for the ruling party to make decisions, because they get more than half of the votes on any issue. 
+
+<Q_NUMBER>4
+<A_LINE>15
+<Q_TXT>Who is the leader of the Liberals?
+<A_TXT>A majority government makes it much easier for the ruling party to make decisions, because they get more than half of the votes on any issue. 
+
+<Q_NUMBER>5
+<A_LINE>20
+<Q_TXT>When was the last time any party won two majority governments in a row in Ontario?
+<A_TXT>It's the first time in 32 years that any party has won two majority governments in a row in Ontario. 
+
+<Q_NUMBER>6
+<A_LINE>5
+<Q_TXT>Where did Premier Mike Harris address cheering supporters?
+<A_TXT>Ontario Premier Mike Harris says his re-election victory last night is an order for him to carry out another ambitious plan for the province. 
+
+<Q_NUMBER>7
+<A_LINE>27
+<Q_TXT>Why was Premier Harris attacked during the campaign?
+<A_TXT>Premier Harris was attacked during the campaign as leading a mean-spirited government, and for being a man who refused to compromise. 
+
+<Q_NUMBER>8
+<A_LINE>28
+<Q_TXT>Who hounded Mike Harris at every appearance?
+<A_TXT>During the campaign, he was hounded by protesters at every appearance. 
+
+<Q_NUMBER>9
+<A_LINE>30
+<Q_TXT>Why did election day begin with controversy?
+<A_TXT>Election day began with a controversy, as polls did not open on time in several ridings. 
+
+<Q_NUMBER>10
+<A_LINE>31
+<Q_TXT>What are returning officers?
+<A_TXT>Several returning officers (the people in charge of a polling station) called in sick. 
+
+</FILE>
+
+
+<FILE>1999-W24-3.txt
+
+<Q_NUMBER>1
+<A_LINE>29
+<Q_TXT>Why will this year's sealift to northern Canada start early?
+<A_TXT>Colin Crosbie, vice-president of Nunavut Ocean Transport, and veteran of the northern sealift, described this year's ice conditions as unprecedented. 
+
+<Q_NUMBER>2
+<A_LINE>6
+<Q_TXT>Why can't all supplies just be flown to northern Canada?
+<A_TXT>For days the air in towns like Iqaluit will be filled with the sounds of banging hammers and ripping cardboard as the goods they ordered from southern Canada finally arrive by ship. 
+
+<Q_NUMBER>3
+<A_LINE>15
+<Q_TXT>How much can a can of pop cost in northern Canada?
+<A_TXT>Northerners are used to paying more than two dollars for a can of pop, more than a dollar for an apple and three dollars for a litre of milk. 
+
+<Q_NUMBER>4
+<A_LINE>15
+<Q_TXT>What does a litre of milk cost in northern Canada?
+<A_TXT>Northerners are used to paying more than two dollars for a can of pop, more than a dollar for an apple and three dollars for a litre of milk. 
+
+<Q_NUMBER>5
+<A_LINE>31
+<Q_TXT>When did Colin Crosbie become involved in shipping in the Arctic?
+<A_TXT>"I have been involved in shipping in the Arctic since 1969 and certainly nobody I've talked to who had been up there for decades before had ever seen anything like this," he says. 
+
+<Q_NUMBER>6
+<A_LINE>36
+<Q_TXT>Where is Iqaluit?
+<A_TXT>This year, Iqaluit is very scarce on materials, so the fact that it's going to open up early is a positive thing," says Suzanne Paquin, vice-president of Nunavut Eastern Arctic Shipping said. 
+
+<Q_NUMBER>7
+<A_LINE>26
+<Q_TXT>Who is forecasting smooth sailing in much of James Bay, Hudson Bay and Hudson Strait by the first week of July?
+<A_TXT>Environment Canada's outlook for ice break-up and clearing patterns predicts smooth sailing in much of James Bay, Hudson Bay and Hudson Strait by the first week of July -- a month earlier than normal. 
+
+</FILE>
+
+
+<FILE>1999-W25-1.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>When did 14,000 NATO troops enter the southern Yugoslavian province of Kosovo?
+<A_TXT>The North Atlantic Treaty Organization (NATO) says 14,000 of its soldiers have entered the southern Yugoslavian province of Kosovo in the last 48 hours. 
+
+<Q_NUMBER>2
+<A_LINE>32
+<Q_TXT>Who is Slobodan Milosevic?
+<A_TXT>"This is the politics of communism, of President Slobodan Milosevic." 
+
+<Q_NUMBER>3
+<A_LINE>8
+<Q_TXT>Why are the NATO troops in Kosovo?
+<A_TXT>The NATO troops are there to make sure that Yugoslavian soldiers leave the area. 
+
+<Q_NUMBER>4
+<A_LINE>11
+<Q_TXT>As the NATO troops enter Kosovo, what do many of the residents of Kosovo feel they must do?
+<A_TXT>But as NATO troops pour into the province, many of its residents feel they must leave. 
+
+<Q_NUMBER>5
+<A_LINE>40
+<Q_TXT>Why are ethnic Serbians leaving Kosovo?
+<A_TXT>He says Yugoslav troops are sticking to their timetable for leaving the area and should be out of the southern sector of Kosovo by tomorrow's deadline. 
+
+<Q_NUMBER>6
+<A_LINE>27
+<Q_TXT>What do ethnic Albanians say they suffered at the hands of Serbian military and police?
+<A_TXT>There was no harassment from ethnic Albanian residents of Prizren, who like others across Kosovo, say they suffered looting, humiliation and expulsion at the hands of the Serb military and police. 
+
+<Q_NUMBER>7
+<A_LINE>16
+<Q_TXT>Where are the ethnic Serbian refugees heading?
+<A_TXT>They fear that when the ethnic Albanians return to the area now that the war is over, they may try to take revenge on the ethnic Serbs. 
+
+<Q_NUMBER>8
+<A_LINE>31
+<Q_TXT>How did the theology professor describe the politics of the Kosovo situation?
+<A_TXT>Many of us wept when they were forced to leave," said the theology professor. 
+
+<Q_NUMBER>9
+<A_LINE>39
+<Q_TXT>According to NATO spokesman Jamie Shea, how is troop deployment going?
+<A_TXT>NATO spokesman Jamie Shea says troop deployment is going "very smoothly" and is slightly ahead of schedule. 
+
+<Q_NUMBER>10
+<A_LINE>41
+<Q_TXT>When do all Serb forces have to be withdrawn from Kosovo?
+<A_TXT>Under the peace agreement, all Serb forces must have withdrawn by Sunday, June 20. 
+
+</FILE>
+
+
+<FILE>1999-W26-5.txt
+
+<Q_NUMBER>1
+<A_LINE>20
+<Q_TXT>What is a "resident"?
+<A_TXT>"I think that it has made me a much better surgical resident." 
+
+<Q_NUMBER>2
+<A_LINE>9
+<Q_TXT>Where is Mt. Sinai hospital?
+<A_TXT>Sinai hospital is a sort of training camp for residents (new doctors). 
+
+<Q_NUMBER>3
+<A_LINE>5
+<Q_TXT>How does a doctor usually learn how to perform operations?
+<A_TXT>Usually, a when doctors are being trained to perform operations, they learn by practising on real, live human patients -- something patients are not always happy about. 
+
+<Q_NUMBER>4
+<A_LINE>6
+<Q_TXT>What do doctors at Mt. Sinai hospital learn on?
+<A_TXT>Now, doctors learning surgery at a Toronto hospital are being trying a new method of learning. 
+
+<Q_NUMBER>5
+<A_LINE>26
+<Q_TXT>In the future, what might doctors use to perfect their techniques?
+<A_TXT>For now, residents might have to settle for the latex simulations. 
+
+<Q_NUMBER>6
+<A_LINE>14
+<Q_TXT>Why are latex intestines a good teaching tool?
+<A_TXT>For students like Dr. Deepa Kumar, they're an even better teaching tool. 
+
+</FILE>
+
+
+<FILE>1999-W27-5.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>What is Quebec Premier Lucien Bouchard's special legislation intended to do?
+<A_TXT>The president of the Quebec Federation of Nurses says she will not obey back-to-work legislation that Premier Lucien Bouchard is expected to introduce later today. 
+
+<Q_NUMBER>2
+<A_LINE>10
+<Q_TXT>Under Bouchard's legislation, what could be imposed on the leaders of the nurses' union if they do not call off the strike immediately?
+<A_TXT>The legislation could impose jail sentences on the leaders of the nurses' union if they do not call off the strike immediately. 
+
+<Q_NUMBER>3
+<A_LINE>24
+<Q_TXT>Where are nurses demonstrating?
+<A_TXT>Premier Bouchard is reluctant to give the nurses' more money because they are only the first of many labour organizations negotiating new contracts. 
+
+<Q_NUMBER>4
+<A_LINE>12
+<Q_TXT>Who is Michele Boisclair?
+<A_TXT>Quebec Federation of Nurses Vice-President Michele Boisclair has said that the Executive of the Federation is prepared to go to jail if that's what it takes. 
+
+<Q_NUMBER>5
+<A_LINE>24
+<Q_TXT>Why is Premier Bouchard reluctant to give the nurses more money?
+<A_TXT>Premier Bouchard is reluctant to give the nurses' more money because they are only the first of many labour organizations negotiating new contracts. 
+
+<Q_NUMBER>6
+<A_LINE>18
+<Q_TXT>What are many drivers doing to show their support for the nurses on strike?
+<A_TXT>Many drivers are honking their horns to show their support. 
+
+<Q_NUMBER>7
+<A_LINE>22
+<Q_TXT>In comparison to other nurses in Canada, how are the Quebec nurses paid?
+<A_TXT>They are the lowest-paid nurses in Canada. 
+
+<Q_NUMBER>8
+<A_LINE>27
+<Q_TXT>Who else has threatened to strike?
+<A_TXT>Quebec ambulance technicians have also threatened to strike, and earlier this week, more than 90 per cent of hospital pharmacists submitted their resignations. 
+
+<Q_NUMBER>9
+<A_LINE>28
+<Q_TXT>When will the hospital pharmacists leave their jobs if the situation does not improve?
+<A_TXT>The pharmacists will leave their jobs in 60 days if the situation does not improve. 
+
+<Q_NUMBER>10
+<A_LINE>31
+<Q_TXT>How will some Quebec doctors respond unless the Premier comes up with more money for health care?
+<A_TXT>Some doctors have said they will resign unless the Premier comes up with more money for health care. 
+
+</FILE>
+
+
+<FILE>1999-W29-2.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>How many years in a row has the United Nations ranked Canada the best country in the world to live in?
+<A_TXT>For the sixth year in a row, the United Nations has ranked Canada as the best country in the world to live in. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>Which statistics are looked at to calculate the Human Development Index?
+<A_TXT>The United Nations decides the number one country each year by a method called the Human Development Index. 
+
+<Q_NUMBER>3
+<A_LINE>10
+<Q_TXT>What is personal income?
+<A_TXT>These statistics include life expectancy (how long a person lives), quality of education, and personal income (how much money a person earns). 
+
+<Q_NUMBER>4
+<A_LINE>15
+<Q_TXT>Where is life expectancy 76 years of age?
+<A_TXT>Japan's life expectancy is 80 years old, and the United States' is at 76. 
+
+<Q_NUMBER>5
+<A_LINE>24
+<Q_TXT>Who ranked first in healthcare?
+<A_TXT>Canada ranked ninth in the world when it came to dealing with poverty. 
+
+<Q_NUMBER>6
+<A_LINE>20
+<Q_TXT>In what year did Canadians earn an average of $16,525 US?
+<A_TXT>Canadians earned $16,525 US a year in 1997. 
+
+<Q_NUMBER>7
+<A_LINE>26
+<Q_TXT>Why is life improving for people in developed countries like Canada, according to the UN report?
+<A_TXT>The UN says technology may be improving life for people in developed countries like Canada, but it is also widening the gap between rich and poor people. 
+
+<Q_NUMBER>8
+<A_LINE>7
+<Q_TXT>How does the United Nations defend the Human Development Index?
+<A_TXT>The United Nations decides the number one country each year by a method called the Human Development Index. 
+
+</FILE>
+
+
+<FILE>1999-W30-2.txt
+
+<Q_NUMBER>1
+<A_LINE>10
+<Q_TXT>Why is B.C. Premier Glen Clark unpopular?
+<A_TXT>Glen Clark has been involved in a series of scandals during his time as B.C. Premier. 
+
+<Q_NUMBER>2
+<A_LINE>21
+<Q_TXT>How should Clark handle his unpopularity, according to political analysts?
+<A_TXT>Some members of the B.C. government think if Clark keeps his job as Premier, he will lead the New Democratic Party to a big loss in the next election. 
+
+<Q_NUMBER>3
+<A_LINE>5
+<Q_TXT>Who wrote Glen Clark and specifically asked him to quit his job?
+<A_TXT>Glen Clark is facing great pressure to quit his job as the Premier of British Columbia. 
+
+<Q_NUMBER>4
+<A_LINE>20
+<Q_TXT>Where was the information about the letter reported?
+<A_TXT>The letter apparently asked the Premier to quit his job. 
+
+<Q_NUMBER>5
+<A_LINE>7
+<Q_TXT>What party is Glen Clark the leader of in B.C.?
+<A_TXT>Political analysts say Clark, who is also the leader of the B.C. New Democratic Party, has two options. 
+
+</FILE>
+
+
+<FILE>1999-W30-5.txt
+
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>Where was a mummified wooly mammoth found?
+<A_TXT>A wooly mammoth that was mummified 23,000 years ago, will be dug out of the frozen ground by a group of international scientists. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>Who is going to dig up the dead wooly mammoth?
+<A_TXT>A wooly mammoth that was mummified 23,000 years ago, will be dug out of the frozen ground by a group of international scientists. 
+
+<Q_NUMBER>3
+<A_LINE>12
+<Q_TXT>How do scientists hope to create an exact duplicate of the mammoth?
+<A_TXT>Scientists hope to create an exact duplicate mammoth through cloning techniques. 
+
+<Q_NUMBER>4
+<A_LINE>15
+<Q_TXT>Why is it important that the the colour of the mammoth's hair and the smell of the skin are still present?
+<A_TXT>The scientists say the colour of the mammoth's hair is still present, as is the smell of the skin. 
+
+<Q_NUMBER>5
+<A_LINE>7
+<Q_TXT>When did the wooly mammoth live?
+<A_TXT>A wooly mammoth that was mummified 23,000 years ago, will be dug out of the frozen ground by a group of international scientists. 
+
+<Q_NUMBER>6
+<A_LINE>7
+<Q_TXT>Why did the wooly mammoth become extinct?
+<A_TXT>A wooly mammoth that was mummified 23,000 years ago, will be dug out of the frozen ground by a group of international scientists. 
+
+<Q_NUMBER>7
+<A_LINE>18
+<Q_TXT>What modern animals do wooly mammoths look most like?
+<A_TXT>Mammoths are most similar to modern-day Asian elephants. 
+
+</FILE>
+
+
+<FILE>1999-W31-3.txt
+
+<Q_NUMBER>1
+<A_LINE>28
+<Q_TXT>Where were elections for premier held?
+<A_TXT>He says he will stay on as leader of the Nova Scotia Liberal Party despite losing his job as premier. 
+
+<Q_NUMBER>2
+<A_LINE>24
+<Q_TXT>Who is Russell MacLellan?
+<A_TXT>Liberal leader Russell MacLellan was forced to call the election after the other parties voted against his budget. 
+
+<Q_NUMBER>3
+<A_LINE>15
+<Q_TXT>How many seats in the legislature did the Progressive Conservatives win in the election?
+<A_TXT>That means that no one party had more than half the seats in the legislature. 
+
+<Q_NUMBER>4
+<A_LINE>14
+<Q_TXT>What does it mean to have a minority government?
+<A_TXT>After the last election Nova Scotia had a minority government. 
+
+<Q_NUMBER>5
+<A_LINE>22
+<Q_TXT>How did the PC party place in the last election?
+<A_TXT>The party placed third in the last election. 
+
+<Q_NUMBER>6
+<A_LINE>17
+<Q_TXT>By when has Hamm promised to cut people's taxes?
+<A_TXT>Hamm has promised to cut people's taxes within three years. 
+
+<Q_NUMBER>7
+<A_LINE>24
+<Q_TXT>Why was Russell MacLellan forced to call an election?
+<A_TXT>Liberal leader Russell MacLellan was forced to call the election after the other parties voted against his budget. 
+
+<Q_NUMBER>8
+<A_LINE>25
+<Q_TXT>What does it mean when the government is defeated on a major bill?
+<A_TXT>When the government is defeated on a major bill, like one that is about money, it means the legislature has lost confidence in them. 
+
+<Q_NUMBER>9
+<A_LINE>26
+<Q_TXT>What must a premier do when there is a vote of non-confidence?
+<A_TXT>This vote of non-confidence means the premier must either quit, or call a new election. 
+
+</FILE>
+
+
+<FILE>1999-W33-3.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>For whom did the last solar eclipse of the millennium brighten the morning?
+<A_TXT>The last solar eclipse of the millennium brightened the morning for millions of people in Europe on Wednesday. 
+
+<Q_NUMBER>2
+<A_LINE>23
+<Q_TXT>What causes a solar eclipse?
+<A_TXT>In twenty five years an astronomer who observed every total solar eclipse, would watch only about an hour of total eclipses. 
+
+<Q_NUMBER>3
+<A_LINE>15
+<Q_TXT>Where did the path of the moon's shadow begin?
+<A_TXT>The path of the moon's shadow began in the Atlantic, and crossed central Europe, Turkey, Iran and India. 
+
+<Q_NUMBER>4
+<A_LINE>20
+<Q_TXT>What is a total eclipse?
+<A_TXT>What made this eclipse special is that it was a total eclipse, where the moon totally blocks the sun. 
+
+<Q_NUMBER>5
+<A_LINE>18
+<Q_TXT>How many times can an eclipse occur in one year?
+<A_TXT>The minimum number of eclipses there can be in one year is two. 
+
+<Q_NUMBER>6
+<A_LINE>20
+<Q_TXT>Why was this eclipse special?
+<A_TXT>What made this eclipse special is that it was a total eclipse, where the moon totally blocks the sun. 
+
+<Q_NUMBER>7
+<A_LINE>22
+<Q_TXT>How long do total eclipses last?
+<A_TXT>These total eclipses last for a few minutes, and are rare. 
+
+<Q_NUMBER>8
+<A_LINE>23
+<Q_TXT>If an astronomer observed every total solar eclipse for twenty-five years, how much total eclipse time would he actually watch?
+<A_TXT>In twenty five years an astronomer who observed every total solar eclipse, would watch only about an hour of total eclipses. 
+
+<Q_NUMBER>9
+<A_LINE>27
+<Q_TXT>Where could a partial eclipse be seen?
+<A_TXT>A partial eclipse {where the moon covers part, but not all of the sun} could be seen in Eastern Canada. 
+
+<Q_NUMBER>10
+<A_LINE>27
+<Q_TXT>What is a partial eclipse?
+<A_TXT>A partial eclipse {where the moon covers part, but not all of the sun} could be seen in Eastern Canada. 
+
+</FILE>
+
+
+<FILE>1999-W34-4.txt
+
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>Where did the centre of the earthquake hit?
+<A_TXT>The centre of the earthquake hit Izmit, the region just south of Istanbul, the country's capital. 
+
+<Q_NUMBER>2
+<A_LINE>26
+<Q_TXT>What is the capital of Turkey?
+<A_TXT>Despite the much higher death toll, Tuesday's earthquake wasn't quite as powerful as a 1906 earthquake in San Francisco which had a magnitude of 7.9. 
+
+<Q_NUMBER>3
+<A_LINE>7
+<Q_TXT>When did the earthquake hit?
+<A_TXT>The centre of the earthquake hit Izmit, the region just south of Istanbul, the country's capital. 
+
+<Q_NUMBER>4
+<A_LINE>12
+<Q_TXT>Who spent hours digging through the rubble?
+<A_TXT>Rescue workers spent hours digging through the rubble, frantically trying to save people trapped under concrete and metal. 
+
+<Q_NUMBER>5
+<A_LINE>10
+<Q_TXT>About how many people were reportedly injured by the earthquake?
+<A_TXT>The earthquake hit at about 3 o'clock in the morning, while many people were still sleeping. 
+
+<Q_NUMBER>6
+<A_LINE>16
+<Q_TXT>Why are earthquake victims being treated on the streets?
+<A_TXT>As a result, many of the earthquake victims were being treated on the streets. 
+
+<Q_NUMBER>7
+<A_LINE>18
+<Q_TXT>What was the magnitude of the earthquake, according to the National Earthquake Information Centre in Colorado?
+<A_TXT>The earthquake had a magnitude of 7.8, according to the National Earthquake Information Centre in Colorado. 
+
+<Q_NUMBER>8
+<A_LINE>26
+<Q_TXT>What does earthquake magnitude measure?
+<A_TXT>Despite the much higher death toll, Tuesday's earthquake wasn't quite as powerful as a 1906 earthquake in San Francisco which had a magnitude of 7.9. 
+
+<Q_NUMBER>9
+<A_LINE>22
+<Q_TXT>What are aftershocks?
+<A_TXT>Aftershocks are vibrations that follow an earthquake. 
+
+<Q_NUMBER>10
+<A_LINE>24
+<Q_TXT>Why did officials warn people not to return to buildings with even some sign of structural damage?
+<A_TXT>Officials have warned people not to return to buildings with even some sign of structural damage, for fear there may be more collapses. 
+
+<Q_NUMBER>11
+<A_LINE>28
+<Q_TXT>What are Canada's disaster assistance troops trained in?
+<A_TXT>Canada sent disaster assistance troops to Turkey on Wednesday night. 
+
+</FILE>
+
+
+<FILE>1999-W36-3.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Why were the blue tarp walls put up?
+<A_TXT>The last passengers of Swissair Flight 111 were laid to rest yesterday in a solemn ceremony hidden by blue tarp walls that were put up to keep preparations for today's memorial service private. 
+
+<Q_NUMBER>2
+<A_LINE>7
+<Q_TXT>When did Swissair Flight 111 crash into the ocean?
+<A_TXT>On the night of September 2, 1998, Swissair Flight 111 was following its regular course from New York to Geneva, Switzerland. 
+
+<Q_NUMBER>3
+<A_LINE>18
+<Q_TXT>What did the two dozen caskets buried at the scenic site contain?
+<A_TXT>Two dozen caskets containing the unidentified remains of passengers from the transatlantic flight were buried at this scenic point overlooking the crash site. 
+
+<Q_NUMBER>4
+<A_LINE>7
+<Q_TXT>Where was Swissair Flight 111 bound for?
+<A_TXT>On the night of September 2, 1998, Swissair Flight 111 was following its regular course from New York to Geneva, Switzerland. 
+
+<Q_NUMBER>5
+<A_LINE>10
+<Q_TXT>Where did the pilots intend to dump fuel?
+<A_TXT>The pilots put on their emergency masks and manoeuvred the plane to dump fuel into the Atlantic ocean in preparation for an emergency landing in Halifax. 
+
+<Q_NUMBER>6
+<A_LINE>7
+<Q_TXT>What kind of plane were the Swissair Flight 111 pilots flying?
+<A_TXT>On the night of September 2, 1998, Swissair Flight 111 was following its regular course from New York to Geneva, Switzerland. 
+
+<Q_NUMBER>7
+<A_LINE>16
+<Q_TXT>How many friends and relatives of the people who died in the plane crash were expected to mark the one-year anniversary?
+<A_TXT>About 800 friends and relatives of the people who died are expected to mark the disaster's one year anniversary today and tomorrow. 
+
+<Q_NUMBER>8
+<A_LINE>18
+<Q_TXT>Who described her visit to the scenic point overlooking the crash site as bittersweet?
+<A_TXT>Two dozen caskets containing the unidentified remains of passengers from the transatlantic flight were buried at this scenic point overlooking the crash site. 
+
+<Q_NUMBER>9
+<A_LINE>27
+<Q_TXT>What did Barbara Fetherolf of Philadelphia say she could not bear to do?
+<A_TXT>Barbara Fetherolf of Philadelphia, Pennsylvania, whose teenage daughter Tara died in the crash, says that she could not bear to attend the memorial. 
+
+<Q_NUMBER>10
+<A_LINE>33
+<Q_TXT>What does the group that Mary Garnier is part of do for victims' relatives?
+<A_TXT>Most of the families that plan to attend are hoping to put the tragedy behind them, says Mary Garnier, part of a group that pairs victims' relatives with Nova Scotia families. 
+
+</FILE>
+
+
+<FILE>1999-W37-5.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>When did Tawny Meiorin lose her job as a forest fire fighter?
+<A_TXT>Five years ago, 33-year-old Tawny Meiorin lost her job as a forest fire-fighter because she failed a fitness test designed for a man. 
+
+<Q_NUMBER>2
+<A_LINE>5
+<Q_TXT>Why did Tawny Meiorin lose her job as a forest fire fighter?
+<A_TXT>Five years ago, 33-year-old Tawny Meiorin lost her job as a forest fire-fighter because she failed a fitness test designed for a man. 
+
+<Q_NUMBER>3
+<A_LINE>7
+<Q_TXT>How much longer did Meiorin take to run 2.5 kilometres than she was supposed to?
+<A_TXT>She couldn't run 2.5 kilometres in the 11 minute limit. 
+
+<Q_NUMBER>4
+<A_LINE>13
+<Q_TXT>What did Meiorin do to get her job back?
+<A_TXT>So she hired a lawyer and went to court to get her job back. 
+
+<Q_NUMBER>5
+<A_LINE>16
+<Q_TXT>What did the Supreme Court order the government to do?
+<A_TXT>The court has ordered the government to rehire her with back pay and benefits. 
+
+<Q_NUMBER>6
+<A_LINE>24
+<Q_TXT>How did Meiorin describe the fitness exam she failed?
+<A_TXT>Meiorin also said the fitness exam she failed was not a good measure of her abilities in the field. 
+
+<Q_NUMBER>7
+<A_LINE>18
+<Q_TXT>Where is Meiorin now working?
+<A_TXT>"I'm pretty excited," says Meiorin, who is now working as a logger. 
+
+<Q_NUMBER>8
+<A_LINE>26
+<Q_TXT>What does Meiorin say are the "actual requirements of fighting fires"?
+<A_TXT>"These tests should be related to the actual requirements of fighting fires... where you have smoke, and heat, and terrain to deal with," she said. 
+
+<Q_NUMBER>9
+<A_LINE>31
+<Q_TXT>Who is George Heyman??
+<A_TXT>George Heyman, president of the B.C. Government and Services Employees Union, was pleased with the court's ruling. 
+
+<Q_NUMBER>10
+<A_LINE>36
+<Q_TXT>What does the Supreme Court's decision do to discrimination law in Canada, according to Heyman?
+<A_TXT>It rewrites the law for discrimination in Canada and that will ensure fair treatment for all workers, both women and men." 
+
+</FILE>
+
+
+<FILE>1999-W41-5.txt
+
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>Who delivered the Oath of Office to Adrienne Clarkson?
+<A_TXT>Ms. Clarkson took the Oath of Office in front of Supreme Court of Canada Justice Claire L'Heureux Dube. 
+
+<Q_NUMBER>2
+<A_LINE>28
+<Q_TXT>Where did the swearing-in of Ms. Clarkson take place?
+<A_TXT>She also presides over the swearing-in of the Prime Minister, the Chief Justice of Canada and cabinet ministers. 
+
+<Q_NUMBER>3
+<A_LINE>11
+<Q_TXT>While in office, what title does Ms. Clarkson assume?
+<A_TXT>The Governor General formally takes office once the oaths have been sworn and assumes the title "Excellency" while in office, and the lifetime title of "Right Honourable". 
+
+<Q_NUMBER>4
+<A_LINE>15
+<Q_TXT>Why do many of Canada's political leaders attend the installation ceremony for Governor General?
+<A_TXT>Many of Canada's political leaders, including Prime Minister Jean Chretien, Supreme Court Chief Justice Antonio Lamer, the cabinet, and Opposition Leader Preston Manning attended the ceremony. 
+
+<Q_NUMBER>5
+<A_LINE>17
+<Q_TXT>Who did Ms. Clarkson praise during her speech?
+<A_TXT>During a speech, Ms. Clarkson fought back tears as she praised her 92-year-old father, and her mother whom she said was there in spirit. 
+
+<Q_NUMBER>6
+<A_LINE>7
+<Q_TXT>When did Ms. Clarkson's family arrive in Canada?
+<A_TXT>Ms. Clarkson took the Oath of Office in front of Supreme Court of Canada Justice Claire L'Heureux Dube. 
+
+<Q_NUMBER>7
+<A_LINE>20
+<Q_TXT>In her speech, Ms. Clarkson quoted poets and philosophers in praising Canada for struggling to do what?
+<A_TXT>In her speech she quoted poets and philosophers, including her husband John Ralston Saul in praising Canada's struggle to create a country filled with tolerance and civility. 
+
+<Q_NUMBER>8
+<A_LINE>22
+<Q_TXT>How did Ms. Clarkson say her teachers treated her?
+<A_TXT>Ms. Clarkson also thanked teachers whom she said treated her as "bright, not bright yellow." 
+
+<Q_NUMBER>9
+<A_LINE>24
+<Q_TXT>As Governor General, who does Ms. Clarkson represent?
+<A_TXT>As Governor General, Ms. Clarkson represents the Queen of England, who is the legal head of the Canada. 
+
+<Q_NUMBER>10
+<A_LINE>24
+<Q_TXT>As Governor General, Ms. Clarkson presides over the swearing-in of what Canadian officials?
+<A_TXT>As Governor General, Ms. Clarkson represents the Queen of England, who is the legal head of the Canada. 
+
+</FILE>
+
+
+<FILE>1999-W45-5.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Where did Susan Aglukark's family eventually settle?
+<A_TXT>Students at Iqaluit's Inuksuk High School are celebrating the revival of their music program with singer Susan Aglukark, pizza and a $10,000 cheque today. 
+
+<Q_NUMBER>2
+<A_LINE>5
+<Q_TXT>Who donated the pizza and the $10,000 cheque to Inuksuk High School?
+<A_TXT>Students at Iqaluit's Inuksuk High School are celebrating the revival of their music program with singer Susan Aglukark, pizza and a $10,000 cheque today. 
+
+<Q_NUMBER>3
+<A_LINE>5
+<Q_TXT>Why did Canadian singer Susan Aglukark make a special appearance at Inuksuk High School?
+<A_TXT>Students at Iqaluit's Inuksuk High School are celebrating the revival of their music program with singer Susan Aglukark, pizza and a $10,000 cheque today. 
+
+<Q_NUMBER>4
+<A_LINE>13
+<Q_TXT>How long has Inuksuk High School been without a music program?
+<A_TXT>Inuksuk has been without a music program for about 10 years. 
+
+<Q_NUMBER>5
+<A_LINE>26
+<Q_TXT>Who should the music society and school provide instruments for, according to Ryan MacLeod?
+<A_TXT>For some students where food and shelter is a more pressing concern, it is the responsibility of the music society and of the school to provide an instrument," MacLeod says. 
+
+<Q_NUMBER>6
+<A_LINE>10
+<Q_TXT>When did the new musical instruments begin arriving at the high school?
+<A_TXT>The Canadian singing star made a special appearance at the high school to present officials with a $10,000 cheque for the purchase of music instruments. 
+
+<Q_NUMBER>7
+<A_LINE>28
+<Q_TXT>What proportion of the school's population is enrolled in music classes at Inuksuk?
+<A_TXT>About 90 students, or a quarter of the school's population, are enrolled in music classes at Inuksuk. 
+
+<Q_NUMBER>8
+<A_LINE>29
+<Q_TXT>How many students commonly share a single musical instrument?
+<A_TXT>A single instrument is often shared between two or three students. 
+
+<Q_NUMBER>9
+<A_LINE>36
+<Q_TXT>Who will be able to use the school's instruments?
+<A_TXT>For example, the music society will be able to use the school's instruments and students may perform at community events, MacLeod said. 
+
+</FILE>
+
+
+<FILE>1999-W49-5.txt
+
+<Q_NUMBER>1
+<A_LINE>7
+<Q_TXT>What about Mars made skywatchers in ancient Greece and Rome think of their god of war?
+<A_TXT>In ancient Greece and Rome, the planet's fiery red hue made skywatchers think of their god of war. 
+
+<Q_NUMBER>2
+<A_LINE>41
+<Q_TXT>When was the Polar Lander launched?
+<A_TXT>The Polar Lander will try to find evidence that the atmosphere was once warmer and thicker. 
+
+<Q_NUMBER>3
+<A_LINE>21
+<Q_TXT>How is the Polar Lander being navigated?
+<A_TXT>The American space ship is being navigated by radio signals from the Jet Propulsion Laboratory. 
+
+<Q_NUMBER>4
+<A_LINE>29
+<Q_TXT>Who first proposed including a microphone on a spacecraft sent to Mars?
+<A_TXT>For the first time ever, NASA has included a microphone on a spacecraft sent to Mars, an idea originally proposed by astronomer Carl Sagan. 
+
+<Q_NUMBER>5
+<A_LINE>31
+<Q_TXT>What are scientists afraid the costly mission could do?
+<A_TXT>There are fears that the costly mission could hit a rock or lose contact with NASA scientists back home. 
+
+<Q_NUMBER>6
+<A_LINE>38
+<Q_TXT>Where on Mars do scientists know there is frozen water?
+<A_TXT>Frozen water exists on Mars in its northern ice cap. 
+
+<Q_NUMBER>7
+<A_LINE>34
+<Q_TXT>Why are NASA scientists not exactly sure what they are going into, according to Sarah Gavit, NASA project manager?
+<A_TXT>is Mars itself," says Sarah Gavit, NASA project manager. 
+
+<Q_NUMBER>8
+<A_LINE>39
+<Q_TXT>Where on Mars do scientists think there may be more water?
+<A_TXT>But scientists believe there may be more underground. 
+
+<Q_NUMBER>9
+<A_LINE>41
+<Q_TXT>What will the Polar Lander try to find evidence of?
+<A_TXT>The Polar Lander will try to find evidence that the atmosphere was once warmer and thicker. 
+
+<Q_NUMBER>10
+<A_LINE>44
+<Q_TXT>What can the Polar Lander's instruments not detect?
+<A_TXT>Any answers from the probe would help focus future missions searching for past or present life, which is dependent on water, though the Lander's instruments cannot detect fossils or living organisms. 
+
+</FILE>
+
+
+<FILE>2000-W02-3.txt
+
+<Q_NUMBER>1
+<A_LINE>5
+<Q_TXT>Where has the Newfoundland government found tap water contaminated?
+<A_TXT>The Newfoundland government has found that the tap water in 63 communities is contaminated. 
+
+<Q_NUMBER>2
+<A_LINE>9
+<Q_TXT>How are trihalomethanes formed?
+<A_TXT>They are formed when tiny amounts of chlorine are added to drinking water. 
+
+<Q_NUMBER>3
+<A_LINE>33
+<Q_TXT>Which towns face the danger of THMs in drinking water?
+<A_TXT>There are easy ways of getting rid of many of the THMs in drinking water. 
+
+<Q_NUMBER>4
+<A_LINE>16
+<Q_TXT>Why do microbiological organisms have to be removed from water?
+<A_TXT>First, almost all sources of water contain microbiological organisms which have to be removed to prevent the outbreak of diseases such as typhoid fever and cholera. 
+
+<Q_NUMBER>5
+<A_LINE>17
+<Q_TXT>Why is chlorine used to treat water as it travels through water pipes?
+<A_TXT>Second, once the treated water leaves the treatment plant, it travels through water pipes. 
+
+<Q_NUMBER>6
+<A_LINE>22
+<Q_TXT>Who is Newfoundland's environment minister?
+<A_TXT>Newfoundland's environment minister says he plans to hire an expert who will look into reducing the amount of THMs in the water supply. 
+
+<Q_NUMBER>7
+<A_LINE>29
+<Q_TXT>Why are many Newfoundland residents upset with the government?
+<A_TXT>Many Newfoundland residents are upset with the government. 
+
+<Q_NUMBER>8
+<A_LINE>31
+<Q_TXT>According to Fogo town manager Bruce Pomeroy, when should the government have made everyone aware if there were risks from THMs?
+<A_TXT>Fogo town manager Bruce Pomeroy says that the government "should have made everyone aware if there were risks -- like they are doing now -- two years ago." 
+
+<Q_NUMBER>9
+<A_LINE>35
+<Q_TXT>If water is left in an opened container for 24 hours, what happens to many of the chemicals?
+<A_TXT>You can leave water in an open container for 24 hours, and many of the chemicals will evaporate. 
+
+<Q_NUMBER>10
+<A_LINE>36
+<Q_TXT>What does charcoal do to chemicals in water?
+<A_TXT>You can also pour the water through a charcoal-based water filter, like the popular ones many people keep in the fridge. 
+
+</FILE>
+
+
+<FILE>2000-W03-1.txt
+
+<Q_NUMBER>1
+<A_LINE>19
+<Q_TXT>Who did John Morris Rankin play for?
+<A_TXT>John Morris Rankin played fiddle and piano with the popular musical family from Cape Breton. 
+
+<Q_NUMBER>2
+<A_LINE>24
+<Q_TXT>How many records did his musical group sell?
+<A_TXT>The five siblings sold more than two million records, won five Juno Awards, including group of the year in 1994, and took its Celtic music to the world. 
+
+<Q_NUMBER>3
+<A_LINE>17
+<Q_TXT>What is hypothermia?
+<A_TXT>Morris Green of Nova Scotia Emergency Health Services said one of the teenagers was being treated for hypothermia -- when one's body temperature drops abnormally low -- and the other two appeared to be OK. 
+
+<Q_NUMBER>4
+<A_LINE>10
+<Q_TXT>When did John Morris Rankin tell the teenagers to jump out of the truck?
+<A_TXT>Family friend Emily Butler said it appeared that Rankin told the teens to jump out of the truck as it skidded towards the water. 
+
+<Q_NUMBER>5
+<A_LINE>40
+<Q_TXT>Where was Jimmy Rankin when he heard the news of his brother's death?
+<A_TXT>Family friend Russell De Carle, lead singer for Prairie Oyster, said he was stunned when he heard the news at the benefit. 
+
+<Q_NUMBER>6
+<A_LINE>19
+<Q_TXT>What musical instruments did John Morris Rankin play?
+<A_TXT>John Morris Rankin played fiddle and piano with the popular musical family from Cape Breton. 
+
+<Q_NUMBER>7
+<A_LINE>48
+<Q_TXT>How old is Molly Rankin?
+<A_TXT>Besides Michael, 15, Rankin is survived by his wife Sally and daughter Molly, 13. 
+
+<Q_NUMBER>8
+<A_LINE>40
+<Q_TXT>Who is the lead vocalist of Prairie Oyster?
+<A_TXT>Family friend Russell De Carle, lead singer for Prairie Oyster, said he was stunned when he heard the news at the benefit. 
+
+<Q_NUMBER>9
+<A_LINE>26
+<Q_TXT>Who is Denis Ryan?
+<A_TXT>Family friend and musician Denis Ryan said news of the accident spread quickly through the Nova Scotia music community. 
+
+<Q_NUMBER>10
+<A_LINE>38
+<Q_TXT>Why did Rankin's musical group break up?
+<A_TXT>Rankin's brother Jimmy Rankin left a Farm Aid concert in Toronto after being notified of the death. 
+
+</FILE>
+
+
+<FILE>2000-W03-3.txt
+
+<Q_NUMBER>1
+<A_LINE>30
+<Q_TXT>Who does Turner Stevenson play for?
+<A_TXT>He says that it is not fair that millionaire hockey players like Turner Stevenson and Pavel Bure are getting help while hundreds of Olympic athletes have to scramble every month just to pay their bills. 
+
+<Q_NUMBER>2
+<A_LINE>44
+<Q_TXT>Where will the money come from that the government gives to the hockey teams
+<A_TXT>The Federal government plan to give the teams money will last four years. 
+
+<Q_NUMBER>3
+<A_LINE>12
+<Q_TXT>Why did Canadian hockey teams threaten to move to America?
+<A_TXT>They have threatened to move to the United States - where they say business is better - unless the government helps them out. 
+
+<Q_NUMBER>4
+<A_LINE>27
+<Q_TXT>How much does the average Canadian NHL player make in a season?
+<A_TXT>The average NHL player makes 1.3 million dollars a season. 
+
+<Q_NUMBER>5
+<A_LINE>30
+<Q_TXT>What is Pavel Bure's occupation?
+<A_TXT>He says that it is not fair that millionaire hockey players like Turner Stevenson and Pavel Bure are getting help while hundreds of Olympic athletes have to scramble every month just to pay their bills. 
+
+<Q_NUMBER>6
+<A_LINE>40
+<Q_TXT>What is a subsidy?
+<A_TXT>He says professional hockey is a luxury, but heat and food are not. 
+
+<Q_NUMBER>7
+<A_LINE>32
+<Q_TXT>What is Glenroy Gilbert doing in Texas?
+<A_TXT>"I've been doing this for 13 or 14 years, running on the national team and we've been forced to live on from $450 a month to $810 a month," Gilbert said from Austin, Texas, where he is training for the Sydney Olympics. 
+
+<Q_NUMBER>8
+<A_LINE>42
+<Q_TXT>Who is the Manitoba Agriculture Minister?
+<A_TXT>Manitoba Agriculture Minister Rosann Wowchuk calls it a slap in the face to farmers who have been lobbying Ottawa for help. 
+
+<Q_NUMBER>9
+<A_LINE>39
+<Q_TXT>What does Frank Gilbert think about giving money to NHL teams?
+<A_TXT>Putting money into NHL hockey is fine, Gilbert says, as long as the poor are taken care of first -- and he says that hasn't happened. 
+
+<Q_NUMBER>10
+<A_LINE>44
+<Q_TXT>When will the government subsidy plan end?
+<A_TXT>The Federal government plan to give the teams money will last four years. 
+
+</FILE>
+
+
+<FILE>2000-W03-5.txt
+
+<Q_NUMBER>1
+<A_LINE>34
+<Q_TXT>What do Jerry's glasses have on them?
+<A_TXT>The computer sends signals to small electrodes on the surface of Jerry's brain, using wires entering his skull behind his right ear. 
+
+<Q_NUMBER>2
+<A_LINE>9
+<Q_TXT>When did Jerry get electrodes implanted in his brain?
+<A_TXT>Researchers in New York City say a blind 62-year-old volunteer can now read large letters and navigate around big objects by using a tiny camera wired to computers and a platinum electrode implanted in his brain. 
+
+<Q_NUMBER>3
+<A_LINE>34
+<Q_TXT>How old is Jerry?
+<A_TXT>The computer sends signals to small electrodes on the surface of Jerry's brain, using wires entering his skull behind his right ear. 
+
+<Q_NUMBER>4
+<A_LINE>24
+<Q_TXT>Who helped Jerry see?
+<A_TXT>Jerry - the name of the patient - doesn't see images. 
+
+<Q_NUMBER>5
+<A_LINE>11
+<Q_TXT>Where does John Girvin work as a professor?
+<A_TXT>John Girvin, a neurosurgery (brain surgery) professor in London, Ontario is the doctor who implanted the electrodes in the patient's brain at the New York Neurological Institute in 1979. 
+
+<Q_NUMBER>6
+<A_LINE>39
+<Q_TXT>What will it take to develop the artificial eye into a device that allows something like real sight?
+<A_TXT>Girvin said the artifician eye has "great potential," but it's hard to predict how fast it can be perfected to something more like real sight. 
+
+<Q_NUMBER>7
+<A_LINE>12
+<Q_TXT>Why did it take so long to develop artificial sight?
+<A_TXT>It was part of an international research effort to develop artificial sight. 
+
+</FILE>
+

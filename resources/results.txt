@@ -172,7 +172,7 @@ NORMALIZED ACCURACY : 52.45%
 
 
 
-bow-swrem
+bow-stop
 
 ******************************************************************
 Accuracy: 175 correct out of 324 questions - 54.01%.
@@ -210,5 +210,170 @@ OTHER  :    1 out of    4 -  25.00%.
 
 NORMALIZED ACCURACY : 44.60%
 
+
+
+
+
+
+
+
+
+test-bow
+******************************************************************
+Accuracy: 135 correct out of 310 questions - 43.55%.
+******************************************************************
+Statistics by question type:
+WHEN   :   17 out of   34 -  50.00%.
+WHERE  :   16 out of   36 -  44.44%.
+WHAT   :   37 out of   80 -  46.25%.
+WHY    :   21 out of   44 -  47.73%.
+WHO    :   19 out of   41 -  46.34%.
+HOW    :   24 out of   68 -  35.29%.
+OTHER  :    1 out of    7 -  14.29%.
+
+NORMALIZED ACCURACY : 45.01%
+
+
+
+
+test-bow-stop
+******************************************************************
+Accuracy: 152 correct out of 310 questions - 49.03%.
+******************************************************************
+Statistics by question type:
+WHEN   :   19 out of   34 -  55.88%.
+WHERE  :   17 out of   36 -  47.22%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   24 out of   44 -  54.55%.
+WHO    :   23 out of   41 -  56.10%.
+HOW    :   27 out of   68 -  39.71%.
+OTHER  :    2 out of    7 -  28.57%.
+
+NORMALIZED ACCURACY : 50.58%
+
+
+
+
+test-ngrams-stop
+******************************************************************
+Accuracy: 146 correct out of 310 questions - 47.10%.
+******************************************************************
+Statistics by question type:
+WHEN   :   18 out of   34 -  52.94%.
+WHERE  :   18 out of   36 -  50.00%.
+WHAT   :   39 out of   80 -  48.75%.
+WHY    :   24 out of   44 -  54.55%.
+WHO    :   24 out of   41 -  58.54%.
+HOW    :   22 out of   68 -  32.35%.
+OTHER  :    1 out of    7 -  14.29%.
+
+NORMALIZED ACCURACY : 49.52%
+
+
+
+
+test-ngrams
+******************************************************************
+Accuracy: 160 correct out of 310 questions - 51.61%.
+******************************************************************
+Statistics by question type:
+WHEN   :   21 out of   34 -  61.76%.
+WHERE  :   18 out of   36 -  50.00%.
+WHAT   :   39 out of   80 -  48.75%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   23 out of   41 -  56.10%.
+HOW    :   31 out of   68 -  45.59%.
+OTHER  :    3 out of    7 -  42.86%.
+
+NORMALIZED ACCURACY : 53.17%
+
+
+
+
+test-ngrams-disc05
+******************************************************************
+Accuracy: 165 correct out of 310 questions - 53.23%.
+******************************************************************
+Statistics by question type:
+WHEN   :   21 out of   34 -  61.76%.
+WHERE  :   20 out of   36 -  55.56%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   24 out of   41 -  58.54%.
+HOW    :   32 out of   68 -  47.06%.
+OTHER  :    3 out of    7 -  42.86%.
+
+NORMALIZED ACCURACY : 54.96%
+
+
+
+
+test-ngrams-disc20
+******************************************************************
+Accuracy: 162 correct out of 310 questions - 52.26%.
+******************************************************************
+Statistics by question type:
+WHEN   :   21 out of   34 -  61.76%.
+WHERE  :   20 out of   36 -  55.56%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   23 out of   41 -  56.10%.
+HOW    :   31 out of   68 -  45.59%.
+OTHER  :    2 out of    7 -  28.57%.
+
+NORMALIZED ACCURACY : 54.30%
+
+
+
+
+test-ngrams-disc10
+******************************************************************
+Accuracy: 165 correct out of 310 questions - 53.23%.
+******************************************************************
+Statistics by question type:
+WHEN   :   21 out of   34 -  61.76%.
+WHERE  :   20 out of   36 -  55.56%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   24 out of   41 -  58.54%.
+HOW    :   32 out of   68 -  47.06%.
+OTHER  :    3 out of    7 -  42.86%.
+
+NORMALIZED ACCURACY : 54.96%
+
+
+
+
+test-ngrams-disc10-ner05
+******************************************************************
+Accuracy: 155 correct out of 310 questions - 50.00%.
+******************************************************************
+Statistics by question type:
+WHEN   :   17 out of   34 -  50.00%.
+WHERE  :   18 out of   36 -  50.00%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   20 out of   41 -  48.78%.
+HOW    :   32 out of   68 -  47.06%.
+OTHER  :    3 out of    7 -  42.86%.
+
+NORMALIZED ACCURACY : 50.44%
+
+
+
+test-ngrams-disc10-ner02
+******************************************************************
+Accuracy: 155 correct out of 310 questions - 50.00%.
+******************************************************************
+Statistics by question type:
+WHEN   :   17 out of   34 -  50.00%.
+WHERE  :   18 out of   36 -  50.00%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   20 out of   41 -  48.78%.
+HOW    :   32 out of   68 -  47.06%.
+OTHER  :    3 out of    7 -  42.86%.
+
+NORMALIZED ACCURACY : 50.44%
 
 
