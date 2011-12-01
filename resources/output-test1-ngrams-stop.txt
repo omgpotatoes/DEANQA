@@ -7,14 +7,14 @@
 <A_TXT> You , Noella `` Babe '' MacLean , died week age 87 , Canada 's biggest sports stars . 
 
 <Q_NUMBER>2
-<A_LINE>30
+<A_LINE>24
 <Q_TXT>What team did Babe play for?
-<A_TXT> Babe talked fabulous career . 
+<A_TXT> Babe Belanger played Grads 1929 1937 . 
 
 <Q_NUMBER>3
-<A_LINE>30
+<A_LINE>24
 <Q_TXT>What position did Babe play?
-<A_TXT> Babe talked fabulous career . 
+<A_TXT> Babe Belanger played Grads 1929 1937 . 
 
 <Q_NUMBER>4
 <A_LINE>30
@@ -22,14 +22,14 @@
 <A_TXT> Babe talked fabulous career . 
 
 <Q_NUMBER>5
-<A_LINE>22
+<A_LINE>13
 <Q_TXT>How much was Babe paid to play basketball?
-<A_TXT> The inventor game basketball , Dr. James Naismith called Edmonton Grads `` finest basketball team stepped a floor '' . 
+<A_TXT> They a group young women school play basketball . 
 
 <Q_NUMBER>6
-<A_LINE>28
+<A_LINE>22
 <Q_TXT>How many games did the Edmonton Grads win?
-<A_TXT> He a trainer Edmonton hockey teams Edmonton Eskimos B.C. Lions football teams . 
+<A_TXT> The inventor game basketball , Dr. James Naismith called Edmonton Grads `` finest basketball team stepped a floor '' . 
 
 <Q_NUMBER>7
 <A_LINE>22
@@ -37,9 +37,9 @@
 <A_TXT> The inventor game basketball , Dr. James Naismith called Edmonton Grads `` finest basketball team stepped a floor '' . 
 
 <Q_NUMBER>8
-<A_LINE>31
+<A_LINE>7
 <Q_TXT>Who was Babe's husband?
-<A_TXT> But daughter scrapbooks found family 's basement show a part a team bit sensational Edmonton Oilers Gretzky 's time . 
+<A_TXT> You , Noella `` Babe '' MacLean , died week age 87 , Canada 's biggest sports stars . 
 
 <Q_NUMBER>9
 <A_LINE>31
@@ -57,9 +57,9 @@
 <A_TXT> Of , digits a date , year 2000 year 1900 -- `` 00 '' . 
 
 <Q_NUMBER>2
-<A_LINE>27
+<A_LINE>28
 <Q_TXT>How will the year 2000 be interpreted by a computer with the Y2K bug?
-<A_TXT> Of , digits a date , year 2000 year 1900 -- `` 00 '' . 
+<A_TXT> This n't a big problem year 2000 . 
 
 <Q_NUMBER>3
 <A_LINE>11
@@ -77,9 +77,9 @@
 <A_TXT> At province making Y2K school vacation plans . 
 
 <Q_NUMBER>6
-<A_LINE>13
+<A_LINE>5
 <Q_TXT>When will New Brunswick students take Christmas break this year?
-<A_TXT> Schools New Brunswick changed date Christmas break earlier week , Y2K worries . 
+<A_TXT> The millennium computer bug a longer Christmas break year students Ontario . 
 
 <Q_NUMBER>7
 <A_LINE>17
@@ -102,14 +102,14 @@
 <A_TXT> Yesterday leaders Canada 's ten provinces territories Ottawa , Ontario Prime Minister . 
 
 <Q_NUMBER>3
-<A_LINE>32
+<A_LINE>13
 <Q_TXT>Where did the Canadian leaders meet to discuss the accord?
-<A_TXT> `` This make Canada , '' Mr. Chretien social union accord . 
+<A_TXT> They discussed issues important Canadians , education job creation . 
 
 <Q_NUMBER>4
-<A_LINE>36
+<A_LINE>11
 <Q_TXT>Which leader is the premier of Ontario?
-<A_TXT> Ontario Premier Mike Harris called `` a tremendous day . '' 
+<A_TXT> Yesterday leaders Canada 's ten provinces territories Ottawa , Ontario Prime Minister . 
 
 <Q_NUMBER>5
 <A_LINE>23
@@ -167,9 +167,9 @@
 <A_TXT> Republican senators claim Clinton Lewinsky lie , decision cover affair . 
 
 <Q_NUMBER>6
-<A_LINE>22
+<A_LINE>20
 <Q_TXT>Why do most Americans not want Clinton impeached?
-<A_TXT> In fact , Clinton 's approval rating climbed trial , means Americans fit president . 
+<A_TXT> Although Americans Clinton acted immorally , n't actions impeach . 
 
 <Q_NUMBER>7
 <A_LINE>22
@@ -207,9 +207,9 @@
 <A_TXT> The party hunting caribou , city frozen tundra . 
 
 <Q_NUMBER>6
-<A_LINE>44
+<A_LINE>23
 <Q_TXT>What kind of animal do the inmates hunt in the summertime?
-<A_TXT> `` Whenever inmates jail feeling good wanting succeed I cost borne terms reduced recidivism -LRB- a return committing crimes -RRB- . 
+<A_TXT> Inuit takes killing animal a hunter . 
 
 </FILE>
 
@@ -217,9 +217,9 @@
 <FILE>1999-W10-2.txt
 
 <Q_NUMBER>1
-<A_LINE>12
+<A_LINE>5
 <Q_TXT>Why were bells ringing all over the world at noon yesterday?
-<A_TXT> In Paris , France members carillon associations - people experts ringing bells - coordinated ringing cathedral bells city . 
+<A_TXT> Church bells world rang noon yesterday international ban landmines international law . 
 
 <Q_NUMBER>2
 <A_LINE>15
@@ -227,9 +227,9 @@
 <A_TXT> The pact agreed 130 countries Ottawa , Ontario 1997 . 
 
 <Q_NUMBER>3
-<A_LINE>18
+<A_LINE>31
 <Q_TXT>Which countries refused to sign the international accord on landmines?
-<A_TXT> Despite notable absences , Nobel Peace Prize winner Jody Williams , The International Campaign Ban Landmines , accord impact countries world . 
+<A_TXT> The United States refused sign treaty , mines defense border North South Korea . 
 
 <Q_NUMBER>4
 <A_LINE>12
@@ -252,9 +252,9 @@
 <A_TXT> The head United Nations , Secretary-General Kofi Annan treaty 's entry force a milestone . 
 
 <Q_NUMBER>8
-<A_LINE>28
+<A_LINE>25
 <Q_TXT>What is the purpose of an anti-personnel landmine?
-<A_TXT> - Anti-personnel -LRB- AP -RRB- landmine - `` A mine designed exploded presence , proximity contact a person incapacitate , injure kill persons . '' 
+<A_TXT> The treaty prohibits , production storage anti-personnel landmines sets a time limit destroying stocks clearing mine fields . 
 
 <Q_NUMBER>9
 <A_LINE>10
@@ -307,9 +307,9 @@
 <FILE>1999-W11-3.txt
 
 <Q_NUMBER>1
-<A_LINE>36
+<A_LINE>12
 <Q_TXT>How does Newfoundland intend to use a film of seals feasting on cod?
-<A_TXT> Jeff Hutchings , a professor Dalhousie University Halifax , Nova Scotia a stretch Mr. Efford evidence seals preying cod location argue a massive cull -LRB- harvest -RRB- seal herd . 
+<A_TXT> The footage , filmed week fishermen government supplied equipment , shows ocean floor a group seals crowded cod a bay started feasting . 
 
 <Q_NUMBER>2
 <A_LINE>10
@@ -317,9 +317,9 @@
 <A_TXT> `` From impression , 's killing fields . '' 
 
 <Q_NUMBER>3
-<A_LINE>42
+<A_LINE>12
 <Q_TXT>Who shot the footage of seals eating cod?
-<A_TXT> He adds documentation seals eaten fish stomachs suggests scientists underestimated cod seals kill . 
+<A_TXT> The footage , filmed week fishermen government supplied equipment , shows ocean floor a group seals crowded cod a bay started feasting . 
 
 <Q_NUMBER>4
 <A_LINE>25
@@ -387,14 +387,14 @@
 <A_TXT> `` It s incident , '' Rod Bushie , grand chief Assembly Manitoba Chiefs . 
 
 <Q_NUMBER>6
-<A_LINE>25
+<A_LINE>18
 <Q_TXT>How should politicians respond to racism, according to Bushie?
-<A_TXT> Bushie called politicians encourage racial tolerance . 
+<A_TXT> Two weeks ago a Bantam hockey game Dauphin involving a team Waywayseecappo First Nation , fans team brought hand drums game taunt Native players fans , Bushie . 
 
 <Q_NUMBER>7
-<A_LINE>28
+<A_LINE>7
 <Q_TXT>According to Bushie, what should the schools do to combat racism?
-<A_TXT> He Manitoba Hockey MJHL investigate acts racism . 
+<A_TXT> `` It s incident , '' Rod Bushie , grand chief Assembly Manitoba Chiefs . 
 
 <Q_NUMBER>8
 <A_LINE>31
@@ -417,14 +417,14 @@
 <A_TXT> Foreign Affairs Minister Lloyd Axworthy goal force Yugoslavia accept a peace agreement proposed United States . 
 
 <Q_NUMBER>3
-<A_LINE>14
+<A_LINE>23
 <Q_TXT>How would the U.S. peace proposal settle the crisis?
-<A_TXT> In Ottawa , Ontario , officials gave descriptions Canada 's role Wednesday 's lead wave . 
+<A_TXT> Foreign Affairs Minister Lloyd Axworthy goal force Yugoslavia accept a peace agreement proposed United States . 
 
 <Q_NUMBER>4
-<A_LINE>5
+<A_LINE>8
 <Q_TXT>How many of the targets they were given did the Canadian fighter bombers hit?
-<A_TXT> Canadian bombs hit targets NATO 's initial attacks war-torn Yugoslavia , officials announced yesterday . 
+<A_TXT> Four fighter bombers Bagotville , Quebec returned safely Italian base late Thursday a day air strikes aimed ending ethnic bloodshed province Kosovo . 
 
 <Q_NUMBER>5
 <A_LINE>19
@@ -432,9 +432,9 @@
 <A_TXT> `` One pilots unable positively identify target assigned , a measure a mark excellent discipline , n't launch weapons . '' 
 
 <Q_NUMBER>6
-<A_LINE>27
+<A_LINE>36
 <Q_TXT>Who has been protesting the bombing in Yugoslavia?
-<A_TXT> The government Yugoslavia -- Serbian -- region Kosovo , residents Albanian heritage , rule . 
+<A_TXT> Yugoslavia thought dangerous air defences , including surface-to-air missiles anti-aircraft guns . 
 
 <Q_NUMBER>7
 <A_LINE>39
@@ -457,9 +457,9 @@
 <FILE>1999-W15-5.txt
 
 <Q_NUMBER>1
-<A_LINE>14
+<A_LINE>12
 <Q_TXT>What is an ombudsman?
-<A_TXT> Ombudsman Dulcie McCallum investigation found 170 Doukhobor children subjected abuse suffered `` loss love , nurturing guidance childhood '' detained 1953 1959 . 
+<A_TXT> An ombudsman a person appointed a government investigate individuals ' complaints public authorities . 
 
 <Q_NUMBER>2
 <A_LINE>16
@@ -497,9 +497,9 @@
 <A_TXT> This a difficult time British Columbia history , '' Attorney General Ujjal Dosanjn yesterday . 
 
 <Q_NUMBER>9
-<A_LINE>39
+<A_LINE>10
 <Q_TXT>How have provincial officials responded to the ombudsman's report?
-<A_TXT> Provincial officials studying report preparing a response . 
+<A_TXT> British Columbia 's ombudsman provincial government apologize compensate children a controversial religious group locked internment camp 1950s . 
 
 </FILE>
 
@@ -517,14 +517,14 @@
 <A_TXT> When game -LRB- Penguins won 2-1 -RRB- Gretzky smiled tears final laps Madison Square Garden . 
 
 <Q_NUMBER>3
-<A_LINE>39
+<A_LINE>51
 <Q_TXT>Where did Gretzky play his last hockey game?
-<A_TXT> `` It 's difficult National Hockey League lose hockey player played , 's a great ambassador game 20 years . '' 
+<A_TXT> `` I 'm devastated I longer a hockey player , '' Wayne Gretzky , 38 , eyes red , hour final skate . 
 
 <Q_NUMBER>4
-<A_LINE>39
+<A_LINE>51
 <Q_TXT>Why will the number 99 never be worn again by a professional hockey player?
-<A_TXT> `` It 's difficult National Hockey League lose hockey player played , 's a great ambassador game 20 years . '' 
+<A_TXT> `` I 'm devastated I longer a hockey player , '' Wayne Gretzky , 38 , eyes red , hour final skate . 
 
 <Q_NUMBER>5
 <A_LINE>56
@@ -532,9 +532,9 @@
 <A_TXT> As left arena , Wayne 's father mother told proud . 
 
 <Q_NUMBER>6
-<A_LINE>52
+<A_LINE>21
 <Q_TXT>Why did Gretzky skate slowly around the rink after his last game?
-<A_TXT> `` I miss part game , I loved part game . 
+<A_TXT> With tears typical grace , Wayne Gretzky skated professional hockey . 
 
 <Q_NUMBER>7
 <A_LINE>51
@@ -562,14 +562,14 @@
 <FILE>1999-W18-5.txt
 
 <Q_NUMBER>1
-<A_LINE>5
+<A_LINE>20
 <Q_TXT>When did Qemal Sefa's family flee Kosovo?
-<A_TXT> A month fleeing battered bloodied Kosovo , Yugoslavia clothes backs , Qemal Sefa family arrived home Winnipeg , Manitoba night . 
+<A_TXT> While Sefa 's family made trip Albanian capital Tirana safely , youngest son , Orland , 23 , showed . 
 
 <Q_NUMBER>2
-<A_LINE>16
+<A_LINE>20
 <Q_TXT>Why did Sefa's family leave their home?
-<A_TXT> A month ago , Sefa , 59 , family minutes leave home town Gjakov Serb forces ordered Kosovo . 
+<A_TXT> While Sefa 's family made trip Albanian capital Tirana safely , youngest son , Orland , 23 , showed . 
 
 <Q_NUMBER>3
 <A_LINE>20
@@ -582,9 +582,9 @@
 <A_TXT> While Sefa 's family made trip Albanian capital Tirana safely , youngest son , Orland , 23 , showed . 
 
 <Q_NUMBER>5
-<A_LINE>28
+<A_LINE>24
 <Q_TXT>Which of Sefa's children is not with the family in Canada?
-<A_TXT> Sefa family receive support federal government years , time apply stay Canada permanently . 
+<A_TXT> Esat Sefa wanting bring family Canada fighting erupted Kosovo . 
 
 <Q_NUMBER>6
 <A_LINE>5
@@ -597,9 +597,9 @@
 <A_TXT> A month fleeing battered bloodied Kosovo , Yugoslavia clothes backs , Qemal Sefa family arrived home Winnipeg , Manitoba night . 
 
 <Q_NUMBER>8
-<A_LINE>11
+<A_LINE>20
 <Q_TXT>Who is Sefa's family staying with in Canada?
-<A_TXT> The ethnic Albanian refugees - make Western Canada - staying Sefa 's brother Esat son Haki . 
+<A_TXT> While Sefa 's family made trip Albanian capital Tirana safely , youngest son , Orland , 23 , showed . 
 
 <Q_NUMBER>9
 <A_LINE>26
@@ -607,9 +607,9 @@
 <A_TXT> He send money supplies shipments regularly intercepted Serb forces money goods . 
 
 <Q_NUMBER>10
-<A_LINE>57
+<A_LINE>53
 <Q_TXT>What is the name of the UN organization responsible for refugees?
-<A_TXT> The minister refugees begin arriving Monday . 
+<A_TXT> Immigration Minister Lucienne Robillard asked today `` reactivate '' plan United Nations agency responsible refugees . 
 
 <Q_NUMBER>11
 <A_LINE>49
@@ -647,19 +647,19 @@
 <A_TXT> Sean 's launching a Charter challenge Ottawa 's anti-panhandling laws ticketed begging street . 
 
 <Q_NUMBER>5
-<A_LINE>10
+<A_LINE>5
 <Q_TXT>Before Sean O'Neill's case, how many other times have anti-begging laws been challenged in court?
-<A_TXT> Sean 's launching a Charter challenge Ottawa 's anti-panhandling laws ticketed begging street . 
+<A_TXT> Sean O'Neill money -- 's court prove . 
 
 <Q_NUMBER>6
-<A_LINE>10
+<A_LINE>47
 <Q_TXT>Who is Sean's lawyer?
-<A_TXT> Sean 's launching a Charter challenge Ottawa 's anti-panhandling laws ticketed begging street . 
+<A_TXT> Sean 's court case a weeks . 
 
 <Q_NUMBER>7
-<A_LINE>31
+<A_LINE>45
 <Q_TXT>What kinds of laws have governments passed that limit the freedom of expression?
-<A_TXT> Freedom conscience religion ; Freedom thought , belief , opinion expression , including freedom press media communication ; Freedom peaceful assembly ; Freedom association . 
+<A_TXT> For , laws pornography hate propaganda reasonable limits freedom expression prevent harm individuals groups . 
 
 <Q_NUMBER>8
 <A_LINE>31
@@ -702,9 +702,9 @@
 <A_TXT> It 's scalpers Los Angeles , California . 
 
 <Q_NUMBER>7
-<A_LINE>32
+<A_LINE>34
 <Q_TXT>Where have offers for tickets been common?
-<A_TXT> When tickets sale customer limited 12 tickets , formal stop scalpers returning snag tickets . 
+<A_TXT> Offers tickets common Internet . 
 
 <Q_NUMBER>8
 <A_LINE>44
@@ -742,9 +742,9 @@
 <A_TXT> One member church , Thordis Gutnick , spending couple months teaching English refugees . 
 
 <Q_NUMBER>6
-<A_LINE>34
+<A_LINE>29
 <Q_TXT>How many Kosovars are eligible for Canada's family reunification program?
-<A_TXT> Canada set limit number refugees eligible family reunification plan . 
+<A_TXT> More refugees continue arrive Canada 's family reunification plan . 
 
 <Q_NUMBER>7
 <A_LINE>41
@@ -807,9 +807,9 @@
 <FILE>1999-W24-5.txt
 
 <Q_NUMBER>1
-<A_LINE>13
+<A_LINE>5
 <Q_TXT>When will Judge Arbour start her new job on Canada's Supreme Court?
-<A_TXT> She Judge Arbour 's work prosecuting war crimes enhance Supreme Court , describing `` a woman dealt difficult challenging issues modern time . 
+<A_TXT> The woman charged Yugoslav President Slobodan Milosevic war crimes appointed Canada 's Supreme Court . 
 
 <Q_NUMBER>2
 <A_LINE>30
@@ -817,9 +817,9 @@
 <A_TXT> Judge Arbour graduated University Montreal a law degree 1970 . 
 
 <Q_NUMBER>3
-<A_LINE>17
+<A_LINE>13
 <Q_TXT>Before getting her new position, what was Judge Arbour's job?
-<A_TXT> Judge Arbour 's major act chief prosecutor indict Slobodan Milosevic crimes humanity weeks ago -- time international court charged a sitting head state war crimes . 
+<A_TXT> She Judge Arbour 's work prosecuting war crimes enhance Supreme Court , describing `` a woman dealt difficult challenging issues modern time . 
 
 <Q_NUMBER>4
 <A_LINE>30
@@ -837,14 +837,14 @@
 <A_TXT> Judge Arbour 's major act chief prosecutor indict Slobodan Milosevic crimes humanity weeks ago -- time international court charged a sitting head state war crimes . 
 
 <Q_NUMBER>7
-<A_LINE>18
+<A_LINE>20
 <Q_TXT>What was the president of Yugoslavia indicted for?
-<A_TXT> She held Yugoslav President personally responsible , aides , horrors Kosovo brutal purge ethnic Albanians . 
+<A_TXT> It appears coincidence Ms. McLellan announced appointment day NATO Yugoslav generals signed a detailed military agreement withdrawal Yugoslav Serb forces Kosovo . 
 
 <Q_NUMBER>8
-<A_LINE>20
+<A_LINE>30
 <Q_TXT>Why was the announcement about Judge Arbour not made until NATO and Yugoslavia signed an agreement?
-<A_TXT> It appears coincidence Ms. McLellan announced appointment day NATO Yugoslav generals signed a detailed military agreement withdrawal Yugoslav Serb forces Kosovo . 
+<A_TXT> Judge Arbour graduated University Montreal a law degree 1970 . 
 
 </FILE>
 
@@ -852,19 +852,19 @@
 <FILE>1999-W25-5.txt
 
 <Q_NUMBER>1
-<A_LINE>13
+<A_LINE>15
 <Q_TXT>When was the last time a Canadian was executed in the United States?
-<A_TXT> The United States international law , a friend late man 's family . 
+<A_TXT> `` The United States world leaders world powers , basic human rights people violated country , '' Charlene Gingera , hour Faulder killed injection deadly chemicals . 
 
 <Q_NUMBER>2
-<A_LINE>38
+<A_LINE>5
 <Q_TXT>Of which province in Canada was Stanley Faulder a native?
-<A_TXT> `` It 's frightening people ... Cliff Breitkreuz people province Alberta Canada 's OK ignore a violation international law , 's OK ignore a violation human rights ... '' 
+<A_TXT> Stanley Faulder executed State Texas yesterday evening . 
 
 <Q_NUMBER>3
-<A_LINE>11
+<A_LINE>44
 <Q_TXT>What would a stay of execution have allowed?
-<A_TXT> A `` stay execution '' delays execution , allowed Mr. Faulder 's lawyer continue quest live . 
+<A_TXT> In days , Mr. Faulder 's relatives hoped a stay execution n't overly optimistic , . 
 
 <Q_NUMBER>4
 <A_LINE>15
@@ -877,9 +877,9 @@
 <A_TXT> Ms. Gingera working Faulder family 1997 human rights groups interested case . 
 
 <Q_NUMBER>6
-<A_LINE>38
+<A_LINE>19
 <Q_TXT>What did Texas officials fail to do, in apparent violation of international law?
-<A_TXT> `` It 's frightening people ... Cliff Breitkreuz people province Alberta Canada 's OK ignore a violation international law , 's OK ignore a violation human rights ... '' 
+<A_TXT> She referring fact Canada 's Foreign Affairs Minister Lloyd Axworthy U.S. counterpart , Madeleine Albright , agreed Faulder denied international rights Texas officials failed Canadian diplomats jail . 
 
 <Q_NUMBER>7
 <A_LINE>22
@@ -927,9 +927,9 @@
 <A_TXT> Beluga whales live arctic subarctic . 
 
 <Q_NUMBER>5
-<A_LINE>5
+<A_LINE>15
 <Q_TXT>Even in the best of conditions, how long can beluga whales stay under water?
-<A_TXT> A group 50 beluga whales fighting stay alive icy trap Canadian Arctic Ellesmere Island . 
+<A_TXT> Even conditions , belugas spend 10 minutes underwater . 
 
 <Q_NUMBER>6
 <A_LINE>16
@@ -942,9 +942,9 @@
 <A_TXT> Unless ice breaks , belugas ' chances survival grim . 
 
 <Q_NUMBER>8
-<A_LINE>20
+<A_LINE>5
 <Q_TXT>Where do beluga whales live?
-<A_TXT> Beluga whales live arctic subarctic . 
+<A_TXT> A group 50 beluga whales fighting stay alive icy trap Canadian Arctic Ellesmere Island . 
 
 </FILE>
 
@@ -972,9 +972,9 @@
 <A_TXT> Mosasaurs found world Sweden New Zealand , Antarctica . 
 
 <Q_NUMBER>5
-<A_LINE>5
+<A_LINE>1
 <Q_TXT>What does this new discovery of dinosaur bones tell us about the Antarctic?
-<A_TXT> Scientists Antarctic discovered dinosaur bones , including partial skeletons , jaws teeth . 
+<A_TXT> Scientists find dinosaur bones Antarctica 
 
 </FILE>
 
@@ -982,9 +982,9 @@
 <FILE>1999-W29-5.txt
 
 <Q_NUMBER>1
-<A_LINE>26
+<A_LINE>7
 <Q_TXT>Who traveled across America to help convince the American government that stricter gun control laws are needed?
-<A_TXT> These people gun control plan delay creation gun laws . 
+<A_TXT> About 95 students United States made White House President Clinton convince American government put stricter controls guns . 
 
 <Q_NUMBER>2
 <A_LINE>10
@@ -1002,9 +1002,9 @@
 <A_TXT> In April , Columbine High School scene worst high school shooting American history . 
 
 <Q_NUMBER>5
-<A_LINE>26
+<A_LINE>5
 <Q_TXT>When does Bill Clinton want to have new gun laws passed?
-<A_TXT> These people gun control plan delay creation gun laws . 
+<A_TXT> American President Bill Clinton tougher gun control United States 
 
 <Q_NUMBER>6
 <A_LINE>16
@@ -1117,24 +1117,24 @@
 <A_TXT> Eugene Shoemaker finally fulfill lifelong moon . 
 
 <Q_NUMBER>2
-<A_LINE>7
+<A_LINE>22
 <Q_TXT>How big is the container holding Shoemaker's ashes?
-<A_TXT> If planned Saturday , a lipstick-sized container carry ashes moon 's south pole . 
+<A_TXT> It Shoemaker 's dream moon . 
 
 <Q_NUMBER>3
-<A_LINE>14
+<A_LINE>12
 <Q_TXT>Where is the Lunar Prospector supposed to crash-land?
-<A_TXT> NASA hopeful impact Prospector 's crash moon create a plume water visible Earth a telescope . 
+<A_TXT> The Lunar Prospector a moon-orbiting craft . 
 
 <Q_NUMBER>4
-<A_LINE>14
+<A_LINE>10
 <Q_TXT>What is NASA hoping the Lunar Prospector will create when it crash-lands?
-<A_TXT> NASA hopeful impact Prospector 's crash moon create a plume water visible Earth a telescope . 
+<A_TXT> His ashes aboard NASA 's Lunar Prospector . 
 
 <Q_NUMBER>5
-<A_LINE>20
+<A_LINE>18
 <Q_TXT>On what was Shoemaker considered an authority?
-<A_TXT> Shoemaker gained worldwide fame 1994 , helped discover comet Shoemaker-Levy 9 . The comet slammed Jupiter 1994 . 
+<A_TXT> He considered authority craters collisions . 
 
 <Q_NUMBER>6
 <A_LINE>19
@@ -1152,14 +1152,14 @@
 <A_TXT> Shoemaker gained worldwide fame 1994 , helped discover comet Shoemaker-Levy 9 . The comet slammed Jupiter 1994 . 
 
 <Q_NUMBER>9
-<A_LINE>20
+<A_LINE>27
 <Q_TXT>Whom did Shoemaker teach about craters?
-<A_TXT> Shoemaker gained worldwide fame 1994 , helped discover comet Shoemaker-Levy 9 . The comet slammed Jupiter 1994 . 
+<A_TXT> Shoemaker shortly death biggest disappointment life `` moon banging hammer . '' 
 
 <Q_NUMBER>10
-<A_LINE>23
+<A_LINE>5
 <Q_TXT>Why was Eugene Shoemaker rejected for astronaut training?
-<A_TXT> He applied astronaut 1960s , rejected a medical problem . 
+<A_TXT> Eugene Shoemaker finally fulfill lifelong moon . 
 
 <Q_NUMBER>11
 <A_LINE>27
@@ -1187,14 +1187,14 @@
 <A_TXT> Many people visit Lunenburg town a United Nations World Heritage Site . 
 
 <Q_NUMBER>4
-<A_LINE>20
+<A_LINE>28
 <Q_TXT>When was the first International Fisherman's Trophy race held?
-<A_TXT> The International Fisherman 's Trophy race 1920 . 
+<A_TXT> In 1955 , Bluenose captain , Angus Walters , inducted Canadian Sports Hall Fame achievements International Fisherman 's Trophy races . 
 
 <Q_NUMBER>5
-<A_LINE>20
+<A_LINE>28
 <Q_TXT>How did the International Fisherman's Trophy race start?
-<A_TXT> The International Fisherman 's Trophy race 1920 . 
+<A_TXT> In 1955 , Bluenose captain , Angus Walters , inducted Canadian Sports Hall Fame achievements International Fisherman 's Trophy races . 
 
 <Q_NUMBER>6
 <A_LINE>28
@@ -1202,9 +1202,9 @@
 <A_TXT> In 1955 , Bluenose captain , Angus Walters , inducted Canadian Sports Hall Fame achievements International Fisherman 's Trophy races . 
 
 <Q_NUMBER>7
-<A_LINE>31
+<A_LINE>33
 <Q_TXT>Where did the Bluenose sink?
-<A_TXT> The Bluenose II a replica original Bluenose . 
+<A_TXT> The Bluenose Lunenburg important parts Canadian history . 
 
 <Q_NUMBER>8
 <A_LINE>29
@@ -1242,9 +1242,9 @@
 <A_TXT> The Canadian Pediatric Society doctors monitor time children sitting front electronic screens . 
 
 <Q_NUMBER>4
-<A_LINE>23
+<A_LINE>5
 <Q_TXT>How much time should school children spend watching TV each day?
-<A_TXT> At current Canadian rates , average high school graduate spent time watching TV learning a classroom . 
+<A_TXT> How time average Canadian kid spend watching television week ? 
 
 <Q_NUMBER>5
 <A_LINE>23
@@ -1262,9 +1262,9 @@
 <A_TXT> The pediatricians televisions turned meal times . 
 
 <Q_NUMBER>8
-<A_LINE>16
+<A_LINE>21
 <Q_TXT>What do pediatricians recommend parents do with their children when they watch TV?
-<A_TXT> A group representing Canadian pediatricians - doctors specialize treating children - a question parents children a checkup : How television kids watch ? 
+<A_TXT> The society parents limit preschoolers hour TV a day , school children watch hours daily . 
 
 <Q_NUMBER>9
 <A_LINE>5
@@ -1292,14 +1292,14 @@
 <A_TXT> The Wave Swinger a circular ride 48 swing-style seats attached metal chains a dome . 
 
 <Q_NUMBER>4
-<A_LINE>22
+<A_LINE>17
 <Q_TXT>Who described the experience on the Wave Swinger as "a horror show"?
-<A_TXT> Phillips Wave Swinger inspected Wednesday morning ride foreman , a Conklin Shows employee , Tuesday morning a safety inspector Canadian National Exhibition . 
+<A_TXT> `` It a horror show . '' 
 
 <Q_NUMBER>5
-<A_LINE>22
+<A_LINE>33
 <Q_TXT>Who owns the midway where the Wave Swinger is located?
-<A_TXT> Phillips Wave Swinger inspected Wednesday morning ride foreman , a Conklin Shows employee , Tuesday morning a safety inspector Canadian National Exhibition . 
+<A_TXT> The Paramount Canada 's Wonderland amusement park Toronto shut a ride similar The Wave Swinger safety inspectors complete investigation . 
 
 <Q_NUMBER>6
 <A_LINE>22
@@ -1452,9 +1452,9 @@
 <A_TXT> The woman years ago pregnant time . 
 
 <Q_NUMBER>7
-<A_LINE>17
+<A_LINE>34
 <Q_TXT>How many children are Chinese couples allowed to have?
-<A_TXT> Couples China allowed child . 
+<A_TXT> Larry Smeets , lawyer , Federal Court Appeal concluded past forced sterilization a form persecution , reason recognized a reason refugees allowed remain Canada . 
 
 <Q_NUMBER>8
 <A_LINE>28
@@ -1467,9 +1467,9 @@
 <A_TXT> The woman family received a notice 'll sterilized ca n't babies returns China . 
 
 <Q_NUMBER>10
-<A_LINE>36
+<A_LINE>5
 <Q_TXT>On what does the Immigration and Refugee Board's decision on the woman's request for refugee status depend?
-<A_TXT> Since evidence woman 's testimony , decision depends board members telling truth . 
+<A_TXT> One women China 's Fujian province told a compelling story Immigration Refugee Board yesterday . 
 
 <Q_NUMBER>11
 <A_LINE>34
@@ -1502,9 +1502,9 @@
 <A_TXT> Neudorf , a drummer band 54-40 , recruited then-promising 19-year-old McLachlan , recently moved Vancouver Halifax , Nova Scotia , pursue a career a recording artist . 
 
 <Q_NUMBER>5
-<A_LINE>27
+<A_LINE>13
 <Q_TXT>Where did McLachlan move from?
-<A_TXT> During trial , McLachlan occasionally sang played a keyboard court staff , reporters teenaged fans illustrate songs put . 
+<A_TXT> Neudorf , a drummer band 54-40 , recruited then-promising 19-year-old McLachlan , recently moved Vancouver Halifax , Nova Scotia , pursue a career a recording artist . 
 
 <Q_NUMBER>6
 <A_LINE>19
@@ -1597,9 +1597,9 @@
 <A_TXT> `` We n't , '' Richard Cook , spacecraft 's project manager NASA 's Jet Propulsion Laboratory . 
 
 <Q_NUMBER>3
-<A_LINE>7
+<A_LINE>26
 <Q_TXT>Where on Mars was the spacecaft supposed to touch down?
-<A_TXT> The Mars Polar Lander a mission Mars study atmosphere search water , scientists determine life existed Mars . 
+<A_TXT> The Mars Polar Lander touched side a canyon toppled . 
 
 <Q_NUMBER>4
 <A_LINE>30
@@ -1627,9 +1627,9 @@
 <A_TXT> The Polar Lander Spacecraft 1.06 metres tall 3.6 metres wide . 
 
 <Q_NUMBER>9
-<A_LINE>7
+<A_LINE>26
 <Q_TXT>How many legs did the Mars Polar Lander have?
-<A_TXT> The Mars Polar Lander a mission Mars study atmosphere search water , scientists determine life existed Mars . 
+<A_TXT> The Mars Polar Lander touched side a canyon toppled . 
 
 </FILE>
 
@@ -1667,9 +1667,9 @@
 <A_TXT> The Canadian Tobacco Manufacturers Association , represents tobacco companies , years cost millions dollars change packaging Canadian cigarettes . 
 
 <Q_NUMBER>7
-<A_LINE>29
+<A_LINE>35
 <Q_TXT>What do anti-smoking organizations think about the cigarette packaging plan?
-<A_TXT> Anti-smoking organizations applauded strategy . 
+<A_TXT> The Canadian Tobacco Manufacturers Association , represents tobacco companies , years cost millions dollars change packaging Canadian cigarettes . 
 
 <Q_NUMBER>8
 <A_LINE>23
@@ -1692,9 +1692,9 @@
 <A_TXT> With Valentine 's Day corner , vice-principal Mike Kachmar announced smooching ban school 's public address system . 
 
 <Q_NUMBER>3
-<A_LINE>11
+<A_LINE>7
 <Q_TXT>How did Kachmar describe school?
-<A_TXT> `` School a place business expect students act behave , '' Kachmar . 
+<A_TXT> With Valentine 's Day corner , vice-principal Mike Kachmar announced smooching ban school 's public address system . 
 
 <Q_NUMBER>4
 <A_LINE>7

@@ -1,5 +1,6 @@
 package cs2731;
 
+import cs2731.discourse.DiscourseAnswerFinder;
 import cs2731.ner.NameAnswerFinder;
 import cs2731.ner.RandomNameAnswerFinder;
 import java.util.Map;
@@ -30,6 +31,7 @@ public class DeanQA
 	static List<Guess> answers;
 	
 	static Preprocessor preprocessor;
+	static StopwordRemover swRem = null;
 
 	private DeanQA() {}
 
@@ -68,8 +70,10 @@ public class DeanQA
 		//System.out.println("debug: orig numsents: " + document.size() + "\n");
 		int origLen = document.size();
 		//preprocessDocument();
-		StopwordRemover swRem = new StopwordRemover();
-		swRem.removeStopwordsFromDocument(document);
+		//if (swRem == null) {
+		//	swRem = new StopwordRemover();
+		//}
+		//swRem.removeStopwordsFromDocument(document);
 		//System.out.println("debug: new doc: " + document.toString());
 		//System.out.println("debug: new numsents: " + document.size() + "\n");
 		int newLen = document.size();
@@ -137,13 +141,15 @@ public class DeanQA
 	private static void answerQuestions(String input) throws IOException {
 		answers = new ArrayList<Guess>();
 		AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
-		AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
-		AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
+		//AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
+		//AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
 		AnswerFinder nerFinder = new RandomNameAnswerFinder();
-		AnswerFinder nameFinder = new NameAnswerFinder();
-		AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
-		AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
-		QuestionExpander qExp = new QuestionExpander();
+		//AnswerFinder nameFinder = new NameAnswerFinder();
+		//AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
+		//AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
+		AnswerFinder discourseFinder = new DiscourseAnswerFinder();
+		//QuestionExpander qExp = new QuestionExpander();
+		AnswerFinder boNGramsFinder = new BagOfNGramsAnswerFinder();
 
 		// for each question get a list of possible answers
 		List<Guess> guesses = new ArrayList<Guess>();
@@ -151,19 +157,33 @@ public class DeanQA
 
 			guesses.clear();
 			
+			QuestionType questionType = QuestionTypeDetector.getQuestionType(question);
+			
 			// expand question with synonyms according to wordnet?
 			//question = qExp.addSynwordsToQuestion(question);
 
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
 
-			guesses.addAll(bowFinder.getAnswerLines(document, question));
+			//guesses.addAll(bowFinder.getAnswerLines(document, question));
 			//guesses.addAll(lemmaFinder.getAnswerLines(document, question));
-			//guesses.addAll(nerFinder.getAnswerLines(document, question));
+			guesses.addAll(nerFinder.getAnswerLines(document, question));
 			//guesses.addAll(qtFinder.getAnswerLines(document, question));
 			//guesses.addAll(verbFinder.getAnswerLines(document, question));
 			//guesses.addAll(nameFinder.getAnswerLines(document, question));
 			//guesses.addAll(tfidfFinder.getAnswerLines(document, question));
+			((DiscourseAnswerFinder)discourseFinder).setNextDoc(rootPath+"/"+input);
+			guesses.addAll(discourseFinder.getAnswerLines(document, question));
+			guesses.addAll(boNGramsFinder.getAnswerLines(document, question));
+
+			//if (swRem == null) {
+			//	swRem = new StopwordRemover();
+			//}
+			//swRem.removeStopwordsFromDocument(document);
+			//question = swRem.removeStopwords(question);
+
+			//guesses.addAll(bowFinder.getAnswerLines(document, question));
+			//guesses.addAll(megaNGramsFinder.getAnswerLines(document, question));
 
 			// combine probabilities from multiple oracles
 			guesses = combineGuesses(guesses);
