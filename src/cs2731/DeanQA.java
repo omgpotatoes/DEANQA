@@ -1,8 +1,6 @@
 package cs2731;
 
 import cs2731.discourse.DiscourseAnswerFinder;
-import cs2731.ner.NameAnswerFinder;
-import cs2731.ner.RandomNameAnswerFinder;
 import java.util.Map;
 import cs2731.ner.NamedEntityService;
 import java.util.List;
@@ -10,7 +8,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -70,13 +67,9 @@ public class DeanQA
 		//System.out.println("debug: orig numsents: " + document.size() + "\n");
 		int origLen = document.size();
 		//preprocessDocument();
-<<<<<<< HEAD
 		//if (swRem == null) {
 		//	swRem = new StopwordRemover();
 		//}
-=======
-		StopwordRemover swRem = new StopwordRemover();
->>>>>>> 2902c7d6b52580a10d2e005c219b165174ef36be
 		//swRem.removeStopwordsFromDocument(document);
 		//System.out.println("debug: new doc: " + document.toString());
 		//System.out.println("debug: new numsents: " + document.size() + "\n");
@@ -144,26 +137,18 @@ public class DeanQA
 	 */
 	private static void answerQuestions(String input) throws IOException {
 		answers = new ArrayList<Guess>();
-		/*
-		AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
+		
+		//AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
 		//AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
 		//AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
-		AnswerFinder nerFinder = new RandomNameAnswerFinder();
-<<<<<<< HEAD
+		//AnswerFinder nerFinder = new RandomNameAnswerFinder();
 		//AnswerFinder nameFinder = new NameAnswerFinder();
 		//AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
 		//AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
 		AnswerFinder discourseFinder = new DiscourseAnswerFinder();
 		//QuestionExpander qExp = new QuestionExpander();
 		AnswerFinder boNGramsFinder = new BagOfNGramsAnswerFinder();
-=======
-		AnswerFinder nameFinder = new NameAnswerFinder();
-		AnswerFinder qtFinder = new RuleAnswerFinder();
-		AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
-		QuestionExpander qExp = new QuestionExpander();
-		*/
-		SVMAnswerFinder SVMFinder = new SVMAnswerFinder("./resources/input", "./resources/answerkey.txt");
->>>>>>> 2902c7d6b52580a10d2e005c219b165174ef36be
+		//SVMAnswerFinder SVMFinder = new SVMAnswerFinder("./resources/input", "./resources/answerkey.txt");
 
 		// for each question get a list of possible answers
 		List<Guess> guesses = new ArrayList<Guess>();
@@ -178,12 +163,9 @@ public class DeanQA
 
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
-
-<<<<<<< HEAD
-=======
-			SVMFinder.getAnswerLines(document, question);
+                        
+			//SVMFinder.getAnswerLines(document, question);
 			//guesses.addAll(SVMFinder.getAnswerLines(document, question));
->>>>>>> 2902c7d6b52580a10d2e005c219b165174ef36be
 			//guesses.addAll(bowFinder.getAnswerLines(document, question));
 			//guesses.addAll(lemmaFinder.getAnswerLines(document, question));
 			guesses.addAll(nerFinder.getAnswerLines(document, question));
