@@ -1,0 +1,88 @@
+
+%==================================
+% packages go here
+%==================================
+
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{cite} % sort citation numbers
+\usepackage{color}
+\usepackage{soul}   
+%\usepackage{ntheorem}
+%\usepackage{amsthm}
+%\usepackage{multirow} % for complex tables
+%\usepackage{times}
+\usepackage[pdftex]{hyperref}
+\hypersetup{colorlinks=false, pdfborder= 0 0 0}
+\usepackage[draft,inline,nomargin]{fixme}
+\newcommand{\hlfixme}[1]{\fixme{\hl{#1}}}
+\newcommand{\hlfxnote}[1]{\fxnote{\hl{#1}}}
+
+%==================================
+
+\documentclass{acm_proc_article-sp}
+
+\begin{document}
+
+\title{Title goes here}
+\subtitle{[Subtitle goes here]
+
+\numberofauthors{3}
+\author{
+\alignauthor Name 1 \\
+       \affaddr{Institute for Clarity in Documentation}\\
+       \affaddr{1932 Wallamaloo Lane}\\
+       \affaddr{Wallamaloo, New Zealand}\\
+       \email{trovato@corporation.com}
+% author
+\alignauthor Name 2\\
+       \affaddr{Institute for Clarity in Documentation}\\
+       \affaddr{P.O. Box 1212}\\
+       \affaddr{Dublin, Ohio 43017-6221}\\
+       \email{webmaster@marysville-ohio.com}
+% author
+\alignauthor Name 3 \\
+       \affaddr{Institute for Clarity in Documentation}\\
+       \affaddr{P.O. Box 1212}\\
+       \affaddr{Hekla, Iceland}\\
+       \email{larst@affiliation.org}
+}
+
+\date{30 July 1999}
+\maketitle
+
+%==================================
+
+\begin{abstract}
+abstract goes here
+\end{abstract}
+
+% A category with the (minimum) three required fields
+\category{I.2}{Artifical Intelligence}{Natural Language Processing}
+
+\terms{Theory}
+\keywords{Question Answering}
+
+%==================================
+
+\section{Introduction}
+
+Introduction goes here.
+
+\section{Conclusions}
+
+%ACKNOWLEDGMENTS are optional
+\section{Acknowledgments}
+
+%\bibliographystyle{abbrv}
+\bibliographystyle{plain}
+\bibliography{references} 
+
+%
+%\appendix
+%%Appendix A
+%\section{Headings in Appendices}
+%\balancecolumns
+
+
+\end{document}
