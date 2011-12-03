@@ -27,8 +27,8 @@ public class DeanQA
 	static PrintWriter writer;
 	static List<String> document;
 	static List<String> questions;
-	static List<Guess> answers;
-	
+      static List<Guess> answers;
+      static SVMAnswerFinder SVMFinder;
 	static Preprocessor preprocessor;
 
 	private DeanQA() {}
@@ -146,7 +146,6 @@ public class DeanQA
 		AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
 		QuestionExpander qExp = new QuestionExpander();
 		*/
-		SVMAnswerFinder SVMFinder = new SVMAnswerFinder("./resources/input", "./resources/answerkey.txt");
 
 		// for each question get a list of possible answers
 		List<Guess> guesses = new ArrayList<Guess>();
@@ -160,8 +159,8 @@ public class DeanQA
 			// get guesses for this question
 			// TODO: parallel execution of a number of different strategies:
 
-			SVMFinder.getAnswerLines(document, question);
-			//guesses.addAll(SVMFinder.getAnswerLines(document, question));
+			//SVMFinder.getAnswerLines(document, question);
+			guesses.addAll(SVMFinder.getAnswerLines(document, question));
 			//guesses.addAll(bowFinder.getAnswerLines(document, question));
 			//guesses.addAll(lemmaFinder.getAnswerLines(document, question));
 			//guesses.addAll(nerFinder.getAnswerLines(document, question));
@@ -171,13 +170,11 @@ public class DeanQA
 			//guesses.addAll(tfidfFinder.getAnswerLines(document, question));
 
 			// combine probabilities from multiple oracles
-			/*
 			guesses = combineGuesses(guesses);
 
 			Collections.sort(guesses);
 			Collections.reverse(guesses);
 			answers.add(guesses.get(0));
-*/
 //			answers.addAll(guesses);
 		}
 
@@ -264,7 +261,11 @@ public class DeanQA
 		writer = new PrintWriter(outputFile);
 		document = new ArrayList<String>();
 		questions = new LinkedList<String>();
+		SVMFinder = new SVMAnswerFinder();
+		SVMFinder.trainModel("./resources/input", "./resources/answerkey.txt", "./resources/model.txt");
+		//SVMFinder.getModelFromFile("./resources/model.txt");
 
+		
 		processDataset(rootPath);
 		
 	}
