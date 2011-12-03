@@ -1,6 +1,7 @@
 
 package cs2731;
 
+import java.util.Arrays;
 import java.util.Collection;
 import cs2731.ner.NamedEntityType;
 import java.util.HashSet;
@@ -60,8 +61,8 @@ public class RuleAnswerFinder implements AnswerFinder
 		// get the target of the question type
 		if (ignoreCase) { question = question.toLowerCase(); }
 		QuestionType type = QuestionTypeDetector.getQuestionType(question);
-//		List<String> questionWords = Arrays.asList(tokenize(question, options));
-		List<String> questionWords = coreProcessor.getLemmas(question);
+		List<String> questionWords = Arrays.asList(tokenize(question, options));
+//		List<String> questionWords = coreProcessor.getLemmas(question);
 		Set<NamedEntityType> questionEntities = coreProcessor.getNamedEntities(question);
 		
 		int bestLine = bestLine(document, questionWords);
@@ -76,8 +77,8 @@ public class RuleAnswerFinder implements AnswerFinder
 			
 			// get the named entities for the line:
 			Set<NamedEntityType> lineEntities = coreProcessor.getNamedEntities(line);
-//			List<String> lineWords = Arrays.asList(tokenize(line, options));
-			List<String> lineWords = coreProcessor.getLemmas(line);
+			List<String> lineWords = Arrays.asList(tokenize(line, options));
+//			List<String> lineWords = coreProcessor.getLemmas(line);
 			
 			double score = 0;
 			
@@ -102,16 +103,17 @@ public class RuleAnswerFinder implements AnswerFinder
 						score += GOOD_CLUE;
 						score += wordMatch(questionWords, lineWords);
 					}
-					if (question.contains("the last")) {
-						if (containsAny(lineWords, "first","last","since","ago")) {
-							score += SLAM_DUNK;
-						}
-					}
-					if (containsAny(questionWords, "begin", "start")) {
-						if (containsAny(lineWords, "start","begin","since","year")) {
-							score += SLAM_DUNK;
-						}
-					}
+//					if (question.contains("the last")) {
+//						if (containsAny(lineWords, "first","last","since","ago")) {
+//							score += SLAM_DUNK;
+//						}
+//					}
+//					if (containsAny(questionWords, "begin", "start")) {
+//						if (containsAny(lineWords, "start","begin","since","year")) {
+//							score += SLAM_DUNK;
+//						}
+//					}
+					score += wordMatch(questionWords, lineWords);
 					break;
 					
 				case WHERE:
@@ -153,6 +155,13 @@ public class RuleAnswerFinder implements AnswerFinder
 					if (containsAny(lineWords, QuestionType.getWords(WHY))) {
 						score += GOOD_CLUE;
 					}
+					break;
+					
+				case HOW:
+					score += wordMatch(questionWords, lineWords);
+//					if (containsAny(lineWords, QuestionType.getWords(HOW))) {
+//						score += GOOD_CLUE;
+//					}
 					break;
 					
 				default:

@@ -34,6 +34,9 @@ import org.xml.sax.SAXException;
  */
 public class RandomNameAnswerFinder implements AnswerFinder {
 
+
+	public static double WEIGHT = 0.02;
+	
     // path to trained NER model
     public static String MODEL_PATH = "lib/muc.7class.distsim.crf.ser.gz";
 
@@ -237,7 +240,7 @@ public class RandomNameAnswerFinder implements AnswerFinder {
             // set equal prob on each sent?
             for (int s=0; s<docEntityList.size(); s++) {
 
-                guesses.add(new Guess(1.0/docEntityList.size(), s+1));
+                guesses.add(new Guess(1.0*WEIGHT/docEntityList.size(), s+1));
 
             }
 

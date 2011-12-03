@@ -102,7 +102,7 @@ public class CoreProcessor
 	 * @param sentences
 	 * @return 
 	 */
-	public static List<String> getAnnotations(Class<? extends CoreAnnotation<String>> clazz, List<CoreMap> sentences) {
+	public List<String> getAnnotations(Class<? extends CoreAnnotation<String>> clazz, List<CoreMap> sentences) {
 		List<String> list = new LinkedList<String>();
 		for (CoreMap sentence : sentences) {
 			for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
@@ -117,7 +117,7 @@ public class CoreProcessor
 	 * @param list
 	 * @return 
 	 */
-	public static EnumSet<NamedEntityType> getNamedEntities(List<CoreMap> list) {
+	public EnumSet<NamedEntityType> getNamedEntities(List<CoreMap> list) {
 		EnumSet<NamedEntityType> types = EnumSet.noneOf(NamedEntityType.class);
 		for (CoreMap sentence : list) {
 			for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
@@ -139,7 +139,7 @@ public class CoreProcessor
 	 * @param list
 	 * @return 
 	 */
-	public static List<String> getVerbLemmas(List<CoreMap> list) {
+	public List<String> getVerbLemmas(List<CoreMap> list) {
 		List<String> verbs = new LinkedList<String>();
 		for (CoreMap map : list) {
 			for (CoreLabel token : map.get(TokensAnnotation.class)) {
@@ -160,6 +160,6 @@ public class CoreProcessor
 		CoreProcessor tp = CoreProcessor.getInstance();
 		String line = "Bill goes to school at Stanford University. He lives in California.";
 		List<CoreMap> list = tp.annotateDocument(line);
-		System.out.println(CoreProcessor.getVerbLemmas(list));
+		System.out.println(tp.getVerbLemmas(list));
 	}
 }

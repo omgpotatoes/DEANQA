@@ -7,9 +7,9 @@
 <A_TXT> You , Noella `` Babe '' MacLean , died week age 87 , Canada 's biggest sports stars . 
 
 <Q_NUMBER>2
-<A_LINE>30
+<A_LINE>8
 <Q_TXT>What team did Babe play for?
-<A_TXT> Babe talked fabulous career . 
+<A_TXT> She a member `` winningest '' basketball team Canada . 
 
 <Q_NUMBER>3
 <A_LINE>30
@@ -17,9 +17,9 @@
 <A_TXT> Babe talked fabulous career . 
 
 <Q_NUMBER>4
-<A_LINE>30
+<A_LINE>25
 <Q_TXT>How tall was Babe?
-<A_TXT> Babe talked fabulous career . 
+<A_TXT> She a forward stood 5 feet , 2 inches tall . 
 
 <Q_NUMBER>5
 <A_LINE>22
@@ -27,9 +27,9 @@
 <A_TXT> The inventor game basketball , Dr. James Naismith called Edmonton Grads `` finest basketball team stepped a floor '' . 
 
 <Q_NUMBER>6
-<A_LINE>28
+<A_LINE>22
 <Q_TXT>How many games did the Edmonton Grads win?
-<A_TXT> He a trainer Edmonton hockey teams Edmonton Eskimos B.C. Lions football teams . 
+<A_TXT> The inventor game basketball , Dr. James Naismith called Edmonton Grads `` finest basketball team stepped a floor '' . 
 
 <Q_NUMBER>7
 <A_LINE>22
@@ -37,9 +37,9 @@
 <A_TXT> The inventor game basketball , Dr. James Naismith called Edmonton Grads `` finest basketball team stepped a floor '' . 
 
 <Q_NUMBER>8
-<A_LINE>31
+<A_LINE>7
 <Q_TXT>Who was Babe's husband?
-<A_TXT> But daughter scrapbooks found family 's basement show a part a team bit sensational Edmonton Oilers Gretzky 's time . 
+<A_TXT> You , Noella `` Babe '' MacLean , died week age 87 , Canada 's biggest sports stars . 
 
 <Q_NUMBER>9
 <A_LINE>31
@@ -57,9 +57,9 @@
 <A_TXT> Of , digits a date , year 2000 year 1900 -- `` 00 '' . 
 
 <Q_NUMBER>2
-<A_LINE>27
+<A_LINE>5
 <Q_TXT>How will the year 2000 be interpreted by a computer with the Y2K bug?
-<A_TXT> Of , digits a date , year 2000 year 1900 -- `` 00 '' . 
+<A_TXT> The millennium computer bug a longer Christmas break year students Ontario . 
 
 <Q_NUMBER>3
 <A_LINE>11
@@ -72,14 +72,14 @@
 <A_TXT> Dave Johnson boards worried computers run things heating , lighting door locks . 
 
 <Q_NUMBER>5
-<A_LINE>16
+<A_LINE>5
 <Q_TXT>Why is the Y2K bug affecting school vacations?
-<A_TXT> At province making Y2K school vacation plans . 
+<A_TXT> The millennium computer bug a longer Christmas break year students Ontario . 
 
 <Q_NUMBER>6
-<A_LINE>13
+<A_LINE>5
 <Q_TXT>When will New Brunswick students take Christmas break this year?
-<A_TXT> Schools New Brunswick changed date Christmas break earlier week , Y2K worries . 
+<A_TXT> The millennium computer bug a longer Christmas break year students Ontario . 
 
 <Q_NUMBER>7
 <A_LINE>17
@@ -94,12 +94,12 @@
 <Q_NUMBER>1
 <A_LINE>11
 <Q_TXT>What is the name of the new accord between most of Canada's provinces and territories?
-<A_TXT> Yesterday leaders Canada 's ten provinces territories Ottawa , Ontario Prime Minister . 
+<A_TXT> Yesterday leaders of Canada 's ten provinces territories Ottawa , Ontario Prime Minister . 
 
 <Q_NUMBER>2
 <A_LINE>11
 <Q_TXT>How many provinces does Canada have?
-<A_TXT> Yesterday leaders Canada 's ten provinces territories Ottawa , Ontario Prime Minister . 
+<A_TXT> Yesterday leaders of Canada 's ten provinces territories Ottawa , Ontario Prime Minister . 
 
 <Q_NUMBER>3
 <A_LINE>32
@@ -167,9 +167,9 @@
 <A_TXT> Republican senators claim Clinton Lewinsky lie , decision cover affair . 
 
 <Q_NUMBER>6
-<A_LINE>22
+<A_LINE>20
 <Q_TXT>Why do most Americans not want Clinton impeached?
-<A_TXT> In fact , Clinton 's approval rating climbed trial , means Americans fit president . 
+<A_TXT> Although Americans Clinton acted immorally , n't actions impeach . 
 
 <Q_NUMBER>7
 <A_LINE>22
@@ -182,9 +182,9 @@
 <FILE>1999-W09-5.txt
 
 <Q_NUMBER>1
-<A_LINE>28
+<A_LINE>12
 <Q_TXT>Who is Moshe Akavak?
-<A_TXT> When Moshe Akavak a jail guard 16 years ago , appalled Inuit lost traditional skills . 
+<A_TXT> Moshe Akavak , a guard BCC learning traditional ways prisoners ' rehabilitation . 
 
 <Q_NUMBER>2
 <A_LINE>28
@@ -197,9 +197,9 @@
 <A_TXT> `` Whenever inmates jail feeling good wanting succeed I cost borne terms reduced recidivism -LRB- a return committing crimes -RRB- . 
 
 <Q_NUMBER>4
-<A_LINE>37
+<A_LINE>47
 <Q_TXT>How much do the hunting programs cost?
-<A_TXT> This traditional hunting programs prisoners . 
+<A_TXT> The prisoners , Michael Evic , learning traditional hunting skills straighten lives . 
 
 <Q_NUMBER>5
 <A_LINE>15
@@ -217,9 +217,9 @@
 <FILE>1999-W10-2.txt
 
 <Q_NUMBER>1
-<A_LINE>12
+<A_LINE>5
 <Q_TXT>Why were bells ringing all over the world at noon yesterday?
-<A_TXT> In Paris , France members carillon associations - people experts ringing bells - coordinated ringing cathedral bells city . 
+<A_TXT> Church bells world rang noon yesterday international ban landmines international law . 
 
 <Q_NUMBER>2
 <A_LINE>15
@@ -252,9 +252,9 @@
 <A_TXT> The head United Nations , Secretary-General Kofi Annan treaty 's entry force a milestone . 
 
 <Q_NUMBER>8
-<A_LINE>28
+<A_LINE>29
 <Q_TXT>What is the purpose of an anti-personnel landmine?
-<A_TXT> - Anti-personnel -LRB- AP -RRB- landmine - `` A mine designed exploded presence , proximity contact a person incapacitate , injure kill persons . '' 
+<A_TXT> - Anti-tank -LRB- AT -RRB- landmine - An AT mine a device designed detonate 100 kilograms pressure . 
 
 <Q_NUMBER>9
 <A_LINE>10
@@ -267,9 +267,9 @@
 <FILE>1999-W10-4.txt
 
 <Q_NUMBER>1
-<A_LINE>13
+<A_LINE>11
 <Q_TXT>What is the scientific name for marijuana?
-<A_TXT> Health Minister Allan Rock announced yesterday department putting guidelines a scientific marijuana . 
+<A_TXT> What commonly referred marijuana -LRB- `` grass '' , `` pot '' , `` weed '' -RRB- North America made crushed cannabis leaves , flowers , twigs . 
 
 <Q_NUMBER>2
 <A_LINE>20
@@ -312,9 +312,9 @@
 <A_TXT> Jeff Hutchings , a professor Dalhousie University Halifax , Nova Scotia a stretch Mr. Efford evidence seals preying cod location argue a massive cull -LRB- harvest -RRB- seal herd . 
 
 <Q_NUMBER>2
-<A_LINE>10
+<A_LINE>5
 <Q_TXT>Who described the film as "the killing fields"?
-<A_TXT> `` From impression , 's killing fields . '' 
+<A_TXT> The Newfoundland government a weapon fight increase seal hunt : film cod carnage . 
 
 <Q_NUMBER>3
 <A_LINE>42
@@ -327,9 +327,9 @@
 <A_TXT> There a moratorium - a temporary ban - fishing cod 1992 fish stocks dropped dangerous levels . 
 
 <Q_NUMBER>5
-<A_LINE>27
+<A_LINE>38
 <Q_TXT>When was the moratorium instituted?
-<A_TXT> `` We thought bringing moratorium , a years cod stocks start return , '' . 
+<A_TXT> `` The degree seals retarding recovery cod stocks remains open question . 
 
 <Q_NUMBER>6
 <A_LINE>33
@@ -352,9 +352,9 @@
 <A_TXT> He adds documentation seals eaten fish stomachs suggests scientists underestimated cod seals kill . 
 
 <Q_NUMBER>10
-<A_LINE>46
+<A_LINE>47
 <Q_TXT>How much was sealing worth to the Newfoundland economy in 1996?
-<A_TXT> Today , sealing comprises a vital part Newfoundland 's sluggish economy . 
+<A_TXT> In 1996 worth excess $ 11 million , seal products sold Canada , Norway Asia . 
 
 </FILE>
 
@@ -392,9 +392,9 @@
 <A_TXT> Bushie called politicians encourage racial tolerance . 
 
 <Q_NUMBER>7
-<A_LINE>28
+<A_LINE>25
 <Q_TXT>According to Bushie, what should the schools do to combat racism?
-<A_TXT> He Manitoba Hockey MJHL investigate acts racism . 
+<A_TXT> Bushie called politicians encourage racial tolerance . 
 
 <Q_NUMBER>8
 <A_LINE>31
@@ -412,9 +412,9 @@
 <A_TXT> Four fighter bombers Bagotville , Quebec returned safely Italian base late Thursday a day air strikes aimed ending ethnic bloodshed province Kosovo . 
 
 <Q_NUMBER>2
-<A_LINE>23
+<A_LINE>27
 <Q_TXT>What is the goal of the NATO bombing in Yugoslavia?
-<A_TXT> Foreign Affairs Minister Lloyd Axworthy goal force Yugoslavia accept a peace agreement proposed United States . 
+<A_TXT> The government Yugoslavia -- Serbian -- region Kosovo , residents Albanian heritage , rule . 
 
 <Q_NUMBER>3
 <A_LINE>14
@@ -457,9 +457,9 @@
 <FILE>1999-W15-5.txt
 
 <Q_NUMBER>1
-<A_LINE>14
+<A_LINE>12
 <Q_TXT>What is an ombudsman?
-<A_TXT> Ombudsman Dulcie McCallum investigation found 170 Doukhobor children subjected abuse suffered `` loss love , nurturing guidance childhood '' detained 1953 1959 . 
+<A_TXT> An ombudsman a person appointed a government investigate individuals ' complaints public authorities . 
 
 <Q_NUMBER>2
 <A_LINE>16
@@ -467,9 +467,9 @@
 <A_TXT> Children parents members Sons Freedom sect -LRB- group -RRB- Doukhobor faith . 
 
 <Q_NUMBER>3
-<A_LINE>10
+<A_LINE>25
 <Q_TXT>Where was the internment camp for the children located?
-<A_TXT> British Columbia 's ombudsman provincial government apologize compensate children a controversial religious group locked internment camp 1950s . 
+<A_TXT> The report mistreatment children visit parents a chain-link fence children forced construct . 
 
 <Q_NUMBER>4
 <A_LINE>10
@@ -482,9 +482,9 @@
 <A_TXT> Ombudsman Dulcie McCallum investigation found 170 Doukhobor children subjected abuse suffered `` loss love , nurturing guidance childhood '' detained 1953 1959 . 
 
 <Q_NUMBER>6
-<A_LINE>10
+<A_LINE>25
 <Q_TXT>What did the government force the children to build while they were interned in the camp?
-<A_TXT> British Columbia 's ombudsman provincial government apologize compensate children a controversial religious group locked internment camp 1950s . 
+<A_TXT> The report mistreatment children visit parents a chain-link fence children forced construct . 
 
 <Q_NUMBER>7
 <A_LINE>25
@@ -527,14 +527,14 @@
 <A_TXT> `` It 's difficult National Hockey League lose hockey player played , 's a great ambassador game 20 years . '' 
 
 <Q_NUMBER>5
-<A_LINE>56
+<A_LINE>33
 <Q_TXT>When did Gretzky's parents tell him they were proud of him?
-<A_TXT> As left arena , Wayne 's father mother told proud . 
+<A_TXT> Gretzky National Hockey League 's Michael Jordan -- mythical figure fans teams admired packed arenas . 
 
 <Q_NUMBER>6
-<A_LINE>52
+<A_LINE>35
 <Q_TXT>Why did Gretzky skate slowly around the rink after his last game?
-<A_TXT> `` I miss part game , I loved part game . 
+<A_TXT> Perhaps fittingly , Jordan appeared a second-period video , telling Gretzky , `` Your golf game , n't . 
 
 <Q_NUMBER>7
 <A_LINE>51
@@ -572,14 +572,14 @@
 <A_TXT> A month ago , Sefa , 59 , family minutes leave home town Gjakov Serb forces ordered Kosovo . 
 
 <Q_NUMBER>3
-<A_LINE>20
+<A_LINE>18
 <Q_TXT>How did Sefa's family reach the Albanian border?
-<A_TXT> While Sefa 's family made trip Albanian capital Tirana safely , youngest son , Orland , 23 , showed . 
+<A_TXT> The family clothes , mementos household items walked kilometres Albanian border . 
 
 <Q_NUMBER>4
-<A_LINE>20
+<A_LINE>18
 <Q_TXT>How far did Sefa's family live from the Albanian border?
-<A_TXT> While Sefa 's family made trip Albanian capital Tirana safely , youngest son , Orland , 23 , showed . 
+<A_TXT> The family clothes , mementos household items walked kilometres Albanian border . 
 
 <Q_NUMBER>5
 <A_LINE>28
@@ -602,19 +602,19 @@
 <A_TXT> The ethnic Albanian refugees - make Western Canada - staying Sefa 's brother Esat son Haki . 
 
 <Q_NUMBER>9
-<A_LINE>26
+<A_LINE>11
 <Q_TXT>What happened to the money and supplies Esat tried to send to his brother's family?
-<A_TXT> He send money supplies shipments regularly intercepted Serb forces money goods . 
+<A_TXT> The ethnic Albanian refugees - make Western Canada - staying Sefa 's brother Esat son Haki . 
 
 <Q_NUMBER>10
-<A_LINE>57
+<A_LINE>53
 <Q_TXT>What is the name of the UN organization responsible for refugees?
-<A_TXT> The minister refugees begin arriving Monday . 
+<A_TXT> Immigration Minister Lucienne Robillard asked today `` reactivate '' plan United Nations agency responsible refugees . 
 
 <Q_NUMBER>11
-<A_LINE>49
+<A_LINE>11
 <Q_TXT>Why did the UN want to keep ethnic Albanian refugees close to home?
-<A_TXT> Canada put airlift hold weeks ago UN decided ethnic Albanians driven Kosovo Serbian forces close home . 
+<A_TXT> The ethnic Albanian refugees - make Western Canada - staying Sefa 's brother Esat son Haki . 
 
 <Q_NUMBER>12
 <A_LINE>43
@@ -674,7 +674,7 @@
 <Q_NUMBER>1
 <A_LINE>9
 <Q_TXT>When did Star Wars fans across Canada begin lining up for tickets to Star Wars: Episode 1 The Phantom Menace" movie?
-<A_TXT> The St. John 's fans world `` Star Wars : Episode 1 The Phantom Menace . '' 
+<A_TXT> The St. John 's fans the world `` Star Wars : Episode 1 The Phantom Menace . '' 
 
 <Q_NUMBER>2
 <A_LINE>16
@@ -684,22 +684,22 @@
 <Q_NUMBER>3
 <A_LINE>9
 <Q_TXT>How did Mark Churchill describe the movie, "The Phantom Menace"?
-<A_TXT> The St. John 's fans world `` Star Wars : Episode 1 The Phantom Menace . '' 
+<A_TXT> The St. John 's fans the world `` Star Wars : Episode 1 The Phantom Menace . '' 
 
 <Q_NUMBER>4
 <A_LINE>9
 <Q_TXT>Who said "the effects were top notch" when he was talking about "The Phantom Menace"?
-<A_TXT> The St. John 's fans world `` Star Wars : Episode 1 The Phantom Menace . '' 
+<A_TXT> The St. John 's fans the world `` Star Wars : Episode 1 The Phantom Menace . '' 
 
 <Q_NUMBER>5
-<A_LINE>22
+<A_LINE>9
 <Q_TXT>How long would Star Wars fans from Iceland have had to wait to see the Phantom Menace if they had not flown to Halifax to see it?
-<A_TXT> Some Star Wars fans Iceland anxious movie , flew Halifax showing . 
+<A_TXT> The St. John 's fans the world `` Star Wars : Episode 1 The Phantom Menace . '' 
 
 <Q_NUMBER>6
-<A_LINE>27
+<A_LINE>16
 <Q_TXT>How much money are some scalpers in Los Angeles asking for a Phantom Menace ticket?
-<A_TXT> It 's scalpers Los Angeles , California . 
+<A_TXT> In Montreal slept a tent sidewalk front a movie theater make ticket . 
 
 <Q_NUMBER>7
 <A_LINE>32
@@ -792,14 +792,14 @@
 <A_TXT> The fire shot metres trees roared industrial area town . 
 
 <Q_NUMBER>7
-<A_LINE>58
+<A_LINE>35
 <Q_TXT>Where were the evacuees taken when the fire threatened their homes?
-<A_TXT> In northern Alberta , , a forest fire north Fort McMurray threatened region 's power supply burned control Thursday . 
+<A_TXT> The fire shot metres trees roared industrial area town . 
 
 <Q_NUMBER>8
-<A_LINE>51
+<A_LINE>44
 <Q_TXT>When were the evacuees able to go back to their homes?
-<A_TXT> Several mobile homes destroyed , large buildings cabins a local lakeside resort . 
+<A_TXT> Some evacuees respiratory problems received treatment . 
 
 </FILE>
 
@@ -807,14 +807,14 @@
 <FILE>1999-W24-5.txt
 
 <Q_NUMBER>1
-<A_LINE>13
+<A_LINE>7
 <Q_TXT>When will Judge Arbour start her new job on Canada's Supreme Court?
-<A_TXT> She Judge Arbour 's work prosecuting war crimes enhance Supreme Court , describing `` a woman dealt difficult challenging issues modern time . 
+<A_TXT> The Supreme Court Canada 's highest court . 
 
 <Q_NUMBER>2
-<A_LINE>30
+<A_LINE>23
 <Q_TXT>Who is Judge Arbour replacing in her new job?
-<A_TXT> Judge Arbour graduated University Montreal a law degree 1970 . 
+<A_TXT> Judge Arbour start work September 15th . 
 
 <Q_NUMBER>3
 <A_LINE>17
@@ -829,7 +829,7 @@
 <Q_NUMBER>5
 <A_LINE>28
 <Q_TXT>Who says Louise Arbour is "a down-to-earth individual"?
-<A_TXT> `` Louise Arbour a down-to-earth individual , understands ordinary person , '' lawyer Earl Levy . 
+<A_TXT> `` Louise Arbour a down-to-earth individual , understands the ordinary person , '' lawyer Earl Levy . 
 
 <Q_NUMBER>6
 <A_LINE>17
@@ -837,9 +837,9 @@
 <A_TXT> Judge Arbour 's major act chief prosecutor indict Slobodan Milosevic crimes humanity weeks ago -- time international court charged a sitting head state war crimes . 
 
 <Q_NUMBER>7
-<A_LINE>18
+<A_LINE>5
 <Q_TXT>What was the president of Yugoslavia indicted for?
-<A_TXT> She held Yugoslav President personally responsible , aides , horrors Kosovo brutal purge ethnic Albanians . 
+<A_TXT> The woman charged Yugoslav President Slobodan Milosevic war crimes appointed Canada 's Supreme Court . 
 
 <Q_NUMBER>8
 <A_LINE>20
@@ -864,7 +864,7 @@
 <Q_NUMBER>3
 <A_LINE>11
 <Q_TXT>What would a stay of execution have allowed?
-<A_TXT> A `` stay execution '' delays execution , allowed Mr. Faulder 's lawyer continue quest live . 
+<A_TXT> A `` stay execution '' delays execution , allowed Mr. Faulder 's lawyer continue quest to live . 
 
 <Q_NUMBER>4
 <A_LINE>15
@@ -892,9 +892,9 @@
 <A_TXT> Ms. Gingera alarmed comments Alberta Reform Member Parliament Cliff Breitkreuz , wanted Texas officials ignore argument Mr. Faulder 's rights violated n't told contact Canadian consular officials charged murder . 
 
 <Q_NUMBER>9
-<A_LINE>15
+<A_LINE>11
 <Q_TXT>How was Faulder on the day of his execution, according to Charlene Gingera?
-<A_TXT> `` The United States world leaders world powers , basic human rights people violated country , '' Charlene Gingera , hour Faulder killed injection deadly chemicals . 
+<A_TXT> A `` stay execution '' delays execution , allowed Mr. Faulder 's lawyer continue quest to live . 
 
 <Q_NUMBER>10
 <A_LINE>44
@@ -917,14 +917,14 @@
 <A_TXT> An unexpected freeze left dozens whales trapped a sea ice , small hole window air . 
 
 <Q_NUMBER>3
-<A_LINE>20
+<A_LINE>14
 <Q_TXT>Through what are the whales breathing?
-<A_TXT> Beluga whales live arctic subarctic . 
+<A_TXT> The polar bears hunting belugas . 
 
 <Q_NUMBER>4
-<A_LINE>20
+<A_LINE>11
 <Q_TXT>Who is trying to save the whales?
-<A_TXT> Beluga whales live arctic subarctic . 
+<A_TXT> The reason : polar bears . 
 
 <Q_NUMBER>5
 <A_LINE>5
@@ -932,9 +932,9 @@
 <A_TXT> A group 50 beluga whales fighting stay alive icy trap Canadian Arctic Ellesmere Island . 
 
 <Q_NUMBER>6
-<A_LINE>16
+<A_LINE>11
 <Q_TXT>How are the bears killing the whales?
-<A_TXT> When , bears jump whales tear chunks . 
+<A_TXT> The reason : polar bears . 
 
 <Q_NUMBER>7
 <A_LINE>18
@@ -972,9 +972,9 @@
 <A_TXT> Mosasaurs found world Sweden New Zealand , Antarctica . 
 
 <Q_NUMBER>5
-<A_LINE>5
+<A_LINE>16
 <Q_TXT>What does this new discovery of dinosaur bones tell us about the Antarctic?
-<A_TXT> Scientists Antarctic discovered dinosaur bones , including partial skeletons , jaws teeth . 
+<A_TXT> The mosasaur discovery shows Antarctic warmer . 
 
 </FILE>
 
@@ -1027,14 +1027,14 @@
 <FILE>1999-W30-3.txt
 
 <Q_NUMBER>1
-<A_LINE>23
+<A_LINE>21
 <Q_TXT>Who is at risk of suffering from shellfish asthma?
-<A_TXT> The union represents workers find employees suffer shellfish asthma symptoms . 
+<A_TXT> There research shellfish asthma . 
 
 <Q_NUMBER>2
-<A_LINE>23
+<A_LINE>5
 <Q_TXT>What type of illness is shellfish asthma?
-<A_TXT> The union represents workers find employees suffer shellfish asthma symptoms . 
+<A_TXT> Fish plant workers Newfoundland concerned a work hazard called `` shellfish asthma . '' 
 
 <Q_NUMBER>3
 <A_LINE>23
@@ -1082,9 +1082,9 @@
 <A_TXT> Environment Canada warning people Ontario a foreign fish called round goby . 
 
 <Q_NUMBER>3
-<A_LINE>29
+<A_LINE>12
 <Q_TXT>What does the round goby eat?
-<A_TXT> The officials hope measures round goby taking waterways central Canada . 
+<A_TXT> The round goby size a sardine . 
 
 <Q_NUMBER>4
 <A_LINE>16
@@ -1092,19 +1092,19 @@
 <A_TXT> The round goby advantage feed night . 
 
 <Q_NUMBER>5
-<A_LINE>29
+<A_LINE>12
 <Q_TXT>Where did the round goby come from?
-<A_TXT> The officials hope measures round goby taking waterways central Canada . 
+<A_TXT> The round goby size a sardine . 
 
 <Q_NUMBER>6
-<A_LINE>29
+<A_LINE>22
 <Q_TXT>How did the round goby likely get to Canadian waters?
-<A_TXT> The officials hope measures round goby taking waterways central Canada . 
+<A_TXT> The round goby Black Sea , water held bottom a boat . 
 
 <Q_NUMBER>7
-<A_LINE>7
+<A_LINE>27
 <Q_TXT>What should be people clean off their boats to keep the round goby from moving into new waters?
-<A_TXT> Environment Canada warning people Ontario a foreign fish called round goby . 
+<A_TXT> The Fisheries Oceans Department people control goby population fish bait , transferring body water . 
 
 </FILE>
 
@@ -1114,17 +1114,17 @@
 <Q_NUMBER>1
 <A_LINE>5
 <Q_TXT>What was Eugene Shoemaker's lifelong wish?
-<A_TXT> Eugene Shoemaker finally fulfill lifelong moon . 
+<A_TXT> Eugene Shoemaker finally fulfill lifelong to moon . 
 
 <Q_NUMBER>2
-<A_LINE>7
+<A_LINE>20
 <Q_TXT>How big is the container holding Shoemaker's ashes?
-<A_TXT> If planned Saturday , a lipstick-sized container carry ashes moon 's south pole . 
+<A_TXT> Shoemaker gained worldwide fame 1994 , helped discover comet Shoemaker-Levy 9 . The comet slammed Jupiter 1994 . 
 
 <Q_NUMBER>3
-<A_LINE>14
+<A_LINE>12
 <Q_TXT>Where is the Lunar Prospector supposed to crash-land?
-<A_TXT> NASA hopeful impact Prospector 's crash moon create a plume water visible Earth a telescope . 
+<A_TXT> The Lunar Prospector a moon-orbiting craft . 
 
 <Q_NUMBER>4
 <A_LINE>14
@@ -1132,9 +1132,9 @@
 <A_TXT> NASA hopeful impact Prospector 's crash moon create a plume water visible Earth a telescope . 
 
 <Q_NUMBER>5
-<A_LINE>20
+<A_LINE>18
 <Q_TXT>On what was Shoemaker considered an authority?
-<A_TXT> Shoemaker gained worldwide fame 1994 , helped discover comet Shoemaker-Levy 9 . The comet slammed Jupiter 1994 . 
+<A_TXT> He considered authority craters collisions . 
 
 <Q_NUMBER>6
 <A_LINE>19
@@ -1197,9 +1197,9 @@
 <A_TXT> The International Fisherman 's Trophy race 1920 . 
 
 <Q_NUMBER>6
-<A_LINE>28
+<A_LINE>19
 <Q_TXT>How many times did the Bluenose win the International Fisherman's Trophy race?
-<A_TXT> In 1955 , Bluenose captain , Angus Walters , inducted Canadian Sports Hall Fame achievements International Fisherman 's Trophy races . 
+<A_TXT> The Bluenose a famous schooner ship raced International Fisherman 's Trophy . 
 
 <Q_NUMBER>7
 <A_LINE>31
@@ -1207,9 +1207,9 @@
 <A_TXT> The Bluenose II a replica original Bluenose . 
 
 <Q_NUMBER>8
-<A_LINE>29
+<A_LINE>31
 <Q_TXT>Where has a picture of the Bluenose appeared since 1937?
-<A_TXT> A picture Bluenose tails side Canadian dimes 1937 . 
+<A_TXT> The Bluenose II a replica original Bluenose . 
 
 <Q_NUMBER>9
 <A_LINE>31
@@ -1217,9 +1217,9 @@
 <A_TXT> The Bluenose II a replica original Bluenose . 
 
 <Q_NUMBER>10
-<A_LINE>39
+<A_LINE>42
 <Q_TXT>How much of the cleanup cost for Lunenberg Harbor does the mayor of Lunenberg want the federal and provincial governments to pay?
-<A_TXT> Now Mayor federal provincial governments pay half cost cleaning Lunenburg Harbour . 
+<A_TXT> The Mayor admits federal provincial governments n't pay a community 's sewage treatment . 
 
 </FILE>
 
@@ -1242,9 +1242,9 @@
 <A_TXT> The Canadian Pediatric Society doctors monitor time children sitting front electronic screens . 
 
 <Q_NUMBER>4
-<A_LINE>23
+<A_LINE>21
 <Q_TXT>How much time should school children spend watching TV each day?
-<A_TXT> At current Canadian rates , average high school graduate spent time watching TV learning a classroom . 
+<A_TXT> The society parents limit preschoolers hour TV a day , school children watch hours daily . 
 
 <Q_NUMBER>5
 <A_LINE>23
@@ -1277,9 +1277,9 @@
 <FILE>1999-W36-4.txt
 
 <Q_NUMBER>1
-<A_LINE>22
+<A_LINE>7
 <Q_TXT>Where is the Canadian National Exhibition?
-<A_TXT> Phillips Wave Swinger inspected Wednesday morning ride foreman , a Conklin Shows employee , Tuesday morning a safety inspector Canadian National Exhibition . 
+<A_TXT> The children Wave Swinger Canadian National Exhibition Toronto , Ontario . 
 
 <Q_NUMBER>2
 <A_LINE>7
@@ -1292,14 +1292,14 @@
 <A_TXT> The Wave Swinger a circular ride 48 swing-style seats attached metal chains a dome . 
 
 <Q_NUMBER>4
-<A_LINE>22
+<A_LINE>9
 <Q_TXT>Who described the experience on the Wave Swinger as "a horror show"?
-<A_TXT> Phillips Wave Swinger inspected Wednesday morning ride foreman , a Conklin Shows employee , Tuesday morning a safety inspector Canadian National Exhibition . 
+<A_TXT> The Wave Swinger a circular ride 48 swing-style seats attached metal chains a dome . 
 
 <Q_NUMBER>5
-<A_LINE>22
+<A_LINE>33
 <Q_TXT>Who owns the midway where the Wave Swinger is located?
-<A_TXT> Phillips Wave Swinger inspected Wednesday morning ride foreman , a Conklin Shows employee , Tuesday morning a safety inspector Canadian National Exhibition . 
+<A_TXT> The Paramount Canada 's Wonderland amusement park Toronto shut a ride similar The Wave Swinger safety inspectors complete investigation . 
 
 <Q_NUMBER>6
 <A_LINE>22
@@ -1382,9 +1382,9 @@
 <A_TXT> YNN a private company schools free equipment - televisions computers - make audience commercial news service . 
 
 <Q_NUMBER>3
-<A_LINE>13
+<A_LINE>7
 <Q_TXT>How does YNN make a profit?
-<A_TXT> YNN makes a profit selling advertising space . 
+<A_TXT> YNN a private company schools free equipment - televisions computers - make audience commercial news service . 
 
 <Q_NUMBER>4
 <A_LINE>9
@@ -1407,9 +1407,9 @@
 <A_TXT> YNN a private company schools free equipment - televisions computers - make audience commercial news service . 
 
 <Q_NUMBER>8
-<A_LINE>29
+<A_LINE>20
 <Q_TXT>Which provinces rejected the idea of having YNN in the classrooms?
-<A_TXT> British Columbia , Nova Scotia New Brunswick rejected idea . 
+<A_TXT> The news week YNN kicked Manitoba classrooms . 
 
 <Q_NUMBER>9
 <A_LINE>33
@@ -1467,9 +1467,9 @@
 <A_TXT> The woman family received a notice 'll sterilized ca n't babies returns China . 
 
 <Q_NUMBER>10
-<A_LINE>36
+<A_LINE>5
 <Q_TXT>On what does the Immigration and Refugee Board's decision on the woman's request for refugee status depend?
-<A_TXT> Since evidence woman 's testimony , decision depends board members telling truth . 
+<A_TXT> One women China 's Fujian province told a compelling story Immigration Refugee Board yesterday . 
 
 <Q_NUMBER>11
 <A_LINE>34
@@ -1497,14 +1497,14 @@
 <A_TXT> British Columbia Supreme Court Justice Bruce Cohen dismissed lawsuit Darryl Neudorf . 
 
 <Q_NUMBER>4
-<A_LINE>13
+<A_LINE>5
 <Q_TXT>When did McLachlan move to Vancouver?
-<A_TXT> Neudorf , a drummer band 54-40 , recruited then-promising 19-year-old McLachlan , recently moved Vancouver Halifax , Nova Scotia , pursue a career a recording artist . 
+<A_TXT> A Vancouver , British Columbia , judge thrown a copyright lawsuit Canadian pop singer Sarah McLachlan . 
 
 <Q_NUMBER>5
-<A_LINE>27
+<A_LINE>11
 <Q_TXT>Where did McLachlan move from?
-<A_TXT> During trial , McLachlan occasionally sang played a keyboard court staff , reporters teenaged fans illustrate songs put . 
+<A_TXT> Neudorf wanted money credit songs helped write McLachlan 's 1988 debut album , `` Touch '' . 
 
 <Q_NUMBER>6
 <A_LINE>19
@@ -1512,14 +1512,14 @@
 <A_TXT> McLachlan defendants rejected Neudorf 's claims , suggesting hired write songs , pre-production work . 
 
 <Q_NUMBER>7
-<A_LINE>19
+<A_LINE>11
 <Q_TXT>What did Neudorf claim he did not receive from McLachlan?
-<A_TXT> McLachlan defendants rejected Neudorf 's claims , suggesting hired write songs , pre-production work . 
+<A_TXT> Neudorf wanted money credit songs helped write McLachlan 's 1988 debut album , `` Touch '' . 
 
 <Q_NUMBER>8
-<A_LINE>21
+<A_LINE>17
 <Q_TXT>How many copies of the album "Touch" were sold?
-<A_TXT> They Neudorf properly compensated , receiving $ 4,000 wages royalties worth 16 cents `` Touch '' album sold . 
+<A_TXT> He receive proper royalties producing `` Touch , '' sold 625,000 copies . 
 
 <Q_NUMBER>9
 <A_LINE>23
@@ -1544,12 +1544,12 @@
 <Q_NUMBER>2
 <A_LINE>36
 <Q_TXT>Where is the Family Farm Tribute concert being held?
-<A_TXT> CBC Online presenting a live webcast The Family Farm Tribute starting 1pm Eastern : http : \ \ \ \ \ \ \ \ \/ \ \ \ \ \ \ \ \ \/ cbc . ca\/news\/live \ \ \ \ \ \ \ \ \/ familyfarm . html . 
+<A_TXT> CBC Online presenting a live webcast The Family Farm Tribute starting 1pm Eastern : http:\/\/cbc.ca\/news\/live\/familyfarm.html . 
 
 <Q_NUMBER>3
-<A_LINE>36
+<A_LINE>15
 <Q_TXT>What is the Family Farm Tribute concert meant to do?
-<A_TXT> CBC Online presenting a live webcast The Family Farm Tribute starting 1pm Eastern : http : \ \ \ \ \ \ \ \ \/ \ \ \ \ \ \ \ \ \/ cbc . ca\/news\/live \ \ \ \ \ \ \ \ \/ familyfarm . html . 
+<A_TXT> The concert meant open people 's eyes growing farm crisis Canada . 
 
 <Q_NUMBER>4
 <A_LINE>5
@@ -1557,9 +1557,9 @@
 <A_TXT> Amanda Scott seventeen years , heart : back family 's farm Brandon , Manitoba . 
 
 <Q_NUMBER>5
-<A_LINE>36
+<A_LINE>22
 <Q_TXT>What two things will the Family Farm Tribute concert achieve, according to organizer Dennis Mills?
-<A_TXT> CBC Online presenting a live webcast The Family Farm Tribute starting 1pm Eastern : http : \ \ \ \ \ \ \ \ \/ \ \ \ \ \ \ \ \ \/ cbc . ca\/news\/live \ \ \ \ \ \ \ \ \/ familyfarm . html . 
+<A_TXT> The concert organized Liberal Member Parliament Dennis Mills . 
 
 <Q_NUMBER>6
 <A_LINE>26
@@ -1579,7 +1579,7 @@
 <Q_NUMBER>9
 <A_LINE>36
 <Q_TXT>How will CBC Online be presenting the Family Farm Tribute concert?
-<A_TXT> CBC Online presenting a live webcast The Family Farm Tribute starting 1pm Eastern : http : \ \ \ \ \ \ \ \ \/ \ \ \ \ \ \ \ \ \/ cbc . ca\/news\/live \ \ \ \ \ \ \ \ \/ familyfarm . html . 
+<A_TXT> CBC Online presenting a live webcast The Family Farm Tribute starting 1pm Eastern : http:\/\/cbc.ca\/news\/live\/familyfarm.html . 
 
 </FILE>
 
@@ -1587,14 +1587,14 @@
 <FILE>2000-W03-2.txt
 
 <Q_NUMBER>1
-<A_LINE>40
+<A_LINE>7
 <Q_TXT>When was the Polar Lander supposed to have landed?
-<A_TXT> The Polar Lander Spacecraft 1.06 metres tall 3.6 metres wide . 
+<A_TXT> The Mars Polar Lander a mission Mars study atmosphere search water , scientists determine life existed Mars . 
 
 <Q_NUMBER>2
-<A_LINE>17
+<A_LINE>7
 <Q_TXT>Who is the Polar Lander's project manager?
-<A_TXT> `` We n't , '' Richard Cook , spacecraft 's project manager NASA 's Jet Propulsion Laboratory . 
+<A_TXT> The Mars Polar Lander a mission Mars study atmosphere search water , scientists determine life existed Mars . 
 
 <Q_NUMBER>3
 <A_LINE>7
@@ -1602,9 +1602,9 @@
 <A_TXT> The Mars Polar Lander a mission Mars study atmosphere search water , scientists determine life existed Mars . 
 
 <Q_NUMBER>4
-<A_LINE>30
+<A_LINE>7
 <Q_TXT>What did the Mars Global Surveyor do?
-<A_TXT> NASA a spacecraft called Mars Global Surveyor high-resolution images landing site search signs lander . 
+<A_TXT> The Mars Polar Lander a mission Mars study atmosphere search water , scientists determine life existed Mars . 
 
 <Q_NUMBER>5
 <A_LINE>7
@@ -1617,9 +1617,9 @@
 <A_TXT> The Mars Polar Lander a mission Mars study atmosphere search water , scientists determine life existed Mars . 
 
 <Q_NUMBER>7
-<A_LINE>9
+<A_LINE>7
 <Q_TXT>How much did the Polar Lander mission cost?
-<A_TXT> Polar Lander touched December 3 a 90-day mission . 
+<A_TXT> The Mars Polar Lander a mission Mars study atmosphere search water , scientists determine life existed Mars . 
 
 <Q_NUMBER>8
 <A_LINE>40
@@ -1642,9 +1642,9 @@
 <A_TXT> Canada 's minister health announced a plan discourage teenagers smoking : The Yuck Factor . 
 
 <Q_NUMBER>2
-<A_LINE>10
+<A_LINE>6
 <Q_TXT>Where does the government want to put pictures of diseased lungs?
-<A_TXT> There 16 messages images , including pictures diseased lungs . 
+<A_TXT> The government put graphic pictures warnings cigarette packages . 
 
 <Q_NUMBER>3
 <A_LINE>5

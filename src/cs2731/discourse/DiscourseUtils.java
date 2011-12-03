@@ -3,10 +3,14 @@ package cs2731.discourse;
 import cs2731.QuestionType;
 import cs2731.QuestionTypeDetector;
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.EnumMap;
 import java.util.HashMap;
@@ -23,6 +27,8 @@ public class DiscourseUtils {
 
     public static final String DATASET_PATH_ROOT = "resources/";
     public static final String DISCOURSE_EXEC = "lib\\pdtb-parser-v110102\\src\\parse.rb";
+    
+    public static final String ANSWER_PROBS_PATH = "./resources/questionAnswerProbs.bin";
 
     public static String executeDiscourseParser(String filePath) {
 
@@ -317,7 +323,7 @@ public class DiscourseUtils {
             annotation.setArg1SentIndex(maxMatchIndexArg1);
 
             // debug
-            System.out.println("debug: matching arg1 span \n\t\"" + annotation.getArg1() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexArg1) + "\"");
+            //System.out.println("debug: matching arg1 span \n\t\"" + annotation.getArg1() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexArg1) + "\"");
 
             // arg2:
             List<String> nGramsArg2 = generateNGrams(annotation.getArg2());
@@ -340,32 +346,33 @@ public class DiscourseUtils {
             annotation.setArg2SentIndex(maxMatchIndexArg2);
 
             // debug
-            System.out.println("debug: matching arg2 span \n\t\"" + annotation.getArg2() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexArg2) + "\"");
+            //System.out.println("debug: matching arg2 span \n\t\"" + annotation.getArg2() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexArg2) + "\"");
 
             // conn:
-            if (!annotation.getConn().equals("")) {
-                List<String> nGramsConn = generateNGrams(annotation.getConn());
-
-                int maxMatchConn = -1;
-                int maxMatchIndexConn = -1;
-                for (int i = 0; i < sentences.size(); i++) {
-                    String sentStr = sentences.get(i);
-                    int match = 0;
-                    for (String nGram : nGramsConn) {
-                        if (sentStr.contains(nGram)) {
-                            match++;
-                        }
-                    }
-                    if (match > maxMatchConn) {
-                        maxMatchConn = match;
-                        maxMatchIndexConn = i;
-                    }
-                }
-                annotation.setConnSentIndex(maxMatchIndexConn);
-
+            // conn is generally too short to be matched correctly, so don't bother for now
+            //if (!annotation.getConn().equals("")) {
+            //    List<String> nGramsConn = generateNGrams(annotation.getConn());
+            //
+            //    int maxMatchConn = -1;
+            //    int maxMatchIndexConn = -1;
+            //    for (int i = 0; i < sentences.size(); i++) {
+            //        String sentStr = sentences.get(i);
+            //        int match = 0;
+            //        for (String nGram : nGramsConn) {
+            //            if (sentStr.contains(nGram)) {
+            //                match++;
+            //            }
+            //        }
+            //        if (match > maxMatchConn) {
+            //            maxMatchConn = match;
+            //            maxMatchIndexConn = i;
+            //        }
+            //    }
+            //    annotation.setConnSentIndex(maxMatchIndexConn);
+            //
                 // debug
-                System.out.println("debug: matching conn span \n\t\"" + annotation.getConn() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexConn) + "\"");
-            }
+                //System.out.println("debug: matching conn span \n\t\"" + annotation.getConn() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexConn) + "\"");
+            //}
 
         }
 
@@ -604,11 +611,50 @@ public class DiscourseUtils {
         return answerProbs;
 
     }
+    
+    public static void serializeProbs(EnumMap<QuestionType, HashMap<String, Double>> answerProbs) {
+    	
+    	try {
+    		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(ANSWER_PROBS_PATH));
+    		out.writeObject(answerProbs);
+    		out.close();
+    	} catch (IOException e) {
+    		e.printStackTrace();
+    		System.err.println("could not serialize answerProbs to file: "+ANSWER_PROBS_PATH);
+    	}
+    	
+    }
+    
+    public static EnumMap<QuestionType, HashMap<String, Double>> unserializeProbs() {
+    	
+    	try {
+    		ObjectInputStream in = new ObjectInputStream(new FileInputStream(ANSWER_PROBS_PATH));
+    		EnumMap<QuestionType, HashMap<String, Double>> answerProbs = (EnumMap<QuestionType, HashMap<String, Double>>)in.readObject();
+    		in.close();
+    		return answerProbs;
+    	} catch (IOException e) {
+    		e.printStackTrace();
+    		System.err.println("could not unserialize answerProbs from file: "+ANSWER_PROBS_PATH);
+    	} catch (ClassNotFoundException e) {
+    		e.printStackTrace();
+    		System.err.println("could not unserialize answerProbs from file: "+ANSWER_PROBS_PATH);
+    	} 
+    	
+    	return null;
+    	
+    }
+    
+    public static void buildAndWriteAnswerProbs() {
+    	
+    	serializeProbs(getTrainQuestionTypeDiscourseRoleAnswerProbs("./resources/answerkey.txt", "./resources/input/"));
+    	
+    }
 
     // for testing only
     public static void main(String[] args) {
 
-        test3();
+    	buildAndWriteAnswerProbs();
+        //test3();
 
     }
 

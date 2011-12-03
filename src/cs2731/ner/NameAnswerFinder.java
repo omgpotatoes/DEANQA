@@ -19,6 +19,7 @@ import static cs2731.Utils.*;
  */
 public class NameAnswerFinder implements AnswerFinder
 {
+	
 
 	private boolean ignoreCase;
 	private CoreProcessor coreProcessor;
