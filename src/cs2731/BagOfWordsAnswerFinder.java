@@ -26,7 +26,7 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 	
 	public BagOfWordsAnswerFinder(Options options) {
 		this.options = options;
-//		options.set(Options.IGNORE_PUNCTUATION, false);
+		options.set(Options.IGNORE_PUNCTUATION, false);
 		ignoreCase = options.get(Options.IGNORE_CASE);
 		
 		stopWords = new HashSet<String>();
@@ -40,9 +40,9 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 	static String sanitize(String line) {
 		line = line.trim();
 		line = line.toLowerCase();
-//		line = line.replace('"', ' ');
+		line = line.replaceAll("[-_;:,\\.\"!\\?]+", " ");
 //		int period = line.lastIndexOf('.');
-//		if (period > 0) {
+//		if (line.length() - period < 10) {
 //			line = line.substring(0, line.lastIndexOf('.'));
 //		}
 		return line;
