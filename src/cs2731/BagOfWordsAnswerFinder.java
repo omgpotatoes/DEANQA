@@ -18,7 +18,7 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 
 	private Options options;
 	private boolean ignoreCase;
-//	private CoreProcessor processor;
+	private Set<String> stopWords;
 	
 	public BagOfWordsAnswerFinder() {
 		this(Options.getDefaultOptions()); 
@@ -26,8 +26,26 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 	
 	public BagOfWordsAnswerFinder(Options options) {
 		this.options = options;
+//		options.set(Options.IGNORE_PUNCTUATION, false);
 		ignoreCase = options.get(Options.IGNORE_CASE);
-//		processor = CoreProcessor.getInstance();
+		
+		stopWords = new HashSet<String>();
+		stopWords.addAll(Arrays.asList(
+				"the","a","to","and",
+				"an","it","was","were","is",
+				"as","at","be","by","for"
+				));
+	}
+	
+	static String sanitize(String line) {
+		line = line.trim();
+		line = line.toLowerCase();
+//		line = line.replace('"', ' ');
+//		int period = line.lastIndexOf('.');
+//		if (period > 0) {
+//			line = line.substring(0, line.lastIndexOf('.'));
+//		}
+		return line;
 	}
 	
 	/**
@@ -44,13 +62,13 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		
 		// populate a set of question words for quick lookup:
 		Set<String> wordSet = new HashSet<String>();
-		
 		String splitString = (options.get(Options.IGNORE_PUNCTUATION))? "\\W+" : "\\s+";
-		if (ignoreCase) { question = question.toLowerCase(); }
+		
+//		if (ignoreCase) { question = question.toLowerCase(); }
+		question = sanitize(question);
+		
 		String[] tokens = question.split(splitString);
 		wordSet.addAll(Arrays.asList(tokens));
-		
-//		wordSet.addAll(processor.getLemmas(question));
 		
 		// loop over every line of the document and see how many words match:
 		int lineNum = 0;
@@ -58,14 +76,16 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 			lineNum++;
 			if (containsOnlyWhitespace(line)) { continue; }
 			
-			if (ignoreCase) {
-				line = line.toLowerCase();
-			}
+//			if (ignoreCase) { line = line.toLowerCase(); }
+			line = sanitize(line);
 			
 			int score = 0;
-
 			tokens = line.split(splitString);
 			for (String token : tokens) {
+				if (stopWords.contains(token)) {
+					continue;
+				}
+				
 				if (wordSet.contains(token)) {
 					score++;
 				}
@@ -84,6 +104,11 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		}
 		
 		return guesses;
+	}
+
+	public static void main(String[] args) {
+		String line = "asdad   adsgf   sopi  ";
+		System.out.println(Arrays.toString(line.split("\\s+")));
 	}
 	
 }
