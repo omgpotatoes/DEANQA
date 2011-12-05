@@ -19,8 +19,9 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Set;
 
-import weka.classifiers.functions.LibSVM;
+import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.trees.J48;
+import weka.classifiers.trees.RandomForest;
 import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
@@ -28,7 +29,6 @@ import weka.core.Instances;
 
 import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.NamedEntityTagAnnotation;
-import edu.stanford.nlp.ling.CoreAnnotations.NormalizedNamedEntityTagAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
@@ -46,7 +46,9 @@ public class SVMAnswerFinder implements AnswerFinder {
 
 	private StanfordCoreNLP pipeline;
 	private Instances data;
-	private J48 model = new J48();
+	//CHANGE
+	private J48 model1 = new J48();
+	private RandomForest model2 = new RandomForest();
 	private static final int CLASS_FEATURE = 24;
 	private boolean trainedFlag = false;
 	
@@ -71,16 +73,19 @@ public class SVMAnswerFinder implements AnswerFinder {
 		 */
 		File trainingAnswersFile = new File(trainingAnswersFilePath);
 		File[] trainingQuestionFiles = new File(trainingQuestionsFolder).listFiles();
+		
+		/* CHANGE*/
 		String [] options = new String [5];
 		options[0] = "-M";
-		options[1] = "1";
+		options[1] = "7";
 		options[2] = "-R";
 		options[3] = "-N";
-		options[4] = "7"; 
+		options[4] = "17"; 
 		//options[2] = "-U";
 		
 		try {
-			model.setOptions(options);
+			//CHANGE
+			model1.setOptions(options);
 		} catch (Exception e) {
 			System.err.println("Error in the options for the model");
 			e.printStackTrace();
@@ -93,7 +98,9 @@ public class SVMAnswerFinder implements AnswerFinder {
 		}
 		
 		try {
-			model.buildClassifier(data);
+			//CHANGE
+			model1.buildClassifier(data);
+			model2.buildClassifier(data);
 		} catch (Exception e) {
 			System.err.println("Error in training the model");
 			e.printStackTrace();
@@ -104,7 +111,8 @@ public class SVMAnswerFinder implements AnswerFinder {
 		      OutputStream buffer = new BufferedOutputStream( file );
 		      ObjectOutput output = new ObjectOutputStream( buffer );
 		      try{
-		        output.writeObject(model);
+		    	  //CHANGE
+		        //output.writeObject(model);
 		      }
 		      finally{
 		    	trainedFlag = true;
@@ -125,7 +133,9 @@ public class SVMAnswerFinder implements AnswerFinder {
 	      InputStream buffer = new BufferedInputStream( file );
 	      ObjectInput input = new ObjectInputStream ( buffer );
 	      try{
-	        model = (J48)input.readObject();
+	    	  //CHANGE
+	        //model = (J48)input.readObject();
+	    	  model2 = (RandomForest)input.readObject();
 	      }
 	      finally{
 	    	trainedFlag = true;
@@ -531,21 +541,35 @@ public class SVMAnswerFinder implements AnswerFinder {
 		if(trainedFlag) {
 			Instances testData = extractTestData(document, question);
 			//System.out.println(testData);
-			List<Guess> guessList = new ArrayList<Guess>();
-			double currentMax = 0.0;
+			List<Guess> guessList1 = new ArrayList<Guess>();
+			List<Guess> guessList2 = new ArrayList<Guess>();
+			List<Guess> guessList;
+			
+			//CHANGE
+			double currentMax1 = 0.0;
+			double currentMax2 = 0.0;
 			//Possibly count the blank lines, because the data that is returned includes those blanks
 			for(int i = 0; i < testData.numInstances(); i++) {
 				try {
-					double[] tempGuesses = model.distributionForInstance(testData.instance(i));
+					//CHANGE
+					double[] tempGuesses1 = model1.distributionForInstance(testData.instance(i));
+					double[] tempGuesses2 = model2.distributionForInstance(testData.instance(i));
 					if(!document.get(i).trim().equals("")) {
-					      //System.out.println("Line " + i + " is empty");
-						if(tempGuesses[0] == currentMax) {
-							 guessList.add(new Guess(1.0, i+1));
+						if(tempGuesses1[0] == currentMax1) {
+							 guessList1.add(new Guess(1.0, i+1));
 						}
-						else if(tempGuesses[0] > currentMax) {
-							currentMax = tempGuesses[0];
-							guessList.clear();
-							guessList.add(new Guess(1.0, i+1));
+						else if(tempGuesses1[0] > currentMax1) {
+							currentMax1 = tempGuesses1[0];
+							guessList1.clear();
+							guessList1.add(new Guess(1.0, i+1));
+						}
+						if(tempGuesses2[0] == currentMax2) {
+							 guessList2.add(new Guess(1.0, i+1));
+						}
+						else if(tempGuesses2[0] > currentMax2) {
+							currentMax2 = tempGuesses2[0];
+							guessList2.clear();
+							guessList2.add(new Guess(1.0, i+1));
 						}
 					}
 				} catch (Exception e) {
@@ -554,11 +578,28 @@ public class SVMAnswerFinder implements AnswerFinder {
 				}
 			}
 			
-			double prob = 1.0/guessList.size();
+			int counter = 0;
+			for(int j = 0; j < guessList1.size(); j++) {
+				for(int k = 0; k < guessList2.size(); k++) {
+					if(guessList1.get(j).getLine() == guessList2.get(k).getLine()) {
+						counter++;
+						Guess tempGuess = guessList1.get(j);
+						guessList1.remove(j);
+						guessList1.add(0, tempGuess);
+					}
+				}
+			}
+			
+			guessList = guessList1;
+			double prob = 1.0/(guessList.size() + counter);
 			
 			for(Guess aGuess : guessList) { 
-				aGuess.setProb(prob);
-				//System.out.println(aGuess);
+				if(counter != 0) {
+					aGuess.setProb(prob*2);
+					counter--;
+				}
+				else 
+					aGuess.setProb(prob);
 			}
 				
 			return guessList;
