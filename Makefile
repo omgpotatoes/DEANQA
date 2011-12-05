@@ -21,8 +21,8 @@ DEBUGFLAGS = -g -ea
 RUNFLAGS = 
 
 # arguments
-#ARGS = $(RES_DIR)/input-train.txt output.txt
-ARGS = $(RES_DIR)/input-test1.txt output.txt
+ARGS = $(RES_DIR)/input-train.txt output.txt
+#ARGS = $(RES_DIR)/input-test1.txt output.txt
 
 #.SUFFIXES: .java .class
 
@@ -43,6 +43,12 @@ build:
 
 run: build
 	java -cp $(BIN_DIR):$(CP) $(RUNFLAGS) $(PACKAGE).$(MAIN) $(ARGS)
+
+train: build
+	java -cp $(BIN_DIR):$(CP) $(RUNFLAGS) $(PACKAGE).$(MAIN) $(RES_DIR)/input-train.txt output.txt
+
+test: build
+	java -cp $(BIN_DIR):$(CP) $(RUNFLAGS) $(PACKAGE).$(MAIN) $(RES_DIR)/input-test1.txt output.txt
 
 debug: build
 	java -cp $(BIN_DIR):$(CP) $(DEBUGFLAGS) $(PACKAGE).$(MAIN) $(ARGS)

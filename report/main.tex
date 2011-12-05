@@ -24,31 +24,28 @@
 
 \begin{document}
 
-\title{Title goes here}
-\subtitle{[Subtitle goes here]
+\title{Watson Jr.}
+\subtitle{[A Question Answering System]}
 
 \numberofauthors{3}
 \author{
 \alignauthor Name 1 \\
-       \affaddr{Institute for Clarity in Documentation}\\
-       \affaddr{1932 Wallamaloo Lane}\\
-       \affaddr{Wallamaloo, New Zealand}\\
-       \email{trovato@corporation.com}
+       \affaddr{University of Pittsburgh}\\
+       \affaddr{Department of Computer Science}\\
+       \email{email@domain.edu}
 % author
-\alignauthor Name 2\\
-       \affaddr{Institute for Clarity in Documentation}\\
-       \affaddr{P.O. Box 1212}\\
-       \affaddr{Dublin, Ohio 43017-6221}\\
-       \email{webmaster@marysville-ohio.com}
+\alignauthor Yann Le Gall\\
+       \affaddr{University of Pittsburgh}\\
+       \affaddr{Department of Computer Science}\\
+       \email{ylegall@cs.pitt.edu}
 % author
 \alignauthor Name 3 \\
-       \affaddr{Institute for Clarity in Documentation}\\
-       \affaddr{P.O. Box 1212}\\
-       \affaddr{Hekla, Iceland}\\
-       \email{larst@affiliation.org}
+       \affaddr{University of Pittsburgh}\\
+       \affaddr{Department of Computer Science}\\
+       \email{email@domain.edu}
 }
 
-\date{30 July 1999}
+\date{12 December 2011}
 \maketitle
 
 %==================================
@@ -59,20 +56,89 @@ abstract goes here
 
 % A category with the (minimum) three required fields
 \category{I.2}{Artifical Intelligence}{Natural Language Processing}
-
-\terms{Theory}
+\terms{Algorithms, Experimentation}
 \keywords{Question Answering}
 
 %==================================
 
 \section{Introduction}
+\lablel{sec:intro}
 
-Introduction goes here.
+In this paper, we design, implement, and evaluate a question answering
+(QA) system. In our approach, we use several different strategies from
+different domains to select potential answers. Then, we employ a
+majority voting scheme to combine the results.
+
+% TODO: should this description of the dataset go in another section?
+To train and test our QA system, we used the ``CBC Reading
+Comprehension Corpus''. This corpus is composed of 125 news stories,
+each accompanied by a set of 6-10 factoid questions (e.g. questions
+that begin with ``Who'', ``When'', ``Where'', etc.).
+The news stories were obtained from the ``CBC 4 Kids'' website,
+hosted by the Canadian Broadcast Corporation. The questions and an
+answer key were added by the MITRE Corporation, and are in the style
+of actual reading comprehension tests that are given to grade school
+children in the United States.
+
+The rest of this paper is organized as follows: in
+\S\ref{sec:implementation} we describe the design and implementation
+of our QA system and each of its sub-components. Next, in
+\S\ref{sec:evaluation} we evaluate our system on the test dataset and
+present the performance results. Finally, we conclude in
+\S\ref{sec:conclusion}.
+
+
+\section{Implementation}
+\lablel{sec:implementation}
+
+In this section we discuss the design and implementation of our QA
+system. First, we explain the general, overall structure. Then we give
+a detailed description of the various sub-components, each of which
+implements a different strategy to answer questions. Finally, we
+present our technique for combining the potential answers from each
+sub-component.
+
+%TODO: show a diagram of the system
+
+\subsection{Naive Bag-of-Words}
+
+% TODO: Yann writes this
+
+\subsection{Linguistic Rule-based Strategies}
+
+% TODO: Yann writes this
+
+\subsection{NLP Components}
+
+% TODO: Alex writes this
+
+\subsection{SVM Classification}
+
+% TODO: Eric writes this part
+
+\subsection{Combining Answers with Majority Voting}
+Previous work by Rotaru and Litman demonstrates that combining
+the outputs of multiple QA systems can achieve better results than the
+individual systems alone \cite{rotaru2005}. We incorporate this idea
+into the design of our QA system by combining the outputs from each of
+the subsystems described above.
+
+% TODO: describe how we combine the different results
+
+\section{Evaluation}
+\lablel{sec:evaluation}
+
+
 
 \section{Conclusions}
+\lablel{sec:conclusion}
+
+Question-answering is complex task and a cutting-edge research area
+in natural language processing. 
+
 
 %ACKNOWLEDGMENTS are optional
-\section{Acknowledgments}
+%\section{Acknowledgments}
 
 %\bibliographystyle{abbrv}
 \bibliographystyle{plain}
@@ -86,3 +152,4 @@ Introduction goes here.
 
 
 \end{document}
+
