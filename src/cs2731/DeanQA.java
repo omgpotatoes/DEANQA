@@ -1,9 +1,10 @@
 package cs2731;
 
-import cs2731.discourse.DiscourseAnswerFinder;
+import java.util.Collections;
 import java.util.Map;
 import cs2731.ner.NamedEntityService;
 import cs2731.ner.RandomNameAnswerFinder;
+import cs2731.discourse.DiscourseAnswerFinder;
 
 import java.util.List;
 import java.io.File;
@@ -29,8 +30,20 @@ public class DeanQA
 	static PrintWriter writer;
 	static List<String> document;
 	static List<String> questions;
-      static List<Guess> answers;
-      static SVMAnswerFinder SVMFinder;
+	static List<Guess> answers;
+	
+	static SVMAnswerFinder SVMFinder;
+	static AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
+//	static AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
+//	static AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
+//	static AnswerFinder nerFinder = new RandomNameAnswerFinder();
+//	static AnswerFinder nameFinder = new NameAnswerFinder();
+	//static AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
+//	static AnswerFinder discourseFinder = new DiscourseAnswerFinder();
+	static AnswerFinder ruleFinder = new RuleAnswerFinder();
+	static QuestionExpander qExp = new QuestionExpander();
+	static AnswerFinder boNGramsFinder = new BagOfNGramsAnswerFinder();
+	
 	static Preprocessor preprocessor;
 	static StopwordRemover swRem = null;
 
@@ -155,14 +168,15 @@ public class DeanQA
 		AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
 		//AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
 		//AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
-		AnswerFinder nerFinder = new RandomNameAnswerFinder();
+		//AnswerFinder nerFinder = new RandomNameAnswerFinder();
 		//AnswerFinder nameFinder = new NameAnswerFinder();
 		//AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
-		AnswerFinder tfidfFinder = new TfIdfAnswerFinder(inputFile);
+		//AnswerFinder tfidfFinder = new TfIdfAnswerFinder(inputFile);
 		AnswerFinder discourseFinder = new DiscourseAnswerFinder();
 		//QuestionExpander qExp = new QuestionExpander();
 		AnswerFinder boNGramsFinder = new BagOfNGramsAnswerFinder();
 		//SVMAnswerFinder SVMFinder = new SVMAnswerFinder("./resources/input", "./resources/answerkey.txt");
+
 
 		// for each question get a list of possible answers
 		List<Guess> guesses = new ArrayList<Guess>();
@@ -203,65 +217,69 @@ public class DeanQA
 			}
 			guesses.addAll(tfidfGuesses);
 			//*/
-			///*
-			if (questionType.equals(QuestionType.WHERE) ||
-					questionType.equals(QuestionType.WHAT) ||
-					questionType.equals(QuestionType.WHY) ||
-					questionType.equals(QuestionType.WHO) ||
-					questionType.equals(QuestionType.WHICH) ||
-					questionType.equals(QuestionType.OTHER)
-					) {
-			((DiscourseAnswerFinder)discourseFinder).setNextDoc(rootPath+"/"+input);
-			List<Guess> discourseGuesses = discourseFinder.getAnswerLines(document, question);
-			double discourseWeight = 0.10;
-			for (Guess guess : discourseGuesses) {
-				guess.setWeight(discourseWeight);
-			}
-			guesses.addAll(discourseGuesses);
-			List<Guess> boNGramsGuesses = boNGramsFinder.getAnswerLines(document, question);
-			double boNGramsWeight = 0.90;
-			for (Guess guess : boNGramsGuesses) {
-				guess.setWeight(boNGramsWeight);
-			}
-			guesses.addAll(boNGramsGuesses);
-			}
-			else if (questionType.equals(QuestionType.HOW) ||
-					questionType.equals(QuestionType.HOW_MUCH) ||
-					questionType.equals(QuestionType.HOW_OLD) ||
-					questionType.equals(QuestionType.HOW_MANY)
-					) {
-			List<Guess> bowGuesses = bowFinder.getAnswerLines(document, question);
-			double bowWeight = 1.0;
-			for (Guess guess : bowGuesses) {
-				guess.setWeight(bowWeight);
-			}
-			guesses.addAll(bowGuesses);
-			}
-			else {
-			//*/
-				((DiscourseAnswerFinder)discourseFinder).setNextDoc(rootPath+"/"+input);
-				List<Guess> discourseGuesses = discourseFinder.getAnswerLines(document, question);
+			// /*
+			if (questionType.equals(QuestionType.WHERE)
+					|| questionType.equals(QuestionType.WHAT)
+					|| questionType.equals(QuestionType.WHY)
+					|| questionType.equals(QuestionType.WHO)
+					|| questionType.equals(QuestionType.WHICH)
+					|| questionType.equals(QuestionType.OTHER)) {
+				((DiscourseAnswerFinder) discourseFinder).setNextDoc(rootPath
+						+ "/" + input);
+				List<Guess> discourseGuesses = discourseFinder.getAnswerLines(
+						document, question);
+				double discourseWeight = 0.10;
+				for (Guess guess : discourseGuesses) {
+					guess.setWeight(discourseWeight);
+				}
+				guesses.addAll(discourseGuesses);
+				List<Guess> boNGramsGuesses = boNGramsFinder.getAnswerLines(
+						document, question);
+				double boNGramsWeight = 0.90;
+				for (Guess guess : boNGramsGuesses) {
+					guess.setWeight(boNGramsWeight);
+				}
+				guesses.addAll(boNGramsGuesses);
+			} else if (questionType.equals(QuestionType.HOW)
+					|| questionType.equals(QuestionType.HOW_MUCH)
+					|| questionType.equals(QuestionType.HOW_OLD)
+					|| questionType.equals(QuestionType.HOW_MANY)) {
+				List<Guess> bowGuesses = bowFinder.getAnswerLines(document,
+						question);
+				double bowWeight = 1.0;
+				for (Guess guess : bowGuesses) {
+					guess.setWeight(bowWeight);
+				}
+				guesses.addAll(bowGuesses);
+			} else {
+				// */
+				((DiscourseAnswerFinder) discourseFinder).setNextDoc(rootPath
+						+ "/" + input);
+				List<Guess> discourseGuesses = discourseFinder.getAnswerLines(
+						document, question);
 				double discourseWeight = 0.05;
 				for (Guess guess : discourseGuesses) {
 					guess.setWeight(discourseWeight);
 				}
 				guesses.addAll(discourseGuesses);
-				//*/
-				///*
-				List<Guess> boNGramsGuesses = boNGramsFinder.getAnswerLines(document, question);
+				// */
+				// /*
+				List<Guess> boNGramsGuesses = boNGramsFinder.getAnswerLines(
+						document, question);
 				double boNGramsWeight = 0.45;
 				for (Guess guess : boNGramsGuesses) {
 					guess.setWeight(boNGramsWeight);
 				}
 				guesses.addAll(boNGramsGuesses);
-				List<Guess> bowGuesses = bowFinder.getAnswerLines(document, question);
+				List<Guess> bowGuesses = bowFinder.getAnswerLines(document,
+						question);
 				double bowWeight = 0.5;
 				for (Guess guess : bowGuesses) {
 					guess.setWeight(bowWeight);
 				}
 				guesses.addAll(bowGuesses);
 			}
-			//guesses.addAll(boNGramsFinder.getAnswerLines(document, question));
+			// guesses.addAll(boNGramsFinder.getAnswerLines(document, question));
 
 			//if (swRem == null) {
 			//	swRem = new StopwordRemover();
@@ -364,11 +382,11 @@ public class DeanQA
 		writer = new PrintWriter(outputFile);
 		document = new ArrayList<String>();
 		questions = new LinkedList<String>();
-		SVMFinder = new SVMAnswerFinder();
-		SVMFinder.trainModel("./resources/input", "./resources/answerkey.txt", "./resources/model.txt");
+		
+//		SVMFinder = new SVMAnswerFinder();
+//		SVMFinder.trainModel("./resources/input", "./resources/answerkey.txt", "./resources/model.txt");
 		//SVMFinder.getModelFromFile("./resources/model.txt");
 
-		
 		processDataset(rootPath);
 		
 	}

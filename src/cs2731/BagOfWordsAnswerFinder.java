@@ -31,9 +31,9 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		
 		stopWords = new HashSet<String>();
 		stopWords.addAll(Arrays.asList(
-				"the","a","to","and",
-				"an","it","was","were","is",
-				"as","at","be","by","for"
+				"the","a","to","and","or","an","it",
+				"was","were","is","did","be",
+				"as","at","by","for","if"
 				));
 	}
 	
@@ -72,6 +72,9 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 		
 		// loop over every line of the document and see how many words match:
 		int lineNum = 0;
+		
+//		System.out.println("\n!!! QUESTION: " + question);
+		
 		for (String line : document) {
 			lineNum++;
 			if (containsOnlyWhitespace(line)) { continue; }
@@ -92,13 +95,19 @@ public class BagOfWordsAnswerFinder implements AnswerFinder
 			}
 			scores.add(new Guess(score, lineNum));
 			totalScore += score;
+			
+//			System.out.println("!!!\tSENTENCE: " + lineNum + "  "+ line);
+//			System.out.println("!!!\tSCORE: " + score);
+			
 		}
 		
 		// return a list of guesses.
 		// Probabilities are based on score/totalScore:
 		for (Guess score : scores) {
+			double prob = (score.getProb()/totalScore);
 			guesses.add(new Guess(
-					(score.getProb()/totalScore),
+					prob,
+//					prob*prob,
 					score.getLine()
 					));
 		}
