@@ -3,11 +3,14 @@ package cs2731;
 import cs2731.discourse.DiscourseAnswerFinder;
 import java.util.Map;
 import cs2731.ner.NamedEntityService;
+import cs2731.ner.RandomNameAnswerFinder;
+
 import java.util.List;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -21,6 +24,7 @@ public class DeanQA
 
 	static String rootPath = "";
 	static String outputFile = "output.txt";
+	static String inputFile = "";
 	
 	static PrintWriter writer;
 	static List<String> document;
@@ -91,7 +95,7 @@ public class DeanQA
 	 */
 	private static void processDataset(String inputFile) throws IOException {
 		Scanner input = new Scanner(new File(inputFile));
-
+		DeanQA.inputFile = inputFile;
 		// read the root path of the input files:
 		rootPath = input.nextLine();
 		out.println("root dataset path = " + rootPath);
@@ -141,20 +145,20 @@ public class DeanQA
 		AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
 		AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
 		AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
-		AnswerFinder nerFinder = new RandomNameAnswerFinder();
-		AnswerFinder nameFinder = new NameAnswerFinder();
+		//AnswerFinder nerFinder = new RandomNameAnswerFinder();
+		//AnswerFinder nameFinder = new NameAnswerFinder();
 		AnswerFinder qtFinder = new RuleAnswerFinder();
 		AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
 		QuestionExpander qExp = new QuestionExpander();
-		*/
+		//*/
 		
-		//AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
+		AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
 		//AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
 		//AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
-		//AnswerFinder nerFinder = new RandomNameAnswerFinder();
+		AnswerFinder nerFinder = new RandomNameAnswerFinder();
 		//AnswerFinder nameFinder = new NameAnswerFinder();
 		//AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
-		//AnswerFinder tfidfFinder = new TfIdfAnswerFinder();
+		AnswerFinder tfidfFinder = new TfIdfAnswerFinder(inputFile);
 		AnswerFinder discourseFinder = new DiscourseAnswerFinder();
 		//QuestionExpander qExp = new QuestionExpander();
 		AnswerFinder boNGramsFinder = new BagOfNGramsAnswerFinder();
@@ -175,17 +179,89 @@ public class DeanQA
 			// TODO: parallel execution of a number of different strategies:
 
 			//SVMFinder.getAnswerLines(document, question);
-			guesses.addAll(SVMFinder.getAnswerLines(document, question));
+			//guesses.addAll(SVMFinder.getAnswerLines(document, question));
 			//guesses.addAll(bowFinder.getAnswerLines(document, question));
 			//guesses.addAll(lemmaFinder.getAnswerLines(document, question));
-			//guesses.addAll(nerFinder.getAnswerLines(document, question));
+			//guesses.addAll(nerFinder.getAnswerLines(document, question));\
+			/*
+			List<Guess> nerGuesses = nerFinder.getAnswerLines(document, question);
+			double nerWeight = 0.05;
+			for (Guess guess : nerGuesses) {
+				guess.setWeight(nerWeight);
+			}
+			guesses.addAll(nerGuesses);
+			//*/
 			//guesses.addAll(qtFinder.getAnswerLines(document, question));
 			//guesses.addAll(verbFinder.getAnswerLines(document, question));
 			//guesses.addAll(nameFinder.getAnswerLines(document, question));
 			//guesses.addAll(tfidfFinder.getAnswerLines(document, question));
+			/*
+			List<Guess> tfidfGuesses = tfidfFinder.getAnswerLines(document, question);
+			double tfidfWeight = 0.80;
+			for (Guess guess : tfidfGuesses) {
+				guess.setWeight(tfidfWeight);
+			}
+			guesses.addAll(tfidfGuesses);
+			//*/
+			///*
+			if (questionType.equals(QuestionType.WHERE) ||
+					questionType.equals(QuestionType.WHAT) ||
+					questionType.equals(QuestionType.WHY) ||
+					questionType.equals(QuestionType.WHO) ||
+					questionType.equals(QuestionType.WHICH) ||
+					questionType.equals(QuestionType.OTHER)
+					) {
 			((DiscourseAnswerFinder)discourseFinder).setNextDoc(rootPath+"/"+input);
-			guesses.addAll(discourseFinder.getAnswerLines(document, question));
-			guesses.addAll(boNGramsFinder.getAnswerLines(document, question));
+			List<Guess> discourseGuesses = discourseFinder.getAnswerLines(document, question);
+			double discourseWeight = 0.10;
+			for (Guess guess : discourseGuesses) {
+				guess.setWeight(discourseWeight);
+			}
+			guesses.addAll(discourseGuesses);
+			List<Guess> boNGramsGuesses = boNGramsFinder.getAnswerLines(document, question);
+			double boNGramsWeight = 0.90;
+			for (Guess guess : boNGramsGuesses) {
+				guess.setWeight(boNGramsWeight);
+			}
+			guesses.addAll(boNGramsGuesses);
+			}
+			else if (questionType.equals(QuestionType.HOW) ||
+					questionType.equals(QuestionType.HOW_MUCH) ||
+					questionType.equals(QuestionType.HOW_OLD) ||
+					questionType.equals(QuestionType.HOW_MANY)
+					) {
+			List<Guess> bowGuesses = bowFinder.getAnswerLines(document, question);
+			double bowWeight = 1.0;
+			for (Guess guess : bowGuesses) {
+				guess.setWeight(bowWeight);
+			}
+			guesses.addAll(bowGuesses);
+			}
+			else {
+			//*/
+				((DiscourseAnswerFinder)discourseFinder).setNextDoc(rootPath+"/"+input);
+				List<Guess> discourseGuesses = discourseFinder.getAnswerLines(document, question);
+				double discourseWeight = 0.05;
+				for (Guess guess : discourseGuesses) {
+					guess.setWeight(discourseWeight);
+				}
+				guesses.addAll(discourseGuesses);
+				//*/
+				///*
+				List<Guess> boNGramsGuesses = boNGramsFinder.getAnswerLines(document, question);
+				double boNGramsWeight = 0.45;
+				for (Guess guess : boNGramsGuesses) {
+					guess.setWeight(boNGramsWeight);
+				}
+				guesses.addAll(boNGramsGuesses);
+				List<Guess> bowGuesses = bowFinder.getAnswerLines(document, question);
+				double bowWeight = 0.5;
+				for (Guess guess : bowGuesses) {
+					guess.setWeight(bowWeight);
+				}
+				guesses.addAll(bowGuesses);
+			}
+			//guesses.addAll(boNGramsFinder.getAnswerLines(document, question));
 
 			//if (swRem == null) {
 			//	swRem = new StopwordRemover();

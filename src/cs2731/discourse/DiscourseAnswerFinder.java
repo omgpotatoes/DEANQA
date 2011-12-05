@@ -22,7 +22,8 @@ import cs2731.QuestionTypeDetector;
  */
 public class DiscourseAnswerFinder implements AnswerFinder {
 	
-	public static double WEIGHT = 0.10;
+	//public static double WEIGHT = 0.10;
+	public static double WEIGHT = 1.00;   // weights now handled in DEANQA
 	
 	protected static EnumMap<QuestionType, HashMap<String, Double>> answerProbs = null;
 	protected String nextDocPath;
