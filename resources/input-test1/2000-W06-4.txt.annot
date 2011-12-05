@@ -1,0 +1,34 @@
+Manitoba 's No Kiss Zone February 10 , 2000
+
+Students who lock lips in the hallways of Winnipeg 's Sisler High School have been warned : {Exp_0_conn_Condition if Exp_0_conn} {Exp_0_Arg2 that friendly peck gets too passionate , Exp_0_Arg2} {Exp_0_Arg1 they couldbe sent home or even suspended Exp_0_Arg1} .
+
+With Valentine 's Day just around the corner , vice-principal Mike Kachmar announced the smooching ban over the school 's public address system .
+
+{Attr_0 {Exp_1_Arg1 He says Attr_0} students are expected to treat each other with courtesy and respect , Exp_1_Arg1} {Exp_1_conn_Conjunction and Exp_1_conn} {Exp_1_Arg2 that does n't include passionate embracing in the hall . Exp_1_Arg2}
+
+`` {Exp_2_Arg1 School is a place of business Exp_2_Arg1} {Exp_2_conn_Conjunction and Exp_2_conn} {Exp_2_Arg2 we expect students to act and behave accordingly Exp_2_Arg2} , '' {Attr_1 Kachmar says . Attr_1}
+
+{Attr_2 Kachmar says Attr_2} {Exp_3_Arg1 he made the announcement Exp_3_Arg1} {Exp_3_conn_Asynchronous after Exp_3_conn} {Exp_3_Arg2 receiving complaints about a few students whose intense kissing was making others uncomfortable Exp_3_Arg2} .
+
+{NonExp_0_Arg1 Jeffrey Besyk is in Grade 12 . NonExp_0_Arg1}
+{Attr_3 {NonExp_0_Arg2_EntRel {Exp_4_Arg1 He says Attr_3} he has never witnessed a problem in Sisler 's hallways , Exp_4_Arg1} {Exp_4_conn_Conjunction and Exp_4_conn} {Attr_4 {Exp_4_Arg2 he says Attr_4} the school should n't regulate {Exp_5_Arg1 what students do Exp_5_Arg1} {Exp_5_conn_Synchrony when Exp_5_conn} {Exp_5_Arg2 they 're not in class Exp_5_Arg2} . Exp_4_Arg2} NonExp_0_Arg2}
+
+`` {Exp_9_Arg1 {Exp_7_Arg1 {Exp_6_Arg1 Class is for learning , Exp_6_Arg1} {Exp_6_conn_Synchrony as Exp_6_conn} {Exp_6_Arg2 the principals say Exp_6_Arg2} , {Exp_7_conn_Contrast but Exp_7_conn} {Exp_8_conn_Synchrony {Exp_7_Arg2 when Exp_8_conn} {Exp_8_Arg2 it comes to our breaks , Exp_8_Arg2} {Exp_8_Arg1 those are our time Exp_7_Arg2} Exp_8_Arg1} , Exp_9_Arg1} {Exp_9_conn_Conjunction and Exp_9_conn} {Exp_9_Arg2 I think we should be able to do what we want Exp_7_Arg1} Exp_9_Arg2} , '' {Attr_5 says Besyk . Attr_5}
+
+Kissing has a long history in Western civilization , with references dating back to the Old Testament .
+
+{NonExp_1_Arg1 {Exp_10_Arg1 The ancient Greeks and Romans Early Christians greeted one another with a kiss , Exp_10_Arg1} {Exp_10_conn_Conjunction and Exp_10_conn} {Exp_10_Arg2 this `` holy kiss '' is still a part of Roman Catholic rituals , such as when a bishop kisses a newly ordained priest . Exp_10_Arg2} NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel {Exp_12_Arg1 {Exp_11_Arg1 Medieval knights were kissed {Exp_11_conn_Asynchronous after Exp_11_conn} {Exp_11_Arg2 being knighted Exp_11_Arg2} , Exp_12_Arg1} {Exp_12_conn_Conjunction and Exp_12_conn} {Exp_12_Arg2 the custom of kissing the bride remains almost universal in Western marriage ceremonies . Exp_11_Arg1} Exp_12_Arg2} NonExp_1_Arg2}
+
+{Exp_13_Arg1 Until the 20th century , kissing was rarely practiced in East Asia , where bowing was the all-purpose form of greeting , Exp_13_Arg1} {Exp_13_conn_Conjunction and Exp_13_conn} {Exp_13_Arg2 kissing was left for private moments . Exp_13_Arg2}
+
+{NonExp_2_Arg1 <QUESTIONS> <Q1> Why could students at Sisler High School be sent home or suspended for kissing ? NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_Conjunction <Q2> How are students at Sisler expected to treat each other , {Attr_6 according to vice-principal Mike Kachmar ? NonExp_2_Arg2} NonExp_3_Arg1} Attr_6}
+{NonExp_4_Arg1 {NonExp_3_Arg2_List <Q3> How did Kachmar describe school ? NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_Cause <Q4> Why did Kachmar say he announced the ban on kissing ? NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Conjunction <Q5> How far back in Western civilization are there references to kissing ? NonExp_5_Arg2} NonExp_6_Arg1}
+{Attr_7 {NonExp_7_Arg1 {NonExp_6_Arg2_EntRel <Q6> Who said Attr_7} he has never witnessed a problem in Sisler 's hallways ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_EntRel <Q7> Where was kissing rarely practiced until the 20th century ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Asynchronous {Exp_14_Arg1 <Q8> Exp_14_Arg1} {Exp_14_conn_Synchrony When Exp_14_conn} {Exp_14_Arg2 were medieval knights kissed ? Exp_14_Arg2} NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_9_Arg2_Cause <Q9> What is the `` holy kiss '' still a part of ? NonExp_9_Arg2}
+

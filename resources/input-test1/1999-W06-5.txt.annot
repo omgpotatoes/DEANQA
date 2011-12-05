@@ -1,0 +1,56 @@
+A `` Social Union '' February 5 , 1999
+
+{NonExp_0_Arg1 {Exp_1_Arg1 {Exp_0_conn_Synchrony When Exp_0_conn} {Exp_0_Arg2 you 're sick Exp_1_Arg1} {Exp_1_conn_Conjunction and Exp_1_conn} {Exp_1_Arg2 you go to see a doctor Exp_1_Arg2} , Exp_0_Arg2} {Exp_0_Arg1 you probably do n't think about politics . Exp_0_Arg1} NonExp_0_Arg1}
+{NonExp_0_Arg2_Cause {Exp_2_Arg1 You just want to get better . Exp_2_Arg1} NonExp_0_Arg2}
+
+{NonExp_1_Arg1 {Exp_2_conn_Contrast But Exp_2_conn} {Exp_2_Arg2 politicians really do have a lot to do with our health . Exp_2_Arg2} NonExp_1_Arg1}
+{NonExp_1_Arg2_Cause They help make the rules that control everything from how much doctors and nurses get paid to how many beds are available in your local hospital . NonExp_1_Arg2}
+
+{NonExp_2_Arg1 Yesterday the leaders of all of Canada 's ten provinces and two territories got together in Ottawa , Ontario with the Prime Minister . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel {Exp_3_Arg1 They talked about the rules concerning health care . Exp_3_Arg1} NonExp_2_Arg2}
+{Exp_3_Arg2 They {Exp_3_conn_Conjunction also Exp_3_conn} discussed other issues that are important to Canadians , like education and job creation . Exp_3_Arg2}
+
+{Exp_4_Arg1 What they are trying to figure out is who is responsible for what . Exp_4_Arg1}
+{Exp_4_conn_Conjunction And Exp_4_conn} {Exp_4_Arg2 , of course , who should pay . Exp_4_Arg2}
+
+These negotiations are called the `` social union '' .
+
+{NonExp_3_Arg1 `` A new beginning for Canada '' is what Prime Minister Jean Chretien calls the federal-provincial deal on social programs . NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_Conjunction The Prime Minister and the premiers of nine provinces and the Northwest and Yukon territories signed the deal . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_Conjunction Only the leader of Quebec did n't agree . NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_5_Arg2_Conjunction Quebec premier Lucien Bouchard refused to sign yesterday 's accord . NonExp_5_Arg2}
+
+{NonExp_6_Arg1 The deal will see the federal government add a few billion dollars for health care in the year to come . NonExp_6_Arg1}
+{NonExp_6_Arg2_EntRel {Exp_5_Arg1 That part was fine with Quebec Premier Lucien Bouchard . Exp_5_Arg1} NonExp_6_Arg2}
+{NonExp_7_Arg1 {Exp_5_conn_Contrast But Exp_5_conn} {Exp_5_Arg2 he refused to add Quebec to a wider deal on paying for and running Canada 's social programs . Exp_5_Arg2} NonExp_7_Arg1}
+{NonExp_7_Arg2_Cause He sees this as a threat to Quebec 's future . NonExp_7_Arg2}
+
+Mr. Chretien and the premiers did n't seem too concerned by Quebec 's absence from the social union deal .
+
+{NonExp_8_Arg1 `` This will make Canada better , '' {Attr_0 says Mr. Chretien of the social union accord . NonExp_8_Arg1} Attr_0}
+{NonExp_8_Arg2_EntRel `` It 's the people of Canada who are winning . '' NonExp_8_Arg2}
+
+{NonExp_9_Arg1 `` To me , this is how Canada should work , '' {Attr_1 says Saskatchewan Premier Roy Romanow . NonExp_9_Arg1} Attr_1}
+{NonExp_9_Arg2_EntRel Ontario Premier Mike Harris called it `` a tremendous day . '' NonExp_9_Arg2}
+
+{NonExp_10_Arg1 The health care agreement is expected to send as much $ 2.5 billion to the provinces . NonExp_10_Arg1}
+{NonExp_10_Arg2_Cause {Exp_6_Arg1 This could mean that hospitals will have more money to improve care . Exp_6_Arg1} NonExp_10_Arg2}
+{Exp_6_Arg2 It could {Exp_6_conn_Conjunction also Exp_6_conn} mean that more doctors and nurses and health care workers could get jobs . Exp_6_Arg2}
+
+{NonExp_11_Arg1 The social union agreement will be reviewed after three years . NonExp_11_Arg1}
+{NonExp_11_Arg2_Cause That is {Exp_7_Arg1 when changes can be made Exp_7_Arg1} {Exp_7_conn_Condition if Exp_7_conn} {Exp_7_Arg2 some provinces or the federal government feel it can be improved Exp_7_Arg2} . NonExp_11_Arg2}
+
+{NonExp_12_Arg1 One effect Canadians will clearly feel is called `` mobility rights '' . NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Cause That simply means that {Exp_8_Arg1 Canadians will be able to use their health care cards Exp_8_Arg1} {Exp_8_conn_Condition if Exp_8_conn} {Exp_8_Arg2 they move to another part of Canada except Quebec Exp_8_Arg2} . NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_13_Arg2_Cause Its a way of making sure {Exp_9_Arg1 that Canadians feel comfortable Exp_9_Arg1} {Exp_9_conn_Synchrony when Exp_9_conn} {Exp_9_Arg2 they travel Exp_9_Arg2} or decide to live in another province . NonExp_13_Arg2}
+
+{NonExp_14_Arg1 <QUESTIONS> <Q1> What is the name of the new accord between most of Canada 's provinces and territories ? NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_Conjunction <Q2> How many provinces does Canada have ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_Contrast <Q3> Where did the Canadian leaders meet to discuss the accord ? NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_17_Arg1 {NonExp_16_Arg2_Cause <Q4> Which leader is the premier of Ontario ? NonExp_16_Arg2} NonExp_17_Arg1}
+{NonExp_18_Arg1 {NonExp_17_Arg2_List <Q5> Who did not sign the new accord ? NonExp_17_Arg2} NonExp_18_Arg1}
+{NonExp_19_Arg1 {NonExp_18_Arg2_NoRel <Q6> Why did the one province not sign the accord ? NonExp_18_Arg2} NonExp_19_Arg1}
+{NonExp_20_Arg1 {NonExp_19_Arg2_Cause <Q7> How much will the provinces receive for health care ? NonExp_19_Arg2} NonExp_20_Arg1}
+{NonExp_21_Arg1 {NonExp_20_Arg2_Restatement <Q8> What are `` mobility rights '' ? NonExp_20_Arg2} NonExp_21_Arg1}
+{NonExp_21_Arg2_Cause {Exp_10_Arg1 <Q9> Exp_10_Arg1} {Exp_10_conn_Synchrony When Exp_10_conn} {Exp_10_Arg2 will the agreement be reviewed and possibly changed ? Exp_10_Arg2} NonExp_21_Arg2}
+

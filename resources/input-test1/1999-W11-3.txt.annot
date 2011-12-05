@@ -1,0 +1,57 @@
+Blaming the Seals March 10 , 1999
+
+The Newfoundland government has a new weapon in its fight to increase the seal hunt : film of cod carnage .
+
+{NonExp_0_Arg1 Underwater footage shows `` tens of thousands of cod lying on the bottom , gutted . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel It looks pretty bad , '' {Attr_0 says Mary MacNab , the government 's seal industry promotions officer . NonExp_0_Arg2} Attr_0}
+
+`` From my own impression , it 's the killing fields . ''
+
+{Exp_0_Arg1 The footage , filmed last week by fishermen using government supplied equipment , shows the ocean floor Exp_0_Arg1} {Exp_0_conn_Asynchronous after Exp_0_conn} {Exp_0_Arg2 a group of seals crowded cod into a bay and started feasting . Exp_0_Arg2}
+
+Lloyd Oldford of Red Cliff , Bonavista Bay , a fisherman who first alerted Efford to the problem , {Attr_1 said Attr_1} the video in no way shows the true extent of the destruction fishermen are seeing .
+
+{NonExp_1_Arg1 `` I can show you 100 miles of it , '' {Attr_2 said Oldford . NonExp_1_Arg1} Attr_2}
+{NonExp_2_Arg1 {NonExp_1_Arg2_EntRel `` There 's nothing but dead fish in every crook and cranny . NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel It 's everywhere , massive destruction . NonExp_2_Arg2}
+
+{NonExp_3_Arg1 It 's taking away a great source of income from us . NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause {Exp_1_conn_Condition If Exp_1_conn} {Exp_1_Arg2 we do n't do something about this seal problem , Exp_1_Arg2} {Exp_1_Arg1 more people are going to be leaving the province . '' Exp_1_Arg1} NonExp_3_Arg2}
+
+{Attr_3 John Efford , Attr_3} Newfoundland 's fisheries minister , {Attr_4 says Attr_4} the `` very disturbing '' images will wake up people to the toll seals are taking on northern cod stocks .
+
+There has been a moratorium - a temporary ban - on {Exp_2_Arg1 fishing for cod since 1992 Exp_2_Arg1} {Exp_2_conn_Asynchronous after Exp_2_conn} {Exp_2_Arg2 fish stocks dropped to dangerous levels Exp_2_Arg2} .
+
+{Exp_5_Arg1 {Exp_3_Arg1 `` We thought by bringing in the moratorium , that in a few years the cod stocks would start to return , '' {Attr_5 he says . Exp_3_Arg1} Exp_5_Arg1} Attr_5}
+
+{Exp_5_Arg2 {Exp_4_Arg1 {Exp_3_Arg2 `` {Exp_3_conn_Contrast But Exp_3_conn} seven years {Exp_4_conn_Asynchronous after Exp_4_conn} {Exp_4_Arg2 the closure of the ground fish industry , stocks today are worse Exp_4_Arg2} {Exp_5_conn_Asynchronous then Exp_5_conn} they were previous to 1992 . Exp_3_Arg2} Exp_4_Arg1} Exp_5_Arg2}
+
+`` There 's only one answer to that ... We 've got an overpopulated seal herd . ''
+
+{Attr_6 {NonExp_4_Arg1 Mr. Efford says Attr_6} the seal herd , which is estimated at six million , needs to be cut in half . NonExp_4_Arg1}
+{NonExp_4_Arg2_EntRel That would mean increasing the annual quota of 275,000 harp seals to between 475,000 and 575,000 animals . NonExp_4_Arg2}
+
+Jeff Hutchings , a professor at Dalhousie University in Halifax , {Attr_7 Nova Scotia says Attr_7} it is a stretch for Mr. Efford to use evidence of seals preying on cod in one location to argue for a massive cull -LRB- harvest -RRB- of the seal herd .
+
+{NonExp_5_Arg1 `` The degree to which seals are retarding the recovery of cod stocks remains an open question . NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Cause Maybe they are . NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_6_Arg2_Cause Maybe they are n't . '' NonExp_6_Arg2}
+
+{Attr_8 He adds that documentation of seals having eaten Attr_8} only the fish stomachs suggests scientists may have underestimated how many cod the seals kill .
+
+{Exp_6_Arg1 Researchers detect traces of fish in seal stomachs only Exp_6_Arg1} {Exp_6_conn_Condition if Exp_6_conn} {Exp_6_Arg2 they eat the whole fish . Exp_6_Arg2}
+
+{NonExp_7_Arg1 Today , sealing comprises a vital part of Newfoundland 's sluggish economy . NonExp_7_Arg1}
+{NonExp_7_Arg2_Instantiation In 1996 alone it was worth in excess of $ 11 million , with seal products being sold in Canada , Norway and Asia . NonExp_7_Arg2}
+
+{NonExp_8_Arg1 <QUESTIONS> <Q1> How does Newfoundland intend to use a film of seals feasting on cod ? NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Conjunction <Q2> Who described the film as `` the killing fields '' ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Restatement <Q3> Who shot the footage of seals eating cod ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Contrast <Q4> Why has there been a moratorium on cod fishing ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Asynchronous {Exp_7_Arg1 <Q5> Exp_7_Arg1} {Exp_7_conn_Synchrony When Exp_7_conn} {Exp_7_Arg2 was the moratorium instituted ? Exp_7_Arg2} NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Cause <Q6> What is the estimated size of the seal herd ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_Conjunction <Q7> By how much does John Efford want to cut the seal herd ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_Contrast <Q8> Where is Dalhousie University ? NonExp_14_Arg2} NonExp_15_Arg1}
+{Attr_9 {NonExp_16_Arg1 {NonExp_15_Arg2_Cause <Q9> Why does Jeff Hutchings of Dalhousie University think Attr_9} that scientists may have underestimated how many cod seals kill ? NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_16_Arg2_Cause <Q10> How much was sealing worth to the Newfoundland economy in 1996 ? NonExp_16_Arg2}
+

@@ -1,0 +1,36 @@
+President Clinton Acquitted in Trial February 15 , 1999
+
+The trial of the American president ended Friday when he was found not guilty of both charges against him .
+
+{NonExp_0_Arg1 President Clinton was acquitted of the charge of perjury -LRB- lying in court -RRB- and of obstructing justice -LRB- hiding evidence , or getting others to lie in court -RRB- . NonExp_0_Arg1}
+{NonExp_1_Arg1 {NonExp_0_Arg2_EntRel Both are very serious offences . NonExp_0_Arg2} NonExp_1_Arg1}
+{NonExp_1_Arg2_Instantiation {Exp_0_conn_Condition If Exp_0_conn} {Exp_0_Arg2 found guilty , Exp_0_Arg2} {Exp_0_Arg1 Clinton would have been removed as president of the United States . Exp_0_Arg1} NonExp_1_Arg2}
+
+{NonExp_2_Arg1 The Senate , which is made up of 100 senators , needed 67 votes to impeach Clinton on either charge . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel {Exp_1_Arg1 The senators were split 50-50 on the charge of obstruction of justice , Exp_1_Arg1} {Exp_1_conn_Conjunction and Exp_1_conn} {Exp_1_Arg2 only 45 voted Clinton `` guilty '' on the charge of perjury . Exp_1_Arg2} NonExp_2_Arg2}
+
+{NonExp_3_Arg1 There are two parties in the Senate , the Democrats and the Republicans . NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_EntRel The Republicans are the majority with 55 seats . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_4_Arg2_Cause {Exp_3_Arg1 {Exp_2_Arg1 They were for the impeachment , Exp_2_Arg1} {Exp_2_conn_Contrast but Exp_2_conn} {Exp_2_Arg2 in order to get 67 votes , they needed some of the Democrats to support them . Exp_2_Arg2} Exp_3_Arg1} NonExp_4_Arg2}
+{Exp_4_Arg1 {Exp_3_Arg2 The Democrats , {Exp_3_conn_Contrast however Exp_3_conn} , {Attr_0 felt Attr_0} that there was n't enough public support to remove the president from office . Exp_3_Arg2} Exp_4_Arg1}
+
+{NonExp_5_Arg1 {Exp_4_conn_Conjunction And Exp_4_conn} {Exp_4_Arg2 they were right . Exp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Cause {Exp_5_conn_Concession Although Exp_5_conn} {Exp_5_Arg2 most Americans believe Clinton acted immorally , Exp_5_Arg2} {Exp_5_Arg1 they do n't think his actions were serious enough to impeach him . Exp_5_Arg1} NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_6_Arg2_Cause {Exp_6_Arg1 They grew very weary of the impeachment . Exp_6_Arg1} NonExp_6_Arg2}
+{Exp_6_conn_Conjunction In fact Exp_6_conn} {Exp_6_Arg2 , Clinton 's approval rating climbed during the trial , which means Americans think he is still fit to be their president . Exp_6_Arg2}
+
+{Exp_7_Arg1 Clinton had denied having an affair with White House intern , Monica Lewinsky , but Exp_7_Arg1} {Exp_7_conn_Asynchronous later Exp_7_conn} {Exp_7_Arg2 admitted that he did have a relationship with her . Exp_7_Arg2}
+
+{NonExp_7_Arg1 It was his attempts to hide it that led to the charges against him . NonExp_7_Arg1}
+{Attr_1 {NonExp_7_Arg2_Restatement {Exp_8_Arg1 Republican senators claim Attr_1} Clinton tried to get Lewinsky to lie , Exp_8_Arg1} {Exp_8_conn_Contrast but Exp_8_conn} {Attr_2 {Exp_8_Arg2 she says Attr_2} it was her own decision to cover up the affair . Exp_8_Arg2} NonExp_7_Arg2}
+
+After the trial , {Attr_3 Clinton said Attr_3} he was `` profoundly sorry '' for how he handled the situation .
+
+{NonExp_8_Arg1 <QUESTIONS> <Q1> What does `` perjury '' mean ? NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Conjunction <Q2> How many senators voted that President Clinton was guilty of perjury ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Asynchronous {Exp_9_Arg1 <Q3> Exp_9_Arg1} {Exp_9_conn_Synchrony When Exp_9_conn} {Exp_9_Arg2 was Clinton acquitted of the charges of perjury and obstructing justice ? Exp_9_Arg2} NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Contrast <Q4> Where did Monica Lewinsky work as an intern ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Cause <Q5> Who claimed that Clinton tried to get Lewinsky to lie about her affair with the president ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Asynchronous <Q6> Why do most Americans not want Clinton impeached ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_13_Arg2_Conjunction <Q7> What happened to Clinton 's approval ratings during the impeachment trial ? NonExp_13_Arg2}
+

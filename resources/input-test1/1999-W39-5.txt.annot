@@ -1,0 +1,36 @@
+Montreal Students Protest in the Streets September 24 , 1999
+
+Montreal police arrested more than 250 high school students yesterday .
+
+{NonExp_0_Arg1 Thirty-five students and one adult were arrested earlier in the week . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel They are protesting the lack of extra-curricular activities in schools . NonExp_0_Arg2}
+
+{NonExp_1_Arg1 Montreal teachers are in contract discussions with the provincial government . NonExp_1_Arg1}
+{NonExp_1_Arg2_Cause To put pressure on the government , they are refusing to do any activities that are not paid . NonExp_1_Arg2}
+
+{NonExp_2_Arg1 That 's meant that there are no football practices , or school trips , or special classes after school . NonExp_2_Arg1}
+{NonExp_2_Arg2_Cause Those are all activities that teachers do on their own time . NonExp_2_Arg2}
+
+The students who were arrested face $ 100 fines .
+
+{Attr_0 Deputy police director Serge Meloche says Attr_0} the disorganized protests were becoming dangerous .
+
+{Attr_1 He says Attr_1} police received reports that some of the teens were being intimidated by fellow students .
+
+{Exp_1_Arg1 {Exp_0_Arg1 During the past few days , students have taken to the streets throughout Quebec to express their frustrations . Exp_0_Arg1} Exp_1_Arg1}
+
+{Exp_1_Arg2 {Exp_0_Arg2 `` Windows of stores were broken , car windows were {Exp_0_conn_Conjunction also Exp_0_conn} broken , '' {Attr_2 says Montreal police spokesman Michel Fontaine , who added Attr_2} that police were {Exp_1_conn_Conjunction also Exp_1_conn} pelted with rocks and garbage . Exp_0_Arg2} Exp_1_Arg2}
+
+The students roved between two east-end high schools and drew between 300 and 400 students at the demonstration 's peak .
+
+{Attr_3 Teachers ' union officials say Attr_3} {Exp_2_Arg1 that {Exp_2_conn_Contrast while Exp_2_conn} {Exp_2_Arg2 they do not agree with the student demonstrations that are taking place during the school day Exp_2_Arg2} , the boycott of extra-curricular activities would continue Exp_2_Arg1} .
+
+{NonExp_3_Arg1 <QUESTIONS> <Q1> Why were the students protesting ? NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_List <Q2> What kinds of activities are not taking place because teachers do them on their own time ? NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_Cause <Q3> How are Montreal teachers pressuring the provincial government ? NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Cause <Q4> How large a fine do the students who are arrested face ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_EntRel <Q5> Who says the disorganized protests are becoming dangerous ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Cause {Exp_3_Arg1 <Q6> Exp_3_Arg1} {Exp_3_conn_Synchrony When Exp_3_conn} {Exp_3_Arg2 did students begin to take to the streets of Quebec to express their frustrations ? Exp_3_Arg2} NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Cause <Q7> What did police get pelted with during the demonstrations ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_9_Arg2_Contrast <Q8> Where did students rove ? NonExp_9_Arg2}
+

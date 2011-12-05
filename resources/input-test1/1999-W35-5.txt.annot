@@ -1,0 +1,42 @@
+{Attr_0 Doctors say Attr_0} kids watch too much TV August 27 , 1999
+
+{NonExp_0_Arg1 How much time does the average Canadian kid spend watching television each week ? NonExp_0_Arg1}
+{NonExp_1_Arg1 {NonExp_0_Arg2_Conjunction 5 hours ? NonExp_0_Arg2} NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_Contrast 10 hours ? NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_2_Arg2_Cause 23 hours ? NonExp_2_Arg2}
+
+{NonExp_3_Arg1 {Exp_0_conn_Condition If Exp_0_conn} {Exp_0_Arg2 you answered 23 hours , Exp_0_Arg2} {Exp_0_Arg1 you 're right . Exp_0_Arg1} NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause By the time most of you finish high school , you will have spent more time listening to actors than teachers . NonExp_3_Arg2}
+
+{Exp_1_Arg1 A new study shows Canadian kids are spending almost one full day a week glued to their television screens . Exp_1_Arg1}
+{Attr_1 {Exp_1_conn_Conjunction And Exp_1_conn} {Exp_1_Arg2 many doctors think Attr_1} there are several reasons why too much TV is not good for kids . Exp_1_Arg2}
+
+A group representing Canadian pediatricians - doctors who specialize in treating children - may have a new question for {Exp_2_Arg1 parents Exp_2_Arg1} {Exp_2_conn_Synchrony when Exp_2_conn} {Exp_2_Arg2 they take their children for a checkup Exp_2_Arg2} : How much television do your kids watch ?
+
+{NonExp_4_Arg1 The Canadian Pediatric Society wants doctors to monitor how much time children are sitting in front of electronic screens . NonExp_4_Arg1}
+{NonExp_4_Arg2_Cause {Exp_3_Arg1 That 's Exp_3_Arg1} {Exp_3_conn_Cause because Exp_3_conn} {Exp_3_Arg2 excessive and inappropriate exposure can harm a child 's physical , mental and social skills . Exp_3_Arg2} NonExp_4_Arg2}
+
+The society wants {Exp_4_Arg1 parents to limit preschoolers to one hour of TV a day , Exp_4_Arg1} {Exp_4_conn_Contrast while Exp_4_conn} {Exp_4_Arg2 school children should watch no more than two hours daily Exp_4_Arg2} .
+
+At current Canadian rates , the average high school graduate will have spent more time watching TV than they did learning in a classroom .
+
+{Attr_2 {Exp_5_Arg1 Pediatricians say Attr_2} that not all television is bad . Exp_5_Arg1}
+{Exp_5_conn_Contrast But Exp_5_conn} {Exp_5_Arg2 there is a relationship between watching television and an increase in violent behavior . Exp_5_Arg2}
+
+{Attr_3 {Exp_6_Arg1 The pediatricians believe Attr_3} television viewing frequently limits children 's time to develop vital activities such as playing , reading , learning to talk , spending time with friends and family , storytelling , getting regular exercise , and developing other physical , mental and social skills . Exp_6_Arg1}
+{Attr_4 {Exp_6_Arg2 They {Exp_6_conn_Conjunction also Exp_6_conn} believe Attr_4} that too much time in front of the TV may contribute to childhood obesity . Exp_6_Arg2}
+
+{NonExp_5_Arg1 The pediatricians have come up with a list of ways of promoting good television viewing habits . NonExp_5_Arg1}
+{NonExp_5_Arg2_EntRel {Exp_7_Arg1 Among the suggested habits are recommendations for parents to watch television with their children and discuss the programs . Exp_7_Arg1} NonExp_5_Arg2}
+{Exp_7_Arg2 The pediatricians {Exp_7_conn_Conjunction also Exp_7_conn} believe televisions should be turned off during meal times . Exp_7_Arg2}
+
+{Attr_5 {NonExp_6_Arg1 <QUESTIONS> <Q1> According to a new study , Attr_5} where are Canadian kids spending almost one full day a week ? NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Cause <Q2> What new question are Canadian pediatricians considering asking parents during a child 's checkup ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Cause <Q3> Why does the Canadian Pediatric Society want doctors to monitor how much time children are sitting in front of electronic screens ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Cause <Q4> How much time should school children spend watching TV each day ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Conjunction <Q5> At their current viewing rates , who will spend more time watching TV than they will in the classroom ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_EntRel <Q6> According to pediatricians , there is a relationship between watching television and an increase in what kind of behavior ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Cause {Exp_8_Arg1 <Q7> Exp_8_Arg1} {Exp_8_conn_Synchrony When Exp_8_conn} {Exp_8_Arg2 do pediatricians say the TV should be turned off ? Exp_8_Arg2} NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Cause <Q8> What do pediatricians recommend {Exp_9_Arg1 parents do with their children Exp_9_Arg1} {Exp_9_conn_Synchrony when Exp_9_conn} {Exp_9_Arg2 they watch TV Exp_9_Arg2} ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_13_Arg2_Conjunction <Q9> How much time does the average Canadian kid spend watching television each week ? NonExp_13_Arg2}
+

@@ -1,0 +1,36 @@
+Tiny Fish Invade Lake Ontario July 26 , 1999
+
+Some little fish have become a big threat in Lake Ontario .
+
+Environment Canada is warning people in Ontario about a foreign fish called the round goby .
+
+{NonExp_0_Arg1 The round goby is reducing precious sport fish stocks in the lake . NonExp_0_Arg1}
+{NonExp_0_Arg2_Cause {Exp_0_Arg1 This is important Exp_0_Arg1} {Exp_0_conn_Cause because Exp_0_conn} {Exp_0_Arg2 sport fishing for small mouth bass , walleye and lake trout is a multi-million dollar industry . Exp_0_Arg2} NonExp_0_Arg2}
+
+{NonExp_1_Arg1 The round goby is about the size of a sardine . NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_Conjunction {Exp_1_Arg1 It is dangerous Exp_1_Arg1} {Exp_1_conn_Cause because Exp_1_conn} {Exp_1_Arg2 it leaves almost no food for other fish . Exp_1_Arg2} NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_2_Arg2_Restatement {Exp_2_Arg1 It eats the eggs and young of the sport fish and chases larger fish away from food sources , leaving little for them to eat . Exp_2_Arg1} NonExp_2_Arg2}
+
+{NonExp_3_Arg1 {Exp_2_Arg2 The round goby {Exp_2_conn_Conjunction also Exp_2_conn} has the advantage of being able to feed right through the night . Exp_2_Arg2} NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause {Exp_3_Arg1 It can do this Exp_3_Arg1} {Exp_3_conn_Cause because Exp_3_conn} {Exp_3_Arg2 it has special sensors . Exp_3_Arg2} NonExp_3_Arg2}
+
+{Attr_0 {NonExp_4_Arg1 The Fisheries and Oceans Department says Attr_0} {Exp_4_Arg1 the round goby makes life miserable for fishers too , Exp_4_Arg1} {Exp_5_Arg1 {Exp_4_conn_Cause because Exp_4_conn} {Exp_4_Arg2 they steal bait and will Exp_5_Arg1} {Exp_5_conn_Conjunction also Exp_5_conn} {Exp_5_Arg2 hit lures Exp_4_Arg2} Exp_5_Arg2} . NonExp_4_Arg1}
+{NonExp_4_Arg2_Conjunction In many cases , {Attr_1 the fishermen are finding Attr_1} that all they can catch are goby . NonExp_4_Arg2}
+
+The round goby came from the Black Sea , likely in water held in the bottom of a boat .
+
+{NonExp_5_Arg1 The fish is already well established in Lake Erie and Lake Superior . NonExp_5_Arg1}
+{NonExp_5_Arg2_Cause Officials hope to prevent it from spreading into other Canadian lakes and rivers . NonExp_5_Arg2}
+
+{Attr_2 {Exp_6_Arg1 The Fisheries and Oceans Department says Attr_2} people can help control the goby population by not using the fish as bait , and by not transferring them from one body of water to another . Exp_6_Arg1}
+{NonExp_6_Arg1 {Exp_7_Arg1 {Exp_6_conn_Conjunction Also Exp_6_conn} {Exp_6_Arg2 , {Exp_7_conn_Condition if Exp_7_conn} {Exp_7_Arg2 they have a boat to make sure they clean off plants Exp_7_Arg2} that might have small goby in them . Exp_6_Arg2} Exp_7_Arg1} NonExp_6_Arg1}
+{NonExp_6_Arg2_Cause The officials hope these measures will keep the round goby from taking over the waterways of central Canada . NonExp_6_Arg2}
+
+{NonExp_7_Arg1 <QUESTIONS> <Q1> Why is the round goby dangerous ? NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_EntRel <Q2> Who is warning people in Ontario about the round goby ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_List <Q3> What does the round goby eat ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Cause {Exp_8_Arg1 <Q4> Exp_8_Arg1} {Exp_8_conn_Synchrony When Exp_8_conn} {Exp_8_Arg2 can the round goby feed due to its special sensors ? Exp_8_Arg2} NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Cause <Q5> Where did the round goby come from ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Pragmatic_cause <Q6> How did the round goby likely get to Canadian waters ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_12_Arg2_Cause <Q7> What should be people clean off their boats to keep the round goby from moving into new waters ? NonExp_12_Arg2}
+

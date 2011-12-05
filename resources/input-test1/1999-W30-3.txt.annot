@@ -1,0 +1,32 @@
+Newfoundland workers look into mystery illness July 21 , 1999
+
+Fish plant workers in Newfoundland are concerned about a work hazard called `` shellfish asthma . ''
+
+{NonExp_0_Arg1 The illness , which appears unique to this kind of work , is an allergy that gives a person flu-like symptoms . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel It can happen to workers who are exposed to crab and shrimp meat . NonExp_0_Arg2}
+
+{Exp_0_Arg1 The fishing industry is important to the Newfoundland economy , and way of life . Exp_0_Arg1}
+{Exp_0_conn_Contrast However Exp_0_conn} {Exp_0_Arg2 , in recent years environmental concerns have forced the government to place limits on how many fish can be caught . Exp_0_Arg2}
+
+{NonExp_1_Arg1 Due to these limits , finding a fishing industry job in Newfoundland is tough . NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_EntRel Crab and shrimp have become important to the Newfoundland fishing industry . NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_List Shellfish plants have created some important jobs that help replace the ones that were lost . NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause {Exp_2_Arg1 Many workers are trying {Exp_1_Arg1 to live with their symptoms Exp_1_Arg1} {Exp_1_conn_Cause so Exp_1_conn} {Exp_1_Arg2 they can keep their jobs at the fish plants Exp_1_Arg2} . Exp_2_Arg1} NonExp_3_Arg2}
+
+{Attr_0 {NonExp_4_Arg1 {Exp_2_conn_Contrast But Exp_2_conn} {Exp_2_Arg2 the union representing plant workers says Attr_0} shellfish asthma is a real workplace disease . Exp_2_Arg2} NonExp_4_Arg1}
+{NonExp_4_Arg2_Cause They feel there should be protection for employees who have trouble working because of shellfish asthma . NonExp_4_Arg2}
+
+There has been almost no research on shellfish asthma .
+
+{Exp_3_Arg1 The union that represents the workers is trying to find out how many employees suffer from shellfish asthma symptoms . Exp_3_Arg1}
+{Exp_3_Arg2 They will {Exp_3_conn_Asynchronous then Exp_3_conn} join forces with the Canadian Auto Workers union to find out what can be done for people who have to give up their job . Exp_3_Arg2}
+
+{NonExp_5_Arg1 <QUESTIONS> <Q1> Who is at risk of suffering from shellfish asthma ? NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_EntRel <Q2> What type of illness is shellfish asthma ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Cause <Q3> Which types of shellfish cause the illness ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Cause <Q4> Why did the government place limits on how many fish can be caught ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Cause <Q5> Why is it difficult to find a job in Newfoundland 's fishing industry ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Cause <Q6> Where have important jobs been created that help replace the ones that were lost ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Cause <Q7> Why are many workers are trying to live with their symptoms ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_11_Arg2_Cause <Q8> How does the union representing plant workers feel about shellfish asthma ? NonExp_11_Arg2}
+

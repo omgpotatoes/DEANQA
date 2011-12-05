@@ -1,0 +1,39 @@
+First Man to be Buried on the Moon July 30 , 1999
+
+Eugene Shoemaker may finally fulfill his lifelong wish to go to the moon .
+
+{Exp_0_conn_Condition If Exp_0_conn} {Exp_0_Arg2 all goes as planned on Saturday , Exp_0_Arg2} {Exp_0_Arg1 a lipstick-sized container will carry his ashes to the moon 's south pole . Exp_0_Arg1}
+
+{NonExp_0_Arg1 Shoemaker will be the first human to be laid to rest on another celestial body . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel His ashes will be aboard NASA 's Lunar Prospector . NonExp_0_Arg2}
+
+{NonExp_1_Arg1 The Lunar Prospector is a moon-orbiting craft . NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_EntRel It is expected to crash land on the moon early Saturday morning . NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_EntRel NASA is hopeful that the impact of Prospector 's crash into the moon will create a plume of water which will be visible from Earth with a telescope . NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_3_Arg2_Cause NASA scientists are hopeful that this experiment will help them learn about the moon 's water reserves . NonExp_3_Arg2}
+
+{NonExp_4_Arg1 Shoemaker was a well-known astronomer and geologist . NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_EntRel He was considered an authority on craters and the collisions that cause them . NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_EntRel He is credited with discovering about 20 comets and 800 asteroids . NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Restatement Shoemaker gained worldwide fame in 1994 , when he helped discover the comet Shoemaker-Levy 9 . NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_7_Arg2_EntRel The comet slammed into Jupiter in 1994 . NonExp_7_Arg2}
+
+{NonExp_8_Arg1 It was always Shoemaker 's dream to go to the moon . NonExp_8_Arg1}
+{NonExp_8_Arg2_Cause {Exp_1_Arg1 He applied to be an astronaut in the 1960s , but was rejected because of a medical problem . Exp_1_Arg1} NonExp_8_Arg2}
+{NonExp_9_Arg1 {Exp_1_Arg2 He {Exp_1_conn_Asynchronous later Exp_1_conn} worked on several U.S. space missions , including the Apollo missions to the moon . Exp_1_Arg2} NonExp_9_Arg1}
+{NonExp_9_Arg2_EntRel He taught Apollo astronauts about craters . NonExp_9_Arg2}
+
+Shoemaker said shortly before his death the biggest disappointment in his life was `` not going to the moon and banging on it with my own hammer . ''
+
+{NonExp_10_Arg1 <QUESTIONS> <Q1> What was Eugene Shoemaker 's lifelong wish ? NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Conjunction <Q2> How big is the container holding Shoemaker 's ashes ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Cause <Q3> Where is the Lunar Prospector supposed to crash-land ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Cause {Exp_2_Arg1 <Q4> What is NASA hoping the Lunar Prospector will create Exp_2_Arg1} {Exp_2_conn_Synchrony when Exp_2_conn} {Exp_2_Arg2 it crash-lands ? Exp_2_Arg2} NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_EntRel <Q5> On what was Shoemaker considered an authority ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_Conjunction <Q6> How many comets is Shoemaker credited with discovering ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_Asynchronous {Exp_3_Arg1 <Q7> Exp_3_Arg1} {Exp_3_conn_Synchrony When Exp_3_conn} {Exp_3_Arg2 did Shoemaker discover the comet Shoemaker-Levy 9 ? Exp_3_Arg2} NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_17_Arg1 {NonExp_16_Arg2_List <Q8> What did Shoemaker-Levy 9 slam into ? NonExp_16_Arg2} NonExp_17_Arg1}
+{NonExp_18_Arg1 {NonExp_17_Arg2_Asynchronous <Q9> Whom did Shoemaker teach about craters ? NonExp_17_Arg2} NonExp_18_Arg1}
+{NonExp_19_Arg1 {NonExp_18_Arg2_EntRel <Q10> Why was Eugene Shoemaker rejected for astronaut training ? NonExp_18_Arg2} NonExp_19_Arg1}
+{NonExp_19_Arg2_Restatement <Q11> What was Eugene Shoemaker 's biggest disappointment in his life ? NonExp_19_Arg2}
+
