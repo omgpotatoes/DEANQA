@@ -1,4 +1,6 @@
+
 \documentclass{acm_proc_article-sp}
+
 %==================================
 % packages go here
 %==================================
@@ -12,11 +14,13 @@
 %\usepackage{amsthm}
 %\usepackage{multirow} % for complex tables
 %\usepackage{times}
-\usepackage[pdftex]{hyperref}
-\hypersetup{colorlinks=false, pdfborder= 0 0 0}
-\usepackage[draft,inline,nomargin]{fixme}
-\newcommand{\hlfixme}[1]{\fixme{\hl{#1}}}
-\newcommand{\hlfxnote}[1]{\fxnote{\hl{#1}}}
+%\usepackage[pdftex]{hyperref}
+%\hypersetup{colorlinks=false, pdfborder= 0 0 0}
+%\usepackage[draft,inline,nomargin]{fixme}
+%\newcommand{\hlfixme}[1]{\fixme{\hl{#1}}}
+%\newcommand{\hlfxnote}[1]{\fxnote{\hl{#1}}}
+
+\newcommand{\name}{\emph{Watson Jr.}}
 
 %==================================
 
@@ -78,6 +82,11 @@ answer key were added by the MITRE Corporation, and are in the style
 of actual reading comprehension tests that are given to grade school
 children in the United States.
 
+All stories in the dataset were been split into sentences (one
+sentence per line) using the MXTERMINATOR sentence splitter developed
+by Adwait Ratnaparkhi.  Paragraphs from the original story are
+separated by an empty line. 
+
 The rest of this paper is organized as follows: in
 \S\ref{sec:implementation} we describe the design and implementation
 of our QA system and each of its sub-components. Next, in
@@ -91,16 +100,40 @@ present the performance results. Finally, we conclude in
 
 In this section we discuss the design and implementation of our QA
 system. First, we explain the general, overall structure. Then we give
-a detailed description of the various sub-components, each of which
-implements a different strategy to answer questions. Finally, we
-present our technique for combining the potential answers from each
-sub-component.
+a detailed description of the sub-components (\emph{AnswerFinders}) of
+the system . Finally, we present our technique for combining the
+potential answers from each sub-component.
 
-%TODO: show a diagram of the system
+\begin{figure*} 
+	\centering
+	\includegraphics[width=0.8\textwidth]{model.png}
+	\caption{The Watson Jr. system model.}
+	\label{fig:model}
+\end{figure*}
 
-\subsection{Naive Bag-of-Words}
+Figure \ref{fig:model} shows the general design of \name.
+The system takes processes a document and a set of questions as input.
+At this point, several preprocessing steps might be performed,
+including the removal of stop words, coreference resolution, etc.
+Next, the processed document and the current question are passed to
+each of the AnswerFinders. Each of these AnswerFinders implements a
+different strategy for finding answers to the question, and they
+each return a collection of \texttt{<answer,confidence>} pairs.
+Finally, the potential answers are combineded in a voting algorithm
+that gives different weights to the potential answers based on the
+confidence and the question type.
 
-% TODO: Yann writes this
+In the next few subsections, we give more detailed descriptions of
+the implementation of the different AnswerFinders and the
+strategies that they use.
+
+\subsection{Bag-of-Words}
+
+The Bag-of-words (BOW) model is a simple model that provides relatively good
+performance in our systeml. In our domain, BOW treats each question as
+a set of words. Then, for each sentence in the document, we count the
+number of matching words. The sentence with the largest number of
+matching words is chosen as the answer.
 
 \subsection{Linguistic Rule-based Strategies}
 
