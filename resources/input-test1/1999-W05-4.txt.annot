@@ -1,0 +1,38 @@
+A Y2K Vacation January 28 , 1999
+
+The millennium computer bug could mean a longer Christmas break this year for students in Ontario .
+
+The Ministry of Education is going to tell school boards they can take a longer break to avoid problems caused by their computers .
+
+The education minister says each board that {Exp_0_Arg1 needs to can take as much time as necessary , Exp_0_Arg1} {Exp_0_conn_Synchrony as long as Exp_0_conn} {Exp_0_Arg2 they follow regulations Exp_0_Arg2} .
+
+{Attr_0 Dave Johnson says Attr_0} some boards are worried about computers that run things such as heating , lighting and door locks .
+
+{NonExp_0_Arg1 Schools in New Brunswick changed the date of Christmas break earlier this week , because of Y2K worries . NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel Students in that province will take holidays a week late , leaving December 23 and returning January 10 . NonExp_0_Arg2}
+
+{NonExp_1_Arg1 At least one other province is making Y2K school vacation plans . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel In Nova Scotia , the Halifax Regional School Board is discussing the issue with provincial authorities . NonExp_1_Arg2}
+
+So , what 's the Y2K problem ?
+
+{NonExp_2_Arg1 Well , one of the most used and useful numbers in a computer is the date . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel {Exp_1_Arg1 Whether it 's for banking , or planning airline flight routes , or distributing report card marks , computers have to be able to compare dates and decide which is earlier and by how much . Exp_1_Arg1} NonExp_2_Arg2}
+
+{Exp_2_Arg1 {Exp_1_conn_Contrast But Exp_1_conn} {Exp_1_Arg2 in the early years of computing , in an attempt to save space and time on the less powerful machines , year dates were recognized by their last two digits only . Exp_1_Arg2} Exp_2_Arg1}
+{Exp_2_Arg2 So in the date 1999 , {Exp_2_conn_Instantiation for example Exp_2_conn} , only the 99 was counted . Exp_2_Arg2}
+
+{NonExp_3_Arg1 Of course , by using the only last two digits in a date , the year 2000 would look like the year 1900 -- `` 00 '' . NonExp_3_Arg1}
+{NonExp_3_Arg2_EntRel {Exp_3_Arg1 This was n't seen as a big problem when the year 2000 seemed far away . Exp_3_Arg1} NonExp_3_Arg2}
+{Exp_3_conn_Contrast But Exp_3_conn} {Exp_3_Arg2 now it is a huge problem . Exp_3_Arg2}
+
+By the way , there are 337 days before January 1 , 2000 .
+
+{NonExp_4_Arg1 <QUESTIONS> <Q1> In the initial days of computing , how was the year `` 1999 '' represented ? NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_Cause <Q2> How will the year 2000 be interpreted by a computer with the Y2K bug ? NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_EntRel <Q3> Who is Dave Johnson ? NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_EntRel <Q4> What sorts of things in the schools do computers control ? NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Cause <Q5> Why is the Y2K bug affecting school vacations ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Cause {Exp_4_Arg1 <Q6> Exp_4_Arg1} {Exp_4_conn_Synchrony When Exp_4_conn} {Exp_4_Arg2 will New Brunswick students take Christmas break this year ? Exp_4_Arg2} NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_9_Arg2_Cause <Q7> In what province is the Halifax Regional School Board coping with the Y2K problem ? NonExp_9_Arg2}
+

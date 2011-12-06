@@ -4,6 +4,8 @@ package cs2731;
 
 public class Guess implements Comparable<Guess>
 {
+	
+	private double origProb;
 	private double prob;
 	private int line;
 
@@ -12,6 +14,7 @@ public class Guess implements Comparable<Guess>
 			throw new IllegalArgumentException("line numbers start with 1!");
 		}
 		this.prob = prob;
+		this.origProb = prob;
 		this.line = line;
 	}
 	
@@ -25,6 +28,7 @@ public class Guess implements Comparable<Guess>
 	
 	public void setProb(double inProb) {
 		this.prob = inProb;
+		this.origProb = inProb;
 	}
 
 	@Override
@@ -37,6 +41,10 @@ public class Guess implements Comparable<Guess>
 		} else {
 			return -1;
 		}
+	}
+	
+	public void setWeight(double weight) {
+		prob = origProb * weight;
 	}
 
 	@Override

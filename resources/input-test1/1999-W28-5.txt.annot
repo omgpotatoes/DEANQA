@@ -1,0 +1,27 @@
+Scientists find dinosaur bones in Antarctica July 9 , 1999
+
+Scientists in the Antarctic have discovered some very old dinosaur bones , including partial skeletons , whole jaws and teeth .
+
+The remains include the bones of two giant water dinosaurs : the mosasaur , a razor-toothed `` duck-bill '' animal with paddles , and the plesiosaur , which scientists say looks like Scotland 's legendary Loch Ness monster .
+
+American geologists made the find in January , but did not announce the discovery until this week at an international earth sciences meeting in Wellington , New Zealand .
+
+{Exp_0_Arg1 The find shows that at least four different types of mosasaur lived in the Antarctic . Exp_0_Arg1}
+{Exp_0_Arg2 One type had {Exp_0_conn_Asynchronous previously Exp_0_conn} been found only in North America and Europe . Exp_0_Arg2}
+
+Mosasaurs have been found across the world from Sweden to New Zealand , but never in Antarctica .
+
+{NonExp_0_Arg1 The mosasaur discovery shows the Antarctic was once much warmer than it is now . NonExp_0_Arg1}
+{Attr_0 {NonExp_0_Arg2_EntRel The scientists believe Attr_0} the creatures probably came to the Antarctic around 75 million or 80 million years ago . NonExp_0_Arg2}
+
+{NonExp_1_Arg1 Mosasaurs were around 10 metres long . NonExp_1_Arg1}
+{NonExp_1_Arg2_Cause Their huge skulls were filled with 10 centimetre long teeth . NonExp_1_Arg2}
+
+A team at an American museum are studying the fossils .
+
+{NonExp_2_Arg1 <QUESTIONS> <Q1> What parts of the dinosaurs did the scientists find ? NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_EntRel <Q2> Who is the plesiosaur supposed to resemble ? NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_Conjunction <Q3> How big were the mosasaur 's teeth ? NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_Asynchronous {Exp_1_Arg1 <Q4> Exp_1_Arg1} {Exp_1_conn_Synchrony When Exp_1_conn} {Exp_1_Arg2 did mosasaurs probably arrive in Antarctica ? Exp_1_Arg2} NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_5_Arg2_Instantiation <Q5> What does this new discovery of dinosaur bones tell us about the Antarctic ? NonExp_5_Arg2}
+

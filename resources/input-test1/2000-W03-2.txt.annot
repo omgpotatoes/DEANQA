@@ -1,0 +1,50 @@
+{NonExp_0_Arg1 Mars polar Lander - where are you ? NonExp_0_Arg1}
+{NonExp_0_Arg2_Instantiation January 18 , 2000 NonExp_0_Arg2}
+
+After more than a month of searching for a signal from NASA 's Mars Polar Lander , mission controllers have given up hope of finding it .
+
+The Mars Polar Lander was on a mission to Mars to study its atmosphere and search for water , something that could help scientists determine whether life ever existed on Mars .
+
+{NonExp_1_Arg1 Polar Lander was to have touched down December 3 for a 90-day mission . NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel It was to land near Mars ' south pole . NonExp_1_Arg2}
+
+{Exp_0_Arg1 The lander was last heard from minutes Exp_0_Arg1} {Exp_0_conn_Asynchronous before Exp_0_conn} {Exp_0_Arg2 beginning its descent . Exp_0_Arg2}
+
+The last effort to communicate with the three-legged lander ended with frustration at 8 a.m Monday .
+
+`` We did n't see anything , '' {Attr_0 said Richard Cook , the spacecraft 's project manager at NASA 's Jet Propulsion Laboratory . Attr_0}
+
+{NonExp_2_Arg1 The failed mission to the Red Planet cost the American government more than $ 200 million dollars . NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_Contrast Now , space agency scientists and engineers will try to find out what could have gone wrong . NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_Cause They do not want to make the same mistakes in the next mission . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_4_Arg2_Cause Controllers have been testing dozens of different scenarios to try and explain what might have happened to the lander . NonExp_4_Arg2}
+
+{Exp_1_Arg1 Nobody knows exactly what happened to the lander , Exp_1_Arg1} {Exp_1_conn_Contrast but Exp_1_conn} {Exp_1_Arg2 there are several theories . Exp_1_Arg2}
+
+{NonExp_5_Arg1 The Mars Polar Lander could have touched down on the side of a canyon and toppled over . NonExp_5_Arg1}
+{Attr_1 {NonExp_6_Arg1 {NonExp_5_Arg2_Cause Some people think Attr_1} {Exp_2_Arg1 the lander could have exploded Exp_2_Arg1} {Exp_2_conn_Asynchronous before Exp_2_conn} {Exp_2_Arg2 entering the atmosphere Exp_2_Arg2} . NonExp_5_Arg2} NonExp_6_Arg1}
+{Attr_2 {NonExp_6_Arg2_Contrast Others say Attr_2} {Exp_3_Arg1 its radio systems might have failed , Exp_3_Arg1} {Exp_3_conn_Alternative or Exp_3_conn} {Exp_3_Arg2 that the lander could have sunk into Martian dust Exp_3_Arg2} . NonExp_6_Arg2}
+
+{NonExp_7_Arg1 NASA sent a spacecraft called the Mars Global Surveyor to take high-resolution images of the landing site to search for signs of the lander . NonExp_7_Arg1}
+{NonExp_7_Arg2_EntRel {Exp_4_Arg1 NASA hoped the orbiter would spot the lander 's parachute or shadow . Exp_4_Arg1} NonExp_7_Arg2}
+{Exp_4_conn_Contrast But Exp_4_conn} {Exp_4_Arg2 so far attempts to capture a picture of the lander 's parachute have been unsuccessful . Exp_4_Arg2}
+
+{Exp_5_Arg1 Another lander and orbiter are scheduled to launch next year , Exp_5_Arg1} {Exp_5_conn_Contrast but Exp_5_conn} {Exp_5_Arg2 at least part of the mission is now in doubt . Exp_5_Arg2}
+
+{NonExp_8_Arg1 `` The orbiter for sure will happen . NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_EntRel There 's no issue there , '' {Attr_3 Mr. Cook says . NonExp_8_Arg2} NonExp_9_Arg1} Attr_3}
+{NonExp_9_Arg2_EntRel `` The lander they 're still talking about . '' NonExp_9_Arg2}
+
+{NonExp_10_Arg1 The Polar Lander Spacecraft was 1.06 metres tall by 3.6 metres wide . NonExp_10_Arg1}
+{NonExp_10_Arg2_Contrast Its total weight was 576 kilograms . NonExp_10_Arg2}
+
+{NonExp_11_Arg1 {Exp_6_Arg1 <QUESTIONS> <Q1> Exp_6_Arg1} {Exp_6_conn_Synchrony When Exp_6_conn} {Exp_6_Arg2 was the Polar Lander supposed to have landed ? Exp_6_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_EntRel <Q2> Who is the Polar Lander 's project manager ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Contrast <Q3> Where on Mars was the spacecaft supposed to touch down ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_Cause <Q4> What did the Mars Global Surveyor do ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_EntRel <Q5> What was the mission of the Mars Polar Lander ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_Cause <Q6> Why did NASA want the Polar Lander to look for water ? NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_17_Arg1 {NonExp_16_Arg2_Cause <Q7> How much did the Polar Lander mission cost ? NonExp_16_Arg2} NonExp_17_Arg1}
+{NonExp_18_Arg1 {NonExp_17_Arg2_Asynchronous <Q8> How much did the Polar Lander weigh ? NonExp_17_Arg2} NonExp_18_Arg1}
+{NonExp_18_Arg2_Conjunction <Q9> How many legs did the Mars Polar Lander have ? NonExp_18_Arg2}
+
