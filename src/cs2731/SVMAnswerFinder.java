@@ -509,10 +509,11 @@ public class SVMAnswerFinder implements AnswerFinder {
 		if(trainedFlag) {
 			Instances testData = extractTestData(document, question);
 			//System.out.println(testData);
-			List<Guess> guessList1 = new ArrayList<Guess>();
-			List<Guess> guessList2 = new ArrayList<Guess>();
+			//List<Guess> guessList1 = new ArrayList<Guess>();
+			//List<Guess> guessList2 = new ArrayList<Guess>();
 			List<Guess> guessList = new ArrayList<Guess>();
 			
+			/*
 			double currentMax = 0.0;
 			//Possibly count the blank lines, because the data that is returned includes those blanks
 			for(int i = 0; i < testData.numInstances(); i++) {
@@ -534,34 +535,18 @@ public class SVMAnswerFinder implements AnswerFinder {
 					e.printStackTrace();
 				}
 			}
-			
-			/*
-			//CHANGE
-			double currentMax1 = 0.0;
-			double currentMax2 = 0.0;
-			//Possibly count the blank lines, because the data that is returned includes those blanks
+			*/
+			double total = 0;
 			for(int i = 0; i < testData.numInstances(); i++) {
 				try {
 					//CHANGE
-					double[] tempGuesses1 = model1.distributionForInstance(testData.instance(i));
-					double[] tempGuesses2 = model2.distributionForInstance(testData.instance(i));
+					double[] tempGuesses = model.distributionForInstance(testData.instance(i));
 					if(!document.get(i).trim().equals("")) {
-						if(tempGuesses1[0] == currentMax1) {
-							 guessList1.add(new Guess(1.0, i+1));
-						}
-						else if(tempGuesses1[0] > currentMax1) {
-							currentMax1 = tempGuesses1[0];
-							guessList1.clear();
-							guessList1.add(new Guess(1.0, i+1));
-						}
-						if(tempGuesses2[0] == currentMax2) {
-							 guessList2.add(new Guess(1.0, i+1));
-						}
-						else if(tempGuesses2[0] > currentMax2) {
-							currentMax2 = tempGuesses2[0];
-							guessList2.clear();
-							guessList2.add(new Guess(1.0, i+1));
-						}
+						total += tempGuesses[0];
+					    guessList.add(new Guess(tempGuesses[0], i+1));
+					}
+					else {
+						guessList.add(new Guess(0, i+1));
 					}
 				} catch (Exception e) {
 					System.err.println("Error in classifying an instance");
@@ -569,36 +554,14 @@ public class SVMAnswerFinder implements AnswerFinder {
 				}
 			}
 			
-			int counter = 0;
-			for(int j = 0; j < guessList1.size(); j++) {
-				for(int k = 0; k < guessList2.size(); k++) {
-					if(guessList1.get(j).getLine() == guessList2.get(k).getLine()) {
-						counter++;
-						Guess tempGuess = guessList1.get(j);
-						guessList1.remove(j);
-						guessList1.add(0, tempGuess);
-					}
-				}
-			}
-			
-			guessList = guessList1;
-			double prob = 1.0/(guessList.size() + counter);
-			
-			for(Guess aGuess : guessList) { 
-				if(counter != 0) {
-					aGuess.setProb(prob*2);
-					counter--;
-				}
-				else 
-					aGuess.setProb(prob);
-			}
-			System.out.println(question);
+			for(Guess guess : guessList)
+				guess.setProb(guess.getProb()/total);
+				
+			/*
 			for(Guess guess : guessList)
 				System.out.println(guess);
-				*/
-			System.out.println(question);
-			for(Guess guess : guessList)
-				System.out.println(guess);
+			System.out.println("total = " + total);
+			 */
 			return guessList;
 		}
 		else {
