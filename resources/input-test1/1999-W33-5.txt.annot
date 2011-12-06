@@ -1,0 +1,54 @@
+Harbour home of the Bluenose faces sewage problem August 13 , 1999
+
+Lunenburg Harbour , one of Canada 's most famous ports , is facing an unpleasant problem .
+
+Every day in Lunenburg , Nova Scotia , millions of litres of sewage run into the harbor .
+
+{NonExp_0_Arg1 Each year , more tourists from all over the world come to visit Lunenburg . NonExp_0_Arg1}
+{NonExp_0_Arg2_Cause {Exp_0_conn_Synchrony As Exp_0_conn} {Exp_0_Arg2 more people visit the town , Exp_0_Arg2} {Exp_0_Arg1 more sewage gets dumped into the water . Exp_0_Arg1} NonExp_0_Arg2}
+
+Now town officials want the federal and provincial governments to help clean up the harbor .
+
+{NonExp_1_Arg1 {Exp_1_Arg1 Many people come to visit Lunenburg Exp_1_Arg1} {Exp_1_conn_Cause because Exp_1_conn} {Exp_1_Arg2 the town is a United Nations World Heritage Site . Exp_1_Arg2} NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel It 's a distinction it shares with only one other Canadian city , Old Quebec . NonExp_1_Arg2}
+
+Lunenburg Harbour is famous for being the home of the Bluenose and the Bluenose II .
+
+{NonExp_2_Arg1 The Bluenose was a famous schooner ship that raced for the International Fisherman 's Trophy . NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_EntRel The first International Fisherman 's Trophy race was in 1920 . NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_EntRel It started as a friendly competition between US and Canadian fishing schooners . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_5_Arg1 {NonExp_4_Arg2_EntRel The Bluenose was one of the most successful racing schooners . NonExp_4_Arg2} NonExp_5_Arg1}
+{NonExp_5_Arg2_EntRel The Bluenose won the race four times . NonExp_5_Arg2}
+
+{NonExp_6_Arg1 In 1942 , the Bluenose was sold to carry freight and cargo to the West Indies . NonExp_6_Arg1}
+{NonExp_6_Arg2_EntRel {Exp_2_Arg1 In January 1946 , it went down Exp_2_Arg1} {Exp_2_conn_Asynchronous after Exp_2_conn} {Exp_2_Arg2 striking a reef in the Caribbean Sea . Exp_2_Arg2} NonExp_6_Arg2}
+
+{NonExp_7_Arg1 In 1955 , both the Bluenose and its captain , Angus Walters , were inducted into the Canadian Sports Hall of Fame for their achievements in the International Fisherman 's Trophy races . NonExp_7_Arg1}
+{NonExp_7_Arg2_EntRel A picture of the Bluenose has been on the tails side of Canadian dimes since 1937 . NonExp_7_Arg2}
+
+{NonExp_8_Arg1 The Bluenose II is a replica of the original Bluenose . NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_EntRel It was built from the same plans , in the same shipyard , and by some of the same men who built the original . NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_9_Arg2_EntRel The Bluenose and Lunenburg are important parts of Canadian history . NonExp_9_Arg2}
+
+This is why the sewage is a concern .
+
+{Attr_0 The Mayor says Attr_0} the federal government agreed to help maintain the area when Lunenburg applied for UN World Heritage Site status .
+
+Now the Mayor wants the federal and provincial governments to pay half the cost of cleaning up Lunenburg Harbour .
+
+{Exp_3_Arg1 The Mayor says increasing people 's taxes to pay for the cleanup is not the answer . Exp_3_Arg1}
+{Exp_4_Arg1 {Exp_3_Arg2 The Mayor {Exp_3_conn_Conjunction also Exp_3_conn} admits that federal and provincial governments should n't normally help pay for a community 's sewage treatment . Exp_3_Arg2} Exp_4_Arg1}
+
+{Exp_4_conn_Contrast But Exp_4_conn} {Exp_4_Arg2 the Mayor feels Lunenburg is a special case because of it 's an historical site . Exp_4_Arg2}
+
+{NonExp_10_Arg1 <QUESTIONS> <Q1> Why does more sewage run into Lunenberg Harbour every year ? NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Conjunction <Q2> Who do town officials want to help clean up the harbor ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Asynchronous {Exp_5_Arg1 <Q3> Why do Exp_5_Arg1} {Exp_5_conn_Cause so Exp_5_conn} {Exp_5_Arg2 many people want to visit Lunenberg ? Exp_5_Arg2} NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Asynchronous {Exp_6_Arg1 <Q4> Exp_6_Arg1} {Exp_6_conn_Synchrony When Exp_6_conn} {Exp_6_Arg2 was the first International Fisherman 's Trophy race held ? Exp_6_Arg2} NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_List <Q5> How did the International Fisherman 's Trophy race start ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_Pragmatic_cause <Q6> How many times did the Bluenose win the International Fisherman 's Trophy race ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_Contrast <Q7> Where did the Bluenose sink ? NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_17_Arg1 {NonExp_16_Arg2_Restatement <Q8> Where has a picture of the Bluenose appeared since 1937 ? NonExp_16_Arg2} NonExp_17_Arg1}
+{NonExp_18_Arg1 {NonExp_17_Arg2_EntRel <Q9> What is the Bluenose II ? NonExp_17_Arg2} NonExp_18_Arg1}
+{NonExp_18_Arg2_Conjunction <Q10> How much of the cleanup cost for Lunenberg Harbor does the mayor of Lunenberg want the federal and provincial governments to pay ? NonExp_18_Arg2}
+

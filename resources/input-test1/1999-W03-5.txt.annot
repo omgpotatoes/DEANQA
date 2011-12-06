@@ -1,0 +1,40 @@
+Canadian Basketball Superstar January 15 , 1999
+
+{Exp_0_Arg1 The world lost a basketball hero this week -- Exp_0_Arg1} {Exp_0_conn_Conjunction and Exp_0_conn} {Exp_0_Arg2 we 're not talking about Michael Jordan . Exp_0_Arg2}
+
+{NonExp_0_Arg1 {Exp_1_Arg1 You may not know her name , Exp_1_Arg1} {Exp_1_conn_Contrast but Exp_1_conn} {Exp_1_Arg2 Noella `` Babe '' MacLean , who died this week at age 87 , was one of Canada 's biggest sports stars . Exp_1_Arg2} NonExp_0_Arg1}
+{NonExp_0_Arg2_EntRel {Exp_2_Arg1 She was a member of the `` winningest '' basketball team Canada ever had . Exp_2_Arg1} NonExp_0_Arg2}
+{Exp_2_conn_Contrast But Exp_2_conn} {Exp_2_Arg2 unlike retired millionaire Jordan , Babe never made a cent for her skills . Exp_2_Arg2}
+
+{NonExp_1_Arg1 Her team was known as the Edmonton Grads . NonExp_1_Arg1}
+{NonExp_2_Arg1 {NonExp_1_Arg2_Cause None of the members of the team expected to do as well as they did . NonExp_1_Arg2} NonExp_2_Arg1}
+{NonExp_2_Arg2_Cause They were just a group of young women from the same school who liked to play basketball . NonExp_2_Arg2}
+
+{NonExp_3_Arg1 Their coach was teacher J. Percy Page , who later became the Lieutenant Governor of Alberta . NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_EntRel Their home base was McDougall Commercial High School in Edmonton . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_4_Arg2_Cause For 25 years -- from 1915 to 1940 -- they brought great honor to Canada and their home city , Edmonton . NonExp_4_Arg2}
+
+{NonExp_5_Arg1 {Exp_3_conn_Synchrony When Exp_3_conn} {Exp_3_Arg2 they finally retired , Exp_3_Arg2} {Exp_3_Arg1 the Grads had 108 championships to their credit . Exp_3_Arg1} NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_Cause They won at all levels -- local , regional , national , international and world . NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Cause Of the 522 games they played they won 502 ! NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_7_Arg2_EntRel The inventor of the game of basketball , {Attr_0 Dr. James Naismith called Attr_0} the Edmonton Grads `` the finest basketball team that ever stepped out on a floor '' . NonExp_7_Arg2}
+
+{NonExp_8_Arg1 Babe Belanger played with the Grads from 1929 to 1937 . NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_EntRel {Exp_4_Arg1 She was a forward Exp_4_Arg1} {Exp_4_conn_Conjunction and Exp_4_conn} {Exp_4_Arg2 she stood only 5 feet , 2 inches tall . Exp_4_Arg2} NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_EntRel In those days , marriage meant an end to a young women 's career . NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_10_Arg2_EntRel {Exp_5_Arg1 Babe Belanger married Ian MacLean , who continued the family sports tradition . Exp_5_Arg1} NonExp_10_Arg2}
+{Exp_5_Arg2 He {Exp_5_conn_Asynchronous later Exp_5_conn} became a trainer for Edmonton hockey teams and the Edmonton Eskimos and B.C. Lions football teams . Exp_5_Arg2}
+
+{Exp_6_Arg1 Babe never talked about her fabulous career . Exp_6_Arg1}
+{Exp_6_conn_Contrast But Exp_6_conn} {Exp_6_Arg2 her daughter says the scrapbooks she found in the family 's basement show she was a part of a team that was every bit as sensational as the Edmonton Oilers in Gretzky 's time . Exp_6_Arg2}
+
+{NonExp_11_Arg1 <QUESTIONS> <Q1> What was Noella `` Babe '' MacLean 's maiden name ? NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Synchrony <Q2> What team did Babe play for ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Asynchronous <Q3> What position did Babe play ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_Conjunction <Q4> How tall was Babe ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_Concession <Q5> How much was Babe paid to play basketball ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_List <Q6> How many games did the Edmonton Grads win ? NonExp_15_Arg2} NonExp_16_Arg1}
+{NonExp_17_Arg1 {NonExp_16_Arg2_Asynchronous {Exp_7_Arg1 <Q7> Exp_7_Arg1} {Exp_7_conn_Synchrony When Exp_7_conn} {Exp_7_Arg2 did Babe play for `` the finest basketball team that ever stepped out on a floor '' ? Exp_7_Arg2} NonExp_16_Arg2} NonExp_17_Arg1}
+{NonExp_18_Arg1 {NonExp_17_Arg2_EntRel <Q8> Who was Babe 's husband ? NonExp_17_Arg2} NonExp_18_Arg1}
+{NonExp_18_Arg2_Contrast <Q9> Where did Babe 's daughter find scrapbooks ? NonExp_18_Arg2}
+

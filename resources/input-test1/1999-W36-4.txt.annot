@@ -1,0 +1,42 @@
+Another Amusement Park Accident September 2 , 1999
+
+{Exp_0_Arg1 Fourteen children were hurt yesterday Exp_0_Arg1} {Exp_0_conn_Synchrony when Exp_0_conn} {Exp_0_Arg2 an amusement ride broke down and fell three metres to the ground . Exp_0_Arg2}
+
+The children were on the Wave Swinger at the Canadian National Exhibition in Toronto , Ontario .
+
+{NonExp_0_Arg1 The Wave Swinger is a circular ride with 48 swing-style seats attached by metal chains to a dome . NonExp_0_Arg1}
+{NonExp_1_Arg1 {NonExp_0_Arg2_EntRel One person sits in each harness and is secured by a bar across the lap . NonExp_0_Arg2} NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel {Exp_2_Arg1 {Exp_1_conn_Synchrony As Exp_1_conn} {Exp_1_Arg2 the ride begins , Exp_1_Arg2} {Exp_1_Arg1 the swings move in a circular motion Exp_1_Arg1} , Exp_2_Arg1} {Exp_2_conn_Conjunction and Exp_2_conn} {Exp_3_Arg1 {Exp_2_Arg2 the center rises up Exp_3_Arg1} {Exp_3_conn_Cause as Exp_3_conn} {Exp_3_Arg2 the swings pick up speed Exp_3_Arg2} . Exp_2_Arg2} NonExp_1_Arg2}
+
+Police say most of the injured children , ages five to 15 , suffered cuts , {Attr_0 bruises and neck and back injuries . Attr_0}
+
+{NonExp_2_Arg1 `` I thought the whole thing was going to blow . NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_EntRel I 've never been that scared , '' {Attr_1 says Sayland Green , Attr_1} 12 , as she was being examined by paramedics . NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_3_Arg2_EntRel `` It was a horror show . '' NonExp_3_Arg2}
+
+{NonExp_4_Arg1 `` We 're not sure what happened . NonExp_4_Arg1}
+{NonExp_4_Arg2_Instantiation {Exp_4_Arg1 There was a malfunction , Exp_4_Arg1} {Exp_4_conn_Conjunction and Exp_4_conn} {Exp_4_Arg2 the chairs dropped to the platform Exp_4_Arg2} , '' {Attr_2 says Alfie Phillips , president of Conklin Shows , the company which owns the midway . NonExp_4_Arg2} Attr_2}
+
+{Attr_3 Phillips says Attr_3} the Wave Swinger had been inspected Wednesday morning by the ride foreman , a Conklin Shows employee , and Tuesday morning by a safety inspector from the Canadian National Exhibition .
+
+`` {Exp_5_Arg1 We have an excellent safety record , Exp_5_Arg1} {Exp_5_conn_Contrast but Exp_5_conn} {Exp_5_Arg2 these things happen Exp_5_Arg2} , '' Phillips says .
+
+The ride {Exp_6_Arg1 has been shut down and will be carefully inspected Exp_6_Arg1} {Exp_6_conn_Asynchronous before Exp_6_conn} {Exp_6_Arg2 a decision is made on whether to let it reopen Exp_6_Arg2} , {Attr_4 says Tom Zach , Attr_4} spokesman for the Technical Standards and Safety Association .
+
+{NonExp_5_Arg1 The Toronto accident comes after a rash of recent accidents at amusement parks in the United States that killed four people . NonExp_5_Arg1}
+{NonExp_6_Arg1 {NonExp_5_Arg2_EntRel In August , a disabled 12-year-old boy died on a ride in California . NonExp_5_Arg2} NonExp_6_Arg1}
+{NonExp_7_Arg1 {NonExp_6_Arg2_Asynchronous A day later , a man fell from a stand-up roller coaster in Virginia . NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_7_Arg2_Instantiation {Exp_7_Arg1 Last week , 20 people had to be rescued from a roller coaster in California Exp_7_Arg1} {Exp_7_conn_Synchrony when Exp_7_conn} {Exp_7_Arg2 it stalled . Exp_7_Arg2} NonExp_7_Arg2}
+
+{Exp_8_Arg1 The Paramount Canada 's Wonderland amusement park near Toronto has shut down a ride similar to The Wave Swinger Exp_8_Arg1} {Exp_8_conn_Asynchronous until Exp_8_conn} {Exp_8_Arg2 safety inspectors complete their investigation . Exp_8_Arg2}
+
+{NonExp_8_Arg1 <QUESTIONS> <Q1> Where is the Canadian National Exhibition ? NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_List <Q2> What kinds of injuries did most of the children on the Wave Swinger suffer ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Conjunction <Q3> How are the 48 swing-style seats attached to the Wave Swinger ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Conjunction <Q4> Who described the experience on the Wave Swinger as `` a horror show '' ? NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Conjunction <Q5> Who owns the midway where the Wave Swinger is located ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Asynchronous {Exp_9_Arg1 <Q6> Exp_9_Arg1} {Exp_9_conn_Synchrony When Exp_9_conn} {Exp_9_Arg2 was the Wave Swinger last inspected by an inspector from the Canadian National Exhibition ? Exp_9_Arg2} NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_Restatement <Q7> According to Tom Zach , {Exp_10_Arg1 what will happen Exp_10_Arg1} {Exp_10_conn_Asynchronous before Exp_10_conn} {Exp_10_Arg2 a decision is made on whether to reopen the Wave Swinger Exp_10_Arg2} ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_Asynchronous <Q8> Why did 20 people have to be rescued from a roller coaster in California ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_15_Arg2_Contrast {Exp_11_Arg1 <Q9> Where has a ride similar to the Wave Swinger been shut down Exp_11_Arg1} {Exp_11_conn_Asynchronous until Exp_11_conn} {Exp_11_Arg2 safety inspectors complete their investigation ? Exp_11_Arg2} NonExp_15_Arg2}
+

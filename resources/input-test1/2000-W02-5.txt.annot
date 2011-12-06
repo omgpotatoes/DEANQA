@@ -1,0 +1,46 @@
+Saving The Family Farm January 14 , 2000
+
+{Exp_1_Arg1 {Exp_0_Arg1 Amanda Scott is only seventeen years old , Exp_0_Arg1} {Exp_0_conn_Contrast but Exp_0_conn} {Exp_0_Arg2 she knows where her heart is : back on her family 's farm near Brandon , Manitoba . Exp_0_Arg2} Exp_1_Arg1}
+{Exp_1_Arg2 She {Exp_1_conn_Conjunction also Exp_1_conn} knows firsthand how hard it is for farm families to make a living . Exp_1_Arg2}
+
+{NonExp_0_Arg1 Reports of crisis on Canadian farms first became national news in the Fall of 1998 . NonExp_0_Arg1}
+{NonExp_1_Arg1 {NonExp_0_Arg2_Conjunction Government aid was promised to struggling farmers trying to keep their farms running . NonExp_0_Arg2} NonExp_1_Arg1}
+{NonExp_1_Arg2_EntRel {Exp_2_Arg1 The crunch was particularly felt in Manitoba and Saskatchewan , among hog and grain farmers . Exp_2_Arg1} NonExp_1_Arg2}
+
+{NonExp_2_Arg1 {Exp_2_conn_Contrast But Exp_2_conn} {Exp_2_Arg2 instead of complaining , Amanda is going on stage . Exp_2_Arg2} NonExp_2_Arg1}
+{NonExp_3_Arg1 {NonExp_2_Arg2_Cause This Sunday she 's going to be singing in Toronto , Ontario , with some of the best-known names in Canadian music . NonExp_2_Arg2} NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_EntRel It is called The Family Farm Tribute . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_4_Arg2_EntRel The concert is meant to open people 's eyes to the growing farm crisis in Canada . NonExp_4_Arg2}
+
+The lineup for the concert includes Gordon Lightfoot , Burton Cummings , Sylvia Tyson , Kevin Parent , Fred Penner and Sharon , Lois and Bram , as well as bands such as Wide Mouth Mason and Big Sugar .
+
+{NonExp_5_Arg1 `` I know with my Dad the stress of not being able to get the crops in , it builds up , you know ? '' NonExp_5_Arg1}
+{NonExp_5_Arg2_EntRel {Exp_4_Arg1 {Exp_3_Arg1 , {Attr_0 says Amanda . Exp_3_Arg1} Exp_4_Arg1} NonExp_5_Arg2} Attr_0}
+{Exp_4_Arg2 {Exp_3_Arg2 `` {Exp_3_conn_Conjunction And Exp_3_conn} {Exp_5_Arg1 {Exp_4_conn_Asynchronous then Exp_4_conn} {Exp_5_conn_Conjunction also Exp_5_conn} it 's the pressure of continuing {Exp_5_Arg2 on Exp_5_Arg2} with what your forefathers have started on the family farm Exp_5_Arg1} . '' Exp_3_Arg2} Exp_4_Arg2}
+
+{NonExp_6_Arg1 The concert is being organized by Liberal Member of Parliament Dennis Mills . NonExp_6_Arg1}
+{Attr_1 {NonExp_7_Arg1 {NonExp_6_Arg2_EntRel He says Attr_1} the concert will achieve two things . NonExp_6_Arg2} NonExp_7_Arg1}
+{NonExp_7_Arg2_EntRel {Exp_6_Arg1 It will bring rural problems to the attention of an urban audience , Exp_6_Arg1} {Exp_6_conn_Conjunction and Exp_6_conn} {Exp_6_Arg2 it will show the country that Toronto cares . Exp_6_Arg2} NonExp_7_Arg2}
+
+{NonExp_8_Arg1 `` People beyond the 416 area code -LRB- the area code for Toronto -RRB- , especially in the West , {Attr_2 tend to think Attr_2} we are an evil , uncaring , do n't - give-a-damn-kind of community . NonExp_8_Arg1}
+{NonExp_8_Arg2_Cause {Exp_7_Arg1 I know that 's not the case {Exp_7_conn_Conjunction and Exp_7_conn} {Exp_7_Arg2 I think an event like this brings us together as a nation Exp_7_Arg2} . '' Exp_7_Arg1} NonExp_8_Arg2}
+
+{NonExp_9_Arg1 The concert 's not a sell-out yet . NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_Cause There were still 3,000 tickets available as of yesterday afternoon . NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_10_Arg2_Conjunction {Exp_8_Arg1 Even {Exp_8_conn_Condition if Exp_8_conn} {Exp_8_Arg2 it 's not packed to the rafters Exp_8_Arg2} , {Attr_3 Mills says Attr_3} {Exp_9_Arg1 the concert 's message will still get out Exp_9_Arg1} {Exp_9_conn_Synchrony as Exp_9_conn} {Exp_9_Arg2 people across the country can tune into the event live on CBC Newsworld Exp_9_Arg2} . Exp_8_Arg1} NonExp_10_Arg2}
+
+{NonExp_11_Arg1 Federal Agriculture Minister Lyle Vanclief and his provincial counterparts are meeting today in Ottawa , Ontario , to work out a new aid package for cash-strapped farmers . NonExp_11_Arg1}
+{NonExp_11_Arg2_Cause It could be worth as much as $ 1 billion . NonExp_11_Arg2}
+
+CBC Online will be presenting a live webcast of The Family Farm Tribute starting at 1pm Eastern right here : http://cbc.ca/news/live/familyfarm.html .
+
+{NonExp_12_Arg1 {Exp_10_Arg1 <QUESTIONS> <Q1> Exp_10_Arg1} {Exp_10_conn_Synchrony When Exp_10_conn} {Exp_10_Arg2 did reports of a crisis on Canadian farms first become national news ? Exp_10_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Contrast <Q2> Where is the Family Farm Tribute concert being held ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_14_Arg1 {NonExp_13_Arg2_Cause <Q3> What is the Family Farm Tribute concert meant to do ? NonExp_13_Arg2} NonExp_14_Arg1}
+{NonExp_15_Arg1 {NonExp_14_Arg2_EntRel <Q4> What pressure does Amanda Scott say she feels ? NonExp_14_Arg2} NonExp_15_Arg1}
+{NonExp_16_Arg1 {NonExp_15_Arg2_EntRel <Q5> What two things will the Family Farm Tribute concert achieve , {Attr_4 according to organizer Dennis Mills ? NonExp_15_Arg2} NonExp_16_Arg1} Attr_4}
+{NonExp_17_Arg1 {NonExp_16_Arg2_Restatement <Q6> According to Mills , how do people beyond the 416 area code , especially in the West , tend to think of Toronto ? NonExp_16_Arg2} NonExp_17_Arg1}
+{Attr_5 {NonExp_18_Arg1 {NonExp_17_Arg2_Cause <Q7> Why does Mills say Attr_5} {Exp_11_Arg1 that the concert 's message will get out even Exp_11_Arg1} {Exp_11_conn_Condition if Exp_11_conn} {Exp_11_Arg2 it 's not a sellout Exp_11_Arg2} ? NonExp_17_Arg2} NonExp_18_Arg1}
+{NonExp_19_Arg1 {NonExp_18_Arg2_Cause <Q8> Who is meeting in Ottawa , Ontario , to work out a new aid package for cash-strapped farmers ? NonExp_18_Arg2} NonExp_19_Arg1}
+{NonExp_19_Arg2_Conjunction <Q9> How will CBC Online be presenting the Family Farm Tribute concert ? NonExp_19_Arg2}
+

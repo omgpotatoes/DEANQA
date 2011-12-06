@@ -1,0 +1,33 @@
+Students and Clinton want Stricter Gun Control July 16 , 1999
+
+{NonExp_0_Arg1 American President Bill Clinton wants tougher gun control in the United States On Thursday , he had some help . NonExp_0_Arg1}
+{NonExp_1_Arg1 {NonExp_0_Arg2_Cause About 95 students from across the United States made their way to the White House to help President Clinton convince the American government to put stricter controls on guns . NonExp_0_Arg2} NonExp_1_Arg1}
+{NonExp_1_Arg2_Restatement Included in the group were six students from Columbine High School in Littleton , Colorado . NonExp_1_Arg2}
+
+{NonExp_2_Arg1 In April , Columbine High School was the scene of the worst high school shooting in American history . NonExp_2_Arg1}
+{NonExp_2_Arg2_EntRel {Exp_0_Arg1 Two teenage gunmen shot and killed 13 students . Exp_0_Arg1} NonExp_2_Arg2}
+{Exp_0_Arg2 The gunmen {Exp_0_conn_Asynchronous then Exp_0_conn} killed themselves . Exp_0_Arg2}
+
+{NonExp_3_Arg1 Clinton wants to pass new gun control laws before school starts in September . NonExp_3_Arg1}
+{NonExp_4_Arg1 {NonExp_3_Arg2_Cause He wants to make it more difficult for people in the United States to get guns . NonExp_3_Arg2} NonExp_4_Arg1}
+{NonExp_4_Arg2_Cause {Exp_1_Arg1 By limiting access to guns , President Clinton hopes to put an end to school shootings like the one in Littleton . Exp_1_Arg1} NonExp_4_Arg2}
+
+{Exp_1_conn_Contrast But Exp_1_conn} {Exp_1_Arg2 it appears unlikely the students ' efforts will have an immediate impact . Exp_1_Arg2}
+
+{NonExp_5_Arg1 Some members of the government are against gun control . NonExp_5_Arg1}
+{Attr_0 {NonExp_5_Arg2_Cause They think Attr_0} violent video games and movies are more to blame for these incidents than guns . NonExp_5_Arg2}
+
+{NonExp_6_Arg1 Some members of the public are opposed to gun control for another reason . NonExp_6_Arg1}
+{Attr_1 {NonExp_6_Arg2_Cause They believe Attr_1} {Exp_2_Arg1 people should decide for themselves {Exp_2_conn_Condition if Exp_2_conn} {Exp_2_Arg2 they want to own a gun Exp_2_Arg2} or not Exp_2_Arg1} . NonExp_6_Arg2}
+
+These people who are against gun control plan to delay the creation of any new gun laws .
+
+{NonExp_7_Arg1 <QUESTIONS> <Q1> Who traveled across America to help convince the American government that stricter gun control laws are needed ? NonExp_7_Arg1}
+{NonExp_8_Arg1 {NonExp_7_Arg2_Contrast <Q2> Where is Columbine High School ? NonExp_7_Arg2} NonExp_8_Arg1}
+{NonExp_9_Arg1 {NonExp_8_Arg2_Conjunction <Q3> What happened at Columbine High School in April ? NonExp_8_Arg2} NonExp_9_Arg1}
+{NonExp_10_Arg1 {NonExp_9_Arg2_List <Q4> How did the two teenage gunmen at Columbine High School die ? NonExp_9_Arg2} NonExp_10_Arg1}
+{NonExp_11_Arg1 {NonExp_10_Arg2_Asynchronous {Exp_3_Arg1 <Q5> Exp_3_Arg1} {Exp_3_conn_Synchrony When Exp_3_conn} {Exp_3_Arg2 does Bill Clinton want to have new gun laws passed ? Exp_3_Arg2} NonExp_10_Arg2} NonExp_11_Arg1}
+{NonExp_12_Arg1 {NonExp_11_Arg2_Pragmatic_cause <Q6> How does President Clinton hope to put an end to school shootings ? NonExp_11_Arg2} NonExp_12_Arg1}
+{NonExp_13_Arg1 {NonExp_12_Arg2_Cause <Q7> Why do some members of the government oppose gun control ? NonExp_12_Arg2} NonExp_13_Arg1}
+{NonExp_13_Arg2_Cause <Q8> Why do some members of the public oppose gun control ? NonExp_13_Arg2}
+
