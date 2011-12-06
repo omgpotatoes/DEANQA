@@ -168,7 +168,7 @@ public class DeanQA
 		AnswerFinder bowFinder = new BagOfWordsAnswerFinder();
 		//AnswerFinder verbFinder = new BagOfVerbsAnswerFinder();
 		//AnswerFinder lemmaFinder = new BagOfLemmasAnswerFinder();
-		//AnswerFinder nerFinder = new RandomNameAnswerFinder();
+		AnswerFinder nerFinder = new RandomNameAnswerFinder();
 		//AnswerFinder nameFinder = new NameAnswerFinder();
 		//AnswerFinder qtFinder = new QuestionTypeAnswerFinder();
 		//AnswerFinder tfidfFinder = new TfIdfAnswerFinder(inputFile);
@@ -196,14 +196,9 @@ public class DeanQA
 			//guesses.addAll(SVMFinder.getAnswerLines(document, question));
 			//guesses.addAll(bowFinder.getAnswerLines(document, question));
 			//guesses.addAll(lemmaFinder.getAnswerLines(document, question));
-			//guesses.addAll(nerFinder.getAnswerLines(document, question));\
-			/*
-			List<Guess> nerGuesses = nerFinder.getAnswerLines(document, question);
-			double nerWeight = 0.05;
-			for (Guess guess : nerGuesses) {
-				guess.setWeight(nerWeight);
-			}
-			guesses.addAll(nerGuesses);
+			//guesses.addAll(nerFinder.getAnswerLines(document, question));
+			///*
+			
 			//*/
 			//guesses.addAll(qtFinder.getAnswerLines(document, question));
 			//guesses.addAll(verbFinder.getAnswerLines(document, question));
@@ -221,9 +216,47 @@ public class DeanQA
 			if (questionType.equals(QuestionType.WHERE)
 					|| questionType.equals(QuestionType.WHAT)
 					|| questionType.equals(QuestionType.WHY)
-					|| questionType.equals(QuestionType.WHO)
 					|| questionType.equals(QuestionType.WHICH)
 					|| questionType.equals(QuestionType.OTHER)) {
+				// discourse: 0.10
+				((DiscourseAnswerFinder) discourseFinder).setNextDoc(rootPath
+						+ "/" + input);
+				List<Guess> discourseGuesses = discourseFinder.getAnswerLines(
+						document, question);
+				double discourseWeight = 0.10;
+				for (Guess guess : discourseGuesses) {
+					guess.setWeight(discourseWeight);
+				}
+				guesses.addAll(discourseGuesses);
+				// ner: 0.10
+				List<Guess> nerGuesses = nerFinder.getAnswerLines(document, question);
+				double nerWeight = 0.10;
+				for (Guess guess : nerGuesses) {
+					guess.setWeight(nerWeight);
+				}
+				guesses.addAll(nerGuesses);
+				// boNGrams: 0.8
+				List<Guess> boNGramsGuesses = boNGramsFinder.getAnswerLines(
+						document, question);
+				double boNGramsWeight = 0.80;
+				for (Guess guess : boNGramsGuesses) {
+					guess.setWeight(boNGramsWeight);
+				}
+				guesses.addAll(boNGramsGuesses);
+			} else if (questionType.equals(QuestionType.HOW)
+					|| questionType.equals(QuestionType.HOW_MUCH)
+					|| questionType.equals(QuestionType.HOW_OLD)
+					|| questionType.equals(QuestionType.HOW_MANY)) {
+				List<Guess> bowGuesses = bowFinder.getAnswerLines(document,
+						question);
+				double bowWeight = 1.0;
+				for (Guess guess : bowGuesses) {
+					guess.setWeight(bowWeight);
+				}
+				guesses.addAll(bowGuesses);
+			} else if (
+					questionType.equals(QuestionType.WHO)
+					) {
 				((DiscourseAnswerFinder) discourseFinder).setNextDoc(rootPath
 						+ "/" + input);
 				List<Guess> discourseGuesses = discourseFinder.getAnswerLines(
@@ -244,26 +277,40 @@ public class DeanQA
 					|| questionType.equals(QuestionType.HOW_MUCH)
 					|| questionType.equals(QuestionType.HOW_OLD)
 					|| questionType.equals(QuestionType.HOW_MANY)) {
+				// bow: 0.90
 				List<Guess> bowGuesses = bowFinder.getAnswerLines(document,
 						question);
-				double bowWeight = 1.0;
+				double bowWeight = 0.9;
 				for (Guess guess : bowGuesses) {
 					guess.setWeight(bowWeight);
 				}
 				guesses.addAll(bowGuesses);
+				// ner: 0.10
+				List<Guess> nerGuesses = nerFinder.getAnswerLines(document, question);
+				double nerWeight = 0.10;
+				for (Guess guess : nerGuesses) {
+					guess.setWeight(nerWeight);
+				}
+				guesses.addAll(nerGuesses);
 			} else {
-				// */
+				// ner: 0.05
+				List<Guess> nerGuesses = nerFinder.getAnswerLines(document, question);
+				double nerWeight = 0.05;
+				for (Guess guess : nerGuesses) {
+					guess.setWeight(nerWeight);
+				}
+				guesses.addAll(nerGuesses);
 				((DiscourseAnswerFinder) discourseFinder).setNextDoc(rootPath
 						+ "/" + input);
 				List<Guess> discourseGuesses = discourseFinder.getAnswerLines(
 						document, question);
+				// discourse: 0.05
 				double discourseWeight = 0.05;
 				for (Guess guess : discourseGuesses) {
 					guess.setWeight(discourseWeight);
 				}
 				guesses.addAll(discourseGuesses);
-				// */
-				// /*
+				// boNGrams: 0.45
 				List<Guess> boNGramsGuesses = boNGramsFinder.getAnswerLines(
 						document, question);
 				double boNGramsWeight = 0.45;
@@ -271,9 +318,10 @@ public class DeanQA
 					guess.setWeight(boNGramsWeight);
 				}
 				guesses.addAll(boNGramsGuesses);
+				// bow: 0.45
 				List<Guess> bowGuesses = bowFinder.getAnswerLines(document,
 						question);
-				double bowWeight = 0.5;
+				double bowWeight = 0.45;
 				for (Guess guess : bowGuesses) {
 					guess.setWeight(bowWeight);
 				}
