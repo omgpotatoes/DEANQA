@@ -42,6 +42,8 @@ public class DiscourseUtils {
             //Process p = Runtime.getRuntime().exec("ruby " + DISCOURSE_EXEC + " " + filePath);
         	//System.out.println("debug: executing discourse parser from: "+new File(new File(".").getCanonicalPath()+"/"+DISCOURSE_DIR).getCanonicalPath());
         	//System.out.println("debug: target file: "+filePath);
+        	File dir = new File(new File(".").getCanonicalPath()+"/"+DISCOURSE_DIR);
+        	//System.out.println("debug: parser dir: "+dir.getPath()+", "+dir.getAbsolutePath()+", "+dir.getCanonicalPath());
         	Process p = Runtime.getRuntime().exec("./"+DISCOURSE_EXEC + " " + filePath, null, new File(new File(".").getCanonicalPath()+"/"+DISCOURSE_DIR));
 
             BufferedReader output = new BufferedReader(new InputStreamReader(p.getInputStream()));

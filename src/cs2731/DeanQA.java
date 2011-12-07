@@ -87,7 +87,14 @@ public class DeanQA
 		//String parserOutput = DiscourseUtils.executeDiscourseParser(story);
 		
 		// enable following 2 lines to run discourse parser on execution (rather than using pre-computed discourse info)
-		String parserOutput = DiscourseUtils.executeDiscourseParser(curDir.getCanonicalPath()+"/"+rootPath.substring(2) +"/"+ story.getName());
+		String parserOutput = "";
+		if (rootPath.charAt(0) != '/') {
+			String inputFilePath = curDir.getCanonicalPath()+"/"+rootPath.substring(2) +"/"+ story.getName();
+			//System.out.println("debug: inputFilePath: "+inputFilePath);
+			parserOutput = DiscourseUtils.executeDiscourseParser(inputFilePath);
+		} else {
+			parserOutput = DiscourseUtils.executeDiscourseParser(rootPath +"/"+ story.getName());
+		}
 		((DiscourseAnswerFinder)discourseFinder).setNextDocContents(parserOutput);
 		
 		// debug:
