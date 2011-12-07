@@ -3,6 +3,7 @@ package cs2731.discourse;
 import cs2731.QuestionType;
 import cs2731.QuestionTypeDetector;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -26,9 +27,10 @@ import java.util.Set;
 public class DiscourseUtils {
 
     public static final String DATASET_PATH_ROOT = "resources/";
-    public static final String DISCOURSE_EXEC = "lib\\pdtb-parser-v110102\\src\\parse.rb";
-    
-    public static final String ANSWER_PROBS_PATH = "./resources/questionAnswerProbs.bin";
+    //public static final String DISCOURSE_EXEC = "./lib/pdtb-parser-v110102/src/parse.rb";
+    public static final String DISCOURSE_EXEC = "parse.rb";
+    public static final String DISCOURSE_DIR = "lib/pdtb-parser-v110102/src/";
+    public static final String ANSWER_PROBS_PATH = "resources/questionAnswerProbs.bin";
 
     public static String executeDiscourseParser(String filePath) {
 
@@ -37,7 +39,51 @@ public class DiscourseUtils {
 
         try {
 
-            Process p = Runtime.getRuntime().exec("ruby " + DISCOURSE_EXEC + " " + filePath);
+            //Process p = Runtime.getRuntime().exec("ruby " + DISCOURSE_EXEC + " " + filePath);
+        	//System.out.println("debug: executing discourse parser from: "+new File(new File(".").getCanonicalPath()+"/"+DISCOURSE_DIR).getCanonicalPath());
+        	//System.out.println("debug: target file: "+filePath);
+        	Process p = Runtime.getRuntime().exec("./"+DISCOURSE_EXEC + " " + filePath, null, new File(new File(".").getCanonicalPath()+"/"+DISCOURSE_DIR));
+
+            BufferedReader output = new BufferedReader(new InputStreamReader(p.getInputStream()));
+            BufferedReader err = new BufferedReader(new InputStreamReader(p.getErrorStream()));
+
+            String line;
+            while ((line = output.readLine()) != null) {
+                outputString += line + "\n";
+            }
+            output.close();
+
+            while ((line = err.readLine()) != null) {
+                errString += line + "\n";
+            }
+            err.close();
+
+            p.waitFor();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.err.println("error executing external discourse parser " + DISCOURSE_EXEC);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+            System.err.println("error executing external discourse parser " + DISCOURSE_EXEC);
+        }
+
+        if (!errString.equals("")) {
+            System.out.println("errors occured during parsing:\n" + errString);
+        }
+
+        return outputString;
+
+    }
+
+    public static String executeDiscourseParser(File file) {
+
+        String outputString = "";
+        String errString = "";
+
+        try {
+
+            Process p = Runtime.getRuntime().exec("ruby " + DISCOURSE_EXEC + " " + file.getAbsolutePath());
 
             BufferedReader output = new BufferedReader(new InputStreamReader(p.getInputStream()));
             BufferedReader err = new BufferedReader(new InputStreamReader(p.getErrorStream()));
@@ -370,8 +416,8 @@ public class DiscourseUtils {
             //    }
             //    annotation.setConnSentIndex(maxMatchIndexConn);
             //
-                // debug
-                //System.out.println("debug: matching conn span \n\t\"" + annotation.getConn() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexConn) + "\"");
+            // debug
+            //System.out.println("debug: matching conn span \n\t\"" + annotation.getConn() + "\" to sentence \n\t\"" + sentences.get(maxMatchIndexConn) + "\"");
             //}
 
         }
@@ -512,7 +558,9 @@ public class DiscourseUtils {
                 }
 
                 // debug
-                System.out.println("debug: matching rawAnswer \n\t" + rawAnswer + "\nwith sentence\n\t" + inputFileLines.get(maxMatchIndexLine));
+                if (maxMatchIndexLine != -1) {
+                    //System.out.println("debug: matching rawAnswer \n\t" + rawAnswer + "\nwith sentence\n\t" + inputFileLines.get(maxMatchIndexLine));
+                }
 
                 // note all discourse roles this sent was a member of
                 //  (string format: discourseRelType-{Arg1,Arg2} )
@@ -524,40 +572,46 @@ public class DiscourseUtils {
                     if (annotation.getArg1SentIndex() == maxMatchIndexLine) {
 
                         String typeArgKey = annotation.getType().name() + "-Arg1";
-                        if (!answerProbs.containsKey(questionType)) {
-                            answerProbs.put(questionType, new HashMap<String, Double>());
-                            answerCounts.put(questionType, new HashMap<String, Integer>());
-                            answerTotals.put(questionType, 0);
+                        //String typeArgKey = annotation.getType().name();
+                        if (!typeArgKey.equals("EntRel")) {
+                        	if (!answerProbs.containsKey(questionType)) {
+                        		answerProbs.put(questionType, new HashMap<String, Double>());
+                        		answerCounts.put(questionType, new HashMap<String, Integer>());
+                        		answerTotals.put(questionType, 0);
+                        	}
+                        	HashMap<String, Integer> answerCount = answerCounts.get(questionType);
+                        	answerTotals.put(questionType, answerTotals.get(questionType) + 1);
+                        	if (!answerCount.containsKey(typeArgKey)) {
+                        		answerCount.put(typeArgKey, 0);
+                        	}
+                        	answerCount.put(typeArgKey, answerCount.get(typeArgKey) + 1);
+                        	answerContainsDiscourseRel = true;
+                        	// debug
+                        	System.out.println("debug: sent \"" + inputFileLines.get(maxMatchIndexLine) + "\" participates in " + typeArgKey);
                         }
-                        HashMap<String, Integer> answerCount = answerCounts.get(questionType);
-                        answerTotals.put(questionType, answerTotals.get(questionType) + 1);
-                        if (!answerCount.containsKey(typeArgKey)) {
-                            answerCount.put(typeArgKey, 0);
-                        }
-                        answerCount.put(typeArgKey, answerCount.get(typeArgKey) + 1);
-                        answerContainsDiscourseRel = true;
-                        // debug
-                        System.out.println("debug: sent \"" + inputFileLines.get(maxMatchIndexLine) + "\" participates in " + typeArgKey);
 
                     }
 
                     if (annotation.getArg2SentIndex() == maxMatchIndexLine) {
 
                         String typeArgKey = annotation.getType().name() + "-Arg2";
-                        if (!answerProbs.containsKey(questionType)) {
-                            answerProbs.put(questionType, new HashMap<String, Double>());
-                            answerCounts.put(questionType, new HashMap<String, Integer>());
-                            answerTotals.put(questionType, 0);
+                        //String typeArgKey = annotation.getType().name();
+                        if (!typeArgKey.equals("EntRel")) {
+                        	if (!answerProbs.containsKey(questionType)) {
+                        		answerProbs.put(questionType, new HashMap<String, Double>());
+                        		answerCounts.put(questionType, new HashMap<String, Integer>());
+                        		answerTotals.put(questionType, 0);
+                        	}
+                        	HashMap<String, Integer> answerCount = answerCounts.get(questionType);
+                        	answerTotals.put(questionType, answerTotals.get(questionType) + 1);
+                        	if (!answerCount.containsKey(typeArgKey)) {
+                        		answerCount.put(typeArgKey, 0);
+                        	}
+                        	answerCount.put(typeArgKey, answerCount.get(typeArgKey) + 1);
+                        	answerContainsDiscourseRel = true;
+                        	// debug
+                        	System.out.println("debug: sent \"" + inputFileLines.get(maxMatchIndexLine) + "\" participates in " + typeArgKey);
                         }
-                        HashMap<String, Integer> answerCount = answerCounts.get(questionType);
-                        answerTotals.put(questionType, answerTotals.get(questionType) + 1);
-                        if (!answerCount.containsKey(typeArgKey)) {
-                            answerCount.put(typeArgKey, 0);
-                        }
-                        answerCount.put(typeArgKey, answerCount.get(typeArgKey) + 1);
-                        answerContainsDiscourseRel = true;
-                        // debug
-                        System.out.println("debug: sent \"" + inputFileLines.get(maxMatchIndexLine) + "\" participates in " + typeArgKey);
                     }
 
                 }
@@ -578,7 +632,9 @@ public class DiscourseUtils {
                     answerCount.put(typeArgKey, answerCount.get(typeArgKey) + 1);
                     answerContainsDiscourseRel = true;
                     // debug
-                    System.out.println("debug: sent \"" + inputFileLines.get(maxMatchIndexLine) + "\" participates in " + typeArgKey);
+                    if (maxMatchIndexLine != -1) {
+                        System.out.println("debug: sent \"" + inputFileLines.get(maxMatchIndexLine) + "\" participates in " + typeArgKey);
+                    }
 
 
                 }
@@ -611,50 +667,50 @@ public class DiscourseUtils {
         return answerProbs;
 
     }
-    
+
     public static void serializeProbs(EnumMap<QuestionType, HashMap<String, Double>> answerProbs) {
-    	
-    	try {
-    		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(ANSWER_PROBS_PATH));
-    		out.writeObject(answerProbs);
-    		out.close();
-    	} catch (IOException e) {
-    		e.printStackTrace();
-    		System.err.println("could not serialize answerProbs to file: "+ANSWER_PROBS_PATH);
-    	}
-    	
+
+        try {
+            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(ANSWER_PROBS_PATH));
+            out.writeObject(answerProbs);
+            out.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.err.println("could not serialize answerProbs to file: " + ANSWER_PROBS_PATH);
+        }
+
     }
-    
+
     public static EnumMap<QuestionType, HashMap<String, Double>> unserializeProbs() {
-    	
-    	try {
-    		ObjectInputStream in = new ObjectInputStream(new FileInputStream(ANSWER_PROBS_PATH));
-    		EnumMap<QuestionType, HashMap<String, Double>> answerProbs = (EnumMap<QuestionType, HashMap<String, Double>>)in.readObject();
-    		in.close();
-    		return answerProbs;
-    	} catch (IOException e) {
-    		e.printStackTrace();
-    		System.err.println("could not unserialize answerProbs from file: "+ANSWER_PROBS_PATH);
-    	} catch (ClassNotFoundException e) {
-    		e.printStackTrace();
-    		System.err.println("could not unserialize answerProbs from file: "+ANSWER_PROBS_PATH);
-    	} 
-    	
-    	return null;
-    	
+
+        try {
+            ObjectInputStream in = new ObjectInputStream(new FileInputStream(ANSWER_PROBS_PATH));
+            EnumMap<QuestionType, HashMap<String, Double>> answerProbs = (EnumMap<QuestionType, HashMap<String, Double>>) in.readObject();
+            in.close();
+            return answerProbs;
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.err.println("could not unserialize answerProbs from file: " + ANSWER_PROBS_PATH);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+            System.err.println("could not unserialize answerProbs from file: " + ANSWER_PROBS_PATH);
+        }
+
+        return null;
+
     }
-    
+
     public static void buildAndWriteAnswerProbs() {
-    	
-    	serializeProbs(getTrainQuestionTypeDiscourseRoleAnswerProbs("./resources/answerkey.txt", "./resources/input/"));
-    	
+
+        serializeProbs(getTrainQuestionTypeDiscourseRoleAnswerProbs("./resources/answerkey.txt", "./resources/input/"));
+
     }
 
     // for testing only
     public static void main(String[] args) {
 
-    	buildAndWriteAnswerProbs();
-        //test3();
+        buildAndWriteAnswerProbs();
+        test3();
 
     }
 
@@ -693,7 +749,17 @@ public class DiscourseUtils {
 
     public static void test3() {
 
-        getTrainQuestionTypeDiscourseRoleAnswerProbs("resources/answerkey.txt", "resources/input");
+        EnumMap<QuestionType, HashMap<String, Double>> probs = getTrainQuestionTypeDiscourseRoleAnswerProbs("resources/answerkey.txt", "resources/input");
+
+        // display probs
+        for (QuestionType questionType : probs.keySet()) {
+            System.out.println("\tquestionType: " + questionType.name());
+            if (probs.get(questionType).keySet() != null && probs.get(questionType).keySet().size() > 0) {
+                for (String discType : probs.get(questionType).keySet()) {
+                    System.out.println("\t\tdiscType: " + discType + ", prob=" + probs.get(questionType).get(discType));
+                }
+            }
+        }
 
 
     }

@@ -513,6 +513,209 @@ NORMALIZED ACCURACY : 53.99%
 
 
 
+test-bongram90disc10-bow-ner10
+******************************************************************
+Accuracy: 170 correct out of 310 questions - 54.84%.
+******************************************************************
+Statistics by question type:
+WHEN   :   24 out of   34 -  70.59%.
+WHERE  :   22 out of   36 -  61.11%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   22 out of   41 -  53.66%.
+HOW    :   35 out of   68 -  51.47%.
+OTHER  :    2 out of    7 -  28.57%.
+
+NORMALIZED ACCURACY : 57.27%
+
+
+
+
+
+
+
+
+test-bongram80disc10ner10-bow-bongram90disc10
+******************************************************************
+Accuracy: 170 correct out of 310 questions - 54.84%.
+******************************************************************
+Statistics by question type:
+WHEN   :   23 out of   34 -  67.65%.
+WHERE  :   22 out of   36 -  61.11%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   24 out of   41 -  58.54%.
+HOW    :   34 out of   68 -  50.00%.
+OTHER  :    2 out of    7 -  28.57%.
+
+NORMALIZED ACCURACY : 57.35%
+
+
+
+
+
+test1-bongram80disc10ner10-bow90ner10-bongram90disc10
+******************************************************************
+Accuracy: 171 correct out of 310 questions - 55.16%.
+******************************************************************
+Statistics by question type:
+WHEN   :   24 out of   34 -  70.59%.
+WHERE  :   22 out of   36 -  61.11%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   24 out of   41 -  58.54%.
+HOW    :   34 out of   68 -  50.00%.
+OTHER  :    2 out of    7 -  28.57%.
+
+NORMALIZED ACCURACY : 57.84%
+
+
+
+
+
+new
+******************************************************************
+Accuracy: 173 correct out of 310 questions - 55.81%.
+******************************************************************
+Statistics by question type:
+WHEN   :   24 out of   34 -  70.59%.
+WHERE  :   22 out of   36 -  61.11%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   25 out of   41 -  60.98%.
+HOW    :   35 out of   68 -  51.47%.
+OTHER  :    2 out of    7 -  28.57%.
+
+NORMALIZED ACCURACY : 58.49%
+
+
+
+
+
+
+ngram_bias_large; disc_noarg_nonorm
+******************************************************************
+Accuracy: 165 correct out of 310 questions - 53.23%.
+******************************************************************
+Statistics by question type:
+WHEN   :   20 out of   34 -  58.82%.
+WHERE  :   19 out of   36 -  52.78%.
+WHAT   :   39 out of   80 -  48.75%.
+WHY    :   24 out of   44 -  54.55%.
+WHO    :   25 out of   41 -  60.98%.
+HOW    :   35 out of   68 -  51.47%.
+OTHER  :    3 out of    7 -  42.86%.
+
+NORMALIZED ACCURACY : 54.56%
+
+
+
+
+
+
+
+ngram_nobias; disc_noarg_nonorm
+******************************************************************
+Accuracy: 168 correct out of 310 questions - 54.19%.
+******************************************************************
+Statistics by question type:
+WHEN   :   22 out of   34 -  64.71%.
+WHERE  :   19 out of   36 -  52.78%.
+WHAT   :   40 out of   80 -  50.00%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   25 out of   41 -  60.98%.
+HOW    :   35 out of   68 -  51.47%.
+OTHER  :    2 out of    7 -  28.57%.
+
+NORMALIZED ACCURACY : 56.12%
+
+
+
+
+
+
+ngram_nobias; disc_noarg_norm
+******************************************************************
+Accuracy: 168 correct out of 310 questions - 54.19%.
+******************************************************************
+Statistics by question type:
+WHEN   :   23 out of   34 -  67.65%.
+WHERE  :   20 out of   36 -  55.56%.
+WHAT   :   39 out of   80 -  48.75%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   25 out of   41 -  60.98%.
+HOW    :   35 out of   68 -  51.47%.
+OTHER  :    1 out of    7 -  14.29%.
+
+NORMALIZED ACCURACY : 56.87%
+
+
+
+
+
+
+
+ngram_nobias; disc_arg_nonorm
+******************************************************************
+Accuracy: 174 correct out of 310 questions - 56.13%.
+******************************************************************
+Statistics by question type:
+WHEN   :   24 out of   34 -  70.59%.
+WHERE  :   21 out of   36 -  58.33%.
+WHAT   :   42 out of   80 -  52.50%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   25 out of   41 -  60.98%.
+HOW    :   35 out of   68 -  51.47%.
+OTHER  :    2 out of    7 -  28.57%.
+
+NORMALIZED ACCURACY : 58.45%
+
+
+
+
+
+
+
+all_sans_rule
+******************************************************************
+Accuracy: 165 correct out of 310 questions - 53.23%.
+******************************************************************
+Statistics by question type:
+WHEN   :   17 out of   34 -  50.00%.
+WHERE  :   22 out of   36 -  61.11%.
+WHAT   :   41 out of   80 -  51.25%.
+WHY    :   25 out of   44 -  56.82%.
+WHO    :   24 out of   41 -  58.54%.
+HOW    :   34 out of   68 -  50.00%.
+OTHER  :    2 out of    7 -  28.57%.
+
+NORMALIZED ACCURACY : 54.62%
+
+
+
+
+
+
+
+
+all_plus_rule
+******************************************************************
+Accuracy: 169 correct out of 310 questions - 54.52%.
+******************************************************************
+Statistics by question type:
+WHEN   :   20 out of   34 -  58.82%.
+WHERE  :   25 out of   36 -  69.44%.
+WHAT   :   41 out of   80 -  51.25%.
+WHY    :   24 out of   44 -  54.55%.
+WHO    :   25 out of   41 -  60.98%.
+HOW    :   33 out of   68 -  48.53%.
+OTHER  :    1 out of    7 -  14.29%.
+
+NORMALIZED ACCURACY : 57.26%
+
+
+
+
 
 
 
