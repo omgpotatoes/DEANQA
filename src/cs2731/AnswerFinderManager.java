@@ -35,7 +35,7 @@ public class AnswerFinderManager
 		finders.add(new BagOfVerbsAnswerFinder());
 		finders.add(new NameAnswerFinder());
 		finders.add(new RandomNameAnswerFinder());
-		finders.add(new TfIdfAnswerFinder());
+		//finders.add(new TfIdfAnswerFinder());
 		finders.add(new RuleAnswerFinder());
 //		finders.add(new SVMAnswerFinder(null, null));
 	}

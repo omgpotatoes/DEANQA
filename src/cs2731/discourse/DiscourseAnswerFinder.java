@@ -29,6 +29,8 @@ public class DiscourseAnswerFinder implements AnswerFinder {
 	protected String nextDocPath;
 	protected boolean nextDocPathSet;
 	
+	protected String nextDocContents = "";
+	
 	public DiscourseAnswerFinder() {
 		if (answerProbs == null) {
 			answerProbs = DiscourseUtils.unserializeProbs();
@@ -42,9 +44,15 @@ public class DiscourseAnswerFinder implements AnswerFinder {
 		nextDocPathSet = true;
 	}
 	
+	public void setNextDocContents(String nextDocContents) {
+		this.nextDocContents = nextDocContents;
+	}
+	
 	/**
 	 * note: must set nextDoc before calling this method, so that we can find discourse rels!
-	 * (or alternatively, re-execute the discourse parser on each execution, but that would be *very* slow)
+	 * (or alternatively, re-execute the discourse parser on each execution, 
+	 * setting the annotated document beforehand via setNextDocContents(),
+	 * but that will be *very* slow)
 	 */
 	@Override
 	public List<Guess> getAnswerLines(List<String> document, String question) {
@@ -52,12 +60,17 @@ public class DiscourseAnswerFinder implements AnswerFinder {
 		// get type of question
 		QuestionType questionType = QuestionTypeDetector.getQuestionType(question);
 		
-		// get annotated version of document
-		if (!nextDocPathSet) {
-			System.out.println("err: DiscourseAnswerFinder: nextDocPath not set, cannot find discourse information!");
-			return null;
+		// get annotated version of document if not already loaded
+		String annotatedFile = "";
+		if (nextDocContents.equals("")) {
+			if (!nextDocPathSet) {
+				System.out.println("err: DiscourseAnswerFinder: nextDocPath not set, cannot find discourse information!");
+				return null;
+			}
+			annotatedFile = DiscourseUtils.readDoc(nextDocPath + ".annot");
+		} else {
+			annotatedFile = nextDocContents;
 		}
-		String annotatedFile = DiscourseUtils.readDoc(nextDocPath + ".annot");
 		List<DiscourseAnnotation> annotations = DiscourseUtils.buildDiscourseAnnots(annotatedFile);
 		
 		// match up annotated lines with lines in original
@@ -73,10 +86,12 @@ public class DiscourseAnswerFinder implements AnswerFinder {
 			for (int a=0; a<annotations.size(); a++) {
 				if (annotations.get(a).getArg1SentIndex() == i) {
 					thisSentDiscourseRoles.add(annotations.get(a).getType()+"-Arg1");
+					//thisSentDiscourseRoles.add(annotations.get(a).getType().name());
 					hasRoles = true;
 				}
 				if (annotations.get(a).getArg2SentIndex() == i) {
 					thisSentDiscourseRoles.add(annotations.get(a).getType()+"-Arg2");
+					//thisSentDiscourseRoles.add(annotations.get(a).getType().name());
 					hasRoles = true;
 				}
 			}
@@ -93,11 +108,11 @@ public class DiscourseAnswerFinder implements AnswerFinder {
 				try {
 					prob += (double) answerProbs.get(questionType).get(discourseRole);
 				} catch (NullPointerException e) {
-					// may happen if particular role isn't seen for particular questionType
+					//System.out.println("debug: role "+discourseRole+" not found for questionType "+questionType);
 				}
 			}
 			prob /= (double) thisSentDiscourseRoles.size();
-			prob *= WEIGHT;
+			//prob *= WEIGHT;
 			guesses.add(new Guess(prob, i+1));
 			
 		}

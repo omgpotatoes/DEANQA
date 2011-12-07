@@ -3,6 +3,7 @@ package cs2731;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
+import java.util.Scanner;
 
 import cs2731.discourse.DiscourseUtils;
 
@@ -81,7 +82,15 @@ public class BagOfNGramsAnswerFinder implements AnswerFinder {
 			int thisSentMatchCount = 0;
 			for (String ngram : thisQuestionNGrams) {
 				if (thisSentenceTokenized.contains(ngram)) {
+					// bias towards longer nGrams
+					Scanner ngramScanner = new Scanner(ngram);
+					int ngramLen = 0;
+					while (ngramScanner.hasNext()) {
+						ngramLen++;
+						ngramScanner.next();
+					}
 					thisSentMatchCount++;
+					//thisSentMatchCount += ngramLen;
 				}
 			}
 			matchCounts.add(thisSentMatchCount);
