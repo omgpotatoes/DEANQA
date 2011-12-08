@@ -1,5 +1,6 @@
 
-\documentclass{acm_proc_article-sp}
+%\documentclass{acm_proc_article-sp}
+\documentclass[11pt,letterpaper]{article}
 
 %==================================
 % packages go here
@@ -9,7 +10,11 @@
 \usepackage{graphicx}
 \usepackage{cite} % sort citation numbers
 \usepackage{color}
-\usepackage{soul}   
+\usepackage{soul}
+\usepackage{naaclhlt2012}
+\usepackage{times}
+\usepackage{latexsym}
+
 %\usepackage{ntheorem}
 %\usepackage{amsthm}
 %\usepackage{multirow} % for complex tables
@@ -20,34 +25,40 @@
 %\newcommand{\hlfixme}[1]{\fixme{\hl{#1}}}
 %\newcommand{\hlfxnote}[1]{\fxnote{\hl{#1}}}
 
-\newcommand{\name}{\emph{Watson Jr.}}
+%\newcommand{\name}{\emph{Watson Jr.}}
+\newcommand{\name}{\emph{DeanQA}}
+
+\setlength\titlebox{6.5cm}    % Expanding the titlebox
 
 %==================================
 
-\begin{document}
+%\begin{document}
 
-\title{Watson Jr.}
-\subtitle{[A Question Answering System]}
+\title{\name: \\An Advanced Question Answering System}
 
-\numberofauthors{3}
 \author{
-\alignauthor Name 1 \\
-       \affaddr{University of Pittsburgh}\\
-       \affaddr{Department of Computer Science}\\
-       \email{email@domain.edu}
-% author
-\alignauthor Yann Le Gall\\
-       \affaddr{University of Pittsburgh}\\
-       \affaddr{Department of Computer Science}\\
-       \email{ylegall@cs.pitt.edu}
-% author
-\alignauthor Name 3 \\
-       \affaddr{University of Pittsburgh}\\
-       \affaddr{Department of Computer Science}\\
-       \email{email@domain.edu}
+	Yann Le Gall\\
+    University of Pittsburgh\\
+	Department of Computer Science\\
+    {\tt ylegall@cs.pitt.edu}
+\And
+	Author 2\\
+  	ABC University\\
+  	900 Main Street\\
+  	Ourcity, PQ, Canada A1A 1T2\\
+	{\tt author2@abc.ca}
+\And
+	Author 3\\
+    XYZ Company\\
+    111 Anywhere Street\\
+    Mytown, NY 10000, USA\\
+    {\tt author1@xyz.org}
 }
 
 \date{12 December 2011}
+
+\begin{document}
+
 \maketitle
 
 %==================================
@@ -57,9 +68,9 @@ abstract goes here
 \end{abstract}
 
 % A category with the (minimum) three required fields
-\category{I.2}{Artifical Intelligence}{Natural Language Processing}
-\terms{Algorithms, Experimentation}
-\keywords{Question Answering}
+%\category{I.2}{Artifical Intelligence}{Natural Language Processing}
+%\terms{Algorithms, Experimentation}
+%\keywords{Question Answering}
 
 %==================================
 
@@ -67,7 +78,7 @@ abstract goes here
 \label{sec:intro}
 
 In this paper, we design, implement, and evaluate a question answering
-(QA) system. In our approach, we use several different strategies from
+(QA) system, \name. In our approach, we use several different strategies from
 different domains to select potential answers. Then, we employ a
 majority voting scheme to combine the results.
 
@@ -76,11 +87,11 @@ To train and test our QA system, we used the ``CBC Reading
 Comprehension Corpus''. This corpus is composed of 125 news stories,
 each accompanied by a set of 6-10 factoid questions (e.g. questions
 that begin with ``Who'', ``When'', ``Where'', etc.).
-The news stories were obtained from the ``CBC 4 Kids'' website,
-hosted by the Canadian Broadcast Corporation. The questions and an
-answer key were added by the MITRE Corporation, and are in the style
-of actual reading comprehension tests that are given to grade school
-children in the United States.
+%The news stories were obtained from the ``CBC 4 Kids'' website,
+%hosted by the Canadian Broadcast Corporation. The questions and an
+%answer key were added by the MITRE Corporation, and are in the style
+%of actual reading comprehension tests that are given to grade school
+%children in the United States.
 
 All stories in the dataset were been split into sentences (one
 sentence per line) using the MXTERMINATOR sentence splitter developed
@@ -98,16 +109,16 @@ present the performance results. Finally, we conclude in
 \section{Implementation}
 \label{sec:implementation}
 
-In this section we discuss the design and implementation of our QA
-system. First, we explain the general, overall structure. Then we give
+In this section we discuss the design and implementation of \name
+. First, we explain the general, overall structure. Then we give
 a detailed description of the sub-components (\emph{AnswerFinders}) of
-the system . Finally, we present our technique for combining the
+the system. Finally, we present our technique for combining the
 potential answers from each sub-component.
 
 \begin{figure*} 
 	\centering
 	\includegraphics[width=0.8\textwidth]{model.png}
-	\caption{The Watson Jr. system model.}
+	\caption{The \name system model.}
 	\label{fig:model}
 \end{figure*}
 
@@ -130,14 +141,18 @@ strategies that they use.
 \subsection{Bag-of-Words}
 
 The Bag-of-words (BOW) model is a simple model that provides relatively good
-performance in our systeml. In our domain, BOW treats each question as
-a set of words. Then, for each sentence in the document, we count the
-number of matching words. The sentence with the largest number of
-matching words is chosen as the answer.
+performance in our systeml. In our domain, BOW treats each question as a set of
+words. Then, for each sentence in the document, we count the number of matching
+words. The sentence with the largest number of matching words is chosen as the
+answer.
 
 \subsection{Linguistic Rule-based Strategies}
 
-% TODO: Yann writes this
+We also implemented a rule-based AnswerFinder based on the previous
+work of \cite{riloff2000}. This system applies different rules based
+on the question type. A preliminary score is calculated for each line
+based on the BOW model. Then, different amounts of points are applied
+for each rule that is satisfied.
 
 \subsection{NLP Components}
 
@@ -159,6 +174,55 @@ the subsystems described above.
 \section{Evaluation}
 \label{sec:evaluation}
 
+%******************************************************************
+%Accuracy: 181 correct out of 310 questions - 58.39%.
+%******************************************************************
+%NORMALIZED ACCURACY : 60.89%
+
+\begin{table}
+\centering
+
+	\begin{tabular}{|r|c|c|}
+	\hline
+	Type   & \# Correct & Percentage \\
+	\hline
+	\hline
+	WHEN   &  25 out of  34 &  73.53\% \\
+	\hline
+	WHERE  &  23 out of  36 &  63.89\% \\
+	\hline
+	WHAT   &  42 out of  80 &  52.50\% \\
+	\hline
+	WHY    &  26 out of  44 &  59.09\% \\
+	\hline
+	WHO    &  26 out of  41 &  63.41\% \\
+	\hline
+	HOW    &  36 out of  68 &  52.94\% \\
+	\hline
+	OTHER  &   3 out of   7 &  42.86\% \\
+	\hline
+	\hline
+	TOTAL  & 181 out of 310 &  58.39\% \\
+	\hline
+	\end{tabular}
+
+\caption{Statistics by question type.}
+\label{table:question-types}
+\end{table}
+
+%
+%WHEN   :   25 out of   34 -  73.53\%
+%WHERE  :   23 out of   36 -  63.89\%
+%WHAT   :   42 out of   80 -  52.50\%
+%WHY    :   26 out of   44 -  59.09\%
+%WHO    :   26 out of   41 -  63.41\%
+%HOW    :   36 out of   68 -  52.94\%
+%OTHER  :    3 out of    7 -  42.86\%
+%TOTAL  :  181 out of  310 -  58.39\%
+%TOTAL  & 181 out of 310 &  58.39\% \\
+%
+
+
 
 
 \section{Conclusions}
@@ -172,7 +236,9 @@ in natural language processing.
 %\section{Acknowledgments}
 
 %\bibliographystyle{abbrv}
-\bibliographystyle{plain}
+%\bibliographystyle{plain}
+\bibliographystyle{naaclhlt2012}
+%\bibliographystyle{acl}
 \bibliography{references} 
 
 %
