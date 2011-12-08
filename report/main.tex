@@ -117,7 +117,7 @@ potential answers from each sub-component.
 
 \begin{figure*} 
 	\centering
-	\includegraphics[width=0.8\textwidth]{model.png}
+	\includegraphics[width=0.7\textwidth]{model.png}
 	\caption{The \name system model.}
 	\label{fig:model}
 \end{figure*}
@@ -140,19 +140,20 @@ strategies that they use.
 
 \subsection{Bag-of-Words}
 
-The Bag-of-words (BOW) model is a simple model that provides relatively good
-performance in our systeml. In our domain, BOW treats each question as a set of
-words. Then, for each sentence in the document, we count the number of matching
-words. The sentence with the largest number of matching words is chosen as the
-answer.
+The Bag-of-words (BOW) model is a simple model that provides
+relatively good performance in our systeml. In our domain, BOW treats
+each question as a set of words. Then, for each sentence in the
+document, we count the number of matching words. The probability that
+a sentence is the correct answer is estimated as the ratio of the
+number of matching words to the total possible number of matches.
 
 \subsection{Linguistic Rule-based Strategies}
 
 We also implemented a rule-based AnswerFinder based on the previous
 work of \cite{riloff2000}. This system applies different rules based
 on the question type. A preliminary score is calculated for each line
-based on the BOW model. Then, different amounts of points are applied
-for each rule that is satisfied.
+based on the BOW model. Then, different amounts of points are awarded
+for each satisfied rule.
 
 \subsection{NLP Components}
 
@@ -203,6 +204,7 @@ the subsystems described above.
 	\hline
 	\hline
 	TOTAL  & 181 out of 310 &  58.39\% \\
+	\tiny{NORMALIZED}  &  &  60.89\% \\
 	\hline
 	\end{tabular}
 
