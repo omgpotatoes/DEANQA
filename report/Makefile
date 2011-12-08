@@ -82,4 +82,4 @@ clean:
 #	rm -f $(FIGS)
 
 open:	$(PDF)
-	open main.pdf &
+	evince main.pdf &
