@@ -77,7 +77,7 @@
 
 \section{Introduction}
 \label{sec:intro}
-
+\paragraph{}
 In this paper, we design, implement, and evaluate a question answering
 (QA) system, \name. In our approach, we use several different strategies from
 different domains to select potential answers. Then, we employ a
@@ -109,7 +109,7 @@ present the performance results. Finally, we conclude in
 
 \section{Implementation}
 \label{sec:implementation}
-
+\paragraph{}
 In this section we discuss the design and implementation of \name
 . First, we explain the general, overall structure. Then we give
 a detailed description of the sub-components (\emph{AnswerFinders}) of
@@ -140,7 +140,7 @@ the implementation of the different AnswerFinders and the
 strategies that they use.
 
 \subsection{Bag-of-Words}
-
+\paragraph{}
 The Bag-of-words (BOW) model is a simple model that provides
 relatively good performance in our systeml. In our domain, BOW treats
 each question as a set of words. Then, for each sentence in the
@@ -149,7 +149,7 @@ a sentence is the correct answer is estimated as the ratio of the
 number of matching words to the total possible number of matches.
 
 \subsection{Linguistic Rule-based Strategies}
-
+\paragraph{}
 We also implemented a rule-based AnswerFinder based on the previous
 work of \cite{riloff2000}. This system applies different rules based
 on the question type. A preliminary score is calculated for each line
@@ -220,6 +220,7 @@ the most likely sentence that answers the question.
 % TODO: Eric writes this part
 
 \subsection{Combining Answers with Majority Voting}
+\paragraph{}
 Previous work by Rotaru and Litman demonstrates that combining
 the outputs of multiple QA systems can achieve better results than the
 individual systems alone \cite{rotaru2005}. We incorporate this idea
@@ -230,11 +231,17 @@ the subsystems described above.
 
 \section{Evaluation}
 \label{sec:evaluation}
+\paragraph{}
+Tables \ref{table:question-types1} and \ref{table:question-types2} show the 
+number of questions the \name system answered correctly out of the total
+ number of questions in the first and second test sets respectively.
+ In both cases our system answered well over half of the questions 
+ correctly.  ``When'' questions seem to have been the easiest to find
+ the correct answer for and ``Other'' questions seemed to be the hardest.
+ This can be understood by the fact that ``When'' questions have answers 
+ that include very specific clues to some kind of time or date, but 
+ ``Other'' questions have a much wider array of possible forms to their answers.
 
-%******************************************************************
-%Accuracy: 181 correct out of 310 questions - 58.39%.
-%******************************************************************
-%NORMALIZED ACCURACY : 60.89%
 
 \begin{table}
 \centering
@@ -264,8 +271,59 @@ the subsystems described above.
 	\hline
 	\end{tabular}
 
-\caption{Statistics by question type.}
-\label{table:question-types}
+\caption{Statistics for Test Set \#1 by question type.}
+\label{table:question-types1}
+\end{table}
+
+%******************************************************************
+%Accuracy: 181 correct out of 310 questions - 58.39%.
+%******************************************************************
+%NORMALIZED ACCURACY : 60.89%
+
+%******************************************************************
+%Accuracy: 302 correct out of 479 questions - 63.05%.
+%******************************************************************
+%Statistics by question type:
+%WHEN   :   39 out of   56 -  69.64%.
+%WHERE  :   39 out of   64 -  60.94%.
+%WHAT   :   87 out of  142 -  61.27%.
+%WHY    :   38 out of   66 -  57.58%.
+%WHO    :   38 out of   59 -  64.41%.
+%HOW    :   56 out of   81 -  69.14%.
+%OTHER  :    5 out of   11 -  45.45%.
+%
+%NORMALIZED ACCURACY : 63.83%
+
+\begin{table}
+\centering
+
+	\begin{tabular}{|r|c|c|}
+	\hline
+	Type   & \# Correct & Percentage \\
+	\hline
+	\hline
+	WHEN   &  39 out of   56 &  69.64\% \\
+	\hline
+	WHERE  &  39 out of   64 &  60.94\% \\
+	\hline
+	WHAT   &  87 out of  142 &  61.27\% \\
+	\hline
+	WHY    &  38 out of   66 &  57.58\% \\
+	\hline
+	WHO    &  38 out of   59 &  64.41\% \\
+	\hline
+	HOW    &  56 out of   81 &  69.14\% \\
+	\hline
+	OTHER  &   5 out of   11 &  45.45\% \\
+	\hline
+	\hline
+	TOTAL  & 302 out of 479 &  63.05\% \\
+	\tiny{NORMALIZED}  &  &  63.83\% \\
+	\hline
+	\end{tabular}
+
+\caption{Statistics for Test Set \# 2 by question type.}
+\label{table:question-types2}
 \end{table}
 
 %
