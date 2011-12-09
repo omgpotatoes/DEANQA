@@ -213,7 +213,9 @@ features) after cross validation.   This model was trained on the
 ``input-test1'' set (36 documents, 310 questions) we found that using
 the WEKA implementation of the C4.5 classifier (called J48,
 parameters M = 7, N = 17) resulted in having a lower prediction
-accuracy (131 out of 310) than the SVM model (148 out of 310).
+accuracy (131 out of 310) than the SVM model (148 out of 310).  This was
+done by simply picking the sentence-question pair that the models deem as
+the most likely sentence that answers the question. 
 
 % TODO: Eric writes this part
 
