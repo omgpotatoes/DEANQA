@@ -154,7 +154,13 @@ We also implemented a rule-based AnswerFinder based on the previous
 work of \cite{riloff2000}. This system applies different rules based
 on the question type. A preliminary score is calculated for each line
 based on the BOW model. Then, different amounts of points are awarded
-for each satisfied rule.
+for each satisfied rule. For example, if the question type is WHEN,
+then a few points are awarded to sentences that contain related words
+such as ``time'', ``during'', ``before'', ``after'', etc. More points
+would be awarded if the sentence contains a month, day, year, or parts
+of a date, such as ``January $10^{th}$, 1985.'' Finally, the sentece
+with the best score is elected to be the most likely answer to the
+question.
 
 \subsection{NLP Components}
 
@@ -162,37 +168,52 @@ for each satisfied rule.
 
 \subsection{SVM Classification}
 \paragraph{}
-The last component of the \name system takes a Machine Learning approach that barrows heavily 
-from the work done by \cite{Ng00amachine}.  In their paper, the authors extracted features from a training
-set of news documents and corresponding questions about the documents.  Then, they trained a C5 
-decision tree classifier, which is a more recent version of the C4.5  \cite{Quinlan:1993:CPM:152181} classifier, 
-in order to predict which sentence answers a question.  Each data point represents a sentence-question pair with a 
-label being positive (1) for sentences that answer the paired question or negative (-1) 
-for sentences that do not.
+The last component of the \name system takes a Machine Learning
+approach that barrows heavily from the work done by
+\cite{Ng00amachine}.  In their paper, the authors extracted features
+from a training set of news documents and corresponding questions
+about the documents.  Then, they trained a C5 decision tree
+classifier, which is a more recent version of the C4.5
+\cite{Quinlan:1993:CPM:152181} classifier, in order to predict which
+sentence answers a question.  Each data point represents a
+sentence-question pair with a label being positive (1) for sentences
+that answer the paired question or negative (-1) for sentences that do
+not.
 
-Each feature represents some characteristic of the sentence, the question, or both.  
-For example, the Diff-from-Max-Word-Match (DMWM) gives a score based on how many lemmatized 
-words are in both the sentence and question.  This is very similar to the bag of words component. 
- Other features take advantage of named entity recognition, whether the sentence is the title or dateline, 
-or keywords that were learned to be commonly present in sentences that answer specific question types. 
- All of the features from \cite{Ng00amachine} were used except for the ``keywords in questions'' features,
- as well as the coreference information to boost the named entity features.  For a more detailed explanation 
- of these features, see their work.  We used the Stanford CoreNLP library for part of speech tagging 
- \cite{Toutanova00enrichingthe} and named entity recognition \cite{Finkel05incorporatingnon-local} in the feature extraction
- process.  In addition to the features mentioned previously, we added binary features 
- to describe the question type.  More specifically, six binary features were added indicating whether the question 
- for the data point was a ``Who'', ``What'', ``Where'', ``When'', ``Why'', or ``How'' question.  If none of 
- the features were ``true'' then the question type could be interpreted as ``Other''.   In total, 24 features 
- were extracted.
+Each feature represents some characteristic of the sentence, the
+question, or both.  For example, the Diff-from-Max-Word-Match (DMWM)
+gives a score based on how many lemmatized words are in both the
+sentence and question.  This is very similar to the bag of words
+component.  Other features take advantage of named entity recognition,
+whether the sentence is the title or dateline, or keywords that were
+learned to be commonly present in sentences that answer specific
+question types.  All of the features from \cite{Ng00amachine} were
+used except for the ``keywords in questions'' features, as well as the
+coreference information to boost the named entity features.  For a
+more detailed explanation of these features, see their work.  We used
+the Stanford CoreNLP library for part of speech tagging
+\cite{Toutanova00enrichingthe} and named entity recognition
+\cite{Finkel05incorporatingnon-local} in the feature extraction
+process.  In addition to the features mentioned previously, we added
+binary features to describe the question type.  More specifically, six
+binary features were added indicating whether the question for the
+data point was a ``Who'', ``What'', ``Where'', ``When'', ``Why'', or
+``How'' question.  If none of the features were ``true'' then the
+question type could be interpreted as ``Other''.   In total, 24
+features were extracted.
 
- The main difference this component has from \cite{Ng00amachine} is that instead of using the C5 classifier, 
- we trained a Support Vector Machine (SVM).  We used the WEKA 3.6 \cite{Hall_theweka} Java wrapper 
- class for the LibSVM 3.11 \cite{Chang01libsvm:a} SVM library to implement this SVM.  The 
- radial basis kernel was used with a cost parameter of 4.5 and a gamma parameter of 1/24 (1 over the number 
- of features) after cross validation.   This model was trained on the ``input'' dataset, which had 37 documents 
- and 324 questions.  On the ``input-test1'' set (36 documents, 310 questions) we found that using the WEKA 
- implementation of the C4.5 classifier (called J48, parameters M = 7, N = 17) resulted in having a lower 
- prediction accuracy (131 out of 310) than the SVM model (148 out of 310).
+The main difference this component has from \cite{Ng00amachine} is
+that instead of using the C5 classifier, we trained a Support Vector
+Machine (SVM).  We used the WEKA 3.6 \cite{Hall_theweka} Java wrapper
+class for the LibSVM 3.11 \cite{Chang01libsvm:a} SVM library to
+implement this SVM.  The radial basis kernel was used with a cost
+parameter of 4.5 and a gamma parameter of 1/24 (1 over the number of
+features) after cross validation.   This model was trained on the
+``input'' dataset, which had 37 documents and 324 questions.  On the
+``input-test1'' set (36 documents, 310 questions) we found that using
+the WEKA implementation of the C4.5 classifier (called J48,
+parameters M = 7, N = 17) resulted in having a lower prediction
+accuracy (131 out of 310) than the SVM model (148 out of 310).
 
 % TODO: Eric writes this part
 
