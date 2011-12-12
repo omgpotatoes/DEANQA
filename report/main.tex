@@ -45,7 +45,6 @@
 \And
 	Eric Heim\\
     University of Pittsburgh\\	
-    Department of Computer Science\\
 	5324 Sennot Square\\
     {\tt eth13@cs.pitt.edu}
 	\\
@@ -119,7 +118,7 @@ potential answers from each sub-component.
 
 \begin{figure} 
 	\centering
-	\includegraphics[width=0.45\textwidth]{model.eps}
+	\includegraphics[width=0.35\textwidth]{model.png}
 	\caption{The \name system model.}
 	\label{fig:model}
 \end{figure}
@@ -407,11 +406,18 @@ number of questions the \name system answered correctly out of the total
 
 
 
-\section{Conclusions}
+\section{Conclusions and Future Work}
 \label{sec:conclusion}
-
+\paragraph{}
+Many improvements could be made if given more time.  First, the SVM
+component could benefit greatly from balancing the data by either
+undersampling negative datapoints or weighing positive ones
+more. Another possible improvement would be to include more meaningful
+features and to remove some that seem to cause noise.  Finally, we
+could expand weighing the components to not only consider question
+type, but other characteristics of the questions as well.
 Question-answering is complex task and a cutting-edge research area
-in natural language processing. Our project attempts to use BOW and SVM backbone models augmented with additional knowledge obtained from discourse parsing, WordNet synsets, and intelligent coreference resolution. More sophicsticated techniques for incorporating this additional knowledge could be used to improve performance in future work.
+in natural language processing. Our project attempts to use BOW and SVM backbone models augmented with additional knowledge obtained from discourse parsing, WordNet synsets, and intelligent coreference resolution. 
 
 
 %ACKNOWLEDGMENTS are optional
