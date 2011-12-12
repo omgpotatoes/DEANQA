@@ -45,15 +45,16 @@
 \And
 	Eric Heim\\
     University of Pittsburgh\\	
+    Department of Computer Science\\
 	5324 Sennot Square\\
     {\tt eth13@cs.pitt.edu}
 	\\
 \And
 	Alex Conrad\\
-    XYZ Company\\
-    111 Anywhere Street\\
-    Mytown, NY 10000, USA\\
-    {\tt author1@xyz.org}
+    University of Pittsburgh\\
+    Department of Computer Science\\
+    5422 Sennot Square\\
+    {\tt conrada@cs.pitt.edu}
 }
 
 \date{12 December 2011}
@@ -116,12 +117,12 @@ a detailed description of the sub-components (\emph{AnswerFinders}) of
 the system. Finally, we present our technique for combining the
 potential answers from each sub-component.
 
-\begin{figure*} 
+\begin{figure} 
 	\centering
-	\includegraphics[width=0.7\textwidth]{model.png}
+	\includegraphics[width=0.45\textwidth]{model.eps}
 	\caption{The \name system model.}
 	\label{fig:model}
-\end{figure*}
+\end{figure}
 
 Figure \ref{fig:model} shows the general design of \name.
 The system takes processes a document and a set of questions as input.
@@ -142,11 +143,15 @@ strategies that they use.
 \subsection{Bag-of-Words}
 \paragraph{}
 The Bag-of-words (BOW) model is a simple model that provides
-relatively good performance in our systeml. In our domain, BOW treats
+relatively good performance in our system. In our domain, BOW treats
 each question as a set of words. Then, for each sentence in the
 document, we count the number of matching words. The probability that
 a sentence is the correct answer is estimated as the ratio of the
 number of matching words to the total possible number of matches.
+
+\subsection{Bag-of-NGrams}
+\paragraph{}
+Building on the idea of Bag-of-words, the Bag-of-NGrams (BONGrams) is a similar model which treats each question not only as a set of words (unigrams), but as a set of all possible n-grams, $1 \leq n \leq k$, where $k$ is the number of words in the question. The probability that a sentence is a correct answer is estimated as the ratio of the number of matching ngrams to the total number of ngrams generated from the question.
 
 \subsection{Linguistic Rule-based Strategies}
 \paragraph{}
@@ -158,17 +163,14 @@ for each satisfied rule. For example, if the question type is WHEN,
 then a few points are awarded to sentences that contain related words
 such as ``time'', ``during'', ``before'', ``after'', etc. More points
 would be awarded if the sentence contains a month, day, year, or parts
-of a date, such as ``January $10^{th}$, 1985.'' Finally, the sentece
+of a date, such as ``January $10^{th}$, 1985.'' Finally, the sentence
 with the best score is elected to be the most likely answer to the
 question.
 
-\subsection{NLP Components}
-
-% TODO: Alex writes this
 
 \subsection{SVM Classification}
 \paragraph{}
-The last component of the \name system takes a Machine Learning
+The next component of the \name system takes a Machine Learning
 approach that barrows heavily from the work done by
 \cite{Ng00amachine}.  In their paper, the authors extracted features
 from a training set of news documents and corresponding questions
@@ -219,6 +221,44 @@ the most likely sentence that answers the question.
 
 % TODO: Eric writes this part
 
+
+\subsection{Discourse Component}
+\paragraph{}
+
+In addition to the primary AnswerFinders above, we also implemented several secondary AnswerFinders. These secondary AnswerFinders were not intended to be used on their own, but rather to be used to augment the predictions of a primary AnswerFinder(s) by boosting the probabilities of sentences which contained particular kinds of features. This secondary AnswerFinder, the discourse-based answerer, seeks to learn correlations between types of discourse relations and types of questions. For example, a ``Synchronous'' or ``Asynchronous'' relation may frequently be part of an answer to a ``When'' question. Thus, the goal of this module is to boost or diminish the probability that a sentence answers a question given the type of question and the discourse relations in which the sentence participates.
+
+To automatically identify discourse role information, we utilized a discourse parser trained using the Penn Discourse Treebank (PDTB) tagset \cite{lin_2010_discourse_parser_pdtb}. Unlike RST, PDTB annotations are not hierarchically organized throughout the document; rather, PDTB annotations are relatively flat, linking pairs of text spans using local relations. For example, in the following sentence:
+
+``\textit{The Texas oilman has acquired a 26.2\% stake valued at more than \$1.2 billion in an automotive-lighting company, Koito Manufacturing Co.} \underline{But} \textbf{he has failed to gain any influence at the company.}''
+
+a ``Concession'' relation would be identified between the italicized and boldfaced portions. The italicized portion creates an expectation which the boldfaced portion denies, while the underlined portion serves as the explicit signal of the concession \cite{pdtb_corpus}.
+
+A second reason for using this discourse parser is that it has been shown to produce reliable results. Previous work successfully utilized this parser to improve text coherency prediction \cite{lin_2010_coherence_discourse_relations}. 
+%to extract discourse information from articles in the Wall Street Journal and Associated
+%Press, and from narratives from the National
+%Transportation Safety Board, with the overall goal of improving text coherency prediction \cite{lin_2010_coherence_discourse_relations}. 
+
+We utilized the training data to learn correlations between question type and discourse roles in which the answer sentence participated. Because of space constraints, we cannot list these correlation values here. Using these scores, this module adjusts the probabilities of all sentences as answers, giving a large boost if the sentence participates in multiple roles which are strongly correlated with the question type, and a small boost if few or weakly correlated roles are present. For this task, ``no-relation'' was also considered as a relation type, to capture the correlation between particular question types and answer sentences which participated in no identifiable discourse relations\footnote{discourse code in \textit{cs2731.discourse} package}.
+
+
+
+
+\subsection{Named Entity Recognition Component}
+\paragraph{}
+
+The secondary named entity recognition AnswerFinder adjusts sentence probabilities based on the question type and the number of each kind of named entity present within the sentence. For example, when answering a ``Where'' question, sentences which contain multiple ``Location'' entities are given a boost in probability. We used the Stanford named entity recognizer library with the pre-trained 7-class model. The seven classes of entities which this model identified were ``Time'', ``Location'', ``Organization'', ``Person'', ``Money'', ``Percent'', and ``Date''. 
+
+As described above, using basic counts of each type of named entity resulted in marginal improvements in accuracy for several question types. We also investigated resolving pronominalized mentions of named entities, but we were not able to use this knowledge to improve performance. Using Stanford CoreNLP, we automatically built coreference chains for each document and replaced each mention of an entity with the most specific mention identified for the entity\footnote{coreference code in \textit{cs2731.Preprocessor}}.
+
+
+\subsection{Query Expansion Component via WordNet}
+\paragraph{}
+
+Although this did not make it into our final system, we also experimented with question expansion via WordNet synsets. Given all of the words in a question, we performed a WordNet lookup of each word and concatenated onto the question all terms appearing in any of the synsets of the word. We did not make use of part-of-speech information, but rather considered all four parts of speech for which WordNet contains entries for each word in the question. Because our initial investigation of question expansion using WordNet was significantly negative, we did not further explore this path or consider more refined techniques for incorporating WordNet information, though this would be an area for future work\footnote{query expansion code in \textit{cs2731.QuestionExpander}}.
+
+
+
+
 \subsection{Combining Answers with Majority Voting}
 \paragraph{}
 Previous work by Rotaru and Litman demonstrates that combining
@@ -227,7 +267,33 @@ individual systems alone \cite{rotaru2005}. We incorporate this idea
 into the design of our QA system by combining the outputs from each of
 the subsystems described above.
 
-% TODO: describe how we combine the different results
+Since some models performed better or worse depending on the question type, we decided to use a different weighting of models for each question type. Since model execution is prohibitively slow, we manually assigned approximate weightings using a limited number of executions guided by our intuitions and empirical insights. For each of the question types, we first investigated each of the primary AnswerFinders (BOW, BONGrams, rule, SVM) in isolation and combination. We also investigated whether each of the secondary AnswerFinders (disc[ourse], ner) and preprocessing techniques (WordNet expansion, pronominal reference resolution) led to improvement or decline when combined with a baseline BOW. Promising techniques were combined for further experimentation. When combining techniques, we leaned towards including as many modules as possible, eliminating modules only if they hurt performance. As mentioned earlier, while our WordNet expansion and pronominal reference resolution techniques were not helpful to our system, all other modules proved beneficial (or at least, not harmful) on one or more question type. We performed this weighting optimization step using the ``Test1'' dataset. Because the SVM and discourse modules were trained using the ``Training'' dataset, we feared that optimizing module weightings using this dataset would be too biased towards these modules. These weights are omitted due to space concerns.
+%presented in Table \ref{tab:mod_weights}.
+
+%\begin{table}
+%\centering
+%\begin{tabular}{|p{1.0in}|p{1.5in}|}
+%\hline
+%Q. type & module weights \\
+%\hline \hline
+%why & 0.45*bow + 0.45*boNGrams + 0.1*ner \\
+%\hline
+%other & 1.0*boNGrams \\
+%\hline
+%what & 0.4*SVM + 0.4*boNGrams + 0.1*ner + 0.1*disc \\
+%\hline
+%who & 0.33*bow + 0.33*boNGrams + 0.33*SVM \\
+%\hline
+%how & 0.45*bow + 0.45*boNGrams + 0.1*ner \\
+%\hline
+%when & 0.8*bow + 0.2*ner \\
+%\hline
+%where & 0.2*boNGrams + 0.2*bow + 0.2*SVM + 0.2*rule + 0.1*ner + 0.1*disc \\
+%\hline
+%\end{tabular}
+%\caption{Module weights for each question type}
+%\label{tab:mod_weights}
+%\end{table}
 
 \section{Evaluation}
 \label{sec:evaluation}
@@ -345,7 +411,7 @@ number of questions the \name system answered correctly out of the total
 \label{sec:conclusion}
 
 Question-answering is complex task and a cutting-edge research area
-in natural language processing. 
+in natural language processing. Our project attempts to use BOW and SVM backbone models augmented with additional knowledge obtained from discourse parsing, WordNet synsets, and intelligent coreference resolution. More sophicsticated techniques for incorporating this additional knowledge could be used to improve performance in future work.
 
 
 %ACKNOWLEDGMENTS are optional
